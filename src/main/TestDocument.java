@@ -9,61 +9,111 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 class Question {
-    public int Number;
-    public String Text, Code, CorrectAnswer;
-    public TreeMap<String, String> AnswerChoices;
+    private int questionNumber;
+    private String questionDescription;
+    private String sourceCode;
+    private List<String> answers;
 
-    private static final Pattern QuestionNumberRegex = Pattern.compile("^\\d+");
-    private static final Pattern AnswerChoicesRegex = Pattern.compile("([A-E])[\\)\\.]\\s*((?:\\s(?!\\s)|\\S)+)");
-    private static final Pattern QuestionTextRegex = Pattern.compile("(?:\\s{1,2}(?!\\s)|\\S)+");
-
-    public static Question parse(String raw) {
-        final Matcher AnswerChoicesMatch = AnswerChoicesRegex.matcher(raw);
-        final Matcher QuestionNumberMatch = QuestionNumberRegex.matcher(raw);
-        final Matcher QuestionTextMatch = QuestionTextRegex.matcher(raw);
-
-
-
-        if (QuestionNumberMatch.matches())
-            System.out.println("Question Number:" + QuestionNumberMatch.group(0));
-        if (QuestionTextMatch.matches())
-            System.out.println("Question Text:" + QuestionTextMatch.group(0));
-        if (AnswerChoicesMatch.matches())
-            System.out.println("Answer Choices:" + AnswerChoicesMatch.group(0));
-
-        return new Question(0, null, null, null, null);
+    public Question(int questionNumber, String questionDescription, String sourceCode, List<String> answers) {
+        this.questionNumber = questionNumber;
+        this.questionDescription = questionDescription;
+        this.sourceCode = sourceCode;
+        this.answers = answers;
     }
 
-    public Question(int Number, String Text, String Code, String CorrectAnswer, TreeMap<String, String> AnswerChoices) {
-        this.Number = Number;
-        this.Text = Text;
-        this.Code = Code;
-        this.CorrectAnswer = CorrectAnswer;
-        this.AnswerChoices = AnswerChoices;
+    public static Question parseQuestion(String input) {
+        // Initialize variables
+        int questionNumber = -1;
+        String questionDescription = "";
+        String sourceCode = "";
+        List<String> answers = new ArrayList<>();
+
+        // Use regular expressions to extract information from input
+        Pattern pattern = Pattern.compile("^(\\d+)\\s*(.*?)(?:\\n(int.*\\n)*)?(?:\\n([ABCDE]\\..*))", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(input);
+        if (matcher.find()) {
+            // Extract question number
+            questionNumber = Integer.parseInt(matcher.group(1));
+
+            // Extract question description
+            questionDescription = matcher.group(2).trim();
+
+            // Extract source code, if present
+            if (matcher.group(3) != null) {
+                sourceCode = matcher.group(3).trim();
+            }
+
+            // Extract answers
+            String[] answerLines = matcher.group(4).split("\\n");
+            for (String answerLine : answerLines) {
+                answers.add(answerLine.trim());
+            }
+        }
+
+        // Return a new Question object with the extracted information
+        return new Question(questionNumber, questionDescription, sourceCode, answers);
+    }
+
+    public List<String> getAnswers() {
+        return answers;
+    }
+
+    public void setAnswers(List<String> answers) {
+        this.answers = answers;
+    }
+
+    public String getSourceCode() {
+        return sourceCode;
+    }
+
+    public void setSourceCode(String sourceCode) {
+        this.sourceCode = sourceCode;
+    }
+
+    public String getQuestionDescription() {
+        return questionDescription;
+    }
+
+    public void setQuestionDescription(String questionDescription) {
+        this.questionDescription = questionDescription;
+    }
+
+    public int getQuestionNumber() {
+        return questionNumber;
+    }
+
+    public void setQuestionNumber(int questionNumber) {
+        this.questionNumber = questionNumber;
     }
 }
 
 class TestDocument {
-    private HashSet<Question> questions;
+    private ArrayList<Question> questions;
 
     public TestDocument(String path) {
         try {
             PDDocument pdf = PDDocument.load(new File(path));
             String raw = new PDFTextStripper().getText(pdf);
+            pdf.close();
 
             raw = raw.replaceAll("UIL.+\n", "");
             String[] tokens = raw.split("QUESTION +");
 
-            Arrays.stream(tokens)
-                    .map(String::trim);
+            Arrays.stream(tokens).map(String::trim);
 
-            questions = new HashSet<>();
+            questions = new ArrayList<>();
 
-            questions.add(Question.parse(tokens[1]));
+            for (int i = 1; i < tokens.length-1; i++)
+                questions.add(Question.parseQuestion(tokens[i]));
 
-//            for (int i = 1; i < tokens.length-1; i++)
-//                questions.add(Question.parse(tokens[i]));
+            for (Question q: questions)
+                System.out.println(q.getQuestionNumber());
 
         } catch (IOException e) {
             e.printStackTrace();
