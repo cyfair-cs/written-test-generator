@@ -53,7 +53,7 @@ class Question {
                         answers.add(answerChoice.trim());
                 }
             }
-            questionDescription = questionDescription.replaceAll("(?:([ABCDE]\\..*))", "");
+            questionDescription = questionDescription.replaceAll("(?:([ABCDE]\\..*))", "").trim();
         }
 
         // Return a new Question object with the extracted information
@@ -87,10 +87,10 @@ class Question {
 class TestDocument {
     private ArrayList<Question> questions;
     private String name;
-    public TestDocument(String path, String name) {
+    public TestDocument(File document, String name) {
         this.name = name;
         try {
-            PDDocument pdf = PDDocument.load(new File(path));
+            PDDocument pdf = PDDocument.load(document);
             String raw = new PDFTextStripper().getText(pdf);
             pdf.close();
 
@@ -123,5 +123,9 @@ class TestDocument {
             jsonQuestions.put(jsonQuestion);
         }
         return jsonQuestions;
+    }
+
+    public String getName() {
+        return name;
     }
 }

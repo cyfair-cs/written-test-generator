@@ -1,23 +1,29 @@
+import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
-    final static String dataset = "dataset/a/";
-
-    final static String[] tests = {
-            "test.pdf : Test Question"
-    };
 
     public static void main(String[] args) {
         ArrayList<TestDocument> writtenTests = new ArrayList<>();
-        for (String test: tests){
-            String[] tokens = test.split(" : ");
-            writtenTests.add(new TestDocument(tokens[0], tokens[1]));
-        }
+        File dataset = new File("dataset");
+
+        for (File document: dataset.listFiles())
+            writtenTests.add(new TestDocument(document, document.getName()));
+
+//        File testDocument = dataset.listFiles()[0];
+//        writtenTests.add(new TestDocument(testDocument, testDocument.getName().replaceAll(".pdf", "")));
 
         // Convert the Test Documents to JSON Arrays
         for (TestDocument document: writtenTests) {
-            try (FileWriter out = new FileWriter())
+            try (FileWriter out = new FileWriter("output/" + document.getName() + ".json")) {
+                out.write(document.toJSON().toString());
+                out.flush();
+            }
+            catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

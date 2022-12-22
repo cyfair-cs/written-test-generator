@@ -5,7 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a375cff-a439-4bba-af21-7e02c09e903f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dataset/InvB2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/cs08d_1_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/cs08d_2_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/district_1_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/district_2_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_1_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_1_2011.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_2013.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_2014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_2_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_2_2011.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/districts_2_2012.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_A_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_A_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_A_2011.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_B_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_B_2011.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/invitational_B_2014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/practice_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/regional_2009.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/regional_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/regional_2012.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/regionals_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/seven_lakes_2014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/state_2008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/state_2009.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/state_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/utcs_invitational_2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/utcs_invitational_2011.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/written_test_study_packet_2014.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of District1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of District2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of InvA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of InvB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of Regional07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2007/Copy of State07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/CS08A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/CS08B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/CS08D1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/CS08D2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/Commentary_On_the_Pratice_test_2008.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/Dist1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/Dist2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/InvA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/InvB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/Regional08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/State2008.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2008/practice2008.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/CS09A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/CS09B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/CS09F.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/CS09G.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/CS09H.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/Regional2009.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/State2009.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/Test 01A2009.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/Test 10A2009.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2009/Test 11A2009.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2010/2010UIL_CS_Written.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2010/2010UIL_CS_Written.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2010/UIL2010_Written.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2011/2011-11-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2011/Austin UIL Open.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2011/New folder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2011/UIL2011Written.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2012/D2_2012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2012/Regional_2012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2013/2013 District UIL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2013/2013-01-12 UIL Invitational A.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2013/2013-12-14 CyWoods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2013/2014-01-11 Tompkins HS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2013/compsci_2014_writtentest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/1-Test_CompSci_2015_D1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/2-Key_CompSci_2015_D1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/magnolia/1-Test_CompSci_2015_InvB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/magnolia/3-Key_CompSci_2014_InvB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/magnolia/Written Test KEY.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/UIL/magnolia/Written Test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/clements/Copy of Clements Written Test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/cy woods/2014 Java Written Test KEY.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/cy woods/2014 Java Written Test.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/slhs/Copy of October 11th - Written Key.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/slhs/Copy of October 11th - Written Test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/tompkins/Test Key.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past Written Tests/2014-2015/tompkins/Written Contest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/a/test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/district_1_2007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/a/test2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/district_2_2007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/b/Copy of InvA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/invitational_A_2007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/b/Copy of InvB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/invitational_B_200.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/c/Copy of Regional07.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/regional_2007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/c/Copy of State07.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/state_2007.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/TestDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestDocument.java" afterDir="false" />
     </list>
@@ -40,17 +132,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
