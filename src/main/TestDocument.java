@@ -5,30 +5,61 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class Question {
-    private int questionNumber;
-    private String questionDescription;
-    private List<String> answers;
+    private final int questionNumber;
+    private final String questionDescription, testSource;
+    private final List<String> answers;
+    private String correctAnswer;
 
-    public Question(int questionNumber, String questionDescription, List<String> answers) {
+    public Question(int questionNumber, String questionDescription, String testSource, List<String> answers) {
         this.questionNumber = questionNumber;
         this.questionDescription = questionDescription;
         this.answers = answers;
+        this.testSource = testSource;
     }
 
-    public static Question parseQuestion(String input) {
-//        System.out.println(input);
+    private static String simplifyContestName(String input) {
+        return switch (input) {
+            case "district", "districts" -> "Districts";
+            case "regional", "regionals" -> "Regionals";
+            case "invitational", "invitationals" -> "Invitational";
+            case "utcs-invitational" -> "University of Texas CS Invitational";
+            case "practice" -> "Practice";
+            case "state" -> "State";
+            case "cs08d" -> "CS08d";
+            default -> input;
+        };
+    }
+
+    public static Question parseQuestion(String input, String testSourceRaw) {
 
         // Initialize variables
         int questionNumber = -1;
         String questionDescription = "";
         List<String> answers = new ArrayList<>();
+
+        String[] testSourceTokens = testSourceRaw.split("_");
+        String contestName, testVersion, testYear;
+
+        String testSourceName = "";
+
+        // no test version
+        if (testSourceTokens.length == 2) {
+            contestName = simplifyContestName(testSourceTokens[0]);
+            testYear = testSourceTokens[1];
+            testSourceName = contestName + ", " + testYear;
+        }
+        // has test version
+        else if (testSourceTokens.length == 3) {
+            contestName = simplifyContestName(testSourceTokens[0]);
+            testVersion = testSourceTokens[1];
+            testYear = testSourceTokens[2];
+            testSourceName = contestName + " Version " + testVersion + ", " + testYear;
+        }
 
         // Use regular expressions to extract information from input
         // ^(\d+)\s*(.*?)(?:\n(int.*\n)*)?(?:\n([ABCDE]\..*))
@@ -42,7 +73,7 @@ class Question {
             questionDescription = matcher.group(2).trim();
 
             // Extract Answers from Question Description
-            Pattern answerPattern = Pattern.compile("(?:([ABCDE]\\..*))");
+            Pattern answerPattern = Pattern.compile("(([ABCDE]\\..*))");
             Matcher answerMatcher = answerPattern.matcher(questionDescription);
 //            System.out.println(questionDescription);
             while (answerMatcher.find()) {
@@ -53,22 +84,22 @@ class Question {
                         answers.add(answerChoice.trim());
                 }
             }
-            questionDescription = questionDescription.replaceAll("(?:([ABCDE]\\..*))", "").trim();
+            questionDescription = questionDescription.replaceAll("(([ABCDE]\\..*))", "").trim();
         }
 
         // Return a new Question object with the extracted information
-        return new Question(questionNumber, questionDescription, answers);
+        return new Question(questionNumber, questionDescription, testSourceName, answers);
     }
 
     @Override
     public String toString() {
-        String out = "";
-        out += "Question " + questionNumber + ":\n\n";
-        out += questionDescription + "\n";
+        StringBuilder out = new StringBuilder();
+        out.append("Question ").append(questionNumber).append(":\n\n");
+        out.append(questionDescription).append("\n");
         char letter = 'A';
         for (String answerChoice: answers)
-            out += letter++ + ": " + answerChoice + "\n";
-        return out;
+            out.append(letter++).append(": ").append(answerChoice).append("\n");
+        return out.toString();
     }
 
     public List<String> getAnswers() {
@@ -82,11 +113,23 @@ class Question {
     public int getQuestionNumber() {
         return questionNumber;
     }
+
+    public String getCorrectAnswer() {
+        return correctAnswer;
+    }
+
+    public void setCorrectAnswer(String correctAnswer) {
+        this.correctAnswer = correctAnswer;
+    }
+
+    public String getTestSource() {
+        return testSource;
+    }
 }
 
 class TestDocument {
     private ArrayList<Question> questions;
-    private String name;
+    private final String name;
     public TestDocument(File document, String name) {
         this.name = name;
         try {
@@ -97,12 +140,51 @@ class TestDocument {
             raw = raw.replaceAll("UIL.+\n", "");
             String[] tokens = raw.split("QUESTION +");
 
-            Arrays.stream(tokens).map(String::trim);
-
             questions = new ArrayList<>();
 
             for (int i = 1; i < tokens.length-1; i++)
-                questions.add(Question.parseQuestion(tokens[i]));
+                questions.add(Question.parseQuestion(tokens[i], name));
+
+            String answerText = tokens[tokens.length-1];
+
+            if (answerText.contains("Computer Science Answer Key")) {
+
+                answerText = answerText.substring(answerText.indexOf("Computer Science Answer Key")).trim();
+
+                if (answerText.contains("Notes:"))
+                    answerText = answerText.substring(0, answerText.indexOf("Notes:")).trim();
+                if (answerText.contains("Note to Graders: "))
+                    answerText = answerText.substring(0, answerText.indexOf("Note to Graders:")).trim();
+
+                Pattern correctAnswerPattern = Pattern.compile("(?:([0-9][0-9]?[\\.\\)].*))");
+                Matcher correctAnswerMatcher = correctAnswerPattern.matcher(answerText);
+
+                System.out.println(answerText);
+
+                HashMap<Integer, String> correctAnswers = new HashMap<>();
+
+                while (correctAnswerMatcher.find()) {
+                    String lineMatch = correctAnswerMatcher.group(0);
+                    Pattern answerTokenPattern = Pattern.compile("\\d\\d?[\\.\\)]\\s+[A-E]");
+                    Matcher answerTokenMatcher = answerTokenPattern.matcher(lineMatch);
+                    while (answerTokenMatcher.find()) {
+                        String[] matchTokens = answerTokenMatcher.group(0).split("\\s+");
+                        int questionNumber = Integer.parseInt(matchTokens[0].replaceAll("[:\\.\\)]",""));
+                        String questionAnswer = matchTokens[1];
+
+                        if (!correctAnswers.containsKey(questionNumber))
+                            correctAnswers.put(questionNumber, questionAnswer);
+                    }
+                }
+
+                for (int questionNumber: correctAnswers.keySet()) {
+                    Optional<Question> questionFound =  questions.stream().filter(q -> q.getQuestionNumber() == questionNumber).findFirst();
+                    if (questionFound.isPresent())
+                        questionFound.get().setCorrectAnswer(correctAnswers.get(questionNumber));
+                }
+
+                System.out.println("===========================");
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -113,13 +195,19 @@ class TestDocument {
         JSONArray jsonQuestions = new JSONArray();
         for (Question question: questions) {
             JSONObject jsonQuestion = new JSONObject();
+
+            JSONArray jsonAnswers = new JSONArray();
+            char letter = 'A';
+            for (String answer : question.getAnswers()) {
+                jsonAnswers.put(letter++ + ": " + answer);
+            }
+
+            jsonQuestion.put("answers", jsonAnswers);
             jsonQuestion.put("questionNumber", question.getQuestionNumber());
             jsonQuestion.put("questionDescription", question.getQuestionDescription());
-            JSONArray jsonAnswers = new JSONArray();
-            for (String answer : question.getAnswers()) {
-                jsonAnswers.put(answer);
-            }
-            jsonQuestion.put("answers", jsonAnswers);
+            jsonQuestion.put("correctAnswer", question.getCorrectAnswer() == null ? "No correct answer found." : question.getCorrectAnswer());
+            jsonQuestion.put("testSource", question.getTestSource());
+
             jsonQuestions.put(jsonQuestion);
         }
         return jsonQuestions;
