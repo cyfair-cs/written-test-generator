@@ -4,7 +4,7 @@ This program generates google forms for practice from past UIL Computer Science 
 
 1. It must be a PDF.
 2. All text in the PDF must be selectable.
-3. It must be named accordingly: `contest-name`_`versionnumber`_`year`.pdf (Example: `districts`_`1`_`2010`.pdf)
+3. It must be named accordingly: `contest-name_versionnumber_year.pdf` (Example: `districts_1_2010.pdf`)
 4. There must be a publicly available answer key somewhere for it. (Best case scenario: it has the answer document at the bottom of the test, but if the answer key is stored on an external document, then upload it to the `keys/` directory)
 
 ## How to use
