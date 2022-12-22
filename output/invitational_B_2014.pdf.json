@@ -1,0 +1,424 @@
+[
+  {
+    "questionDescription": "xx  \nWhich of these is NOT equivalent to   101110002 + AB16 ?",
+    "answers": [
+      "16316",
+      "35510",
+      "5438",
+      "101100012",
+      "All are equivalent"
+    ],
+    "questionNumber": 1
+  },
+  {
+    "questionDescription": "xx  \nWhat is the result of the expression shown? \n\n\n23 / 9 * 1 % 2  = _____________",
+    "answers": [
+      "1",
+      "0.56",
+      "2",
+      "-1",
+      "0"
+    ],
+    "questionNumber": 2
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n----*----* \n    49.2 \n\n----*----* \n49.20    \n\n----*----* \n9.20 \n\n----*----* \n49.2 \n\n----*----* \n  49.20 \nSystem.out.println(\"----*----*\"); \nSystem.out.printf(\"%4.2f\",49.2);",
+    "answers": [
+      "A.",
+      "B.",
+      "C.",
+      "D.",
+      "E."
+    ],
+    "questionNumber": 3
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\nString s = \"s = s.replaceAll(\"IE\",\"O\"); \nout.println(s);",
+    "answers": [
+      "UOLCOMPUTORSCOONCO2015",
+      "OUOOLOCOOOMOPOUOTOOROSOCOONOCOO2O0O1O5O",
+      "UOLCOMPUTORSCONCO2015",
+      "E."
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n \nboolean p = true; \nboolean q = false; \nout.println(!(p&&q));",
+    "answers": [
+      "false",
+      "true"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint x = 8; \ndouble y = 15; \nout.println(Math.hypot(8,15)); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 3",
+    "answers": [
+      "17.0",
+      "11.5",
+      "23.0",
+      "12.7",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint i = 8; \ndouble d = 1.4; \nout.printf(\"%d\",i*=d);",
+    "answers": [
+      "11",
+      "11.2",
+      "8.0",
+      "8",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 7
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n \n\n\n\nint x = 14,y=0; \nswitch(x%3) \n{ \n case 0:y+=0;break; \n case 1:y+=1; \n case 2:y+=2;break; \n case 3:y+=3; \n default:y*=10; \n} \nout.println(x+y);",
+    "answers": [
+      "16",
+      "160",
+      "14",
+      "40",
+      "4"
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint x = 4; \nfor(;x<75;x++) \n x*=2; \nout.println(x);",
+    "answers": [
+      "78",
+      "159",
+      "128",
+      "79",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 9
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint a=1; \nint[]list1={5,3,1,2,4,0}; \nint[]list2=new int[8]; \nfor(int x:list1) \n list2[x+1]=++a; \nfor(int x:list2) \n out.print(x+\" \");",
+    "answers": [
+      "0 7 4 5 3 6 2 0",
+      "0 6 3 4 2 5 1 0",
+      "6 3 4 2 5 1 0 0",
+      "7 4 5 3 6 2 0 0",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "xx  \nBelow is a value in a data file called \"stuff.dat\". \n154 \n \nIn the code segment to the right, which choice is best for  \n<statement 1> in order to retrieve the data for output purposes? \n \n\n\n\n\n\n \nScanner f = new Scanner(new \nFile(\"stuff.dat\")); \n<statement 1> \nout.println(n);",
+    "answers": [
+      "String n = f.nextLine();",
+      "int n = f.nextInt();",
+      "double n = f.nextDouble();",
+      "String n = f.next();",
+      "All code segments will work properly"
+    ],
+    "questionNumber": 11
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \ndouble d = 100; \nint x = 0; \nwhile(d<1000) \n{ \n d*=1.5; \n x++; \n} \nout.println(x); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 4",
+    "answers": [
+      "8",
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "questionNumber": 12
+  },
+  {
+    "questionDescription": "xx  \nHere are three lines taken from the Java Order of Precedence chart.  Which choice represents the correct order of precedence for \nthese three lines? \n \nI.  || \nII. | \nIII. expr++ expr--",
+    "answers": [
+      "III, I, II",
+      "I, II, III",
+      "III, II, I",
+      "I, III, II",
+      "II, I, III"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "xx  \nThe integer data type byte uses 8 bits of storage, which means it has 2^8, or 256 possible values.  Which of the choices below \nindicates the range of values for this data type.",
+    "answers": [
+      "-128 to 128",
+      "-128 to 127",
+      "1 to 256",
+      "0 to 255",
+      "-127 to 128"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "xx  \nThe output for the code to the right is:  0 1 2 0 1 2 0 1 2   \nWhich choice replaces <statement> in the code to the right so that \nit compiles and runs correctly? \n\n\n\n\n\n \n \nInteger [] list={0,1,2}; \nArrayList<Integer> aList = new \nArrayList<Integer>(); \nfor(Integer x:list) \n aList.add(x); \n<statement> [] list2 = \naList.toArray(); \nfor(Integer x:list) \n out.print(x+\" \"); \nfor(Integer x:aList) \n out.print(x+\" \"); \nfor(<statement> x:list2) \n out.print(x+\" \");",
+    "answers": [
+      "double",
+      "Object",
+      "Integer",
+      "String",
+      "int"
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "xx  \nHow many ordered triples make this boolean expression false?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "questionNumber": 16
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nchar x = 'A'; \nchar y = 'a'; \nint z = 3; \nout.println((x-y)*z);",
+    "answers": [
+      "-96",
+      "78",
+      "96",
+      "-78",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 17
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \n \nint[][]nums = new int[5][5]; \nfor(int x = 3;x<50;x+=3) \n nums[x%5][x%4+1]=x; \nfor(int x = 0;x<5;x++) \n out.print(nums[2][x]+\" \"); \nout.println(); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 5",
+    "answers": [
+      "0 24 9 0 39",
+      "0 36 21 6 0",
+      "0 12 0 42 27",
+      "0 48 33 18 3",
+      "0 0 45 30 15"
+    ],
+    "questionNumber": 18
+  },
+  {
+    "questionDescription": "xx  \nThe two\u2019s complement system is all about representing negative numbers in binary.  For example, the positive value 72 in 8-bit \nbinary is 01001000.  To find the binary representation for -72 using two\u2019s complement, you use this easy conversion process. \nStart from the right and keep all zeroes the same until you reach the first 1 digit. Keep that 1 the same also, and flip everything \nelse, with an 8-bit binary result of 10111000 for -72. With that in mind, which of the following choices represents the 8-bit binary \nrepresentation of -118?",
+    "answers": [
+      "10001100",
+      "10001110",
+      "10001010",
+      "10001011",
+      "10001101"
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "xx  \nWhat is the least restrictive running time for the worst case scenario \nfor the quick sort algorithm? \n\n\n\n\n\npublic static void quickSort (int a[], int \nlo, int hi){ \n  <statement 1>  \n  if (lo >= hi) return; \n  int left = lo;     \n  int right = hi;     \n  <statement 2> \n  int pivot = a[(lo+hi)/2]; \n  \n  while ( left < right)  {  \n    <statement 3>  \n    while (a[left] > pivot) left++; \n    <statement 4> \n    while (pivot > a[right]) right--; \n    <statement 5> \n    if (left <= right)    {   \n      swap (a, left, right);    \n      left++;     \n      right--; \n    } \n  } \n  <statement 6> \n  quickSort (a, lo, right); \n  quickSort (a, left, hi); \n} \n \npublic static void swap (int a[],  \n                         int i, int j){ \n  int tmp = a[i]; \n  a[i] = a[j]; \n  a[j] = tmp; \n} \n \npublic static void outputList(int[]list) \n{ \n for(int x=0;x<list.length;x++) \n  out.print(list[x]+\" \"); \n out.println(); \n} \n//client code \n int[] list = {5,7,3,9,4,6}; \n quickSort(list); \n outputList(list);",
+    "answers": [
+      "O(N^2)",
+      "O(N)",
+      "O(1)",
+      "O(N log N)",
+      "O(log N)"
+    ],
+    "questionNumber": 20
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the client code to the right?",
+    "answers": [
+      "3 4 5 6 7 9",
+      "5 7 3 9 4 6",
+      "9 7 6 5 4 3",
+      "6 4 9 3 7 5",
+      "Not possible to determine"
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "xx  \nWhich of the six indicated <statements> in the code to the right need \nto be altered in order to reverse the sorting order? \n \nI.  <statement 1> \nII. <statement 2> \nIII. <statement 3> \nIV. <statement 4> \nV. <statement 5> \nVI. <statement 6>",
+    "answers": [
+      "II only",
+      "III and IV only",
+      "III only",
+      "IV, V, and VI only",
+      "I only"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "xx  \nHow many 'o's will be output in the code to the right? \n \n\n\nString s = \n\"abcdefghijklmnopqrstuvwxyz\"; \nchar [] list = s.toCharArray(); \nchar a = list[0]; \nwhile(a++!='z') \n for(char b:list) \n  if(\"aeiou\".indexOf(b,a-98)>=0) \n   out.print(b); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 6",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 23
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint angle = 45; \nout.printf(\"%.1f\\n\", \n    Math.tan(Math.toRadians(angle)));",
+    "answers": [
+      "1.7",
+      "0.9",
+      "0.5",
+      "1.0",
+      "None of these"
+    ],
+    "questionNumber": 24
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nbyte c = -10; \nc>>=2; \nout.println(Integer.toBinaryString(c)\n.substring(24));",
+    "answers": [
+      "01111101",
+      "01111010",
+      "11111101",
+      "00000010",
+      "11111110"
+    ],
+    "questionNumber": 25
+  },
+  {
+    "questionDescription": "xx  \nOn the right is a fairly common version of the binary search \nalgorithm, a standard search process used in computer science. What \nrequired process (if any) needs to replace //line A in the client \ncode for this algorithm to work properly? \n \n\n\n\n\n\nstatic int binarySearch(int[] elements, \n                        int target) { \n int left = 0; \n int right = elements.length - 1; \n while (left <= right) { \n  int middle = (left + right) / 2; \n  if (target < elements[middle]){ \n   right = middle - 1;  \n  } \n  else if (target > elements[middle]){ \n   left = middle + 1; \n  } \n  else \n   return middle; \n } \n return -1; \n} \n<client code> \nint [] list = {5,-7,3,9,4,8,-3, 1,-5, 0}; \n//line A \nout.print(binarySearch(list,5)+\" \"); \nout.println(binarySearch(list,-6));",
+    "answers": [
+      "Sort the list in ascending order.",
+      "Reverse the order of the list.",
+      "There is no required process. The list is fine as is.",
+      "Sort the list in descending order.",
+      "Process the list into a hash table."
+    ],
+    "questionNumber": 26
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the client code to the right?",
+    "answers": [
+      "0 0",
+      "7 -1",
+      "7 -2",
+      "0 -1",
+      "8 -1"
+    ],
+    "questionNumber": 27
+  },
+  {
+    "questionDescription": "xx  \nWhich statement best describes the string patterns listed below as \neach replaces the <pattern> segment in the code to the right? \nI.  \".*\"  II. \".+\"  III. \".?\" \n \n\n\n\n\n\nString s = \"Invitational B\"; \nboolean p = Pattern.matches(<pattern>,s); \nout.println(p);",
+    "answers": [
+      "All produce true outputs",
+      "All produce false outputs",
+      "II and III produce true, I produces false",
+      "I and II produce true, III produces false",
+      "I and III produce true, II produces false"
+    ],
+    "questionNumber": 28
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n public static int myst(int x) \n { \n  if(x<0)return 3; \n  if(x==0)return 1; \n  return myst(x-3)+2; \n } \n//client code \nout.print(myst(6)+\" \"); \nout.print(myst(10)+\" \"); \nout.println(myst(-5)); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 7",
+    "answers": [
+      "0 -2 3",
+      "6 10 -5",
+      "5 11 3",
+      "5 -2 3",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "xx  \nWhat is the output of the code to the right? \n \n\n      \n\n \n\n \n\n \n\n \n \nString s = \"char[]list=s.toCharArray(); \nfor(char a:list) \n out.print(a>60?\"A\":\"B\");",
+    "answers": [
+      "BBBBAAAABBB",
+      "AAAABBBBAAA",
+      "AAABBBBBBAA",
+      "BBBAAAAAABB",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n \n\n\n\n\n\n \n \nout.print(Integer.toOctalString(7)); \nout.print(Integer.toOctalString(34)); \nout.println(Integer.toOctalString(63));",
+    "answers": [
+      "7 28 59",
+      "7 34 63",
+      "7 42 59",
+      "7 42 77",
+      "None of these"
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "xx  \nUsing the space provided, create a binary search tree using the letters, INVITATIONAL\nchoice that shows how many parent nodes have only one child, and the height of the resulting tree..   \nAssume that the initial tree shown has a height of zero, and that duplicate letters are allowed in the tree, and slide to the left of \nmatching elements.                                 I \n                                            /   \\ \n \n \n \n \n \n \n \n \n \n \n \n \n\n\n\n\n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 8",
+    "answers": [
+      "After creating the tree, select the",
+      "5 6",
+      "6 5",
+      "6 6",
+      "5 5",
+      "None of these"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the statements in section 1 of the client code \nbelow? \n//section 1   \nThingOne t1 = new ThingOne(); \nout.print(t1); \nt1.setThing(6); \nout.print(t1); \n//section 2 \nt1=new ThingTwo(3); \nout.print(t1.getThing()); \n//section 3 \nt1.reduceThing(1); \nout.println(t1); \n \n\n \n\n \n\n \n\n \n\n \nclass ThingOne{ \n public ThingOne(){ \n  thing = 5; \n  out.print(\"A\"); \n} \n public ThingOne(int t){ \n  thing = t; \n  out.print(\"B\"); \n} \n public int getThing(){ \n  out.print(\"C\"); \n  return thing; \n} \n public void setThing(int t){ \n  thing = t; \n  out.print(\"D\"); \n} \n public void reduceThing(int t){ \n  thing -=t; \n  out.print(\"E\"); \n} \n public String toString(){ \n  out.print(\"F\"); \n  return \"\"+thing; \n} \n private int thing; \n} \nclass ThingTwo extends ThingOne{ \n public ThingTwo(){ \n  super(); \n  out.print(\"G\"); \n  thing = 4; \n } \n public ThingTwo(int t){ \n  thing = t; \n  out.print(\"H\"); \n} \n public int getThing(){ \n  out.print(\"I\"); \n  return thing; \n} \n public void setThing(int t){ \n  thing = t; \n  out.print(\"J\"); \n} \n public void reduceThing(int t){ \n  thing -=t; \n  out.print(\"K\"); \n} \n public String toString(){ \n  out.print(\"L\"); \n  return super.toString()+thing; \n} \n private int thing; \n}",
+    "answers": [
+      "F5F6",
+      "AFDF",
+      "AF5DF6",
+      "A5D6",
+      "None of these"
+    ],
+    "questionNumber": 33
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the statements in section 2 of the client code in \nquestion 33?",
+    "answers": [
+      "HAI3",
+      "AHI3",
+      "AHI5",
+      "HI3",
+      "HAI5"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the statements in section 3 of the client code in \nquestion 33? \n\n \n\n \n\n \n\n \n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 9",
+    "answers": [
+      "KLF7",
+      "KL52",
+      "L52",
+      "KLF52",
+      "KL7"
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "xx  \nInfix notation is the kind normally used in algebraic expressions, such as 3 + 5 * 6, where the operators are between the \noperands.  However, there is also prefix notation, where the operators are before the operands, such as + 3 * 5 6, and postfix \nnotation, operators after operands, like this: 3 5 6 * +. Notice carefully that the operands never move around: only the \noperators change places. Here is another example: the infix expression 6 * 7 + 9 - 8 * 2 translates the prefix expression  \n- + * 6 7 9 * 8 2, and 6 7 * 9 + 8 2 * - for postfix. Given these examples to examine and study carefully, which \nof the prefix expressions below matches the infix expression shown? \n \nA+B-C*D+E^F",
+    "answers": [
+      "+AB+*CD-^EF",
+      "+-AB-*CD^EF",
+      "+-+AB*CD^EF",
+      "++-AB*CD^EF",
+      "None of these"
+    ],
+    "questionNumber": 36
+  },
+  {
+    "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram shown?",
+    "answers": [
+      "A.",
+      "B.",
+      "C.",
+      "D.",
+      "None of these"
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "xx  \nFind f(-10) according to the recursive function definition shown below. \n                 f(-10) = \nf(x)=     f(x+5)+f(x+8)    when x<=0 \nf(x)=     2                if x>0 and even \nf(x)=     -1               if x>0 and odd \n \n \n \n \n \n \n \n\nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2015  Page 10",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "xx  \nA well-known graph problem studied by Leonard Euler had to do with the town of Konigsberg, in which there was an island at \nthe point where the river Pregel forked. There were seven bridges connecting the island with the two banks of the river and the \nland between the forks, as shown in the picture.  His question was whether or not there was a way to cross the seven bridges in a \ncontinuous walk through town without recrossing any of them. For example, he might start a path starting on the B side of town, \ncross over one of the two bridges to the island (A) and then on across to the south bank (D), and then across to the land area \nbetween the forks of the river (C).  This path would be indicated by the letter sequence BAD\nBridges of Konigsberg, a complete Euler path, or Euler tour, would be indicated by 8 letters. There could be any number of \ncombinations. \n \n \nWrite the sequence of eight letters that represent your version of the Euler path for the seven bridges of Konigsberg. If you \ndetermine that it is not possible, write the answer \"NOT POSSIBLE\". \n \n__ __ __ __ __ __ __ __",
+    "answers": [
+      "In this case study of the Seven"
+    ],
+    "questionNumber": 39
+  }
+]

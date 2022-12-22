@@ -1,0 +1,421 @@
+[
+  {
+    "questionDescription": "xx  \nWhich of these is NOT equivalent to   20210 + 100001012 ?",
+    "answers": [
+      "33510",
+      "5178",
+      "14F16",
+      "1010010112",
+      "All are"
+    ],
+    "questionNumber": 1
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n \n\n \nout.println(17 + 7 - 1 / 5);",
+    "answers": [
+      "4",
+      "4.6",
+      "18.2",
+      "23.8",
+      "24"
+    ],
+    "questionNumber": 2
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n \n\nout.println(\"A\" + 10 + 50);",
+    "answers": [
+      "A60",
+      "6560",
+      "A1050",
+      "651050",
+      "125"
+    ],
+    "questionNumber": 3
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\nString s = \"abcabcabcabcabcabcabc\"; \nout.println(s.lastIndexOf(\"abc\",10));",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "18",
+      "19"
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\nboolean p = true; \nboolean q = true; \nout.println(!p&&q);",
+    "answers": [
+      "false",
+      "true"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\nint x = 64; \nout.println(Math.cbrt(x));",
+    "answers": [
+      "4",
+      "4.0",
+      "8",
+      "8.0",
+      "16"
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\n\n \nlong j = -55; \ndouble d = -3.5; \nout.println(j%d);",
+    "answers": [
+      "-2.5",
+      "2.5",
+      "15.7",
+      "-15.7",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 7
+  },
+  {
+    "questionDescription": "xx  \nFor which of these input values will the output of the code segment to \nthe right be \"yes\"? \nI  9 \nII 10 \nIII  11 \nIV  19 \nV  21 \n \n\n\nint x = <input value>; \nif(!(x>20||x<10)) \n out.println(\"yes\"); \nelse \n out.println(\"no\");",
+    "answers": [
+      "I only",
+      "V only",
+      "I and V only",
+      "II, III, and IV only",
+      "I, II, III, IV, and V"
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "xx  \nHow many stars will be output by the code segment to the right? \n\n \n \nint x = 4; \nString s = \"\"; \ndo{ \n s+=\"*\"; \n x+=2; \n}while(x%7!=0); \nout.println(s); \n \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District 1 - 2015  Page 3",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "questionNumber": 9
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\n \nchar[]list=new char[5]; \nlist[1]='1'; \nlist[2]='2'; \nlist[3]=3; \nlist[4]=4; \nout.println(list[0]+list[1]+list[2]+l\nist[3]+list[4]);",
+    "answers": [
+      "10",
+      "106",
+      "138",
+      "202",
+      "250"
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "xx  \nIn the code segment to the right, which statement below must be \nplaced in <code block> in order for this code segment to work \nproperly? \n\n\n\n\n\n<code block> \npublic class test{ \n public static void main \n                (String [] args){ \n  Scanner kb = new \n       Scanner(System.in); \n } \n}",
+    "answers": [
+      "import java.io.*;",
+      "import java.util.*;",
+      "import static java.lang.System.*;",
+      "import static java.lang.Math.*;",
+      "More than one of these."
+    ],
+    "questionNumber": 11
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\n\nint x = 100; \nint y = 1; \nfor(;y<10;y++) \n x-=y; \nout.println(y+\" \"+x);",
+    "answers": [
+      "10 55",
+      "10 45",
+      "11 45",
+      "11 55",
+      "None of these"
+    ],
+    "questionNumber": 12
+  },
+  {
+    "questionDescription": "xx  \nHere are three lines taken from the Java Order of Precedence chart.  \nWhich choice represents the correct order of precedence for these three \nlines? \n\n\n  \nI.  ^ \nII. || \nIII. ? :",
+    "answers": [
+      "I, II, III",
+      "III, II, I",
+      "II, I, III",
+      "I, III, II",
+      "III, I, II"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\n \nout.println(Character.SIZE);",
+    "answers": [
+      "8",
+      "16",
+      "32",
+      "64",
+      "None of these"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n\n\n \nint [] pList = {10,20,30,40,50}; \nArrayList<Integer> aList = new  \n  ArrayList<Integer>(); \nfor(int a:pList) \n  aList.add(a/10); \nout.print(pList.contains(30)+ \" \"); \nout.println(aList.contains(30));",
+    "answers": [
+      "false false",
+      "false true",
+      "true false",
+      "true true",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "xx  \nHow many ordered pairs make this boolean expression false? \n\n𝐴 + 𝐵",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "questionNumber": 16
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nlong j = 20; \nint k = -15; \ndouble p = 5; \nout.println(j+k/p);",
+    "answers": [
+      "7",
+      "7.0",
+      "17",
+      "17.0",
+      "There is no output due to an error."
+    ],
+    "questionNumber": 17
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n \n\n \nint [][] grid = new int[5][4]; \nfor(int r=1;r<grid.length;r++) \n for(int c=0;c<grid[r].length;c++) \n  grid[r][c] = r+c; \nout.println(grid[3][2]);",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "questionNumber": 18
+  },
+  {
+    "questionDescription": "xx  \nWhich of the following choices represents the decimal equivalent of the two's complement binary value 11001010? \n\n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District 1 - 2015  Page 4",
+    "answers": [
+      "-51",
+      "-52",
+      "-53",
+      "-54",
+      "-55"
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "xx  \nWhat is the output at the end of the third iteration in the method \nexecution called by the client code to the right? \n \n\n\n1 public static void mystD1(int[] list){ \n2  for (int j = 1; j < list.length; j++){ \n3   int temp = list[j]; \n4   int i = j; \n5   while (i > 0 && temp > list[i - 1]){ \n6   list[i] = list[i - 1]; \n7   i--; \n   } \n8   list[i] = temp; \n9   for(int x:list) \n10   out.print(x+\" \"); \n11 out.println(); \n  } \n \n<client code> \nint [] list = {8,2,4,7,6}; \nmystD1(list);",
+    "answers": [
+      "8 4 2 7 6",
+      "2 4 8 7 6",
+      "8 7 4 2 6",
+      "2 4 7 8 6",
+      "8 7 6 4 2"
+    ],
+    "questionNumber": 20
+  },
+  {
+    "questionDescription": "xx  \nWhat algorithm is represented by the method mystD1?",
+    "answers": [
+      "Insertion sort",
+      "Selection sort",
+      "Bubble sort",
+      "Merge sort",
+      "Quick sort"
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "xx  \nIn which line of this method must a change be made so that the sorting \norder is reversed?",
+    "answers": [
+      "Line 2",
+      "Line 4",
+      "Line 5",
+      "Line 6",
+      "Line 8"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "xx  \nWhat is the least restrictive order of magnitude for the average case in \nthe sort shown in the code to the right?",
+    "answers": [
+      "O(N)",
+      "O(N^2)",
+      "O(log N)",
+      "O(N log N)",
+      "O(1)"
+    ],
+    "questionNumber": 23
+  },
+  {
+    "questionDescription": "xx  \nWhat is the output of the code \nsegment to the right? \n \n\n43210 \n6543210 \n10 \n3210 \n543210 \n\n3210 \n543210 \n0 \n210 \n43210 \n \n\nEEEEE \nGGGGGGG \nBB \nDDDD \nFFFFFF \n\nEEEE \nGGGGGG \nB \nDDD \nFFFFF \n\nThere is no output due to an error. \n \n \n \nString s = \"EGBDF\"; \nchar [] list = s.toCharArray(); \nfor(char a:list){ \n int x = a-64; \n while(x-->0) \n  out.print(a); \n out.println(); \n}",
+    "answers": [
+      "A.",
+      "B.",
+      "C.",
+      "D.",
+      "E."
+    ],
+    "questionNumber": 24
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n \n\n \ndouble val = 0.5; \nout.printf(\"%.1f\\n\", \n   Math.toDegrees(Math.acos(val)));",
+    "answers": [
+      "30.0",
+      "45.0",
+      "60.0",
+      "90.0",
+      "None of these"
+    ],
+    "questionNumber": 25
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code segment to the right? \n \n\n\n\n\n\n \n \n \n \ndouble [] list = {1.2,3.45,6.09,5.4}; \nout.println(Arrays.toString(list)); \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District 1 - 2015  Page 5",
+    "answers": [
+      "1.23.456.095.4",
+      "1.2 3.45 6.09 5.4",
+      "[1.2 3.45 6.09 5.4]",
+      "[1.2, 3.45, 6.09, 5.4]",
+      "There is no output due to an error"
+    ],
+    "questionNumber": 26
+  },
+  {
+    "questionDescription": "xx  \nWhich choice below represents the two terms listed in order to \ncorrectly replace <thing1> and <thing2> in the method definition to \nthe right? \n\n \n\n \n\nstatic <thing1> mystD1 (int x){ \n if(x%4==0) \n  <thing2> x*5; \n <thing2> x; \n} \n \n<client code> \nout.print(mystD1(9)+ \" \"); \nout.println(mystD1(8));",
+    "answers": [
+      "int and return",
+      "return and int",
+      "public and return",
+      "public and int",
+      "return and public"
+    ],
+    "questionNumber": 27
+  },
+  {
+    "questionDescription": "xx  \nAssuming <thing1> and <thing2> have been correctly replaced, what \nis the output of the client code to the right?",
+    "answers": [
+      "1 0",
+      "1 40",
+      "45 0",
+      "9 8",
+      "9 40"
+    ],
+    "questionNumber": 28
+  },
+  {
+    "questionDescription": "xx  \nIn the Dwelling class definition to the right, how many instance fields \nare there? \n\nclass Dwelling{ \n private String type; \n private int numRooms; \n private boolean sturdy; \n/* \n public Dwelling(){ \n  type = \"house\"; \n  numRooms = 3; \n  sturdy = true; \n } \n public Dwelling(String ty, int nr,  \n                 boolean st){ \n  type = ty; \n  numRooms = nr; \n  sturdy = st; \n } \n*/ \n public String toString(){ \n  return type+\": \"+numRooms \n      +\" rooms: \" + \n      (sturdy?\"sturdy\":\"not sturdy\"); \n }}",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "xx  \nUsing the Dwelling class definition to the right, with the block \ncomment symbols (/* */) in place as shown, what is the output of \nthe client code below? \nDwelling d = new Dwelling(); \nout.println(d);",
+    "answers": [
+      "null 0 false",
+      "Dwelling@150bd4d",
+      "null 0 rooms not sturdy",
+      ": 0 rooms: not sturdy",
+      "null: 0 rooms: not sturdy"
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "xx  \nIf the block comment symbols are removed in the Dwelling class \ndefinition to the right, what is the output of the client code below? \nDwelling d = new Dwelling(); \nout.println(d); \nd = new Dwelling(\"tent\",2,false); \nout.println(d); \n \n\nhouse: 3 rooms: sturdy \ntent: 2 rooms: not sturdy \n\nDwelling@150bd4d \nDwelling@1bc4459    \n\nhouse: 3: true \ntent: 2: false  \n\nhouse: 3 rooms: true \ntent: 2 rooms: false \n\nThere is no output due to an error.    \n \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District 1 - 2015  Page 6",
+    "answers": [
+      "A.",
+      "B.",
+      "C.",
+      "D.",
+      "E."
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nout.println(Integer.toString(12,5));",
+    "answers": [
+      "2",
+      "2.5",
+      "22",
+      "60",
+      "There is no output due to an error"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "xx  \nUsing the generic stack pseudocode on the right, what is the sum of all \npopped items after the push and pop sequence is complete? \n \n\n \n \nPush 3 \nPush 9 \nPush 6 \nPush 4 \nPop x \nPop x \nPush 5 \nPop x \nPush 3 \nPop x",
+    "answers": [
+      "14",
+      "17",
+      "18",
+      "22",
+      "25"
+    ],
+    "questionNumber": 33
+  },
+  {
+    "questionDescription": "xx  \nWhat is the preorder traversal of the binary tree shown to the right? \n\n \n\n        /   \\ \n      I       L \n    /  \\     / \\ \n  D     I   S   T \n / \\   / \\ \nR   I C   T",
+    "answers": [
+      "UIDRIICTLST",
+      "RDIICITUSLT",
+      "RIDCTIISTLU",
+      "U"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "xx  \nWhich of the following is NOT a simple path in the graph shown to \nthe right? \nI. ABEC \nII. EABEC \nIII. DCBEA \nIV. DCBF",
+    "answers": [
+      "I only",
+      "II only",
+      "IV only",
+      "I and III only",
+      "II and IV only"
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right?",
+    "answers": [
+      "𝐴⊕ 𝐵 ∗ 𝐶",
+      "𝐴⊕ 𝐵 ∗ 𝐶",
+      "(𝐴 + 𝐵) ∗ 𝐶",
+      "(𝐴⊕ 𝐵) ∗ 𝐶",
+      "None of these"
+    ],
+    "questionNumber": 36
+  },
+  {
+    "questionDescription": "xx  \nWhich of the expressions below is the postfix equivalent to the \nexpression shown? \n\n\n\n\n\n \n \nI + N / T ^ E - L \n \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District 1 - 2015  Page 7",
+    "answers": [
+      "- + I / N ^ T E L",
+      "I N T E ^ / - L +",
+      "I N T E ^ / L + -",
+      "- I + / N ^ T E L",
+      "None of these"
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "xx  \nWhich of the following values is NOT a possible outcome of the code \nshown to the right? \n \n\n \nRandom r = new Random(); \nout.print(r.nextInt(5)+33);",
+    "answers": [
+      "33",
+      "35",
+      "36",
+      "37",
+      "38"
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "xx  \nFree Response Question:  \nSimplify the Boolean Algebra expression shown below as much as possible. \n \n  𝐴 ∗ 𝐵 + 𝐴 + 𝐵",
+    "answers": [],
+    "questionNumber": 39
+  }
+]

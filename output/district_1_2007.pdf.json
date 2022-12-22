@@ -1,0 +1,431 @@
+[
+  {
+    "questionDescription": "What is the sum of BA16 and AB16?",
+    "answers": [
+      "15616",
+      "CC16",
+      "FF16",
+      "26616",
+      "16516"
+    ],
+    "questionNumber": 1
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint x = 3; \nint y = x + 2 * 4; \nint z = y * x + y / 2; \nSystem.out.print( z );",
+    "answers": [
+      "38.5",
+      "70",
+      "40",
+      "20",
+      "38"
+    ],
+    "questionNumber": 2
+  },
+  {
+    "questionDescription": "How many *'s are output by the code to the right? \n \n \n \nint limit = 11; \nfor(int count = 0; count <= limit; count++)\n    System.out.print( \"*\" );",
+    "answers": [
+      "11",
+      "12",
+      "10",
+      "13",
+      "22"
+    ],
+    "questionNumber": 3
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \nint[] list = new int[5]; \nfor(int i = 0; i < list.length; i++) \n    list[i] = list.length * i; \nSystem.out.print( list[2] ); \nSystem.out.print( list[ list.length - 1] );",
+    "answers": [
+      "1020",
+      "1525",
+      "105",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nString name = \"cade\"; \nint[] data = {7, 13, 23, 5}; \nfor(int i = 0; i < data.length; i++){ \n  if( i % 2 == 0 ){ \n    if( name.charAt(i) < 'c' ) \n      data[i] /= 3; \n    else \n      data[i] += name.charAt(i) - 'a'; \n  } else { \n      data[i] -= name.charAt(i) - 'a'; \n  } \n} \nfor(int i : data ) \n  System.out.print( i );",
+    "answers": [
+      "313251",
+      "94261",
+      "913261",
+      "913271",
+      "01234"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "What replaces <*1> in the code to the right so that method \ntest always returns false?  \n \n \n \npublic boolean test(int x){ \n    return ( x < 12 ) <*1> ( x > 20 ); \n}",
+    "answers": [
+      "^",
+      "::",
+      "||",
+      "&&",
+      "!"
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint x = 2; \nint[][] mat = new int[3][4]; \nfor(int r = 0; r < mat.length; r++){ \n  for(int c = 0; c < mat[0].length; c++){ \n    mat[r][c] = x; \n    x++; \n  } \n} \nint c = mat.length; \nfor(int r = 0; r < mat.length; r++){ \n  System.out.print( mat[r][c] ); \n  c--; \n}",
+    "answers": [
+      "369",
+      "5811",
+      "2712",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 7
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \nString team = \"cardinals\"; \nSystem.out.print( team.substring(3,6) );",
+    "answers": [
+      "din",
+      "dina",
+      "ina",
+      "inal",
+      "\"ina\""
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint y = 15; \nint x = 10; \nif( x * y > x * x ) \n  System.out.print( \"1\"); \nelse  \n  System.out.print( \"2\"); \nif( y * x != x * y ) \n  System.out.print( \"1\"); \nelse  \n  System.out.print( \"2\");",
+    "answers": [
+      "11",
+      "22",
+      "21",
+      "12",
+      "121"
+    ],
+    "questionNumber": 9
+  },
+  {
+    "questionDescription": "What is output by the line marked // line 1 in the \ncode to the right?",
+    "answers": [
+      "[1, 1, 1, 1, 1]",
+      "[1, 4, 1, 2, 3]",
+      "f",
+      "[3, 2, 1, 4, 1]",
+      "[0, 0, 0, 0, 0]"
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "What is output by the line marked // line 2 in the \ncode to the right? \n \n \n \n \n \nint[] data1 = {3, 2, 1, 4, 1}; \nArrayList<Integer> f =  \nnew ArrayList<Integer>();\n \nfor(int i : data1) \n  f.add(0, i); \n \nSystem.out.print( f ); // line 1 \n \nSystem.out.println();   \n \nfor(int i = 0; i < 3; i++){ \n  f.set(i, f.set(5 - i - 1, f.get(i) ) ); \n} \n \nSystem.out.print( f ); // line 2",
+    "answers": [
+      "[1, 1, 1, 1, 1]",
+      "[1, 4, 1, 2, 3]",
+      "f",
+      "[3, 2, 1, 4, 1]",
+      "[0, 0, 0, 0, 0]"
+    ],
+    "questionNumber": 11
+  },
+  {
+    "questionDescription": "What replaces <*1> in the code to the right so that when \nthe default constructor in the Pair class is called the \nresulting Pair object's instance variable val is equal \nto 0 and the instance variable s refers to a String \nequal to \"A\" ? \nI. s = \"A\" \nII. Pair(0, \"A\") \nIII. this(0, \"A\") \n \n \nAssume <*1> is filled in correctly.",
+    "answers": [
+      "I only",
+      "II only",
+      "III only",
+      "I and II",
+      "I and III"
+    ],
+    "questionNumber": 12
+  },
+  {
+    "questionDescription": "What replaces <*2> in the code to the right to declare a \nvariable of type Pair named p1 and makes p1 refer to \na new Pair object with val initialized to 5 and s \ninitialized to \"BA\" ? \n \n \n \n \n \np1.val = 5; \np1.s = new String( \"BA\" ); \nAssume <*1> and <*2> are filled in correctly.",
+    "answers": [
+      "Pair p1 = Pair(5, \"BA\");",
+      "Pair p1 = new Pair(5, \"BA\");",
+      "Pair p1 = new Pair();",
+      "Pair p1 = Pair(\"BA\");",
+      "Pair p1 = new Pair();"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "When method utep is called, what is output by the line \nmarked // line 1 in the code to the right?",
+    "answers": [
+      "BA5",
+      "BA7",
+      "BA76",
+      "6BA7",
+      "A2"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "When method utep is called, what is output by the line \nmarked // line 2 in the code to the right? \n \n \n \n \n \n \npublic class Pair{ \n  private int val; \n  private String s; \n \n  public Pair(){ \n    <*1>; \n  } \n \n  public Pair(int v, String st){ \n    val = v; \n    s = st; \n  } \n \n  public String toString(){ \n    return s + val; \n  } \n \n  public void eoy(){ \n    val += 2; \n  } \n} \n \n \n// in a class other than Pair \npublic void utep(){ \n  <*2> \n  Pair p2 = rice( p1 ); \n  System.out.print( p1 ); // line 1 \n  System.out.println(); \n  System.out.print( p2 ); // line 2 \n} \n \npublic Pair rice(Pair p){ \n  p.eoy(); \n  p = new Pair( 4, p.toString() ); \n  p.eoy(); \n  return p; \n}",
+    "answers": [
+      "BA76",
+      "A2",
+      "A0",
+      "BA7",
+      "BA5"
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method \nhsu is called?",
+    "answers": [
+      "-3",
+      "5",
+      "0",
+      "1",
+      "-2"
+    ],
+    "questionNumber": 16
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method \nut is called?",
+    "answers": [
+      "822",
+      "726",
+      "228",
+      "257",
+      "2626"
+    ],
+    "questionNumber": 17
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method \nts is called? \n \n \n \npublic int tt(int x, int y){ \n    x = x % 3; \n    y++; \n    int z = x * y; \n    return z - 3; \n} \n \npublic int aam(int z){ \n    int x = z; \n    int y = tt(z, x); \n    x += z; \n    return x + y + z; \n} \n \npublic void hsu(){ \n    System.out.print( tt(2, 3) ); \n} \n \npublic void ut(){ \n    int x = 7; \n    int y = aam(x); \n    System.out.print(\"\" + x + y); \n} \n \npublic void ts(){ \n    int x = 2; \n    int y = 4; \n    System.out.print(\"\" + x + y); \n    int a = tt(y, x); \n    System.out.print(\"\" + a + x + y); \n}",
+    "answers": [
+      "24724",
+      "247",
+      "24024",
+      "24013",
+      "24725"
+    ],
+    "questionNumber": 18
+  },
+  {
+    "questionDescription": "What is returned by  \neval(new int[] {1,0,1,3,2,4,7} ) ? \n \n \npublic int eval(int[] org){ \n  int a, b; \n  int t = 0; \n  for(int i : org){ \n    a = i % 2; \n    b = i % 3; \n    t += (a==0) ? i : (b==0) ? org[i] : (a+b);\n  } \n  return t; \n}",
+    "answers": [
+      "15",
+      "18",
+      "33",
+      "21",
+      "7"
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nString start = \"an ti j a gg\\nies\"; \nString[] chop = start.split(\"\\\\s+\"); \nSystem.out.print( chop.length ); \nfor(String s : chop) \n    System.out.print( s );",
+    "answers": [
+      "9an ti j a gg\\nies",
+      "9antijaggies",
+      "6an ti j a gg ies",
+      "6antijaggies",
+      "5antijaggnies"
+    ],
+    "questionNumber": 20
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString nums = \"-3 9 ST -5 2 32a\"; \nint sum = 0; \nScanner s = new Scanner(nums); \nwhile( s.hasNext() ){ \n    if( s.hasNextInt() ) \n        sum += s.nextInt(); \n    else \n        s.next(); \n} \nSystem.out.print( sum );",
+    "answers": [
+      "35",
+      "8",
+      "3",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method \nshow is called?",
+    "answers": [
+      "-401366",
+      "6-40163",
+      "013466",
+      "6310-4",
+      "66310-4"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "Which sorting algorithm is implemented by method \nsort?",
+    "answers": [
+      "Insertion sort",
+      "Bubble sort",
+      "Quick sort",
+      "Selection sort",
+      "Merge sort"
+    ],
+    "questionNumber": 23
+  },
+  {
+    "questionDescription": "What is the expected running time of method sort on \nan array containing N items?  Choose the most restrictive \ncorrect answer. \n \n \n \npublic void move(int[] data, int i, int j){ \n  int t = data[i]; \n  data[i] = data[j]; \n  data[j] = t; \n} \n \npublic void sort(int[] d){ \n  int m; \n  for(int i = 0; i < d.length; i++){ \n    m = i; \n    for(int j = i + 1; j < d.length; j++){ \n      if( d[m] < d[j] ) \n        m = j; \n    } \n    move(d, m, i); \n  } \n} \n \npublic void show(){ \n  int[] data = {6, -4, 0, 1, 6, 3}; \n  sort(data); \n  for(int i : data) \n    System.out.print( i ); \n}",
+    "answers": [
+      "O(1)",
+      "O(logN)",
+      "O(N)",
+      "O(NlogN)",
+      "O(N2)"
+    ],
+    "questionNumber": 24
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \ndouble val = 1999.0; \ndouble div = 1000; \ndouble res = val / div; \nSystem.out.print( (int)res );",
+    "answers": [
+      "1",
+      "2",
+      "0",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 25
+  },
+  {
+    "questionDescription": "What is returned by the method call utpb(15138) ?",
+    "answers": [
+      "CABAAAAA",
+      "AAAABAC",
+      "AAAAABAC",
+      "CBAAAAA",
+      "AAAAABC"
+    ],
+    "questionNumber": 26
+  },
+  {
+    "questionDescription": "What argument to method utpb will cause the method to \nreturn the String \"AACBA\" ?",
+    "answers": [
+      "523",
+      "1123",
+      "2225",
+      "Either A or B",
+      "None of these."
+    ],
+    "questionNumber": 27
+  },
+  {
+    "questionDescription": "What could replace the statement res += \"AA\"; in \ncase 5 so that method utpb functions exactly the \nsame? \n \nval = val * 10 + 5; \n \nval += val * 10 + 1; \n \n \n \npublic String utpb(int val){ \n  String res = \"\"; \n  while( val > 0 ){ \n    int d = val % 10; \n    val = val / 10; \n    switch (d) { \n      case 1: res += \"A\"; break; \n      case 3: res += \"BA\"; break; \n      case 5: res += \"AA\"; break; \n      default:  \n        res += \"C\"; \n        val = val * 10 + 1; \n    } \n  } \n  return res; \n}",
+    "answers": [
+      "res += \"A\";",
+      "res += \"A\";",
+      "val = val * 10 + 2;",
+      "val = ((val * 10) + 1) * 10 + 1;",
+      "More than one of these."
+    ],
+    "questionNumber": 28
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \nString name1 = \"Marvin_Minsky\"; \nString name2 = \"Marvin_The_Martian\"; \nSystem.out.print( name2.compareTo(name1) );",
+    "answers": [
+      "-1",
+      "0",
+      "1",
+      "An integer less than -1.",
+      "An integer greater than 1."
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "What is returned by uhcl(50) ? \n \n \n \npublic int uhcl(int n){ \n    int result = 0; \n    if( n >= 200 ) \n        result = 2; \n    else \n        result = 3 + uhcl( n * 2 ); \n    return result; \n}",
+    "answers": [
+      "9",
+      "11",
+      "8",
+      "2",
+      "5"
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "What replaces <*1> in the code to the right to throw an \nIllegalArgumentException if the precondition of \nmethod acc is not met? \n \n  throw new IllegalArgumentException(); \n \n  throw new Exception(); \n \n  throw new IllegalArgumentException(); \n \n  throw new IllegalArgumentException(); \n \n//pre: ln <= data.length \npublic void acc(int ln, int[] data){ \n    <*1> \n    // rest of method not shown \n}",
+    "answers": [
+      "if( ln == data.length )",
+      "if( ln <= data.length )",
+      "if( !( ln > data.length ) )",
+      "if( !( ln <= data.length ) )",
+      "More than one of these."
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "What is output by the following code segment? \nint[] d = {0, 5, 1, 3, 2, 1, 3, 1, 2}; \nSystem.out.print( wiley(6, 3, d) ); \n \n \n \n \n \n \n//pre: num <= list.length \npublic int wiley(int gt, int num, \nint[] list){\n  int rt = 0; \n  int n = 0; \n  int lim = list.length; \n  for(int i = 0; i < num - 1; i++) \n    rt += list[i]; \n  for(int i = num - 1; i < lim; i++){ \n    rt += list[i]; \n    if( rt == gt ) \n      n++; \n    rt -= list[i - num + 1]; \n  } \n  return n; \n}",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "What is returned by  \ntlu(\"alanturing\", \"johnmccarthy\")  ? \n \n \npublic int tlu(String s1, String s2){ \n   int r = 0; \n   String s3;   \n   for(int i = 0; i < s1.length(); i++){\n      s3 = s1.substring(i, i+1); \n      if( s2.contains( s3 )){ \n         r++; \n      } \n   } \n   return r; \n}",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "questionNumber": 33
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint k = 73; \nint n = 31; \nint tot = 0; \nwhile( k > n ){ \n  k /= 3; \n  n /= 2; \n  tot++; \n} \nSystem.out.print( tot );",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "7"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "What replaces <*1> in the code to the right so that the \ndata type of next is a Node that contains the same type \nof data as this Node ? \n \n \n \n \n \n \nAssume <*1> from Question 35 is filled in correctly",
+    "answers": [
+      "Node<this.E>",
+      "Node<E>",
+      "Object<E>",
+      "LinkedList<E>",
+      "Node<Object>"
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "What is output by the following code segment? \nSList<String> s = new SList<String>(); \ns.insert(\"A\"); \ns.insert(\"C\"); \ns.insert(\"B\"); \ns.insert(\"A\"); \nSystem.out.print( s );",
+    "answers": [
+      "ABCA",
+      "datadatadat",
+      "ACBA",
+      "ACB",
+      "BCA"
+    ],
+    "questionNumber": 36
+  },
+  {
+    "questionDescription": "What is output by the following code segment? \nSList<String> s1 = new SList<String>(); \nArrayList<String> a2  \n= new ArrayList<String>(); \ns1.insert(\"A\"); \na2.add(\"A\"); \na2.add(\"C\"); \na2.add(\"B\"); \ns1.insert(a2); \nSystem.out.print( s1 ); \n \n \n \n \n \n \npublic class Node<E>{ \n \n  public E data; \n  public <*1> next; \n \n} \n \n \n------------------------------------------- \n \n \npublic class SList<E>{ \n \n  private Node<E> head; \n   \n  public SList(){ \n    head = new Node<E>(); \n  } \n \n  public void insert(E data){ \n    Node<E> t; \n    for( t = head; t.next != null;  \nt = t.next);\n    t.next = new Node<E>(); \n    t.next.data = data; \n  } \n \n  public String toString(){ \n    String result = \"\"; \n    Node<E> t = head.next; \n    while( t != null ){ \n      result += t.data; \n      t = t.next; \n    } \n    return result; \n  } \n \n}",
+    "answers": [
+      "AACB",
+      "ACBA",
+      "ACB",
+      "BCA",
+      "There is no output due to a syntax error in the code."
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "Which statement below represents  the truth table to the \nright? a, b, and c are all variables of type boolean . \n \n \n \n \n \n \na  b  c  \nfalse  false  false \nfalse  true  true \ntrue  false  true \ntrue  true  false",
+    "answers": [
+      "c = (a || b) && !(a || b);",
+      "c = (a && b) || !(a && b);",
+      "c = (a || b) && (a || !b);",
+      "c = (a || b) && !(a && b);",
+      "c = a ~ b;"
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method sted \nis called?",
+    "answers": [
+      "16",
+      "15",
+      "13",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 39
+  }
+]

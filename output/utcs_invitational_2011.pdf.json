@@ -1,0 +1,431 @@
+[
+  {
+    "questionDescription": "What is the sum of 71316 and 79A16?",
+    "answers": [
+      "EAD16",
+      "F0016",
+      "F0416",
+      "FB416",
+      "EB416"
+    ],
+    "questionNumber": 1
+  },
+  {
+    "questionDescription": "int x = 5; \nint y = 3 * x; \nx++; \nSystem.out.print(x + \" \" + y); \n What is output by the code to the right?",
+    "answers": [
+      "6 15",
+      "5 15",
+      "5 18",
+      "7 15",
+      "6 18"
+    ],
+    "questionNumber": 2
+  },
+  {
+    "questionDescription": "int total = 0; \nint i = 1; \nfor(;i <= 5; i++) \n  ++total; \nSystem.out.print(total + i); \n What is output by the code to the right?",
+    "answers": [
+      "5 5",
+      "10",
+      "6 5",
+      "6",
+      "11"
+    ],
+    "questionNumber": 3
+  },
+  {
+    "questionDescription": "String name = \"CalvinLin\"; \nname = name.substring(3); \nSystem.out.println(name); \n What is output by the code to the right?",
+    "answers": [
+      "Cal",
+      "vinLin",
+      "Lin",
+      "lvi",
+      "lvinLin"
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "String lets = \"ABC\"; \nSystem.out.print( \"easy\" + lets + lets); \n What is output by the code to the right?",
+    "answers": [
+      "easyBDF",
+      "ABCABC",
+      "easyABCABC",
+      "easyABC",
+      "easyABCeasyABC"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "double a2 = 35.125; \ndouble b2 = a2 % 10 + 2; \nSystem.out.print(b2); \n What is output by the code to the right?",
+    "answers": [
+      "7.0",
+      "7.125",
+      "3.125",
+      "5.125",
+      "5.0"
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "boolean p, q, r; \n//code to initialize p, q, and r \n \nboolean s = p || q || r; \n How many combinations of values for the boolean \nvariables p, q, and r will result in s being set to \ntrue?",
+    "answers": [
+      "8",
+      "7",
+      "3",
+      "1",
+      "0"
+    ],
+    "questionNumber": 7
+  },
+  {
+    "questionDescription": "int x3 = 7; \nif(x3 != 5 || x3 != 7) \n  System.out.print(\"A\"); \nelse \n  System.out.print(\"B\"); \nif(x3 != 5 && x3 != 7) \n  System.out.print(\"C\"); \nelse \n  System.out.print(\"D\");   \n What is output by the code to the right?",
+    "answers": [
+      "BC",
+      "AC",
+      "BD",
+      "AD",
+      "There is no output."
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "public class Critter{ \n  public static final int NORTH = 0; \n  public static final int EAST = 1; \n  public static final int SOUTH = 2; \n  public static final int WEST = 3; \n \n  private int dir; \n   \n  public int move(){ \n    dir = dir == 0 ? WEST : NORTH; \n    return dir; \n  } \n} \n \npublic class Badger extends Critter{ \n  private String name; \n \n  public Badger(String s){ name = s; } \n \n  public String toString(){ \n    return name; \n  } \n} \n \n// client code \nCritter c1 = new Critter(); \nBadger b1 = new Badger(\"b1\"); \nc1.move(); \nSystem.out.print(c1.move()); // line 1 \n \nString stc = b1.toString() + b1.move(); \nSystem.out.println(stc); // line 2 \n What is output by the client code to the right marked  \n//line 1 ?",
+    "answers": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "true"
+    ],
+    "questionNumber": 9
+  },
+  {
+    "questionDescription": "What is output by the client code to the right marked  \n//line 2 ?",
+    "answers": [
+      "0",
+      "3",
+      "b10",
+      "b13",
+      "null0"
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "int m = 5 << 3; \nSystem.out.print(m); \n What is output by the code to the right?",
+    "answers": [
+      "0",
+      "40",
+      "125",
+      "625",
+      "32768"
+    ],
+    "questionNumber": 11
+  },
+  {
+    "questionDescription": "double limit = Math.random() * 8; \nfor(int i = 0; i <= limit; i++) \n  System.out.print('*'); \n What is the maximum possible number of '*'s the code to \nthe right will print when run?",
+    "answers": [
+      "0",
+      "1",
+      "7",
+      "8",
+      "9"
+    ],
+    "questionNumber": 12
+  },
+  {
+    "questionDescription": "System.out.print(\"X1\"); \nSystem.out.print(\"\\\"X2\\\"\"); \nSystem.out.println(\"Y1\"); \n What is output by the code to the right?",
+    "answers": [
+      "X1X2Y1",
+      "\"X1\\\"X2\\\"Y1\"",
+      "X1\"X2\"Y1",
+      "\"X1\"\"\\\"X2\\\"\"\"Y1\"",
+      "X1\\\"X2\\\"Y1"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "int x = 2; \nString f = \"%\" + (x+x) + \".\" + x + \"f\"; \nSystem.out.printf(f, 9.109382); \n What is output by the code to the right?",
+    "answers": [
+      "009.10",
+      "9.109382",
+      "9.10",
+      "009.11",
+      "9.11"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "public int manip(int x){ \n  int y = x + 2; \n  x /= 2; \n  return y + x; \n} \n What is returned by the method call manip(5)?",
+    "answers": [
+      "17",
+      "11.5",
+      "11",
+      "9.5",
+      "9"
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "String stars = \"\"; \nfor(int i = 0; i < 10; i++) \n  stars += \"*\"; \nfor(int i = 0; i < 10; i++) \n  stars += \"*\"; \nSystem.out.print(stars.length()); \n What is output by the code to the right?",
+    "answers": [
+      "0",
+      "10",
+      "11",
+      "18",
+      "20"
+    ],
+    "questionNumber": 16
+  },
+  {
+    "questionDescription": "public int other(int x, int y) { \n  x--; \n  y++; \n  return x * y; \n} \n \npublic int other(int x) { \n  x++; \n  int y = other(x, x); \n  x++; \n  return x * y; \n} \n \npublic <*1> start() { \n  System.out.print(other(3) + other(3,4)); \n} \n What replaces <*1> in the code to the right to indicate \nmethod start does not return a value? \n \n \nAssume <*1> is filled in correctly.",
+    "answers": [
+      "static",
+      "class",
+      "final",
+      "void",
+      "null"
+    ],
+    "questionNumber": 17
+  },
+  {
+    "questionDescription": "What is output by the code to the right when method \nstart is called?",
+    "answers": [
+      "85",
+      "135",
+      "256",
+      "266",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 18
+  },
+  {
+    "questionDescription": "String st5 = \"Texas\"; \nObject ob5 = \"Orange\"; \nSystem.out.print(st5.toString()); \nSystem.out.print(ob5.toString()); \n What is output by the code to the right? \n \n \n \nthe next.",
+    "answers": [
+      "TexasOrange",
+      "Texas7911497110103101",
+      "The output will vary from one run of the program to",
+      "There is no output due to a syntax error.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "String sd; \nsd = \"12 A 13 B 14 C 15\"; \nScanner sc2 = new Scanner(sd); \nfor(int i = 0; i < 4; i++) \n  sc2.next(); \nSystem.out.print(sc2.next()); \nSystem.out.print(sc2.next()); \n What is output by the code to the right?",
+    "answers": [
+      "BC",
+      "12A",
+      "C15",
+      "14C",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 20
+  },
+  {
+    "questionDescription": "int qq = 4521; \nint zz = qq % 100; \nSystem.out.print(zz); \n What is output by the code to the right?",
+    "answers": [
+      "452100",
+      "4521",
+      "452",
+      "4521.00",
+      "21"
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "String s = \"ABAaaBBAAbAAbAAaBAabbaa\"; \nint val = s.toLowerCase().indexOf(\"abbaa\");\nSystem.out.print(val); \n What is output by the code to the right?",
+    "answers": [
+      "23",
+      "19",
+      "8",
+      "4",
+      "-1"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "ArrayList<Double> ds; \nds = new ArrayList<Double>(); \nds.add(.1); \nds.add(.2); \nds.set(1, .3); \nSystem.out.print(ds); \n What is output by the code to the right?",
+    "answers": [
+      "[.3, .2, .1]",
+      "[0.3, 0.1, 0.2]",
+      "[0.3, 0.1]",
+      "[0.1, 0.2, 0.3]",
+      "[0.1, 0.3]"
+    ],
+    "questionNumber": 23
+  },
+  {
+    "questionDescription": "char[] lets = {'z', 'A', 'f', 'a', 'A'}; \nArrays.sort(lets); \nString res = \"\"; \nfor(char ch : lets) \n  res += ch; \nSystem.out.print(res); \n What is output by the code to the right?",
+    "answers": [
+      "afzAA",
+      "AAafz",
+      "afzA",
+      "afz",
+      "Aafz"
+    ],
+    "questionNumber": 24
+  },
+  {
+    "questionDescription": "String tc = \"Facebook\"; \nString part = tc.substring(2, 6); \nSystem.out.print(part); \n What is output by the code to the right?",
+    "answers": [
+      "\"ceboo\"",
+      "ceboo",
+      "cebook",
+      "cebo",
+      "ebo"
+    ],
+    "questionNumber": 25
+  },
+  {
+    "questionDescription": "int[] pts = {12, 5, 15, 10, 12, 7}; \nint total = <*1>; \nfor(int it : pts) { \n  int temp = it / 5; \n  switch (temp) { \n    case 0 : total += 1; break; \n    case 1 : total += 2; break; \n    case 2 : total += 4; break; \n    default : total += 8; \n } \n} \nSystem.out.print(total); \n What replaces <*1> in the code to the right to initialize \nthe variable total to zero? \n \n \nA through D is correct. \nAssume <*1> is filled in correctly.",
+    "answers": [
+      "null",
+      "false",
+      "pts",
+      "0",
+      "More than one of the answers"
+    ],
+    "questionNumber": 26
+  },
+  {
+    "questionDescription": "What is output by the code to the right?",
+    "answers": [
+      "4",
+      "8",
+      "11",
+      "24",
+      "42"
+    ],
+    "questionNumber": 27
+  },
+  {
+    "questionDescription": "int[] ref1 = {2, 5, 4}; \nint[] ref2 = {3, 2, 1}; \nref2[1]++; \nref2 = ref1; \nref2[2] += ref1[0]; \nSystem.out.print(Arrays.toString(ref1)); \n What is output by the code to the right?",
+    "answers": [
+      "[4, 2, 5]",
+      "[2, 5, 6]",
+      "[6, 5, 4]",
+      "[3, 5, 7]",
+      "[2, 5, 4]"
+    ],
+    "questionNumber": 28
+  },
+  {
+    "questionDescription": "ArrayList<Double> reals; \nreals = new ArrayList<Double>(); \nreals.add(0, 12); \nreals.add(1, 13); \nSystem.out.print(reals); \n What is output by the code to the right?",
+    "answers": [
+      "[0, 1]",
+      "[1, 0]",
+      "[12, 13]",
+      "[13, 12]",
+      "There is no output due to a syntax error in the code."
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "int val2 = 2; \nint val3 = 8; \nint val4 = val2 ^ val3; \nSystem.out.println(val4); \n What is output by the code to the right?",
+    "answers": [
+      "2",
+      "8",
+      "10",
+      "256",
+      "true"
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "Which sorting algorithm does not compare the elements being sorted to each other if the maximum value of the elements being \nsorted in already known?",
+    "answers": [
+      "Selection sort",
+      "Insertion sort",
+      "Radix sort",
+      "Heap sort",
+      "Quicksort"
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "public class Sample { \n  <*1> int x; \n \n  public static void bar(int x) { \n    foo(); \n    x++; \n  } \n \n  public void foo() {x++;} \n} \n \n// client code \nSample st = new Sample(); \nst.bar(st.x); \nSystem.out.print(st.x); \n What replaces <*1> in the code to the right so that the \ninstance variable x can be accessed by code in all classes? \n \n \nAssume <*1> is filled in correctly.",
+    "answers": [
+      "final",
+      "private",
+      "public",
+      "void",
+      "protected"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "What is output by the client code to the right? \n \n \nSample class.",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "There is no output due to a syntax error in the",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 33
+  },
+  {
+    "questionDescription": "What kind of graph does the picture to the right represent?",
+    "answers": [
+      "a directed unweighted graph",
+      "a directed weighted graph",
+      "an undirected unweighted graph",
+      "an undirected weighted graph",
+      "a binary search tree"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "What is the cost of the lowest cost path from vertex D to \nvertex A? \n \n \n \n \nGo on to the next page.",
+    "answers": [
+      "5",
+      "10",
+      "14",
+      "20",
+      "There is no path from vertex D to vertex A."
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "// pre: t != null, t refers to a  \n// rectangular matrix, t.length > 0 \n \npublic int handle(int[][] t) { \n  int total = 0; \n  final int LIM1 = <*1>; \n  final int LIM2 = <*1>; \n \n  for(int r = 0; r < LIM1; r++) { \n    int temp1 = LIM2 / 2; \n    int temp2 = 0; \n    int temp3 = LIM1 * 2; \n    int c = 0; \n    while(temp2 < temp3 && c < temp1) { \n      temp2 += t[r][c]; \n      temp2 += t[r][LIM2 - 1 - c++]; \n    } \n    total += temp2; \n  } \n  return total; \n} \n \n What replaces <*1> and <*2> in the code to the right \nto set the constant LIM1 to the number of rows in t  and \nthe constant LIM2 to the number of columns in t? \n    <*1>              <*2> \n \n \n \n \n \nAssume <*1> and <*2> are filled in correctly.",
+    "answers": [
+      "t.length t.length.length",
+      "t.length.length t.length",
+      "t.length t[0].length",
+      "t[0].length t[1].length",
+      "t[0].length t.length"
+    ],
+    "questionNumber": 36
+  },
+  {
+    "questionDescription": "What is returned by method handle if t is the 2d array \nshown below? \n1 8 0 9 1 6 \n0 1 5 4 0 4 \n2 2 7 1 13 2 \n11 5 13 13 4 20 \n0 1 5 4 0 4 \n       \n \n \n \nwhen the method is called with the 2d array shown \nabove. \n \nGo on to the next page.",
+    "answers": [
+      "44",
+      "59",
+      "94",
+      "137",
+      "There is no output due to an infinite loop that occurs"
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "public class Structure { \n  private Object[] con; \n  private int size; \n \n  public Structure() { \n    con = new Object[10]; \n    size = 0; \n  } \n \n  public void add(Object x){ \n    insert(size, x); \n  } \n \n  public Object get(int pos){ \n    return con[pos]; \n  } \n \n  public void insert(int pos, Object obj){ \n    ensureCapcity(); \n    for(int i = size; i > pos; i--) \n      con[i] = con[i - 1]; \n    con[pos] = obj; \n    size++; \n  } \n \n  public Object remove(int pos){ \n    Object removedValue = con[pos]; \n    for(int i = pos; i < size - 1; i++) \n      con[i] = con[i + 1]; \n    con[size - 1] = null; \n    size--; \n    return removedValue; \n  } \n \n  public int size(){ \n    return size; \n  } \n \n  private void ensureCapcity(){ \n    if(size == con.length) \n      resize(); \n  } \n \n  private void resize() { \n    Object[] temp; \n    temp = new Object[con.length * 2]; \n    for(int i = 0; i < con.length; i++) \n      temp[i] = con[i]; \n    con = temp; \n  } \n} \n What is the best case order (Big O) and worst case order of \nthe insert method in the Structure class to the \nright given the Structure already contains N elements? \nPick the most restrictive set of correct answers. \n          Best case                          Worst Case",
+    "answers": [
+      "O(1) O(1)",
+      "O(1) O(N)",
+      "O(N) O(N)",
+      "O(N) O(N2)",
+      "O(N2) O(N2)"
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nStructure st = new Structure(); \nSystem.out.print(st.size()); \nst.add(4); \nst.add(8); \nst.add(6); \nfor(int i = 0; i < st.size(); i++) \n  System.out.print(st.get(i)); \nSystem.out.print(st.size()); \n \n \n \n \n \nthe client code.",
+    "answers": [
+      "104863",
+      "04863",
+      "06843",
+      "10486310",
+      "There is no output due to a runtime error caused by"
+    ],
+    "questionNumber": 39
+  }
+]

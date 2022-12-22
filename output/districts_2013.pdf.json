@@ -1,0 +1,291 @@
+[
+  {
+    "questionDescription": "What output by the code to the right? \n\n\nruntime error.",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "11",
+      "There is no output due to a"
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "What replaces < * 1 > in the code to the right so that the \noutput is 5?",
+    "answers": [
+      "{ 0 , 0 , 0 , 0 , 0 }",
+      "new r [5]",
+      "new [5]",
+      "new double[5]",
+      "Both A and D"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n\n\n\n5071 8 \nint x = 42; \nint y 5; \nint z 3; \nSystem.out.print(x/y/z); \nint m = 3; \nfor(int i = 0; i < 8; i \nm += m*i; \nSystem.out.print(m); \n+= \nString s = \"JohnSteinbeck\"; \n\n2) { \nString t = s.substring(2, s.1ength()-4); \nSystem.out.print(t.1ength()); \ndouble[] ·r = <*1>; \nSystem.out.print(r.length); \ndouble x = 56/4%5-2.5; \nint y = (int) x; \nSystem.out.print(y); \nHow many combinations of truth values for p, q and r \nmake this expression to the right true?",
+    "answers": [
+      "0",
+      "1",
+      "-1",
+      "-0.5",
+      "11",
+      "5100 8",
+      "5107 8",
+      "1",
+      "4",
+      "15",
+      "7",
+      "8"
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n\n\nWhat is the value of the Java expression to the right? \n\n\n------",
+    "answers": [
+      "10",
+      "4050",
+      "5",
+      "50",
+      "110",
+      "A.2",
+      "8 C.35",
+      "43",
+      "55"
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "Forint variables x andy, when is the boolean \nexpression true? \nI. x and y are both positive. \nII. x and y are both even. \nIII. x and y are both odd. \nIV. One of x and y is even and the other is odd. \n\n\n\n\n\n\n(p && ! q) I I (q I I ! r) \nString s = \"\"; \nint x = 50; \nif (X % 2 == 0 ) { \nif (x % 3 == 0) \nX /= 5; \nelse \ns += x-10; \nelse \ns += 1; \nX %= 5; \nSystem.out.print(s + x); \n43\"25&14 \nx%2 != y%2 \n\n\nAssume in t x has been initialized to a positive even integer, \nand that int y has been initialized to a positive odd integer. \nWhat is the value of k after the code to the right is executed?",
+    "answers": [
+      "I only",
+      "II only",
+      "III only",
+      "IV only",
+      "II and III",
+      "80016",
+      "C.",
+      "D.",
+      "A0216",
+      "0",
+      "2x + y",
+      "X + y",
+      "X * y",
+      "(x*y)l2"
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "What is output by the code to the right?",
+    "answers": [
+      "0",
+      "6",
+      "9",
+      "12",
+      "25"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "What code can replace <*1> so that instance variable x and \ninstance variable y are both assigned the value 1? \nI. X = 1; y = 1; \nII. this () ; \nIII. this.x 1; this.y 1; \n\nc. III only \n\nAssume that <*1> was replaced correctly.",
+    "answers": [
+      "I only",
+      "II only",
+      "I, II and III",
+      "II and III"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "Assume that the client code to the right is in some class other \nthan the Example class. What code can replace <*2> so that \nthe output from the client code is 2 1? \n\n\n\n\n\nint k = 0; \nfor(int i = 0; i < x; i += 2) \nfor(int j = 0; j < y; j++) \nk++; \nint y = 0; \nint x = 641275; \nwhile(x > 0) { \nswitch (x%10) \ncase 0: case 2: case 4: case 6: \ncase 8: \ny++; \nbreak; \ncase 1: case 3: case 5: case 7: \ncase 9: \ny += 2; \nbreak; \nx xl10; \nstem.out. \npublic class Example \nprivate int x; \nprivate int y; \npublic Example () \nX 1; \ny = 1; \npublic Example(int x, int y) \n<*1> \npublic void change(int n) \nx = n; \npublic String toString() \nreturn x + \" \" + y; \nII Client code in another class \nExample e =new Example(2, 1); \n<*2> \nSystem.out.print(e); \nWhat value is printed by the client code below? \nint[] a= {6, 2, 4, 8, 1, 5}; \nSystem.out.print(mu(a)); \n\n\n6 \nLet n = r .length. what is the run time of method mu? \nGive the most restrictive correct answer. \n\n\nWhat is output by the code to the right? \n\n\nGO ON TO THE NEXT PAG\nII pre: r !=null and r.length >= 1 \npublic static int mu(int[] r) { \nint pos = r.length - 1; \nint k = r[pos]; \nint sum = 0; \nwhile (pos > 0) { \nsum += k; \npos = posl2; \nk = r[pos]; \nreturn sum; \nint x \nint y \n1; \n1; \nint z = --x - 1; \nint t (y--) + 1; \nSystem.out.print(\"\" + x + y + z + t); \nUll COMPUTER SCIENCE DISTRICT 1-2013 \u2022 PAGE 5",
+    "answers": [
+      "None- no code is needed to replace <*2>.",
+      "change (2);",
+      "e . change ( 2) ;",
+      "e .x = 2;",
+      "X = 2;",
+      "0",
+      "5 C.",
+      "9",
+      "11",
+      "o (1)",
+      "O(logn)",
+      "O(n)",
+      "O(nlogn) E.",
+      "0002",
+      "00-12",
+      "0001",
+      "1101",
+      "11-12",
+      "E."
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "To produce the correct output, which expression should \nreplace<* 1> in the code to the right? You will need to \nreplace both <*1> and <*2> to get the desired output. \n\nc. j < 7-i \n\nTo produce the correct output, which expression should \nreplace <*2> in the code to the right? \n\nc. j < 7-i",
+    "answers": [
+      "j < i",
+      "j < 7",
+      "j < 6-i",
+      "j < 6",
+      "j < i",
+      "j < 7",
+      "j < 6-i",
+      "j < 6"
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "What is output by the code to the right? In the Strings \nbelow, :e represents a blank space.",
+    "answers": [
+      "ooFord:e:e£l.13",
+      "Ford~13",
+      "ooFord00013",
+      "Ford0000013",
+      "ooFord13:e:e£l."
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n\n\nWhat is output by the code to the right? \n\n\nfor(int i = 1; i < 7; i++) { \nfor(int j = 1; <*1>; j++) \nSystem.out.print(\"O\"); \nfor(int j = 0; <*2>; j++) \nSystem.out.print(\"1\"); \nSystem.out.println(); \nDesired Output from above code: \n000001 \n000011 \n000111 \n001111 \n011111 \n111111 \nSystem.out.printf(\"%-6s%05d\", \"Ford\", 13); \nString[] arr = {\"hello\", \"hi\", \"bye\", \n\"hi\"}; \nTreeSet<String> s =new TreeSet<String>(); \nfor(String i : arr) \ns .\"add (i); \ns. remove (\"hi\") ; \nSystem.out.print(s.size()); \nSystem.out.print(s.last()); \nString s = \"Jefferson\"; \nString t; \nt = \"Pat\".concat(s) .replace('a', 'e'); \nt = t.substring(1, 5); \nSystem.out.print(t); \nWhat is output by the code to the right? \n\n\n\n\n\nWhat is the value of the expression to the right? \n\n\n\n\n\nWhat is returned by the method call rec ( \"abcdef\")? \n\n\nGO ON TO THE NEXT PAG\nInteger y =new Integer(13); \nint x = y; \nString s = \"13\"; \nString r = \"\"+x; \nint z = Integer.parseint(s); \nSystem.out.print(\"\"+s.equals(r) + (y==z)); \n1 + 2 + \"buckle my shoe\" + 3 + 4 \npublic static String rec(String s) { \nif(s ==null I I s.length() == 0) \nreturn \"\"; \nreturn s.charAt(s.length()-1) + \nrec(s.substring(O, s.length()/2)); \n} \nThe client code to the right appears in some class other than \nSub or Sup. Which choice for <*1> will produce the \noutput Batman 3 from the statement labeled line 1? \nI. s = t; \nII. sup (t); \nIII. super (t); \n\n\nII only \nI and II \nAssume <*1 *>is filled in correctly. \n\nWhich choice for <*2> will produce the output \nIronman 1 from the statement labeled line 2? \nI. s = \"Ironman\"; \nII. change(\"Ironman\"); \nIII. super. change ( \"Ironman\") ;",
+    "answers": [
+      "2hello",
+      "3bye",
+      "Onull",
+      "4hello",
+      "4bye",
+      "atJa",
+      "etJe",
+      "PatJa",
+      "etJef",
+      "atJaf",
+      "truetrue",
+      "truefalse",
+      "falsetrue",
+      "falsefalse",
+      "There is no output due to a compilation error.",
+      "\"12buckle my shoe34\"",
+      "\"3buckle my shoe7\"",
+      "\"12buckle my shoe7\"",
+      "\"3buckle my shoe34\"",
+      "This is not a valid Java expression.",
+      "\"f\"",
+      "\"fdb\" c. \"fcba\"",
+      "\"eca\"",
+      "\"fca\"",
+      "E.",
+      "I only B.",
+      "I and III E.",
+      "III only",
+      "I only",
+      "II only c. III only",
+      "I and III",
+      "II and III"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "public class Sup { \nprivate String s; \npublic Sup () { \ns = \"Superman\"; \npublic Sup(String t) \ns = t; \npublic void change(String t) { \ns = t; \npublic String getS() { \nreturn s; \npublic class Sub extends Sup { \nprivate int cat; \npublic Sub(String t, int c) \n<*1> \ncat = c; \npublic void change(String t) { \n<*2> \ncat = 1; \npublic int getCat() \nreturn cat; \nII Client code \nSub x =new Sub(\"Batman\", 3); \nSystem.out.print(x.getS() + \" \" + \nx.getCat()); II line 1 \nx.change(\"Ironman\"); \nSystem.out.print(x.getS() + \" \" + \nx.getCat(}); II line 2 \nWhich of the following creates an int array arr that contains three zeros? \nI. int[] arr new int[3]; \nII. int[] arr {0, 0, 0}; \nIII. int[] arr new 3 [OJ;",
+    "answers": [
+      "I only",
+      "II only c. III only",
+      "Iandii E . I, II and III"
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "What is the value of k after the code to the right has been \nexecuted? \nint k = 0; \nfor(int i = 0; i < 10; i++) { \nfor(int j = 0; j < i; j++) \nk++; \n\n\n--",
+    "answers": [
+      "10",
+      "45",
+      "50",
+      "90",
+      "1000"
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "Which of the following lists the nodes of the tree in the \norder that they would be visited in a preorder traversal?",
+    "answers": [
+      "ABDECFG",
+      "DBEAFCG",
+      "DEBFGCA",
+      "DEFGBCA",
+      "ABCDEFG"
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "What is arr after the code to the right is executed? \n\n\n\n\n\nWhich of the following can replace <*1> in the code to \nthe right so that the method returns the sum of the last \nentries in each row of matrix r? For example, for \nint[] [] a= {{1, 2, 3}, {4, 5}, {6}}; \nthe call rna t ( a ) should return 14 . \nl r[i] .length-1 \nIT. r[OJ .length-1 \nlll. r[] .length-1 \n\n\nString s = \"Hello-hi?Bye\"; \nString[] arr = s.split(\"\\\\?1-\"); \nThe parameter r can be a jagged array for questions 33 and 34. public static int mat (int [ l [ l r) {",
+    "answers": [
+      "{\"Hello\", \"hi\", \"Bye\"}",
+      "{\"Hello-\", \"hi?\", \"Bye\"}",
+      "{\"Hello\", \"-hi\", \"?Bye\"}",
+      "{\"Hello\", \"hi\"}",
+      "null",
+      "I only",
+      "n only",
+      "III only",
+      "I and n",
+      "I, nand III"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "Suppose you want to modify the rna t method so that it \nreturns the sum of all elements in r that have an odd column \nindex. Which of the following could be the body of the loop \nin the code to the right, replacing line 1? \nl for(int j = 0; j < r[O] .length; \nj++) \nif ( j % 2 == 1 ) s += r [ i] [ j ] ; \nIl for(int j = 1; j < r[O] .length; j \n+= 2) \ns += r [ i ] [ j ] ; \nlll for(int j = 1; j < r[i].length; j \n+= 2) \ns += r [ i J [ j l ; \n\n\nint s = 0; \nfor(int i = 0; i < r.length; i++) { \ns += r [i] [<*1>]; I I line 1 \nreturn s;",
+    "answers": [
+      "I only",
+      "II only",
+      "III only",
+      "I andll",
+      "I, II and III"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n\n\n\nStack<Integer> st new Stack<Integer>(); \nst.push(1); \nst.push(2); \nst.push(3); \ninti= st.search(2}; \nSystem.out.print(i); \ntem.out.println(\" \"+st. ()); \nOn an in t array of length n, the best case run time of insertion sort is which of the following? Choose the most restrictive \ncorrect answer. \n\n\nc. 0 ( (logn) 2 ) \n\n\n-------",
+    "answers": [
+      "2 2",
+      "1 2",
+      "2 3",
+      "1 3",
+      "1 1",
+      "0 (1)",
+      "O(logn)",
+      "O(n)",
+      "0 (n2 )"
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n\n\\a// \n\\a//",
+    "answers": [
+      "\\",
+      "\\n",
+      "\\ \\n\\n\\ \\a/",
+      "\\\\n\\n\\\\a//"
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "\\\\a/ \nThis program (contained in file Q38.java) is compiled and \nthen executed from a command line prompt as follows: \njava Q38 2 elephants fly \nWhat is the output? \n\n\nc. 13 \n\n\nSystem.out.print(\"\\\\n\\n\\\\a//\"); \npublic class Q38 { \npublic static void main(String[] args) \nint j = 0; \nfor(int i = 0; i < args.length; i++) \nj += args[i] .length(); \nSystem.out.print(j);",
+    "answers": [
+      "\\\\n",
+      "1",
+      "3",
+      "15",
+      "There is no output due to a run time error."
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "What value is returned by the call tau ( \" 12 3 4 \" ) ?",
+    "answers": [
+      "34224",
+      "34124",
+      "343424",
+      "234124",
+      "234224"
+    ],
+    "questionNumber": 39
+  }
+]

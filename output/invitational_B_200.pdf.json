@@ -1,0 +1,429 @@
+[
+  {
+    "questionDescription": "What is the sum of 76438 and 35568?",
+    "answers": [
+      "111998",
+      "123118",
+      "134218",
+      "123108",
+      "FFFF16"
+    ],
+    "questionNumber": 1
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint x = 5; \nint y = 3; \nint z = 2; \nx = y * x + x / z; \nSystem.out.print(x);",
+    "answers": [
+      "17",
+      "10",
+      "5",
+      "22",
+      "22.5"
+    ],
+    "questionNumber": 2
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint total = 0; \nfor(int i = 0; i <= 10; i++) \n  total += 2; \nSystem.out.println(total);",
+    "answers": [
+      "20",
+      "2",
+      "11",
+      "10",
+      "22"
+    ],
+    "questionNumber": 3
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString s1 = \"Turing\"; \nString s2 = \"Alan\"; \nString s3 = s2 + s1; \nSystem.out.print(s3);",
+    "answers": [
+      "Alan Turing",
+      "AlanTuring",
+      "Alan_Turing",
+      "TuringAlan",
+      "s3"
+    ],
+    "questionNumber": 4
+  },
+  {
+    "questionDescription": "What is output by the statement marked //line 1 in the \ncode to the right?",
+    "answers": [
+      "uilS",
+      "uil",
+      "s5",
+      "uil3"
+    ],
+    "questionNumber": 5
+  },
+  {
+    "questionDescription": "What is output by the statement marked //line 2 in the \ncode to the right? \n \nString s4 = \"String s5 = s4.toLowerCase(); \nSystem.out.print( s5 ); //line 1 \nSystem.out.print( s4 ); //line 2",
+    "answers": [
+      "uilS",
+      "uil",
+      "uil#",
+      "uil3"
+    ],
+    "questionNumber": 6
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nsyntax error in the code. \nString s6 = \"A\"; \nString[] sList = {\"B\", s6,  \n         s6.toLowerCase(), s6 + s6, \"CD\"}; \ns6 = \"\"; \nfor(String s : sList) \n s6 = s + s6; \nSystem.out.println( s6 );",
+    "answers": [
+      "CDAAaAB",
+      "BAaAACD",
+      "CDaaaAB",
+      "A",
+      "There is no output due to a"
+    ],
+    "questionNumber": 7
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString[] names = new String[10]; \nString st = names[5].toUpperCase(); \nSystem.out.println( st );",
+    "answers": [
+      "null",
+      "NULL",
+      "There is no output because st is the empty String.",
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error."
+    ],
+    "questionNumber": 8
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint[][] mat = {{2,7,5}, \n               {2,1,3}, \n               {8,4,2}}; \nint tot = 0; \nfor(int r = 0; r < mat.length; r++) \n  for(int c = r; c < mat[0].length; c++) \n    tot += mat[r][c]; \nSystem.out.print(tot);",
+    "answers": [
+      "34",
+      "19",
+      "20",
+      "14",
+      "12"
+    ],
+    "questionNumber": 9
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint[][] mat1 = new int[4][4]; \nfor(int i = 0; i < 4; i++) \n  for(int j = 0; j < 4; j++) \n    mat1[j][i] = i - j; \n \nfor(int i = 0; i < 4; i++) \n  System.out.print( mat1[2][i]);",
+    "answers": [
+      "210-1",
+      "-1012",
+      "-2-101",
+      "-101",
+      "2345"
+    ],
+    "questionNumber": 10
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nsyntax error in the code. \nSystem.out.print( \n Math.pow(Math.min(-4,-2),Math.abs(-2)) );",
+    "answers": [
+      "16",
+      "16.0",
+      "-16.0",
+      "-16",
+      "There is no output due to a"
+    ],
+    "questionNumber": 11
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n// IntStack implements the traditional \n// stack operations for ints  \nIntStack s = new IntStack(); \nfor(int i = 0; i < 10; i += 2) \n  s.push(i); \nwhile( !s.isEmpty() ) \n  System.out.print( s.pop() );",
+    "answers": [
+      "86420",
+      "8642",
+      "1086420",
+      "97531",
+      "9876543210"
+    ],
+    "questionNumber": 12
+  },
+  {
+    "questionDescription": "Which of the following statements are syntactically correct? \nI. Plan p1 = new Plan(); \nII. Plan p2 = new CallingPlan(1, 5); \nIII. CallingPlan p3 = new CallingPlan();",
+    "answers": [
+      "I only",
+      "III only",
+      "I and II only",
+      "II and III only",
+      "I, II, and III"
+    ],
+    "questionNumber": 13
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nCallingPlan p4 = new CallingPlan(); \nSystem.out.println( p4.cost(10) );",
+    "answers": [
+      "10",
+      "20",
+      "30",
+      "120",
+      "0"
+    ],
+    "questionNumber": 14
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nCallingPlan p5 = new CallingPlan(); \nCallingPlan p6 = new CallingPlan(); \nSystem.out.print( p5==p6 );",
+    "answers": [
+      "0",
+      "p5==p6",
+      "1",
+      "true",
+      "false"
+    ],
+    "questionNumber": 15
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nWithBaseMin w1 =  \n            new WithBaseMin(1, 5, 10); \nSystem.out.print( w1.cost(5) );",
+    "answers": [
+      "15",
+      "5",
+      "25",
+      "50",
+      "10"
+    ],
+    "questionNumber": 16
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nWithBaseMin w2 =  \n            new WithBaseMin(2, 10, 20); \nSystem.out.print( w2.cost(30) ); \n \n \npublic interface Plan{ \n  public int cost(int used); \n  \n  public int baseCost(); \n} \n \n------------------------------------------- \n \npublic class CallingPlan implements Plan{ \n  private int cpm; \n  private int base; \n  \n  public CallingPlan(){ \n    this(2, 10); \n  } \n   \n  public CallingPlan(int c, int b){ \n    cpm = c; \n    base = b; \n  } \n  \n  public int cost(int used){ \n    return base + cpm * used; \n  } \n  \n  public int baseCost(){ \n    return base; \n  } \n  \n  public void priceIncrease(){ \n    cpm++; \n  } \n} \n \n------------------------------------------- \n \npublic class WithBaseMin  \n                     extends CallingPlan{ \n \n  private int baseMin; \n \n  public WithBaseMin (int c, int b, int m){ \n    super(c, b); \n    baseMin = m; \n  } \n \n  public int cost(int used){ \n    int result = 0; \n    if( used <= baseMin ) \n      result = baseCost(); \n    else \n      result = super.cost(used - baseMin); \n    return result; \n  } \n} \nQuestions 18 through 22 refer to the interface Plan and classes CallingPlan and WithBaseMin on page 4.",
+    "answers": [
+      "70",
+      "10",
+      "30",
+      "20",
+      "120"
+    ],
+    "questionNumber": 17
+  },
+  {
+    "questionDescription": "What is output when method jg24 is called? \n \n \n \npublic void jg24(){ \n  CallingPlan c1 = new CallingPlan(); \n  jj48(c1); \n  System.out.print( c1.cost(10) ); \n} \n \npublic void jj48(CallingPlan c){ \n  c.priceIncrease(); \n}",
+    "answers": [
+      "30",
+      "130",
+      "0",
+      "40",
+      "10"
+    ],
+    "questionNumber": 18
+  },
+  {
+    "questionDescription": "What is output when method de8 is called? \n \n \n \npublic void de8(){ \n  CallingPlan c1 = new CallingPlan(1,20); \n  mw99(c1); \n  System.out.print(c1.cost(10)); \n} \n \npublic void mw99(CallingPlan c){ \n  c = new CallingPlan(2,5); \n  System.out.print( c.cost(10) ); \n}",
+    "answers": [
+      "25",
+      "2525",
+      "2530",
+      "3030",
+      "30"
+    ],
+    "questionNumber": 19
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nPlan p1; \nWithBaseMin m1 = new WithBaseMin(1,10,10); \np1 = m1; \nboolean b = m1.equals(p1); \nSystem.out.print( b );",
+    "answers": [
+      "true",
+      "false",
+      "b@12",
+      "There is no output due to a runtime error.",
+      "There is no output due to a syntax error in the code."
+    ],
+    "questionNumber": 20
+  },
+  {
+    "questionDescription": "What is output when method k9 is called? \n \n \n \n \n \npublic void k9(){ \n  CallingPlan[] pList = new CallingPlan[2]; \n  pList[0] = new CallingPlan(1, 5); \n  pList[1] = new WithBaseMin(2, 10, 5); \n  be9( pList ); \n} \n \npublic void be9(CallingPlan[] ps){ \n  for(int i = 0; i < ps.length; i++) \n    System.out.print( ps[i].cost(20) ); \n}",
+    "answers": [
+      "2550",
+      "2540",
+      "2045",
+      "There is no output due to a runtime error.",
+      "There is no output due to a syntax error in the code."
+    ],
+    "questionNumber": 21
+  },
+  {
+    "questionDescription": "What must be done to the class to the right so that it will \ncompile? \n \n \n \n \nper minute.  \n \nnamed used.   \npublic class SimplePlan implements Plan{ \n   \n  public int cost(int used){ \n    return 20; \n  } \n \n}",
+    "answers": [
+      "Nothing, the class will compile as is.",
+      "The class must have a constructor.",
+      "The class must be declared abstract.",
+      "The class must have an instance variable for the cost",
+      "The cost method must make use of the parameter"
+    ],
+    "questionNumber": 22
+  },
+  {
+    "questionDescription": "What is output when method show is called?",
+    "answers": [
+      "-1 1 5 10 14",
+      "-1 1 14 10 5",
+      "14 10 5 1 -1",
+      "14 1 -1 10 5",
+      "1 5 -1 10 14"
+    ],
+    "questionNumber": 23
+  },
+  {
+    "questionDescription": "Method sort attempts to implement the selection sort \nalgorithm. The method is designed to sort the elements of \ndata into increasing order, but the method does not \nalways work as intended. What change should be made so \nthe method always works as intended? \n \nindex = 0; \n \nm = -1; \n \nm = data[i]; \n \nindex = i; \n \nm = j; \nAssume the logic error in sort has been corrected.",
+    "answers": [
+      "//line 1 should be changed to",
+      "//line 2 should be changed to",
+      "//line 2 should be changed to",
+      "//line 3 should be changed to",
+      "//line 4 should be changed to"
+    ],
+    "questionNumber": 24
+  },
+  {
+    "questionDescription": "Let N = data.length from method sort.   \nWhat will the variable count equal at the line marked \n// line 5 ?",
+    "answers": [
+      "N!",
+      "N2",
+      "(N + 1) * N / 2",
+      "N * (N + 1) * (N + 2)",
+      "N / 3 + N / 2"
+    ],
+    "questionNumber": 25
+  },
+  {
+    "questionDescription": "Let N = data.length from method sort.  \nWhat is the minimum number of times the statement at the \nline marked // line 4 will be executed? \n \n \npublic static void sort(int[] data){ \n  int m; \n  int index; \n  int temp; \n  int count = 0; \n \n  for(int i = 0; i < data.length; i++){ \n    index = i; // line 1 \n    m = 0; // line 2 \n \n    for(int j = i; j < data.length; j++){ \n      count++; \n       \n      if( data[j] < m){ \n        index = j; // line 3 \n        m = data[j]; // line 4 \n      } \n    } \n \n    temp = data[i]; \n    data[i] = data[index]; \n    data[index] = temp; \n  } \n  // line 5 \n} \n \npublic static void show(){ \n  int[] d2 = {14, 1, -1, 10, 5}; \n  sort(d2); \n \n  for(int i = 0; i < d2.length; i++) \n    System.out.print( d2[i] + \" \"); \n}",
+    "answers": [
+      "0",
+      "1",
+      "N / 2",
+      "log2N",
+      "N"
+    ],
+    "questionNumber": 26
+  },
+  {
+    "questionDescription": "What replaces <*1> in the code to the right to \nsubtract 1 from total only if element \nw[row][col] is equal to 1? \n \n  total -= 1; \n \n  total -= 1; \n \n  total -= 1; \n \n  total--; \n \nAssume <*1> has been filled in correctly.",
+    "answers": [
+      "if( w[row][col] == 1 )",
+      "if( w[r][c] == 1 )",
+      "if( w[row][col] )",
+      "if( w[row][col] != 2 )",
+      "More than one of these."
+    ],
+    "questionNumber": 27
+  },
+  {
+    "questionDescription": "Assuming w is a square matrix with N rows \nand N columns, what is the running time of  \nmethod numNeigh? Choose the most \nrestrictive correct answer.",
+    "answers": [
+      "O(1/N)",
+      "O(1)",
+      "O(N)",
+      "O(N2)",
+      "O(2N)"
+    ],
+    "questionNumber": 28
+  },
+  {
+    "questionDescription": "Assuming w is a square matrix with N rows \nand N columns, what is the running time of  \nmethod next? Choose the most restrictive \ncorrect answer.",
+    "answers": [
+      "O(N2)",
+      "O(N3)",
+      "O(2N)",
+      "O(N8)",
+      "O(N4)"
+    ],
+    "questionNumber": 29
+  },
+  {
+    "questionDescription": "What is output by the following client code? \nint[][] m = {{1,1,1,0},  \n   {0,0,0,1}}; \nGame g = new Game(m); \ng.next(); \nSystem.out.print(g); \n \n \n0110 \n \n...* \n \n.... \n \n.*** \n \n.**.  \nclass Game { \n  private int[][] w; \n   \n  public Game(int[][] init){ \n    int r = init.length; \n    int c = init[0].length; \n    w = new int[r][c]; \n    for(int i = 0; i < r; i++) \n      for(int j = 0; j < c; j++) \n        w[i][j] = init[i][j]; \n  } \n   \n  public void next(){ \n    int[][] gen1 = new int[w.length][w[0].length]; \n    int n; \n    for(int r = 0; r< w.length; r++) \n      for(int c = 0; c < w[0].length; c++){ \n        n = numNeigh(r, c); \n        if( w[r][c] == 1 && (n == 2 || n == 3) ) \n          gen1[r][c] = 1; \n        else if( n == 3 ) \n          gen1[r][c] = 1; \n      } \n    w = gen1; \n  } \n   \n  private int numNeigh(int row, int col){ \n    int total = 0; \n    for(int r = row -1; r <= row + 1; r++) \n      for(int c = col - 1; c <= col + 1; c++) \n        if(inbounds(r,c,w) && w[r][c] == 1) \n          total++; \n    <*1> \n    return total; \n  } \n   \n  private boolean inbounds(int row,  \n                           int col, int[][] mat){ \n    return row >= 0 && row < mat.length  \n           && col >= 0 && col < mat[row].length; \n  } \n \n  public String toString(){ \n    String result = \"\"; \n    for(int r = 0; r < w.length; r++){ \n      for(int c = 0; c < w[0].length; c++) \n        result += ( w[r][c] == 1 ) ? \"*\" : \".\"; \n      result += \"\\n\"; \n    } \n    return result; \n  } \n \n}",
+    "answers": [
+      "0110",
+      "***.",
+      "....",
+      "***.",
+      ".**."
+    ],
+    "questionNumber": 30
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nArrayList<Integer> dr =  \nnew ArrayList<Integer>();\nfor(int i = 1; i < 40; i = 1 + i * i) \n dr.add(i); \nfor(int i = dr.size()-1; i >= 0; i--) \n System.out.print( dr.get(i) );",
+    "answers": [
+      "26521",
+      "3210",
+      "02683",
+      "83620",
+      "621"
+    ],
+    "questionNumber": 31
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \n \nString res = \"\";     \ntry{ \n  String col = \"A&M\"; \n  for(int i = 2; i < 6; i++) \n    res += col.charAt(i); \n  System.out.print(col); \n  System.out.print(res); \n} \ncatch(Exception e){ \n  System.out.print(res.length()); \n} \nfinally{ \n  System.out.print(res); \n}",
+    "answers": [
+      "A&MM1M",
+      "1",
+      "A&M",
+      "1M",
+      "M"
+    ],
+    "questionNumber": 32
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \ndouble len = 13.6; \ndouble inc = 8.6; \nif( len > 10 ){ \n  if( inc < 6.5  ) \n    System.out.print(1); \n  else \n    System.out.print(2); \n  if( inc > 7 && len > 10) \n    System.out.print(\"HC\"); \n} \nelse \n  System.out.print(3);",
+    "answers": [
+      "2HC3",
+      "2HC",
+      "1HC",
+      "1HC3",
+      "3"
+    ],
+    "questionNumber": 33
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nint d = 31; \nint f = 51; \nSystem.out.print( d & f );",
+    "answers": [
+      "63",
+      "19",
+      "44",
+      "18",
+      "1"
+    ],
+    "questionNumber": 34
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString tag = \"/TaB\"; \nboolean all = true; \nchar c; \nfor(int i=0; i < tag.length() && all; i++){ \n  c = tag.charAt(i); \n  all = Character.isLetter(c) \n            && Character.isUpperCase(c); \n} \nSystem.out.print(all);",
+    "answers": [
+      "There is no output due to a syntax error in the code.",
+      "There is no output due to a runtime error.",
+      "all",
+      "true",
+      "false"
+    ],
+    "questionNumber": 35
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString n1 = \"TexasTech\"; \nString n2 = \"TexasLonghorns\"; \nif( n1.compareTo(n2) > 0 ) \n  System.out.print(\"tech\"); \nelse if( n1.compareTo(n2) < 0 ) \n  System.out.print(\"ut\"); \nelse \n  System.out.print(\"same\");",
+    "answers": [
+      "0",
+      "1",
+      "ut",
+      "same",
+      "tech"
+    ],
+    "questionNumber": 36
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \n \nString d3 = \"acbbeab\"; \nint t = 0; \nfor(int i = 0; i < d3.length(); i++){ \n   switch( d3.charAt(i) ){ \n   case 'a' :  \n      t++; \n      break; \n   case 'b' : \n      t += 2; \n      break; \n   case 'c' : \n      t *= 3; \n   } \n} \nSystem.out.print(t);",
+    "answers": [
+      "10",
+      "9",
+      "13",
+      "0",
+      "2436"
+    ],
+    "questionNumber": 37
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \nString nm = \"mustangs miners\"; \nString[] tok = nm.split(\"[aeiou]\"); \nSystem.out.print( tok[2]);",
+    "answers": [
+      "ngs",
+      "ngs m",
+      "m",
+      "n",
+      "There is no output."
+    ],
+    "questionNumber": 38
+  },
+  {
+    "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nTreeSet<Character> set =  \n                 new TreeSet<Character>(); \nString mas = \"hornfrogs\"; \n \nfor(int i = 0; i < mas.length(); i++) \n  set.add(mas.charAt(i)); \n \nfor(Character ch : set) \n  System.out.print(ch);",
+    "answers": [
+      "fghnors",
+      "fghnoorrs",
+      "sronhgf",
+      "hornfgs",
+      "hornfrogs"
+    ],
+    "questionNumber": 39
+  }
+]
