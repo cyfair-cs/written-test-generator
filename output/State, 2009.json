@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What does 11011002 minus 11112 equal?",
+        "answers": [
+            "A: 5D16",
+            "B: 11000112",
+            "C: 10310",
+            "D: F16",
+            "E: 10011112"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 2.5; \nint x = 3; \na = a * 2 + (x / 2); \nSystem.out.println( a );",
+        "answers": [
+            "A: 5.5",
+            "B: 6.5",
+            "C: 8.75",
+            "D: 7.5",
+            "E: 6.0"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint hold = 15; \nfor(int i = 0; i <= 10; i++){ \n  hold--; \n} \nSystem.out.print( hold );",
+        "answers": [
+            "A: 15",
+            "B: 11",
+            "C: 10",
+            "D: 5",
+            "E: 4"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString t1 = \"eiffel\"; \nString t2 = \"php\"; \nString t3 = t2 + t1 + t2; \nSystem.out.print( t3.length() );",
+        "answers": [
+            "A: 12",
+            "B: 9",
+            "C: 3",
+            "D: 6",
+            "E: 15"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] fibs = {1, 1, 2, 3, 5, 8, 13}; \nfibs[3] = fibs[0]; \nfibs[0]--; \nSystem.out.print( fibs[3] );",
+        "answers": [
+            "A: null",
+            "B: -1",
+            "C: 0",
+            "D: 1",
+            "E: 3"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "D",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint r = 20; \nint s = 10; \nint t = s + s + s + s / r; \nSystem.out.print( t );",
+        "answers": [
+            "A: 2",
+            "B: 30",
+            "C: 10",
+            "D: 12",
+            "E: 0"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "B",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which answer is logically equivalent to the following Boolean expression, where x, y and z are int variables?. \n(x > y) && !(y <= z)",
+        "answers": [
+            "A: !(x <= y) && (y > z)",
+            "B: !(x > y) && !(y <= z)",
+            "C: (x > y) || !(y <= z)",
+            "D: (x <= y) && !(y <= z)",
+            "E: !( (x > y) && !(y <= z) )"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString home = \"\"; \nif( home == null ) \n  System.out.print( 1 ); \nelse  \n  System.out.print( 2 ); \nif( home.length() != 0 ) \n  System.out.print( 3 );",
+        "answers": [
+            "A: 3",
+            "B: 23",
+            "C: 13",
+            "D: 1",
+            "E: 2"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "How many constructors does the Table class have?",
+        "answers": [
+            "A: 2",
+            "B: 0",
+            "C: 4",
+            "D: 1",
+            "E: 3"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "D",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \npublic class Furniture{ \n   \n  private String name; \n \n  public Furniture(){  \n    name = \"blob\";  \n  } \n \n  public Furniture(String n){   \n    name = n;  \n  } \n \n  public String toString(){  \n    return name;  \n  } \n} \n \npublic class Table extends Furniture{ \n  private int legs; \n \n  public Table(int n){ \n    super(\"Ikea\"); \n    legs = n; \n  } \n \n  public String toString(){ \n    String result = super.toString(); \n    result += \", legs: \" + legs; \n    return result; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nTable endTable = new Table(4); \nSystem.out.print( endTable );",
+        "answers": [
+            "A: null, legs: 0",
+            "B: , legs: 4",
+            "C: Ikea, legs: 4",
+            "D: blob, legs: 4",
+            "E: Ikea, legs: 0"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint m = 1; \nint n = ~m; \nSystem.out.print( n );",
+        "answers": [
+            "A: -2",
+            "B: -1",
+            "C: 0",
+            "D: 1",
+            "E: -2147483648"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "The code to the right contains a syntax error. Which of the \nfollowing best explains the reason for the syntax error? \n \n \n \ncasting. \n \nless than 0. \n \nwithout casting. \ndouble b2 = -2.55; \nint x = Math.round( b2 );",
+        "answers": [
+            "A: Variable b2 has not been initialized.",
+            "B: The Math.round method does not exist.",
+            "C: longs may not be stored in int variables without",
+            "D: Arguments to the Math.round method cannot be",
+            "E: doubles may not be stored in int variables"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \nGREAT \nFILM \n \n \n \n \nSystem.out.print(\"A \\\"GREAT\\\" film\");",
+        "answers": [
+            "A: A",
+            "B: A \\",
+            "C: A \"GREAT\" film",
+            "D: A \\\"GREAT\\\" film",
+            "E: A GREAT FILM"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"%+06d\", 2009);",
+        "answers": [
+            "A: 2009",
+            "B: +2009",
+            "C: 002009",
+            "D: d+2009",
+            "E: +02009"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call  \nhappy( happy(2, 3), happy(3, 2) )? \n \n \npublic int happy(int x, int y){ \n  x--; \n  ++y; \n  return x * y; \n}",
+        "answers": [
+            "A: 10",
+            "B: 9",
+            "C: 21",
+            "D: 7",
+            "E: 18"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint counter = 0; \nString pos = \"Dean_of_Students\"; \n \nfor(int i = 0; i < pos.length(); i++){ \n  char ch = pos.charAt(i); \n  if( Character.isUpperCase( ch ) ) \n    counter++; \n} \n \nSystem.out.print( counter );",
+        "answers": [
+            "A: 0",
+            "B: 2",
+            "C: 3",
+            "D: 4",
+            "E: 16"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "B",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "Which of the following best describes what the code to the \nright will output? \n \notherwise it prints false. \n \nfalse, otherwise it prints true. \n \n \n \nboolean b; \n// code to initialize b; \n \nboolean oldB = b; \nb = (b == false); \nSystem.out.print( b == oldB );",
+        "answers": [
+            "A: If b is initialized to true the code prints true,",
+            "B: If b is initialized to true the code prints",
+            "C: The code always prints out truefalse.",
+            "D: The code always prints out true.",
+            "E: The code always prints out false."
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayList<String> f; \nf = new ArrayList<String>(); \nList<String> s; \ns = new LinkedList<String>(); \nSystem.out.print(f instanceof List); \nSystem.out.print(s instanceof LinkedList);",
+        "answers": [
+            "A: falsefalse",
+            "B: falsetrue",
+            "C: truefalse",
+            "D: truetrue",
+            "E: true"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "D",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method rho \nis called? \n \n \npublic int pi(int x){ \n  System.out.print( x + \"a\" ); \n  return x * 2; \n} \n \npublic void rho(){ \n  int y = 3; \n  System.out.print( \"b\" + pi(y) + y ); \n}",
+        "answers": [
+            "A: b3a63",
+            "B: 3db63",
+            "C: 3ab66",
+            "D: b3a66",
+            "E: 3ab63"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What is returned by method enigma if data is the \narray shown below? \n \n{2, 0, 1, 3, -5, 2, 5, -3} \n \n \npublic int enigma(int[] data){ \n  int i = 0; \n  for(; i < data.length; i++){ \n    if( data[i] < 0 ) \n      break; \n  } \n  return i == data.length ? -1 : i; \n}",
+        "answers": [
+            "A: 9",
+            "B: 4",
+            "C: 8",
+            "D: -1",
+            "E: 5"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "B",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nHashSet<String> set; \nset = new HashSet<String>(); \n \nset.add(\"A\"); \nset.add(\"B\"); \nset.add(\"AA\"); \nset.add(\"B\"); \n \nSystem.out.print( set.size() );",
+        "answers": [
+            "A: 2",
+            "B: 3",
+            "C: 4",
+            "D: 5",
+            "E: 6"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "B",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "Which of the following can replace <*1> in the code to \nthe right so that the code segment compiles without error? \n \nI. \nII. \nIII. \nCollection<Integer> \nObject \nQueue<Integer> \n \n \n<*1> tally = new LinkedList<Integer>();",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I, II, and III",
+            "E: None of the choices."
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "D",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nwhen the code is run. \nArrayList<Integer> nums; \nnums = new ArrayList<Integer>(); \nfor(int i = 0; i < 10; i++) \n  nums.add(i); \n \nIterator<Integer> it = nums.iterator(); \nint count = 0; \nwhile( it.hasNext() ) \n  count++; \n \nSystem.out.println( count );",
+        "answers": [
+            "A: 0",
+            "B: 10",
+            "C: 45",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to an infinite loop that occurs"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What can replace <*1> in the code to the right so that the \ncode segment compiles without error. \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: Any valid identifier that is not already in scope.",
+            "B: Only the identifier e.",
+            "C: Only the identifier this.Exception.",
+            "D: Any single digit.",
+            "E: One or more &'s."
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \ntry{ \n  int[] passnums = {31, 2, 45, 4, 97}; \n  int i1 = passnums[2]; \n  int i2 = passnums[3]; \n \n  System.out.print( passnums[i1] ); \n  System.out.print( passnums[i2] ); \n} \ncatch(NullPointerException <*1>){ \n  System.out.print( \"e1\" ); \n} \ncatch(ArrayIndexOutOfBoundsException <*1>){\n  System.out.print( \"e2\" ); \n}",
+        "answers": [
+            "A: e2",
+            "B: 454",
+            "C: e297",
+            "D: e1",
+            "E: e1e2"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString colors = \"REDBLUE\"; \nStack<Character> st; \nst = new Stack<Character>(); \n \nfor(int i = 0; i < colors.length(); i++) \n  st.push( colors.charAt(i) ); \n \nwhile( !st.isEmpty() ) \n    System.out.print( st.pop() );",
+        "answers": [
+            "A: ULBDER",
+            "B: EULB",
+            "C: EEEEEEE",
+            "D: REDBLUE",
+            "E: EULBDER"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "Which of the following can replace <*1> in the code to the \nright so that method passItOn compiles without error? \n I. \nII. \nIII. \nLinkedList<Integer> \nHashSet<String> \nArrayList<Map.Entry<String, Integer>> \n \n \npublic void passItOn(<*1> coll){ \n  Collections.sort( coll ); \n}",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: I, II, and III"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What Java programming language feature allows the \nprimitive ints to be used as arguments to the constructor \ncalls in the client code to the right even though the data type \nof the parameter d is Object, not int?",
+        "answers": [
+            "A: exceptions",
+            "B: static variables",
+            "C: autoboxing",
+            "D: recursion",
+            "E: method overloading"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \nArrayIndexOutOfBoundsException. \n \nNullPointerException. \npublic class Node{ \n  public Node one; \n  public Node two; \n  public Object data; \n \n  public Node(Node o, Node t, Object d){ \n    one = o;  \n    two = t;  \n    data = d; \n  } \n \n  public Node(){ \n  } \n \n} \n \n////////////////////////////////////////// \n// client code \nNode n1 = new Node(null, null, 1); \nNode n2 = new Node(n1, new Node(), 2); \nNode n3 = new Node(n1, n2, 3); \n \nn1.two = n3; \nn2.two.one = n3.one; \nn1.one = n3.two.one; \n \nSystem.out.println( n2.one.two.one.data );",
+        "answers": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: There is no output due to a",
+            "E: There is no output due to a"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString s1 = \"CAN\"; \nString s2 = \"CANTOR\"; \nSystem.out.print( s1.compareTo( s2 ) );",
+        "answers": [
+            "A: 1",
+            "B: 3",
+            "C: -1",
+            "D: -19",
+            "E: -3"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "If N equals d.size() what is the average running time \nof method search when d is an ArrayList and \nwhen d is a LinkedList? Pick the most restrictive \ncorrect set of answers. \n \n ArrayList LinkedList",
+        "answers": [
+            "A: O(N) O(logN)",
+            "B: O(logN) O(NlogN)",
+            "C: O(NlogN) O(N2)",
+            "D: O(logN) O(logN)",
+            "E: O(l) O(logN)"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "B",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \n// pre: list != null and \n// elements in list are sorted in \n// ascending order. \npublic int search(List<Integer> d,  \nint tgt){\n  Integer t = new Integer(tgt); \n  int res = -1; \n  int low = 0; \n  int hi = d.size() - 1; \n  int count = 0; \n  while( res == -1 && low <= hi ){ \n    count++; \n    int mid = (low + hi) / 2; \n    int diff = t.compareTo( d.get(mid) );  \n    if( diff == 0 ) \n      res = mid; \n    else if( diff > 0 ) \n      low = mid + 1; \n    else \n      hi = mid -1; \n  } \n  return res; \n} \n \n////////////////////////////////////////// \n// client code \nArrayList<Integer> t; \nt = new ArrayList<Integer>(); \nfor(int i = 0; i < 1000; i++) \n  t.add( 0 ); \nSystem.out.print( search(t, 0) );",
+        "answers": [
+            "A: 0",
+            "B: 1000",
+            "C: 499",
+            "D: 999",
+            "E: 500"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "C",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "Assume method fib(int[] data) is O(2N) where N = data.length.  When method fib is passed an array with \nlength = 50 it takes 0.5 seconds for method fib to complete. If method fib is then passed an array with length = 54 \nwhat is the expected time it will take method fib to complete?",
+        "answers": [
+            "A: 0.54 seconds",
+            "B: 4 seconds",
+            "C: 16 billion seconds",
+            "D: 8 seconds",
+            "E: 0.51 seconds"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "D",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What is output when method work is called if data is \nthe array shown below? \n{3, 2, 3, 0, 4, 0, 3, 1, 5, 0} \n \n \n \n \n \npublic void work(int[] data){ \n  int result = 1; \n  for(int i = 0; i < data.length; i++){ \n    if( data[i] != 0 ) \n      result *= data[i]; \n    else \n      result = 1; \n  } \n  System.out.print(result); \n}",
+        "answers": [
+            "A: 1",
+            "B: 21",
+            "C: 15",
+            "D: 0",
+            "E: 1080"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "The Arrays.sort(int[] a) method calls a helper method with the following header: \nprivate static void sort1(int x[], int off, int len) {  \nThe parameters off and len specify a sub-array in x to be sorted. len is the length of the sub-array.  \nThe implementation of the method sort1 is:  \nif( len < 7 ) \n    // perform an insertion sort on the sub-array \nelse \n    // perform a quicksort on the sub-array \nWhich of the following is the best reason the sort1 method uses this hybrid (combination of quicksort and insertion sort) \nsorting algorithm?",
+        "answers": [
+            "A: So that the sort will work on all primitive integer types: byte, short, int and long.",
+            "B: Primitive ints do not have a compareTo method.",
+            "C: So that the sort will be stable, meaning the relative order of equal items in the original array is unchanged.",
+            "D: So that an auxiliary linked list is not needed to complete the sort.",
+            "E: It is usually faster to sort a small array using the insertion sort algorithm rather than the quicksort algorithm."
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "What is output by the statement marked  \n// line 1 in the client code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 5",
+            "D: 16",
+            "E: 32"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is output by the statement marked  \n// line 2 in the client code to the right? \n \n \n \n \n \npublic void ps(int[] d, int p, \n       ArrayList<Integer> cur,  \n       ArrayList<ArrayList<Integer>> res){ \n   \n  if(p == d.length) \n    res.add( gc(cur) ); \n  else{ \n    ps(d, p + 1, cur, res); \n    cur.add(d[p]); \n    ps(d, p + 1, cur, res); \n    cur.remove( cur.size() - 1 ); \n  } \n} \n \npublic ArrayList<Integer> gc( \n        ArrayList<Integer> org){\n  ArrayList<Integer> r; \n  r = new ArrayList<Integer>(); \n  for(int i : org) \n    r.add(i); \n  return r; \n} \n \n////////////////////////////////////////// \n// client code \nint[] ds = {2, 3, 8, 3, 5}; \nArrayList<ArrayList<Integer>> res; \nres = new ArrayList<ArrayList<Integer>>(); \nArrayList<Integer> c = new ArrayList<Integer>(); \nps(ds, 0, c, res); \n \nSystem.out.println( res.size() ); // line 1 \nSystem.out.println( res.get(5) ); // line 2",
+        "answers": [
+            "A: [2, 3]",
+            "B: []",
+            "C: [2, 3, 3]",
+            "D: 8",
+            "E: [8, 5]"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "E",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to decrement \nthe value stored inside the variable p? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: p -= 1",
+            "B: p *= -1",
+            "C: p >> 2",
+            "D: p << 1",
+            "E: p++"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: MM",
+            "B: UU GG MM GG",
+            "C: GG",
+            "D: 12",
+            "E: UU"
+        ],
+        "testSource": "State, 2009",
+        "correctAnswer": "A",
+        "questionNumber": 39
+    }
+]

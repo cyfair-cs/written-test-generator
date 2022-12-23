@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of DE16 and 2216?",
+        "answers": [
+            "A: FF16",
+            "B: 10016",
+            "C: F016",
+            "D: A0016",
+            "E: BC16"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = -3; \nint y = x + 2 * x; \nint z = y + x / -1; \nSystem.out.print( z );",
+        "answers": [
+            "A: 6",
+            "B: -6",
+            "C: 0",
+            "D: -12",
+            "E: -9"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "How many *'s are output by the code to the right? \n \n \n \nint limit = 10; \nfor(int count = 1; count <= limit; count++) \n    System.out.print( \"*\" );",
+        "answers": [
+            "A: 11",
+            "B: 9",
+            "C: 0",
+            "D: 10",
+            "E: 5"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \nint[] list = new int[6]; \nfor(int i = 0; i < list.length; i++) \n    list[i] = list.length - i * 2; \nSystem.out.print( list[3] ); \nSystem.out.print( list[list.length - 2] );",
+        "answers": [
+            "A: 64",
+            "B: 02",
+            "C: 0-2",
+            "D: There is no output due to a syntax error in the code.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nString name = \"abcd\"; \nint[] data = {7, 2, 14, 9}; \nfor(int i = 0; i < data.length; i++){ \n  if( i % 2 == 0 ){ \n    if( name.charAt(i) < 'c' ) \n      data[i] /= 3; \n    else \n      data[i] -= name.charAt(i) - 'a'; \n  } else { \n      data[i] += name.charAt(i) - 'a'; \n  } \n} \nfor(int i : data ) \n  System.out.print( i );",
+        "answers": [
+            "A: 21166",
+            "B: abcd",
+            "C: 20175",
+            "D: 231212",
+            "E: 71166"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that \nmethod test always returns true?  \n \n \n \npublic boolean test(int x){ \n    return ( x > 0 ) <*1> ( x < 100 ); \n}",
+        "answers": [
+            "A: &&",
+            "B: !",
+            "C: >>",
+            "D: ||",
+            "E: ^"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint x = 14; \nint[][] mat = new int[4][3]; \nfor(int r = 0; r < mat.length; r++){ \n  for(int c = 0; c < mat[0].length; c++){ \n    mat[r][c] = x; \n    x--; \n  } \n} \nint c = x; \nfor(int r = 0; r < mat.length; r++){ \n  System.out.print( mat[r][c] ); \n}",
+        "answers": [
+            "A: 12963",
+            "B: 876",
+            "C: 131074",
+            "D: There is no output due to a syntax error in the code.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString team = \"engineers\"; \nSystem.out.print( team.substring(4) );",
+        "answers": [
+            "A: ineers",
+            "B: n",
+            "C: e",
+            "D: neers",
+            "E: engineers"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 15; \nint y = 10; \nif( x * y > x * x ) \n  System.out.print( \"1\"); \nelse  \n  System.out.print( \"2\"); \nif( y - x != x - y ) \n  System.out.print( \"1\"); \nelse  \n  System.out.print( \"2\");",
+        "answers": [
+            "A: 22",
+            "B: 11",
+            "C: 12",
+            "D: 21",
+            "E: 221"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the line marked // line 1 in the \ncode to the right?",
+        "answers": [
+            "A: [1, 2, 3, 4, 5]",
+            "B: [2, 4, 3, 1, 5]",
+            "C: [0, 0, 0, 0, 0]",
+            "D: [5, 4, 3, 2, 1]",
+            "E: [5, 1, 3, 4, 2]"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the line marked // line 2 in the \ncode to the right? \n \n \n \n \n \nint[] data1 = {5, 1, 3, 4, 2}; \nArrayList<Integer> f =  \nnew ArrayList<Integer>();\n \nfor(int i : data1) \n  f.add(i); \n \nSystem.out.print( f ); // line 1 \n \nSystem.out.println();   \n \nfor(int i = 0; i < 3; i++){ \n  f.add(i, f.set(5 - i - 2, f.remove(i) ) ); \n} \n \nSystem.out.print( f ); // line 2",
+        "answers": [
+            "A: [2, 3, 4, 1, 5]",
+            "B: [2, 4, 3, 1, 5]",
+            "C: [5, 1, 3, 4, 2]",
+            "D: [5, 2, 4, 1, 3]",
+            "E: [2, 5, 3, 1, 4]"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that the when the \ntwo integer constructor in the Complex class is called the \nresulting Complex object's instance variables are initialized to \nstore the same values as the parameters real and imag ? \nI. this.real = real;  \n this.imag = imag; \nII. real = real; \n imag = imag; \nIII. Complex.real = real; \n Complex.imag = imag; \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: I and III"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What replaces <*2> in the code to the right to declare a variable \nof type Complex named c1 and makes c1 refer to a new \nComplex object with both instance variables initialized to 0? \n \n \n \n \n \nAssume <*1> and <*2> are filled in correctly.",
+        "answers": [
+            "A: Complex c1 = new Complex();",
+            "B: Complex c1 = new Complex;",
+            "C: Complex c1 = Complex(0, 0);",
+            "D: Complex c1 = new Complex(0, 0);",
+            "E: More than one of these."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "When method utep is called, what is output by the line marked \n// line 1 in the code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 0_0",
+            "C: 0_0i",
+            "D: _i",
+            "E: 0, 0"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "When method utep is called, what is output by the line marked \n// line 2 in the code to the right? \n \n \n \n \n \n \npublic class Complex{ \n  private int real; \n  private int imag; \n \n  public Complex(int real, int imag){ \n    <*1> \n  } \n \n  public String toString(){ \n    return real + \"_\" + imag + \"i\"; \n  } \n \n  public void alter(){ \n    real++; \n  } \n} \n \n-------------------------------------- \n \n// in a class other than Complex \npublic void utep(){ \n  <*2> \n  System.out.print( c1 ); // line 1 \n  Complex c2 = rice(c1); \n  System.out.println(); \n  System.out.print( c2 ); // line 2 \n} \n \npublic Complex rice(Complex c){ \n  c.alter(); \n  c = new Complex( -1, -2 ); \n  c.alter(); \n  return c; \n}",
+        "answers": [
+            "A: 1_0i",
+            "B: 1",
+            "C: 0_-2i",
+            "D: 0_-1i",
+            "E: -2i"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nhsu is called?",
+        "answers": [
+            "A: 2",
+            "B: 6",
+            "C: 3",
+            "D: 9",
+            "E: 7"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nut is called?",
+        "answers": [
+            "A: 13",
+            "B: 27",
+            "C: 30",
+            "D: 12",
+            "E: 3011"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nts is called? \n \n \n \npublic int tt(int x, int y){ \n    x = x * 2; \n    --y; \n    int z = x % y; \n    return z + 1; \n} \n \npublic int aam(int z){ \n    z++; \n    int x = z + 2; \n    int y = tt(z, x); \n    x += z; \n    return x - y + z; \n} \n \npublic void hsu(){ \n    System.out.print( tt(13, 11) ); \n} \n \npublic void ut(){ \n    int x = 12; \n    int y = aam(x); \n    System.out.print( x ); \n} \n \npublic void ts(){ \n    int x = 2; \n    int y = 4; \n    int z = tt( aam(x), y ); \n    System.out.print( z ); \n}",
+        "answers": [
+            "A: 0",
+            "B: 2",
+            "C: 4",
+            "D: 1",
+            "E: 3"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is returned by  \neval(new int[] {3,0,1,5,4,1,7} ) ? \n \n \n \npublic int eval(int[] org){ \n  int a; \n  int t = 0; \n  for(int i : org){ \n    a = i % 2; \n    t += (a == 1) ? i : org[i]; \n  } \n  return t; \n}",
+        "answers": [
+            "A: 21",
+            "B: 0",
+            "C: 24",
+            "D: 25",
+            "E: 3015417"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nString start = \"dith\\ter\\ting\"; \nString[] chop = start.split(\"\\\\s\"); \nSystem.out.print( chop.length ); \nfor(String s : chop) \n    System.out.print( s );",
+        "answers": [
+            "A: dithering",
+            "B: 1dith\\ter\\ting",
+            "C: 1dithterting",
+            "D: 3dithering",
+            "E: 2dithering"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString nums = \"-0.5 0.3 A 1A  -.5   2\"; \ndouble sum = 0; \nScanner s = new Scanner(nums); \nwhile( s.hasNext() ){ \n    if( s.hasNextDouble() ) \n        sum += s.nextDouble(); \n    else \n        s.next(); \n} \nSystem.out.print( sum );",
+        "answers": [
+            "A: 2.3",
+            "B: 1.8",
+            "C: 1.3",
+            "D: -0.7",
+            "E: 37.3"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method go \nis called?",
+        "answers": [
+            "A: 13125807",
+            "B: 58121307",
+            "C: 13128507",
+            "D: 05781213",
+            "E: 05812137"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "Which sorting algorithm is implemented by method \nsort?",
+        "answers": [
+            "A: Insertion sort",
+            "B: Bubble sort",
+            "C: Quick sort",
+            "D: Selection sort",
+            "E: Merge sort"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "If the value of the parameter b is false, what is the \nexpected running time of method sort on an array \ncontaining N unique items in descending order?  Choose \nthe most restrictive correct answer. \n \n \n \npublic void swap(int[] data, int i, int j){ \n  int t = data[i]; \n  data[i] = data[j]; \n  data[j] = t; \n} \n \npublic void sort(int[] list, boolean b){  \n  int temp, j; \n  for(int i = 1; i < list.length; i++){ \n    temp = list[i]; \n    j = i; \n    while( j > 0 && temp < list[j - 1]){  \n      swap(list, j, j - 1); \n      j--;   \n    } \n     \n    if( b && i == 4 ){ \n      for(int k : list){ \n        System.out.print(k); \n      } \n    } \n \n  } \n} \n \npublic void go(){ \n  int[] data = {13, 12, 5, 8, 0, 7}; \n  sort(data, true); \n}",
+        "answers": [
+            "A: O(N2)",
+            "B: O(N)",
+            "C: O(N3)",
+            "D: O(NlogN)",
+            "E: O(logN)"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \ndouble val = 201; \ndouble div = 100; \ndouble res = val / div; \nSystem.out.print( (int)res );",
+        "answers": [
+            "A: 0",
+            "B: 3",
+            "C: 2",
+            "D: There is no output due to a syntax error in the code.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is returned by the  \nmethod call utpb(\"abcdb\") ?",
+        "answers": [
+            "A: 36",
+            "B: 8",
+            "C: 16",
+            "D: 0",
+            "E: 1"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What argument to method utpb will cause the method \nto return the value 3 ?",
+        "answers": [
+            "A: \"aa\"",
+            "B: \"bba\"",
+            "C: \"abb\"",
+            "D: \"d\"",
+            "E: More than one of these."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What could replace the statement  \nres = res * res;  \nin case 'c' so that method utpb functions exactly \nthe same? \n \n \n \n \n \npublic int utpb(String val){ \n  int res = 1; \n  for(int i = 0; i < val.length(); i += 2){ \n    char c = val.charAt(i); \n    switch (c) { \n      case 'b': res *= 2; break; \n      case 'd': res += 2; break; \n      case 'c': res = res * res; break; \n      case 'a': res++; break; \n      default:  \n        res = res / 3; \n    } \n  } \n  return res; \n}",
+        "answers": [
+            "A: res = res * 2;",
+            "B: res = res ^ 2;",
+            "C: res *= res;",
+            "D: Math.pow(2, res);",
+            "E: res = res >> 2;"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString name1 = \"Manuel_Blum\"; \nString name2 = \"Manuel_Mann\"; \nint r = name1.compareTo(name2.toLowerCase()); \nSystem.out.print( r );",
+        "answers": [
+            "A: -1",
+            "B: 0",
+            "C: 1",
+            "D: An integer less than -1.",
+            "E: An integer greater than 1."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What is returned by uhcl(100) ? \n \n \n \npublic int uhcl(int n){ \n    if( n < 20 ) \n        return n; \n    else \n        return uhcl( (n + 10) / 2 ); \n}",
+        "answers": [
+            "A: 19",
+            "B: 15",
+            "C: 0",
+            "D: 12",
+            "E: 11"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is output by method acc when it is invoked via the \ncall acc(-2) ? \n \n \n \n \n \n//pre: x > 0 \npublic void acc(int x){ \n  if( !(x > 0) ) \n    throw new IllegalArgumentException(); \n  x = x * x; \n  x++; \n  System.out.println( x );    \n}",
+        "answers": [
+            "A: -2",
+            "B: 5",
+            "C: 6",
+            "D: 8",
+            "E: None of these."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What is output by the following code segment? \nint[] d = {0, 3, 1, 4, 1, 5, 1, 1, 2}; \nSystem.out.print( wiley(3, d) ); \n \n \n \n \n \n \n \n//pre: num <= list.length \npublic int wiley(int n, int[] list){ \n  int m = 0; \n  int rt = 0; \n  for(int i = 0; i < list.length - n; i++){ \n    rt = 0; \n    for(int j = 0; j < n; j++){ \n      rt += list[i + j]; \n    } \n    if( rt > m ){ \n      m = rt; \n    } \n  } \n  return m; \n}",
+        "answers": [
+            "A: 10",
+            "B: 4",
+            "C: 7",
+            "D: 42",
+            "E: 8"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What is returned by  \ntlu(\"alanperlis\", \"richhamming\")  ? \n \n \npublic int tlu(String s1, String s2){ \n  int r = 0; \n  for(int i = 0; i < s1.length(); i++){ \n    r += s2.indexOf( s1.charAt(i) ); \n  } \n  return r; \n}",
+        "answers": [
+            "A: -1",
+            "B: 21",
+            "C: 19",
+            "D: 15",
+            "E: 1"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint k = 200; \nint n = 2; \nint tot = 0; \nwhile( k > n ){ \n  k /= 2; \n  n *= 2; \n  tot++; \n} \nSystem.out.print( tot );",
+        "answers": [
+            "A: 5",
+            "B: 44",
+            "C: 4",
+            "D: 32",
+            "E: 12"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that the \ninstance variable data and the parameter val can \nrefer to objects of any type? \n \n \n \n \n \n \nAssume <*1> from Question 35 is filled in correctly",
+        "answers": [
+            "A: E",
+            "B: AnyType",
+            "C: Object",
+            "D: Node",
+            "E: String"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "What is output by the following code segment? \nGList s1 = new GList(); \ns1.insert(\"A\"); \ns1.insert(\"C\"); \ns1.insert(\"B\"); \ns1.insert(\"A\"); \nSystem.out.print( s1 );",
+        "answers": [
+            "A: ACBA",
+            "B: AABC",
+            "C: CBAA",
+            "D: ABCA",
+            "E: ACB"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is output by the following code segment? \nGList s2 = new GList(); \nArrayList<String> a2  \n= new ArrayList<String>(); \ns2.insert(\"A\"); \na2.add(\"A\"); \na2.add(\"C\"); \na2.add(\"B\"); \ns2.insert(a2); \nSystem.out.print( s2 ); \n \n \n \n \n \n \npublic class Node{ \n \n  public <*1>  data; \n  public Node next; \n \n} \n \n------------------------------------------- \n \npublic class GList{ \n \n  private Node head; \n   \n  public GList(){ \n    head = null; \n  } \n \n  public void insert(<*1> val){ \n    if( head == null ){ \n      head = new Node(); \n      head.data = val; \n    } \n    else { \n      Node n = new Node(); \n      n.data = val; \n      n.next = head; \n      head = n; \n    } \n  } \n \n  public String toString(){ \n    String result = \"\"; \n    Node t = head; \n    while( t != null ){ \n      result += t.data.toString(); \n      t = t.next; \n    } \n    return result; \n  } \n \n}",
+        "answers": [
+            "A: [A, C, B]A",
+            "B: ACBA",
+            "C: ABCA",
+            "D: ABC",
+            "E: There is no output due to a syntax error in the code."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "Which statement below represents the truth table to the \nright? a, b, and c are all variables of type boolean . \n \n \n \n \n \n \na  b  c  \nfalse  false  false \nfalse  true  false \ntrue  false  false \ntrue  true  false",
+        "answers": [
+            "A: c = !a && a && b && !b;",
+            "B: c = !a && !b;",
+            "C: c = !a || !b;",
+            "D: c = (a && !b) || !a;",
+            "E: c = !ab;"
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method sted \nis called?",
+        "answers": [
+            "A: 9",
+            "B: 18",
+            "C: 45",
+            "D: There is no output due to a syntax error in the code.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 39
+    }
+]

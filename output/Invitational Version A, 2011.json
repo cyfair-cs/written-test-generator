@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of 110012 and 1012?",
+        "answers": [
+            "A: 11112",
+            "B: 111112",
+            "C: 111012",
+            "D: 110112",
+            "E: 111102"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "int x = 3 * 2 + 2 / 5 - 15 / 6; \nSystem.out.print(x); \n What is output by the code to the right?",
+        "answers": [
+            "A: 4",
+            "B: 3.9",
+            "C: 2.9",
+            "D: 0",
+            "E: -2"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "double total = 0; \nfor(int i = 0; i < 19; i++) \n  total += 0.5; \nSystem.out.print(total); \n What is output by the code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 0.5",
+            "C: 9",
+            "D: 9.0",
+            "E: 9.5"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "String name = \"Ritchie\"; \nString part = name.substring(3); \nSystem.out.print(name + part); \n What is output by the code to the right?",
+        "answers": [
+            "A: Ritchiechie",
+            "B: Ritchietchie",
+            "C: RitchieRitc",
+            "D: RitchieRit",
+            "E: tchietchie"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "Object[] jumble = {12, 6.67, \"AB\", 13}; \nSystem.out.print(jumble[1]); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12",
+            "B: 6.67",
+            "C: null",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "B",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "double a = 3.12345678; \ndouble b = a * 10 * 100; \nint x2 = (int)b + (int)a; \nSystem.out.print(x2); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3126",
+            "B: 3123",
+            "C: 1003",
+            "D: 1000",
+            "E: 336"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which answer is logically equivalent to the following boolean expression, where p and q are boolean variables? \n !p && q",
+        "answers": [
+            "A: !(p || !q)",
+            "B: p || !q",
+            "C: !!p && !q",
+            "D: !p || q",
+            "E: !(p && q)"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "int x3 = 11; \nif(x3 > 0) \n  System.out.print(1); \nif(x3 > 10) \n  System.out.print(2); \nif(x3 > 100) \n  System.out.print(3); \n What is output by the code to the right?",
+        "answers": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 12",
+            "E: 23"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "public class Drink{ \n  <*1> int drinksMade; \n \n  private double price; \n \n  public Drink() { this(1.99); } \n \n  public Drink(double p){ \n    price = p; \n    drinksMade++; \n  } \n \n  public static int total(){  \n    return drinksMade;  \n  } \n} \n \n// client code \nDrink d = new Drink(); \nd = new Drink(1.99); \nSystem.out.print(<*2>); \n What replaces <*1> in the code to the right so that \ndrinksMade is a class variable accessible only inside the \nDrink class? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: static",
+            "B: private",
+            "C: private static",
+            "D: private static final",
+            "E: private class final"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "Which of the following can replace <*2> in the client \ncode to the right to call the total method from the \nDrink class without a syntax error?",
+        "answers": [
+            "A: d.price",
+            "B: Drink.total()",
+            "C: total",
+            "D: d.drinksMade",
+            "E: Drink.price"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "B",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "int total = 0; \nfor(int i = 0; i < 20; i++) \n  if( i % 4 == 0 ) \n    total++; \nSystem.out.print(total); \n What is output by the code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 4",
+            "D: 5",
+            "E: 20"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "double m2 = 4.99; \nSystem.out.print(Math.ceil(m2)); \n What is output by the code to the right?",
+        "answers": [
+            "A: 4",
+            "B: 4.9",
+            "C: 5.0",
+            "D: 5",
+            "E: 10"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "System.out.print(\"Two\\t2One\"); \n What is output by the code to the right?",
+        "answers": [
+            "A: Two2    One",
+            "B: Two2One",
+            "C: Two\\\\2One",
+            "D: Two    2One",
+            "E: Two    2    One"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "System.out.printf(\"%,5.7f\", 5472.12); \n What is output by the code to the right?",
+        "answers": [
+            "A: 5472.12",
+            "B: 5,472.1200000",
+            "C: 05472.120",
+            "D: 5,472.120,000,0",
+            "E: 5,472.1,200,000"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "B",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "public int process(int x, int y){ \n  x = y; \n  x++; \n  y++; \n  return x * y; \n} \n What is returned by the method call process(3, 2)?",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 6",
+            "D: 8",
+            "E: 9"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "String stars = \"\"; \nfor(int i = 0; i < 3; i++) \n  for(int j = 0; j < 3; j++) \n    for(int k = 0; k < 3; k++) \n      stars += \"*\"; \nSystem.out.println(stars.length()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 1",
+            "B: 9",
+            "C: 27",
+            "D: 64",
+            "E: 81"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "<*1>; \nint c = 0; \nwhile( val >= 5 ) { \n  val /= 2; \n  c++; \n} \nSystem.out.println( c ); \n What replaces <*1> in the code to the right so that the \noutput is 4?",
+        "answers": [
+            "A: int val = 0",
+            "B: int val = 4",
+            "C: int val = 20",
+            "D: int val = 35",
+            "E: int val = 50"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "int[] list1 = new int[5]; \nint[] list2 = {0, 0, 0, 0, 0}; \nSystem.out.print( list1 == list2 ); \nSystem.out.print(\" \" + list1[1]); \n What is output by the code to the right?",
+        "answers": [
+            "A: true 1",
+            "B: false 0",
+            "C: true 0",
+            "D: false 1",
+            "E: false false"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "B",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "String st; \nst = \"12\\n\\t13.14\\n\\t\\n\\\\12\\t\\n15\"; \nScanner sc = new Scanner(st); \nsc.next(); \nsc.next(); \nSystem.out.print(sc.next()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12",
+            "B: 13.14",
+            "C: \\12",
+            "D: \\t",
+            "E: 13"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "// pre: val > 0 \npublic int myst(int val) { \n  if( !(val > 0) ) \n    <*1> new IllegalArgumentException(); \n \n  int res = 2; \n  <*2> int LIMIT = (int) Math.sqrt(val); \n  for(int i = 2; i < LIMIT; i++) \n    if( val % i == 0 ) \n      res += 2; \n  if( val % LIMIT == 0 ) \n    res++; \n  return res; \n} \n What replaces <*1> in the code to the right to generate an \nexception and disrupt the normal flow of program execution \nif the precondition of method myst is not met? \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: catch",
+            "B: try",
+            "C: throw",
+            "D: continue",
+            "E: volatile"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What replaces <*2> in the code to the right so that the \nvalue stored in LIMIT may not be altered after initially \nassigned a value? \n \n \n \n Assume <*1> and <*2> are filled in correctly.",
+        "answers": [
+            "A: static",
+            "B: const",
+            "C: final",
+            "D: strictfp",
+            "E: static final"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is returned by the method call myst(36)?",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 5",
+            "D: 9",
+            "E: 10"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "public int search(int[] data, int t) { \n  int x = 0; \n  int y = data.length - 1; \n  int c = 0; \n  while( x <= y ){ \n    c++; \n    int z = (x + y) / 2; \n    if( data[z] == t ) \n      return z; \n    else if( data[z] < t ) \n      x = z + 1; \n    else \n      y = z - 1; \n  } \n  System.out.print(c); \n  return -1; \n} \n \n// client code \nint[] vs = {-1, 5, 10, 20, 30, 35}; \nSystem.out.print( search(vs, 15) ); \n Which searching algorithm does method search \nimplement?",
+        "answers": [
+            "A: heap search",
+            "B: sequential search",
+            "C: radix search",
+            "D: stooge search",
+            "E: binary search"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is returned by the method call \nsearch(new int[0], 0)?",
+        "answers": [
+            "A: -1",
+            "B: 0",
+            "C: 1",
+            "D: 2",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: 1-1",
+            "B: 2-1",
+            "C: 3-1",
+            "D: 12",
+            "E: 13"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "C",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "Which of the following is not a syntactically correct Java identifier?",
+        "answers": [
+            "A: _sgh",
+            "B: bonus12",
+            "C: LIM_DIM_",
+            "D: bsk",
+            "E: #CSharp"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "public void sort(String[] w){ \n  int lim = w.length - 1; \n  for(int i = 0; i < lim; i++){ \n    int m = i; \n    for(int j = i + 1; j <= lim; j++){ \n      if( w[j].compareTo(w[m]) < 0 ){ \n        m = j; \n      } \n    } \n    String t = w[i]; \n    w[i] = w[m]; \n    w[m] = t; \n  } \n}     \n \n// client code \nString[] ws = {\"Z\", \"AA\", \"a\", \"A\", \"z\"}; \nsort(ws); \nSystem.out.print( ws[1] ); \n What is output by the client code to the right?",
+        "answers": [
+            "A: z",
+            "B: A",
+            "C: a",
+            "D: AA",
+            "E: Z"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "Which sorting algorithm does method sort implement?",
+        "answers": [
+            "A: selection sort",
+            "B: insertion sort",
+            "C: merge sort",
+            "D: radix sort",
+            "E: quicksort"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "System.out.print( Math.floor(-1.56) ); \n What is output by the code to the right?",
+        "answers": [
+            "A: -1",
+            "B: 2",
+            "C: -1",
+            "D: -2.0",
+            "E: 0"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "String ds = \"AABbAaAAbCAaaBBbC\"; \nSet<Character> set; \nset = new <*1>(); \n \nfor(int i = 0; i < ds.length(); i++) \n  set.add( ds.charAt(i) ); // A \n \nSystem.out.print(set.size()); \n  \n What replaces <*1> in the code to the right so the line of \ncode marked // A is average case O(1) given there are N \nelements already present in the Set? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: HashSet<Character>",
+            "B: TreeSet<Character>",
+            "C: Set<Character>",
+            "D: Collection<Character>",
+            "E: Iterator<Character>"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is output by the code to the right?",
+        "answers": [
+            "A: 17",
+            "B: 3",
+            "C: 8",
+            "D: 16",
+            "E: 5"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "A method uses the insertion sort algorithm to sort an array of ints. Given an array with 100,000 distinct values in random \norder, it takes the method 3 seconds to complete. What is the expected time for the method to complete given an array with \n300,000 distinct values in random order?",
+        "answers": [
+            "A: 6 seconds",
+            "B: 9 seconds",
+            "C: 12 seconds",
+            "D: 27 seconds",
+            "E: 36 seconds"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "public int calc(int[] list) { \n  int t = 0; \n  int lim = list.length; \n  for(int i = 0; i < lim; i++) \n    for(int j = i + 1; j < lim; j++) \n      if(list[i] == list[j]) \n        t++; \n  return t; \n} \n \n// client code \nint[] bd = {3, 1, 3, 1, 3, 3, 2}; \nSystem.out.print(calc(bd)); \n What is output by the client code to the right?",
+        "answers": [
+            "A: 7",
+            "B: 6",
+            "C: 4",
+            "D: 3",
+            "E: 2"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What is output by the client code to the right if the inner \nfor loop's  initialization statement is changed from \nint j = i + 1 \nto \nint j = 0",
+        "answers": [
+            "A: 7",
+            "B: 10",
+            "C: 15",
+            "D: 14",
+            "E: 21"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "E",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What kind of graph does the picture to the right represent?",
+        "answers": [
+            "A: a directed unweighted graph",
+            "B: a directed weighted graph",
+            "C: an undirected unweighted graph",
+            "D: a undirected weighted graph",
+            "E: a binary search tree"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "public int h(int x){ \n  if(x <= 2) \n    return x * 2; \n  else \n    return h(x - 2) + h(x - 1) + 1; \n} \n What is returned by the method call h(6)?",
+        "answers": [
+            "A: 33",
+            "B: 26",
+            "C: 4",
+            "D: 2",
+            "E: 1"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "A",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "List<Integer> li; \nli = new LinkedList<Integer>(); \nli.add(5); \nli.add(12); \nli.add(1, 7); \nint res = ((LinkedList<Integer>)  \nli).removeFirst();\nSystem.out.print(res + \" \" + li.size()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12 3",
+            "B: 5 2",
+            "C: 5 1",
+            "D: 7 2",
+            "E: 7 1"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "B",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "public class Structure { \n \n  private List<Pair> con; \n \n  public Structure(){ \n    con = new ArrayList<Pair>(); \n  } \n \n  public Object get(){ \n    return con.get(0).value(); \n  } \n \n  public Object remove(){ \n    return con.remove(0).value(); \n  } \n \n  public void add(int x, Object obj){ \n    int pos = 0; \n    while(pos < con.size()  \n&& x < con.get(pos).num() ) {\n      pos++; \n    } \n    Pair p = new Pair(x, obj); \n    <*1>; \n  } \n \n  public boolean empty(){ \n    return con.size() == 0; \n  } \n \n  private static class Pair { \n    private int n; \n    private Object obj; \n   \n    public Pair(int num, Object val){ \n      n = num; \n      obj = val; \n    } \n \n    public int num() { return n; } \n \n    public Object value() { return obj; } \n  } \n}       \n What replaces <*1> in the code to the right to insert the \nPair p at position pos in con? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: con.add(p)",
+            "B: con.insert(pos, p)",
+            "C: con.insert(p, pos)",
+            "D: con.add(pos, p)",
+            "E: con.addFirst(p)"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nStructure s = new Structure(); \ns.add(12, 5); \ns.add(5, 12); \ns.add(17, 13); \ns.add(5, 7); \nSystem.out.print( s.remove() ); \nSystem.out.print( \" \" + s.remove() );",
+        "answers": [
+            "A: 17 12",
+            "B: 5 5",
+            "C: 12 7",
+            "D: 13 5",
+            "E: 12 5"
+        ],
+        "testSource": "Invitational Version A, 2011",
+        "correctAnswer": "D",
+        "questionNumber": 39
+    }
+]

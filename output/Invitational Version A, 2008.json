@@ -1,0 +1,507 @@
+[
+    {
+        "questionDescription": "What does 10012 plus 11102 equal?",
+        "answers": [
+            "A: 101112",
+            "B: 10012",
+            "C: 111112",
+            "D: 1112",
+            "E: 3210"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 3; \nint y = 2; \nSystem.out.println( x + y * x );",
+        "answers": [
+            "A: 9",
+            "B: 10",
+            "C: 12",
+            "D: 3",
+            "E: xyx"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint total = 0; \nfor(int i = 0; i <= 5; i++){ \n  total += 2; \n} \nSystem.out.println( total );",
+        "answers": [
+            "A: 10",
+            "B: 5",
+            "C: 0",
+            "D: 6",
+            "E: 12"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString s = \"South88\"; \nSystem.out.println( s.toUpperCase() );",
+        "answers": [
+            "A: SOUTH",
+            "B: SOUTH88",
+            "C: SOUTH**",
+            "D: South88",
+            "E: SOUTH+**"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint[] data = {3, 2, 4, 3, 1, 0}; \ndata[1] = data[1] + data[3]; \nSystem.out.println( data[1] );",
+        "answers": [
+            "A: 7",
+            "B: 3",
+            "C: 2",
+            "D: 5",
+            "E: 1"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint r = 6; \nint v = 20; \nSystem.out.println( r % v );",
+        "answers": [
+            "A: 0",
+            "B: 20",
+            "C: 0.3",
+            "D: 120",
+            "E: 6"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which answer is logically equivalent to the following boolean expression, where p and q are boolean variables?. \n p && !q",
+        "answers": [
+            "A: p || !q",
+            "B: !p && q",
+            "C: !(!p || q)",
+            "D: !p || q",
+            "E: !(!p && q)"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 2.5; \ndouble b = 15.7; \nif( a < b ) \n  System.out.print( 1 ); \nif( b > 10 ) \n  System.out.print( 2 );",
+        "answers": [
+            "A: 21",
+            "B: 2",
+            "C: 1",
+            "D: 12",
+            "E: There is no output."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to indicate \nthat the method takeTrip does not return a value? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: return",
+            "B: null",
+            "C: static",
+            "D: private",
+            "E: void"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "Which of the following creates a Car object whose \nmiles instance variable is initialized to zero? \n \n \n \n \n \n \npublic class Car{ \n  private int miles; \n \n  public Car(int m){ \n    miles = m; \n  } \n \n  public <*1> takeTrip(int len){ \n    miles += len; \n  } \n \n  public int getDistance(){ \n    return miles; \n  } \n \n}",
+        "answers": [
+            "A: Car c = new Car(\"0\");",
+            "B: Car c = new Car('0');",
+            "C: Car c = new Car(0);",
+            "D: Car c = new Car(miles.0);",
+            "E: Car c = new Car(\"zero\");"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint z = 2; \nint k = 11; \nSystem.out.print( k & z );",
+        "answers": [
+            "A: 13",
+            "B: 11",
+            "C: 2",
+            "D: 9",
+            "E: 0"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "How many lines of output does the code  \nto the right produce? \n \n \nSystem.out.print(\"first string\"); \nSystem.out.print(\"second string\"); \nSystem.out.println(\"third string\");",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 2",
+            "D: 3",
+            "E: 4"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.println( Math.min(14, 7) );",
+        "answers": [
+            "A: 7.0",
+            "B: 14",
+            "C: 7",
+            "D: 14.0",
+            "E: 2"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"%04d\", 19);",
+        "answers": [
+            "A: 0019",
+            "B: 19.0",
+            "C: 000019",
+            "D: 19.00",
+            "E: 19"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call simple(3)? \n \n \npublic static int simple(int x){ \n  x++; \n  return x + x; \n}",
+        "answers": [
+            "A: 6",
+            "B: 3",
+            "C: 10",
+            "D: 8",
+            "E: 0"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayIndexOutOfBoundsException. \nString names = \"Bob Don J Tim\"; \nString[] chopped = names.split(\"\\\\s+\"); \nSystem.out.print( chopped.length );",
+        "answers": [
+            "A: 2",
+            "B: 4",
+            "C: 5",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to an"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is returned by the method call rec(4)? \n \n \npublic static int rec(int x){ \n  if(x <= 1) \n    return 1; \n  else \n    return x + rec(x - 1); \n}",
+        "answers": [
+            "A: 4",
+            "B: 1",
+            "C: 24",
+            "D: 10",
+            "E: -1"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method two \nis called? \n \n \n \n \npublic static int one(int x){ \n  return x + x; \n} \n \npublic static int one(int x, int y){ \n  return x + y; \n} \n \npublic static void two(){ \n  System.out.print( one(2, 1) ); \n}",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 1",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nObject obj = new Object(); \nString str = \"grace\"; \nSystem.out.print( obj instanceof String ); \nSystem.out.print( \" \" ); \nSystem.out.print( str instanceof Object );",
+        "answers": [
+            "A: true grace",
+            "B: true false",
+            "C: true true",
+            "D: false false",
+            "E: false true"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString item = \"door\"; \nSystem.out.print( item.matches(\"d..r\") );",
+        "answers": [
+            "A: false",
+            "B: true",
+            "C: door",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n. \n[7, 3] \n \n. \n[0, 3, 7] \nArrayList<Integer> nums  \n= new ArrayList<Integer>();\nnums.add(7); \nnums.add(0, 3); \nSystem.out.print( nums );",
+        "answers": [
+            "A: [3, 7] B",
+            "B: [3]",
+            "C: [7, 0, 3] E"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "Which of the following could replace <*1> in the code \nto the right as a syntactically legal identifier? \n \n \n \nint <*1> = 42;",
+        "answers": [
+            "A: value",
+            "B: int",
+            "C: x+y",
+            "D: num12",
+            "E: More than one of these."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "The code to the right contains a syntax error. Which of \nthe following best describes the reason for the syntax \nerror? \n \n \n \n \nenhanced for loop. \n \nSet<String> smallSet = new Set<String>(); \nsmallSet.add(\"A\"); \nsmallSet.add(\"B\"); \nsmallSet.add(\"A\"); \nfor( String str : smallSet ) \n  System.out.print( str );",
+        "answers": [
+            "A: Duplicates may not be added to a Set.",
+            "B: \"B\" is a char, not a String.",
+            "C: Instances of interfaces cannot be created.",
+            "D: Sets cannot be iterated over using the",
+            "E: Sets cannot contain Strings."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is  output by the code to the right? \n \n \nQueue<String> q = new LinkedList<String>(); \nq.add( \"Z\" ); \nq.add( \"X\" ); \nq.add( \"Y\" ); \nSystem.out.print( q.remove() );",
+        "answers": [
+            "A: X",
+            "B: Y",
+            "C: Z",
+            "D: ZY",
+            "E: YX"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] ary = {5, 7, 3}; \nint[] otherAry = ary; \notherAry[1]++; \notherAry = new int[5]; \nSystem.out.print( ary[1] );",
+        "answers": [
+            "A: 8",
+            "B: 0",
+            "C: 6",
+            "D: 7",
+            "E: 5"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "How many *'s are output by the code to the right? \n \n \nfor(int i = 0; i < 10; i++) \n  for(int j = 0; j < 3; j++) \n    System.out.print(\"*\");",
+        "answers": [
+            "A: 27",
+            "B: 3",
+            "C: 10",
+            "D: 30",
+            "E: 13"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that if the \nelement at index j is less than the element at index temp \naccording to their natural ordering, the statement  \ntemp = j; is executed? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: temp.compareTo( j ) <= 0",
+            "B: data[j] < data[temp]",
+            "C: data[j].compareTo( data[temp] ) == 0",
+            "D: j.compareTo( data[temp] ) > 0",
+            "E: data[j].compareTo( data[temp] ) < 0"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What replaces <*2> in the code to the right so that the \nelements originally at indices i and j in array data  \nare swapped with each other? \n \ni = j; \nj = t; \n \ndata[i] = data[j]; \ndata[j] = t; \n \ndata[j] = data[i] ^ data[j]; \ndata[i] = data[j] ^ data[i]; \n \ndata[j] = data[i]; \n \nAssume <*1> and <*2> are filled in correctly.",
+        "answers": [
+            "A: int t = i;",
+            "B: Comparable t = data[i];",
+            "C: data[i] = data[i] ^ data[j];",
+            "D: data[i] = data[j];",
+            "E: More than one of these."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What sorting algorithm is implemented by methods sort \nand swap? \n \n \n \n \npublic static void sort(Comparable[] data){\n  int temp; \n  int len = data.length; \n  for(int i = 0; i < len - 1; i++){ \n    temp = i; \n    for(int j = i + 1; j < len; j++){ \n      if( <*1> ) \n        temp = j; \n    } \n    swap( data, i, temp); \n  } \n} \n \npublic static void swap(Comparable[] data, \nint i, int j){\n  <*2> \n}",
+        "answers": [
+            "A: Insertion sort",
+            "B: Quick Sort",
+            "C: Selection Sort",
+            "D: Shell Sort",
+            "E: Merge Sort"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to \nindicate that the TreeMap named encode has \nStrings for keys and Integers for values? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: <Integer, String>",
+            "B: <String, int>",
+            "C: <int, String>",
+            "D: <String><int>",
+            "E: <String, Integer>"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nTreeMap<*1> encode = new TreeMap<*1>(); \n \nencode.put(\"M\", 212); \nencode.put(\"A\", 193); \nencode.put(\"T\", 227); \n \n \nIterator< Map.Entry<*1> > it;  \nit = encode.entrySet().iterator(); \nSystem.out.print( it.next().getValue() );",
+        "answers": [
+            "A: 193",
+            "B: M",
+            "C: A",
+            "D: T",
+            "E: 227"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nfirst is called?",
+        "answers": [
+            "A: 1",
+            "B: 0",
+            "C: 2",
+            "D: 5",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What searching algorithm is implemented by methods \nfind and help?",
+        "answers": [
+            "A: linear search",
+            "B: interpolation search",
+            "C: random search",
+            "D: comb search",
+            "E: binary search"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "Given an array that contains N elements what is the \nexpected running time of method find? Choose the \nmost restrictive correct answer. \n \n \n \n/* pre: data != null, elements of data are \nsorted in ascending order. \n*/ \npublic static int find(int tgt, int[] data){ \n  int en = data.length - 1;   \n  return help(0, en, tgt, data); \n} \n \nprivate static int help(int st, int en,  \nint tgt, int[] data){   \n  int result = -1; \n  int md, val; \n  if( st <= en ){ \n      md = (st + en) / 2; \n      val = data[ md ]; \n      if( val == tgt ) \n        result = md; \n      else if( tgt < val ) \n        result =  help(st, md - 1, tgt, data);\n      else \n        result = help(md + 1, en, tgt, data); \n  } \n  return result; \n} \n \npublic static void first(){ \n  int[] data = {0, 5, 19, 100}; \n  System.out.print( find(5, data) ); \n}",
+        "answers": [
+            "A: O(N)",
+            "B: O(1)",
+            "C: O(logN)",
+            "D: O(NlogN)",
+            "E: O(sqrt(N))"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that \nmethod isEmpty returns true if the ArrayList \nmyCon contains 0 elements?  \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: myCon.size() == 0 ? false : true",
+            "B: return size() > 0;",
+            "C: return super.size() == 0",
+            "D: return myCon.size() == 0",
+            "E: super.myCon.isEmpty();"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nsecond is called?",
+        "answers": [
+            "A: CBA",
+            "B: ABC",
+            "C: CB",
+            "D: C",
+            "E: CCC"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What type of data structure does the Structure  class \nimplement? \n \n \npublic class Structure<E>{ \n \n  private ArrayList<E> myCon; \n \n  public Structure(){ \n    myCon = new ArrayList<E>(); \n  } \n \n  public void add(E obj){ \n    myCon.add(obj); \n  } \n \n  public E peek(){ \n    return myCon.get( myCon.size() - 1 ); \n  } \n \n  public boolean isEmpty(){ \n    <*1>; \n  } \n \n  public E remove(){ \n    return myCon.remove(myCon.size() - 1); \n  } \n} \n \n///////// client code ///////// \npublic static void second(){ \n  Structure<String> s  \n= new Structure<String>();\n  s.add( \"A\" ); \n  s.add( \"B\" ); \n  s.add( \"C\" ); \n  while( !s.isEmpty() ) \n    System.out.print( s.remove() ); \n}",
+        "answers": [
+            "A: List",
+            "B: Stack",
+            "C: Queue",
+            "D: Heap",
+            "E: Binary Search Tree"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "Assume the method sample(int[] data) is O(N2) where N = data.length.  When the method sample is passed an \narray with length = 100,000 it takes 2 seconds for method sample to complete. If method sample is then passed an array \nwith length = 200,000 what is the expected time it will take method sample to complete?",
+        "answers": [
+            "A: 2 seconds",
+            "B: 3 seconds",
+            "C: 4 seconds",
+            "D: 6 seconds",
+            "E: 8 seconds"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "The following values are inserted in the order shown into a binary search tree using the traditional insertion algorithm. What is \nthe result of a post order traversal of the resulting tree? \n2, 6, 1, 8, 0",
+        "answers": [
+            "A: 2 1 0 6 8",
+            "B: 0 1 2 6 8",
+            "C: 0 1 8 6 2",
+            "D: 2 1 6 0 8",
+            "E: 0 8 1 6 2"
+        ],
+        "testSource": "Invitational Version A, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 39
+    }
+]

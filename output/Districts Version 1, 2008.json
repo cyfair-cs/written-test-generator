@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of 12316 and DEF16?",
+        "answers": [
+            "A: 102216",
+            "B: F1216",
+            "C: EF016",
+            "D: 100016",
+            "E: FF116"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 11; \nint y = 4; \nSystem.out.print( x / y );",
+        "answers": [
+            "A: 2.0",
+            "B: 2.75",
+            "C: 3.0",
+            "D: 2",
+            "E: 3"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint accum = 0; \nfor(int i = 1; i <= 25; i++) \n  accum = accum + 1; \nSystem.out.print( accum );",
+        "answers": [
+            "A: 26",
+            "B: 25",
+            "C: 0",
+            "D: 1",
+            "E: 325"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString alg = \"Mergesort\"; \nString sub = alg.substring( 4 ); \nSystem.out.print( sub );",
+        "answers": [
+            "A: esort",
+            "B: Merg",
+            "C: s",
+            "D: Merge",
+            "E: sort"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] nums = new int[5]; \nnums[1] = 3; \nnums[3] = 3 + nums[1] * 2; \nSystem.out.print( nums[1] );",
+        "answers": [
+            "A: 9",
+            "B: 1",
+            "C: 3",
+            "D: 6",
+            "E: 0"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble b = 1.5; \nb = b * 2 + 5 / 2; \nSystem.out.println( b );",
+        "answers": [
+            "A: 5",
+            "B: 5.0",
+            "C: 5.5",
+            "D: 6.0",
+            "E: 4.0"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nboolean p = false; \nboolean q = true; \nSystem.out.print( !p && !q ); \nSystem.out.print( \" \" ); \nSystem.out.print( !(p && q) );",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true false",
+            "D: true true",
+            "E: true false true"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint z = 3; \nif( z <= 3 ) \n  z++; \nif( z > 3 ) \n  z++; \nelse \n  z--; \nSystem.out.print( z );",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 2",
+            "D: 6",
+            "E: 5"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "How may constructors does the class Book have?",
+        "answers": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 4",
+            "E: 5"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \n \n \npublic class Book{ \n  private String title; \n  private int pages; \n \n  public Book(String t){ \n    title = t; \n  } \n   \n  public Book(String t, int len){ \n    title = t; \n    pages = len; \n  } \n \n  public boolean longBook(){ \n    return pages > 250; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nBook bk = new Book(\"Blink\", 200); \nSystem.out.print( bk.longBook() );",
+        "answers": [
+            "A: false",
+            "B: true",
+            "C: Blink",
+            "D: 200",
+            "E: Blink:true"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint f = 48; \nint g = 16; \nSystem.out.print( f | g );",
+        "answers": [
+            "A: 32",
+            "B: 16",
+            "C: 48",
+            "D: 0",
+            "E: 1"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble org = -3.5; \nSystem.out.print( Math.abs(org) );",
+        "answers": [
+            "A: 3",
+            "B: 3.5",
+            "C: 4",
+            "D: -3",
+            "E: -3.0"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nSystem.out.print(\"A \\\"hard class\");",
+        "answers": [
+            "A: A \"hard class\"",
+            "B: A hard class",
+            "C: A \"hard class",
+            "D: A \"hard\" class",
+            "E: a hard class"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf( \"%+3d\", 12 );",
+        "answers": [
+            "A: +C",
+            "B: 12.0",
+            "C: +12",
+            "D: -12",
+            "E: 012"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call example(2)? \n \n \npublic static int example(int x){ \n  x++; \n  return x + x - 1; \n}",
+        "answers": [
+            "A: 5",
+            "B: 1",
+            "C: 2",
+            "D: 4",
+            "E: 3"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString garbage = \"851..983gh:23(10\"; \nString[] data = garbage.split(\"\\\\D+\"); \nSystem.out.print( data[1] );",
+        "answers": [
+            "A: 983",
+            "B: ..",
+            "C: 8",
+            "D: 5",
+            "E: gh:"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nClassCastException. \n \nString car = \"Ford\"; \nObject obj = car; \nSystem.out.print( ((String)obj).length() );",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 0",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayList<String> classes; \nclasses = new ArrayList<String>(); \nSystem.out.print( classes.size() );",
+        "answers": [
+            "A: null",
+            "B: 10",
+            "C: 0",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString first = \"rock\"; \nString second = \"roll\"; \nint result = first.compareTo( second ); \n \nif( result < 0 ) \n  System.out.print( 10 ); \nelse if( result > 0 ) \n  System.out.print( 20 ); \nelse \n  System.out.print( 30 );",
+        "answers": [
+            "A: -9",
+            "B: 30",
+            "C: 20",
+            "D: 10",
+            "E: 9"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to set the new \nSoda object's size instance variable to the value of the \nparameter sz? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: size = sz",
+            "B: super.size = sz",
+            "C: super(sz)",
+            "D: this.size = sz",
+            "E: More than one of these."
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \npublic class Drink{ \n  private int size; \n \n  public Drink(int sz){ \n    size = sz; \n  } \n \n  public void sip(){ \n    size--; \n  } \n} \n \npublic class Soda extends Drink{ \n  private int caffeine;  \n \n  public Soda(int sz, int caf){ \n    <*1>; \n    caffeine = caf; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nSoda coke = new Soda(12, 40); \nSoda pepsi = new Soda(12, 40); \nSystem.out.print(coke == pepsi );",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 1240",
+            "D: true",
+            "E: false"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is output by the code to the right when  \ngiven this input? \n2 2.1 3 \n \n \nScanner sc = new Scanner(System.in); \nint sum = 0; \nwhile( sc.hasNextInt() ) \n  sum += sc.nextInt(); \nSystem.out.print( sum );",
+        "answers": [
+            "A: 2",
+            "B: 4",
+            "C: 5",
+            "D: 7",
+            "E: 8"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString name = \"bob\"; \nSystem.out.print( name.matches( \"bo\" ) ); \nSystem.out.print(\" \"); \nSystem.out.print( name.matches( \"b.\" ) );",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true false",
+            "D: true true",
+            "E: true"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayList<Integer> ar; \nar = new ArrayList<Integer>(); \nar.add(3); \nar.add(0); \nar.add(0); \nar.set(1, 2); \nSystem.out.print( ar.toString() );",
+        "answers": [
+            "A: [0, 2, 3]",
+            "B: [3, 0, 1]",
+            "C: [0, 1]",
+            "D: [0, 1, 0, 3]",
+            "E: [3, 2, 0]"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "Which of the following are valid identifiers in Java? \nI. 2far \nII. twoFar \nIII. TWO_FAR",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: II and III"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nString vals = \"abac\"; \nint total = 0; \nchar ch; \n \nfor( int i = 0; i < vals.length(); i++){ \n  ch = vals.charAt(i); \n  switch ( ch ) { \n    case 'a' : total++; break; \n    case 'b' : total *= 2; break; \n    default  : total--; \n  } \n} \n \nSystem.out.print( total );",
+        "answers": [
+            "A: 4",
+            "B: 3",
+            "C: 0",
+            "D: 1",
+            "E: 2"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What is returned by the method call loopy(\"\", 5) ? \n \n \npublic static String loopy(String s, int x){ \n  if( x <= 0 ) \n    return s; \n  else \n    return x + s + loopy(s, x - 2); \n}",
+        "answers": [
+            "A: 531-1",
+            "B: 531",
+            "C: -1135",
+            "D: 135",
+            "E: 135531"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "Which sorting algorithm does the method sort  \nimplement?",
+        "answers": [
+            "A: Insertion sort",
+            "B: Quick sort",
+            "C: Merge sort",
+            "D: Heap sort",
+            "E: Selection sort"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "Assume the array list initially contains these \nelements: \n[9, 4, 11, 7, 5, 13] \nWhat are the contents of the array list at the point \nmarked //line A when the variable i equals 4? \n \n \n \n \n \n \npublic void swap(int[] data, int i, int j){ \n  int t = data[i]; \n  data[i] = data[j]; \n  data[j] = t; \n} \n \npublic void sort(int[] list){  \n  int j; \n  int temp; \n  boolean done; \n   \n  for(int i = 1; i < list.length; i++){ \n    temp = list[i]; \n    j = i; \n    done = temp <= list[j - 1]; \n \n    // line A \n     \n    while( !done ){  \n      swap(list, j, j - 1); \n      j--; \n      done = j == 0 || temp <= list[j - 1];  \n    } \n  } \n}",
+        "answers": [
+            "A: [4, 7, 9, 11, 5, 13]",
+            "B: [5, 4, 7, 9, 11, 13]",
+            "C: [13, 11, 9, 7, 5, 4]",
+            "D: [11, 9, 7, 4, 5, 13]",
+            "E: [9, 4, 11, 7, 5, 13]"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What is returned by the method call one(2)?",
+        "answers": [
+            "A: 3",
+            "B: 2",
+            "C: 9",
+            "D: 4",
+            "E: 6"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is returned by the method call two(3)? \n \n \n \npublic static int one(int x){ \n  x++; \n  return x + x; \n} \n \npublic static int one(int x, int y){ \n  x--; \n  y++; \n  return x * y; \n} \n \npublic static int two(int x){ \n  return one(x) + one(x, x); \n}",
+        "answers": [
+            "A: 9",
+            "B: 24",
+            "C: 16",
+            "D: 17",
+            "E: 26"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What are the elements in the Set named hold after \nthe code to the right executes? \n \n \n \n \n \nthe right executes. \nint[] data = {-1, 1, -1, 2}; \nSet<Integer> hold = new HashSet<Integer>(); \nfor(int i : data) \n  hold.add( i ); \n \nSet<Integer> otherHold; \notherHold = new TreeSet<Integer>(); \nfor(int i : data) \n  otherHold.add( i + 2 ); \n \nhold.removeAll(otherHold);",
+        "answers": [
+            "A: [-1, 1, -1, 2]",
+            "B: [-1]",
+            "C: [3, 5]",
+            "D: [2, -1]",
+            "E: The Set named one is empty after the code to"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that the \nvariable con is made to refer to the same array as the \nvariable temp? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: con = temp",
+            "B: con.equals(temp)",
+            "C: con = new E[temp]",
+            "D: con = new Object[temp.length]",
+            "E: More than one of these."
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nstructDemo is called?",
+        "answers": [
+            "A: 5",
+            "B: 4",
+            "C: 32",
+            "D: 8",
+            "E: 15"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What type of data structure does the Structure  class \nimplement? \n \n \n \n \n \n \npublic class Structure<E>{ \n \n  private E[] con; \n  private int size; \n \n  public Structure(){ \n    size = 0; \n    resize(1); \n  } \n \n  public void add(E obj){ \n    if( size == con.length ) \n      resize( size * 2 ); \n    con[size] = obj; \n    size++; \n  } \n \n  public E get(int pos){ \n    return con[pos]; \n  } \n \n  public int cap(){ \n    return con.length; \n  } \n \n  private void resize(int len){ \n    E[] temp = (E[])(new Object[len]); \n    for(int i = 0; i < size; i++) \n      temp[i] = con[i]; \n    <*1>; \n  } \n} \n \n////////////////////////////////////////// \n// client code \npublic static void structDemo(){ \n  Structure<Integer> s; \n  s = new Structure<Integer>(); \n  for(int i = 1; i <= 5; i++) \n    s.add( i ); \n  System.out.print( s.cap() ); \n}",
+        "answers": [
+            "A: A binary search tree",
+            "B: A list",
+            "C: A set",
+            "D: A heap",
+            "E: A queue"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "In the code to the right, what kind of Collection must \ncol be so that its elements are always printed out in \nascending order? \n \n \n \npublic void show(Collection<Integer> col){ \n  for(int i : col) \n    System.out.println( i ); \n}",
+        "answers": [
+            "A: HashSet",
+            "B: TreeSet",
+            "C: LinkedList",
+            "D: ArrayList",
+            "E: Stack"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \n \nArrayList<String> list; \nlist = new ArrayList<String>(); \nlist.add(\"AA\"); \nlist.add(\"BB\"); \nlist.add(\"A\"); \n \nListIterator<String> it = list.listIterator();\nwhile( it.hasNext() ) \n  if( it.next().length() > 1 ) \n    it.add( \"CC\" ); \n \nSystem.out.print( list.size() );",
+        "answers": [
+            "A: 6",
+            "B: 5",
+            "C: 9",
+            "D: There is no output due to an infinite loop.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What is the running time of method sample? Assume \nN equals x. Choose the most restrictive correct \nanswer. \n \n \n \npublic static int sample(int x){ \n  int total = 0; \n  for(int i = 1; i <= x; i++){ \n    for(int j = 1; j <= x; j *= 2){ \n      total++; \n    } \n  } \n  return total; \n}",
+        "answers": [
+            "A: O(N2)",
+            "B: O(1)",
+            "C: O(N!)",
+            "D: O(NlogN)",
+            "E: O(logN)"
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to set the \nelements at index i in the arrays guess and ans \nto -1? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: guess[i], ans[i] = -1;",
+            "B: guess[i] = -1; ans[i] = guess[i];",
+            "C: guess[i] *= -1; ans[i] *= -1;",
+            "D: guess[i] = ans[i] = -1;",
+            "E: More than one of these."
+        ],
+        "testSource": "Districts Version 1, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 39
+    }
+]

@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of 10012 and 112?",
+        "answers": [
+            "A: 11002",
+            "B: 11112",
+            "C: 10102",
+            "D: 1112",
+            "E: 10112"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "int x = 3000 / 10 / 100 * 2; \nSystem.out.print(x); \n What is output by the code to the right?",
+        "answers": [
+            "A: 2",
+            "B: 1",
+            "C: 0",
+            "D: 6",
+            "E: 1.5"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "int count = 0; \nfor(int i = 0; i < 20; i++) \n  count++; \nSystem.out.print(count); \n What is output by the code to the right?",
+        "answers": [
+            "A: 19",
+            "B: 10",
+            "C: 20",
+            "D: 0",
+            "E: 1"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "String nm = \"Yourdon\"; \nString part = \"\"; \npart = part + nm.charAt(1) + nm.charAt(3); \nSystem.out.println(part); \n What is output by the code to the right?",
+        "answers": [
+            "A: Yu",
+            "B: oo",
+            "C: yu",
+            "D: or",
+            "E: Yourdon"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "int[] nums = {5, 1, 7, 5, 5, 3, 5}; \nSystem.out.print(nums[5]); \n What is output by the code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 4",
+            "C: 3",
+            "D: null",
+            "E: 5"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "int w = 10; \ndouble c = w / 4 + 2.5; \nSystem.out.print(c); \n What is output by the code to the right?",
+        "answers": [
+            "A: 1",
+            "B: 42.5",
+            "C: 5",
+            "D: 4.5",
+            "E: 5.0"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which answer is logically equivalent to the following boolean expression, where p and q are boolean variables? \n !(p || !q)",
+        "answers": [
+            "A: !q",
+            "B: !p && q",
+            "C: !p || q",
+            "D: !p && !q",
+            "E: p"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "int x = 12; \nint y = 12; \nif( x < y ) \n  System.out.print(1); \nif( x <= y ) \n  System.out.print(2); \nelse \n  System.out.print(3); \n What is output by the code to the right?",
+        "answers": [
+            "A: 2",
+            "B: 12",
+            "C: 1",
+            "D: 123",
+            "E: 13"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "public class City{ \n \n  private String name; \n  private int pop; \n \n  public City(String nm){ \n    <*1>; \n  } \n \n  public City(String nm, int p){ \n    name = nm; \n    pop = p; \n  } \n \n  public String toString(){ \n    return name + \" \" + pop; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nCity c1 = new City(\"Waco\", 100000); \nSystem.out.println( c1 ); \n What replaces <*1> in the code to the right to call the \nconstructor in the City class with two parameters using \nnm as the first argument and 0 as the second? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: super(nm, 0)",
+            "B: this(nm, 0)",
+            "C: this.City(nm, 0)",
+            "D: super.City(nm, 0)",
+            "E: City(nm, 0)"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: waco 100,000",
+            "B: c1",
+            "C: Waco 0",
+            "D: WACO",
+            "E: Waco 100000"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "int bx = 10; \nint ax = ~bx; \nSystem.out.print(bx + \" \" + ax); \n What is output by the code to the right?",
+        "answers": [
+            "A: -11 -11",
+            "B: 10 10",
+            "C: 10 -1",
+            "D: 10 -2",
+            "E: 10 -11"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "double res = Math.pow(5, 2); \nSystem.out.print(res); \n What is output by the code to the right?",
+        "answers": [
+            "A: 32",
+            "B: 32.0",
+            "C: 25",
+            "D: 25.0",
+            "E: 10.0"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "String letters = \"P\\tT\"; \nSystem.out.print(letters); \n What is output by the code to the right?",
+        "answers": [
+            "A: P    T",
+            "B: Pt",
+            "C: PTT",
+            "D: P\\tT",
+            "E: PtT"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "double value = 19.591; \nSystem.out.printf(\"%7.5f\", value); \n What is output by the code to the right?",
+        "answers": [
+            "A: 19.5910000",
+            "B: 20.0",
+            "C: 7.5",
+            "D: 19.5910",
+            "E: 19.59100"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "public int process(int x){ \n  int y = x; \n  x++; \n  y--; \n  return x * y; \n} \n What is returned by the method call process(3)?",
+        "answers": [
+            "A: 9",
+            "B: 8",
+            "C: 0",
+            "D: 3",
+            "E: 5"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "for(int r = 0; r < 10; r++) \n  for(int c = 0; c < 5; c++) \n    System.out.print('*'); \n How many '*'s are output by the code to the right?",
+        "answers": [
+            "A: 20",
+            "B: 50",
+            "C: 6",
+            "D: 15",
+            "E: 30"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "String garbage = \":car:-)bat:-(a!!d\"; \nString arg1 = \"[^a-zA-Z]+\"; \nString[] parts = garbage.split(arg1); \nSystem.out.print( parts[1] + parts[3] ); \n What is output by the code to the right?",
+        "answers": [
+            "A: cara",
+            "B: bata",
+            "C: :-):-(",
+            "D: ::-)",
+            "E: batd"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "int[] vals = {-2, 0, 7, 10, 12, 3, 2}; \nint total = 0; \nfor(int i = 0; i < vals.length; i++){ \n  total += vals[i]; \n  if(total >= 10) \n    break; \n} \nSystem.out.print(total); \n What is output by the code to the right?",
+        "answers": [
+            "A: 4",
+            "B: 17",
+            "C: 32",
+            "D: 34",
+            "E: 15"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "int offset = 3; \nchar ch = 'N'; \nch = (char)(ch + offset); \nSystem.out.print(ch); \n What is output by the code to the right?",
+        "answers": [
+            "A: 91",
+            "B: 17",
+            "C: 'Q'",
+            "D: '17'",
+            "E: Q"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "String start = \"ABCDEFG\"; \nString result = \"\"; \nfor(int i = 1; i < start.length(); i += i) \n  result += start.charAt(i); \nSystem.out.print(result); \n What is output by the code to the right? \n \n \n \nStringIndexOutOfBoundsException.",
+        "answers": [
+            "A: ABD",
+            "B: AAAAAAA",
+            "C: BCE",
+            "D: BCDEFG",
+            "E: There is no output due to a"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "public class Media \n \npublic class Paper extends Media \n \npublic class SchoolPaper extends Paper \n \npublic class TVShow extends Media \n Consider the class headers to the right. Assume all of the \nclasses to the right have a default constructor. Which of the \nfollowing statements will cause a syntax error? \nI. \nII. \nIII. \nMedia m1 = new TVShow(); \nMedia m2 = new SchoolPaper(); \nSchoolPaper p1 = new Paper();",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II only",
+            "E: I, II, and III"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "public class Brick{ \n  private boolean hidden; \n \n  public void hit(){ \n    hidden = true; \n  } \n \n  public boolean isShowing(){ \n    return !hidden; \n  } \n} \n What is output by the following client code? \nBrick b1 = new Brick(); \nBrick b2 = new Brick(); \nb1.hit(); \nSystem.out.print( b1.isShowing() + \" \");\nSystem.out.print( b2.isShowing() ); \n \n \n \nthe client code.",
+        "answers": [
+            "A: false true",
+            "B: true false",
+            "C: false false",
+            "D: true true",
+            "E: There is no output due to a runtime error caused by"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "public class ToughBrick extends Brick{ \n  private int reqHits; \n  private int hits; \n \n  public ToughBrick(){ \n    reqHits = 2; \n  } \n \n  public void hit(){ \n    hits++; \n    if(hits == reqHits) \n      hidden = true; \n  } \n} \n This question makes use of the Brick class from \nquestion 22. What is output by the following client code? \nToughBrick t1 = new ToughBrick(); \nt1.hit(); \nSystem.out.print( t1.isShowing() + \" \"); \nt1.hit(); \nSystem.out.print( t1.isShowing() ); \n \n \n \nToughBrick class.",
+        "answers": [
+            "A: false true",
+            "B: true false",
+            "C: false false",
+            "D: true true",
+            "E: There is no output due to a syntax error in the"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "Which of the following is not a Java keyword?",
+        "answers": [
+            "A: throw",
+            "B: switch",
+            "C: do",
+            "D: finally",
+            "E: range"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "int num = -13; \nint div = 5; \nSystem.out.print( num % div ); \nSystem.out.print( \" \" + (num / div) ); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3 2",
+            "B: 3 -2.6",
+            "C: -5 -2",
+            "D: -3 -2",
+            "E: 3 -2"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "The quicksort algorithm sorts values in an array into ascending order based on the following algorithm: \npick the pivot \npartition the elements of the array based on the pivot \nquicksort the elements less than or equal to the pivot \nquicksort the elements greater than the pivot \nGiven the following initial array: \n{5, 8, 12, 10, -5, 7, 13} \nWhich of the following is a possible ordering of the elements of the array after the first partition assuming the middle element \nof the array (the value 10 in this case) is chosen as the first pivot?",
+        "answers": [
+            "A: {-5, 8, 7, 5, 10, 12, 13}",
+            "B: {13, 5, 12, 10, -5, 7, 8}",
+            "C: {10, 5, 8, -5, 7, 12, 13}",
+            "D: {12, 13, 5, -5, 8, 7, 10}",
+            "E: {5, 8, 12, 10, -5, 7, 13}"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "Given an array of N distinct elements in random order, what is the Big O of the traditional implementation of the quicksort \nalgorithm?",
+        "answers": [
+            "A: O(NlogN)",
+            "B: O(N2)",
+            "C: O(N2logN)",
+            "D: O(N3/2)",
+            "E: O(N3)"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "double aa = 2.4; \ndouble bb = 1.6; \nint x = (int)aa + (int)bb; \nSystem.out.print(x); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3.0",
+            "B: 4",
+            "C: 4.0",
+            "D: 3",
+            "E: 5"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "int[] small = {-3, 4, 1, 2}; \nint index = small[0]; \nif(index > 0 && index < small.length  \n    && small[index] > index){ \n  System.out.print( small[index] ); \n} \nSystem.out.print(index); \n What is output by the code to the right? \n \n \n \nArrayIndexOutOfBoundsException.",
+        "answers": [
+            "A: false0",
+            "B: -3",
+            "C: true0",
+            "D: 4",
+            "E: There is no output due to an"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "String st = \"XA\"; \nst = st + st + st; \nSystem.out.print(st); \n What is output by the code to the right?",
+        "answers": [
+            "A: \"XA\"",
+            "B: XAXAXAXA",
+            "C: XAXAXA",
+            "D: XXXAAA",
+            "E: \"XAXAXA\""
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "// pre: list.length > 0 \npublic double max(double[] list){ \n  double max = 0.0; \n  for(double d : list) \n    if( d > max ) \n      max = d; \n  return max; \n} \n Method max to the right is suppose to return the max \nvalue in the array named list but it does not always \nwork as intended. What must be changed to make the \nmethod work as intended? \n \nif( d <= max) \n \nto for(double d : list<Double>) \n \nto for(double d = list[0] : list) \n \nreturn d; \n \ndouble max = list[0];",
+        "answers": [
+            "A: Change the segment if( d > max ) to",
+            "B: Change the segment for(double d : list)",
+            "C: Change the segment for(double d : list)",
+            "D: Change the statement return max; to",
+            "E: Change the statement double max = 0.0; to"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "Set<Character> chs; \nchs = new TreeSet<Character>(); \nString ta1 = \"milner\"; \nfor(int i = 0; i < ta1.length(); i++) \n  chs.add(ta1.charAt(i)); \n \nArrayList<Character> lst; \nlst = new ArrayList<Character>(); \nString ta2 = \"manblum\"; \nfor(int i = 0; i < ta2.length(); i++) \n  lst.add(ta2.charAt(i)); \n \nSystem.out.print(chs.retainAll(lst)); \nSystem.out.print(chs); \n What is output by the code to the right?",
+        "answers": [
+            "A: true[l, m, n]",
+            "B: true[l, m, m, n]",
+            "C: false[l, m, m, n]",
+            "D: null[l, m, n]",
+            "E: true[a, b, u]"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "int b1 = 8; \nint b2 = 7; \nb2 = b1 | b2 & 17; \nSystem.out.print(b2); \n What is output by the code to the right?",
+        "answers": [
+            "A: true",
+            "B: 25",
+            "C: 9",
+            "D: 15",
+            "E: false"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "PriorityQueue<Integer> pq; \npq = new PriorityQueue<Integer>(); \npq.add(13); \npq.add(7); \npq.add(7); \npq.add(10); \nSystem.out.print( pq.remove() + \" \"); \nSystem.out.print( pq.remove() ); \n What is output by the code to the right?",
+        "answers": [
+            "A: 7 7",
+            "B: 10 13",
+            "C: 13 10",
+            "D: 7 10",
+            "E: 13 7"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "String[] initials = {\"GM\", \"OAS\", \"LA\",  \n\"IB\", \"JLR\"};\nArrayList<String> con; \ncon = new ArrayList<String>(); \nfor(String s : initials) \n  con.add(s); \n \nIterator<String> it = con.iterator(); \nwhile(it.hasNext()) \n  if(it.next().length() == 2) \n    System.out.print(it.next()); \n What is output by the code to the right? \n \n \n \n \n \nNoSuchElementException.",
+        "answers": [
+            "A: IB",
+            "B: OASIB",
+            "C: OASJLR",
+            "D: GMLAIB",
+            "E: There is no output due to a"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "public int problem(double[][] mat){ \n  int res = 0; \n  int m = -1; \n  for(int i = 0; i < mat.length; i++){ \n    int var = 0; \n    for(int j = 0; j < mat[i].length; j++) \n      if( mat[i][j] < 0 ) \n        var++; \n    if( var > m ){ \n      res = i; \n      m = var; \n    } \n  } \n  return res; \n} \n Which of the following best describes what method \nproblem returns? \n \n \ncontains the minimum value in mat. \n \nnegative value. \n \ncontains the most negative values.",
+        "answers": [
+            "A: The maximum value in mat.",
+            "B: The index of the row in mat closest to 0 that",
+            "C: The index of the last row in mat that contains a",
+            "D: The index of the row in mat closest to 0 that",
+            "E: The minimum value in mat."
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "char[] arr = {'a', 'B', 'A', 'a'}; \nArrays.sort(arr); \nSystem.out.println( Arrays.toString(arr) );\n What is output by the code to the right?",
+        "answers": [
+            "A: [a, a, A, B]",
+            "B: [A, B, a, a]",
+            "C: [B, A, a, a]",
+            "D: [A, a, a, B]",
+            "E: [a, A, B]"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "String nm = \"Wirth\"; \nboolean result = nm instanceof ArrayList; \nSystem.out.println(result); \n What is output by the code to the right?",
+        "answers": [
+            "A: null",
+            "B: true",
+            "C: false",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "public class Structure<E>{ \n \n  private ArrayList<E> con; \n \n  public Structure(){ \n    con = new ArrayList<E>(); \n  } \n \n  public boolean add(E obj){ \n    boolean result = con.contains(obj); \n    if( !result ) \n      con.add(obj); \n    return result; \n  } \n \n  public boolean present(E obj){ \n    return con.contains(obj); \n  } \n \n  public int size(){ \n    return con.size(); \n  } \n \n  public boolean remove(E obj){ \n    return con.remove(obj); \n  } \n}  \n What is output by the following client code? \nStructure<String> s; \ns = new Structure<String>(); \ns.add(\"A\"); \ns.add(\"B\"); \ns.add(\"B\"); \ns.add(\"AB\"); \ns.add(\"A\"); \nSystem.out.print(s.size());",
+        "answers": [
+            "A: 3",
+            "B: 2",
+            "C: 5",
+            "D: 10",
+            "E: 6"
+        ],
+        "testSource": "Invitational Version A, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 39
+    }
+]

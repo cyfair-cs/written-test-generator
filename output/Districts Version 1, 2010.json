@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of DC16 and AC16?",
+        "answers": [
+            "A: ED16",
+            "B: 232416",
+            "C: 18816",
+            "D: 17C16",
+            "E: 1EF16"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "int x = 3 * 5 + 6 / 2 - 1; \nSystem.out.print(x); \n What is output by the code to the right?",
+        "answers": [
+            "A: 21",
+            "B: 33",
+            "C: 17",
+            "D: 15",
+            "E: 14"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "int mark = 0; \nfor(int i = -2; i < 5; i++) \n  mark += 2; \nSystem.out.print(mark); \n What is output by the code to the right?",
+        "answers": [
+            "A: 8",
+            "B: 14",
+            "C: 10",
+            "D: 12",
+            "E: 7"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "String gamer = \"Louis-von-Ahn\"; \nString part = gamer.substring(4, 8); \nSystem.out.print(part); \n What is output by the code to the right?",
+        "answers": [
+            "A: s-vo",
+            "B: Louin-Ahn",
+            "C: s-von",
+            "D: s-von-Ah",
+            "E: s-von-Ahn"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "int x = 2; \nint[] vals = {12, 56, 34, x + 2, x, 3}; \nSystem.out.print(vals.length); \n What is output by the code to the right?",
+        "answers": [
+            "A: 9",
+            "B: 7",
+            "C: 6",
+            "D: 4",
+            "E: 5"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "int w = 10; \nint z = 7; \nz = w / 4 + z / 2; \nSystem.out.print(z); \n What is output by the code to the right?",
+        "answers": [
+            "A: 6",
+            "B: 12",
+            "C: 4",
+            "D: 7",
+            "E: 5"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "boolean a, b, c; \n//code to initialize a, b, and c \n \nboolean d = !a || b || !c; \n In the code to the right, how many of the 8 possible \ncombinations of values for the variables a, b, and c will \nresult in d being set to true?",
+        "answers": [
+            "A: 1",
+            "B: 0",
+            "C: 7",
+            "D: 4",
+            "E: 8"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "boolean p = true; \nboolean q = false; \nif( p && q ){ \n  if( p || q ) \n    System.out.print(1); \n  else \n    System.out.print(2); \n}else \n  System.out.print(3); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3",
+            "B: 12",
+            "C: 2",
+            "D: 23",
+            "E: 1"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "public class Point{ \n   \n  private int x; \n  private int y; \n \n  public Point(int x, int y){ \n    this.x = x; \n    this.y = y; \n  } \n \n  public String toString(){ \n    return x + \",\" + y; \n  } \n} \n \npublic class Point3D <*1> Point{ \n \n  private int z; \n   \n  public Point3D(int x, int y, int z){ \n    super(x, y); \n    this.z = z; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nPoint3D p3 = new Point3D(0, 1, 2); \nSystem.out.println( p3.toString() ); \n What replaces <*1> in the code to the right so the \nPoint3D class inherits the Point class? \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: inherit",
+            "B: inherits",
+            "C: static",
+            "D: extends",
+            "E: implements"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: x,y",
+            "B: 0,1",
+            "C: 1,2",
+            "D: 0,0",
+            "E: 0,1,2"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "int bx = 500; \nint ax = bx >> 4; \nSystem.out.print(ax + \" \" + bx); \n What is output by the code to the right?",
+        "answers": [
+            "A: 31 500",
+            "B: 500 500",
+            "C: 62 500",
+            "D: 8000 500",
+            "E: 62 62"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "int st = 101; \ndouble res = Math.floor( Math.sqrt(st) ); \nSystem.out.print(res); \n What is output by the code to the right?",
+        "answers": [
+            "A: 11.0",
+            "B: 10",
+            "C: 10201",
+            "D: 10.0",
+            "E: 10.04"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "String langs = \"C\\tC++\\tJava\"; \nSystem.out.print(langs); \n What is output by the code to the right?",
+        "answers": [
+            "A: C    C++    Java",
+            "B: C\\tC++\\tJava",
+            "C: \"C\\tC++\\tJava\"",
+            "D: CTC++TJava",
+            "E: C"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "int value = 1205; \nSystem.out.printf(\"%06d\", value); \n What is output by the code to the right?",
+        "answers": [
+            "A: 120500",
+            "B: +1205",
+            "C: 1205d",
+            "D: 001205",
+            "E: 1205"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "public boolean validate(int x, int y){ \n  boolean result =  y > x && x >= 0; \n  result = result && x <= 100 && y <= 100; \n  result = result && y >= 0; \n  return result; \n} \n  \n What is returned by the method call  \nvalidate(3, 10)?",
+        "answers": [
+            "A: 0",
+            "B: null",
+            "C: true",
+            "D: 1",
+            "E: false"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "final int LIMIT = 10; \nfor(int i = 0; i < LIMIT; i++) { \n  for(int j = 0; j < LIMIT; j++) { \n    System.out.print('*'); \n  } \n} \n How many '*'s are output by the code to the right?",
+        "answers": [
+            "A: 100",
+            "B: 10",
+            "C: 81",
+            "D: 11",
+            "E: 20"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "String lang = \"Python\"; \nString changed = \"\"; \nfor(int i = 0; i < lang.length(); i++){ \n  char c = <*1>; \n  changed = c + changed; \n} \nSystem.out.print(changed); \n \n What replaces <*1> in the code to the right to obtain the \ncharacter at position i in the String lang? \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: charAt(i)",
+            "B: lang.substring(i,i)",
+            "C: lang[i]",
+            "D: lang.substring(i)",
+            "E: lang.charAt(i)"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right?",
+        "answers": [
+            "A: n",
+            "B: Python",
+            "C: Pytho",
+            "D: nohtyP",
+            "E: P"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "int result = 12; \nint[] values = {2, 4}; \nresult /= values[0] + values[1]; \nSystem.out.print(result); \n What is output by the code to the right?",
+        "answers": [
+            "A: 10",
+            "B: 3",
+            "C: 2",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "ArrayList<String> st1; \nst1 = new ArrayList<String>(); \nArrayList<String> st2 = null; \nArrayList<String> st3; \nst3 = new ArrayList<String>(); \nSystem.out.print(st1.equals(st2)); \nSystem.out.print(\" \" + st1.equals(st3)); \n What is output by the code to the right? \n \n \n \nNullPointerException.",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true false",
+            "D: true true",
+            "E: There is no output due to a"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "int min = -3; \nint r = 4; \ndouble init = Math.random(); \nint rand = (int)(init * r) + min; \nSystem.out.print(rand); \n What are the possible values the code to the right will \noutput?",
+        "answers": [
+            "A: -3, -2, -1",
+            "B: -3, 3",
+            "C: 0, 1, 2, 3",
+            "D: -3, -2, -1, 0",
+            "E: -3, -2, -1, 0, 1, 2, 3"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "Which of the following is not a Java keyword?",
+        "answers": [
+            "A: this",
+            "B: short",
+            "C: long",
+            "D: super",
+            "E: ifelse"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "// pre: t != null \npublic int figure(String[] wds, String t) {\n  int start = wds.length - 1; \n  for(int i = start; i >= 0; i--) { \n    if( wds[i] != null  \n        && wds[i].equals(t) ) \n      return i; \n  } \n  return -1; \n}  \n \n What does method figure return if t is \"aa\" and \nwds is the following array: \n{\"aaa\", \"aa\", \"AAA\", \"aa\", \"a\", \"aa\"}",
+        "answers": [
+            "A: 5",
+            "B: 6",
+            "C: 2",
+            "D: -1",
+            "E: 1"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "Which searching algorithm does method figure \nimplement?",
+        "answers": [
+            "A: merge",
+            "B: binary",
+            "C: sequential",
+            "D: interpolation",
+            "E: radix"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "int accum = 3; \n++accum; \naccum++; \naccum += 1; \naccum = accum + 1; \nSystem.out.print(accum); \n What is output by the code to the right?",
+        "answers": [
+            "A: 7",
+            "B: 6",
+            "C: 5",
+            "D: 4",
+            "E: 3"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "// pre: no elements of list equal null \npublic void myst(ArrayList<String> list) { \n  Iterator<String> it = list.iterator(); \n   \n  while( it.hasNext() ) { \n    String temp = <*1>; \n    if( temp.length() % 2 == 0 ) \n      it.remove(); \n  } \n \n} \n What replaces <*1> in the code to the right to advance the \nIterator named it to get the next element in the \niteration? \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: it.next()",
+            "B: it.get()",
+            "C: list.get()",
+            "D: E next()",
+            "E: it.hasNext<E>()"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "Which of the following best describes what method myst \ndoes? \n \ninitially at odd positions. \n \n \n \nlist. \n \nlist.",
+        "answers": [
+            "A: Removes all Strings from list that were",
+            "B: Always removes all elements from list.",
+            "C: Removes Strings with an even length from list.",
+            "D: Moves Strings with an even length to the end of",
+            "E: Nothing. The method will never result in a change to"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "ArrayList<Character> chars; \nchars = new ArrayList<Character>(); \nString name = \"Cline\"; \n \nfor(int i = 0; i < name.length(); i++) \n  chars.add(name.charAt(i)); \n \nfor(char c : chars) \n  System.out.print(c); \n What is output by the code to the right?",
+        "answers": [
+            "A: enilC",
+            "B: CCCCC",
+            "C: Cline",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "int[] data = {12, -5, 4, 3, 10}; \nPriorityQueue<Integer> holder; \nholder = new PriorityQueue<Integer>(); \nfor(int i : data) \n  holder.add(i); \n \nSystem.out.print(holder.remove() + \" \"); \nSystem.out.print(holder.remove()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12 -5",
+            "B: 3 10",
+            "C: -5 3",
+            "D: 12 10",
+            "E: -5 -5"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "public int instrumentedSort(int[] list){ \n  int count = 0;  \n  for(int i = 1; i < list.length; i++) { \n    int temp = list[i]; \n    int j = i; \n    while( j > 0 && temp < list[j - 1]) { \n      list[j] = list[j - 1]; \n      list[j - 1] = temp; \n      j--; \n      count++; \n    } \n  } \n  return count; \n} \n What is returned by method instrumentedSort if \nlist is the following array? \n{-1, 5, 12, 14, -5, 20, 31}",
+        "answers": [
+            "A: 6",
+            "B: 8",
+            "C: 21",
+            "D: 4",
+            "E: 28"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "Which sorting algorithm does method \ninstrumentedSort implement?",
+        "answers": [
+            "A: selection sort",
+            "B: quicksort",
+            "C: heap sort",
+            "D: merge sort",
+            "E: insertion sort"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "public int explore(int tgt, int r, int c,  \nint[][] mat) {\n  int total = 0; \n  if(0 <= r && r < mat.length  \n      && 0 <= c && c < mat[0].length){\n   \n    int[] rd = {-1, -1, 1, 1}; \n    int[] cd = {-1, 1, -1, 1}; \n    if( mat[r][c] == tgt ) { \n      mat[r][c]--; \n      total++; \n      for(int i = 0; i < 4; i++){ \n        int nr = r + rd[i]; \n        int nc = c + cd[i]; \n        total += explore(tgt, nr, nc, mat);\n      } \n    } \n  } \n  return total; \n}   \n What is returned by the method call  \nexplore(-1, 1, 1, mat)  \nif mat is the matrix shown below? \n-1 -1 0 2 1 6 \n0 -1 -1 -1 -1 -1 \n2 2 -1 1 13 1 \n11 -1 13 13 0 20",
+        "answers": [
+            "A: 1",
+            "B: 5",
+            "C: 8",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "The following values are added one at a time, in the order shown to a binary search tree using the traditional insertion \nalgorithm. How many nodes in the resulting tree have a depth of 3? The depth of a node is the number of links from the root \nnode of the tree to that node. The root node has a depth of 0. \n11, 30, 9, 16, 14, 4, 29, 34, 78, 58",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 3",
+            "D: 4",
+            "E: 9"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "public int treat(int x){ \n  int total = 0; \n  for(int i = 0; i < x; i++) \n    for(int j = 0; j < x; j++) \n      total++; \n   \n  for(int i = 0; i < x; i++){ \n    int total = 3; \n    for(int j = 0; j < x; j++){ \n      total += 3; \n    } \n  } \n \n  return total; \n} \n What is returned by the method call treat(3)?",
+        "answers": [
+            "A: 9",
+            "B: 6",
+            "C: 3",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "int num = -17; \nint div = 5; \nSystem.out.print( num % div ); \n What is output by the code to the right?",
+        "answers": [
+            "A: -3",
+            "B: -2",
+            "C: 0",
+            "D: 3",
+            "E: 2"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "public interface Movable{ \n  public int dx(); \n  public int dy(); \n} \n \npublic class Plane implements Movable{ \n  public int dx(){ return 100; } \n  public int dy(){ return 10;} \n} \n \npublic class Jet extends Plane{ \n  public int dy(){ return 50; }; \n} \n \n// client code \nPlane p1 = new Plane(); \nPlane p2 = new Jet(); \nSystem.out.print(p1.dy() + \" \" + p1.dx()); \nSystem.out.print(\" \"); \nSystem.out.print(p2.dy() + \" \" + p2.dx()); \n What is output by the client code to the right?",
+        "answers": [
+            "A: 10 100 50 0",
+            "B: 10 100 10 100",
+            "C: 10 100 50 100",
+            "D: 10 10 10 10",
+            "E: 50 100 50 100"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "Consider the following class: \npublic class Bike implements Movable{ \n  public int x; \n \n  public Bike(){ \n    x = 1; \n  } \n \n  public int dx(){ return x; } \n} \nWhich of the following best explains why the Bike class \nwill not compile? \n \n \n \nnamed y. \n \nrequired by the Movable interface. \n \nmethod.",
+        "answers": [
+            "A: The instance variable x may not be public.",
+            "B: The Bike class cannot have any constructors.",
+            "C: The Bike class must have an instance variable",
+            "D: The Bike class does not have a dy method as",
+            "E: The Bike class does not have a toString"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "public class Structure<E> { \n  private E data; \n  private Structure<E> s; \n \n  <*1>(E d){ \n    data = d; \n  } \n \n  public void add(E d){ \n    if(s == null) \n      s = new Structure<E>(d); \n    else \n      s.add(d); \n  } \n \n  public E get(int p){ \n    return get(p, 0); \n  } \n \n  private E get(int p, int c){ \n    if(c == p) \n      return data; \n    else \n      return s.get(p, c + 1); \n  } \n \n  public Structure<E> remove(int p){ \n    return remove(p, 0); \n  } \n \n  private Structure<E> remove(int p,  \n    int c){\n    if(p == c) \n      return s; \n    else \n      s = s.remove(p, c + 1); \n    return this; \n  }   \n}   \n \n// client method \npublic Structure<Integer> demo(int[] vals){\n  Structure<Integer> s; \n  s = new Structure<Integer>(vals[0]); \n  for(int i = 1; i < vals.length; i++) \n    s.add(vals[i]); \n  return s; \n} \n What replaces <*1> in the code to the right to make the \ncode block a constructor for the Structure class that \ncan be accessed by all other classes? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: public Structure",
+            "B: public Structure<Integer>",
+            "C: public Structure<Object>",
+            "D: public Structure<E>",
+            "E: Structure"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What is the Big O of the client method demo to the right \nif  N = vals.length? Choose the most restrictive \ncorrect answer.",
+        "answers": [
+            "A: O(N!)",
+            "B: O(N)",
+            "C: O(2N)",
+            "D: O(NlogN)",
+            "E: O(N2)"
+        ],
+        "testSource": "Districts Version 1, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 39
+    }
+]

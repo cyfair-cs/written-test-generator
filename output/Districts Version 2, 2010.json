@@ -1,0 +1,510 @@
+[
+    {
+        "questionDescription": "What is the sum of 6718 and 1118?",
+        "answers": [
+            "A: 10028",
+            "B: 7008",
+            "C: 7028",
+            "D: 7728",
+            "E: 11128"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "int x = 3; \nx += x * 2; \nSystem.out.print(x); \n What is output by the code to the right?",
+        "answers": [
+            "A: 15",
+            "B: 27",
+            "C: 9",
+            "D: 3",
+            "E: 12"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "int ticks = 0; \nfor(int j = 1; j < 12; j++) \n  ticks++; \nSystem.out.print(ticks); \n What is output by the code to the right?",
+        "answers": [
+            "A: 10",
+            "B: 11",
+            "C: 12",
+            "D: 0",
+            "E: 13"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "String tux = \"Linus--Torvalds--\"; \nSystem.out.print( tux.indexOf(\"--\") ); \n What is output by the code to the right?",
+        "answers": [
+            "A: 15",
+            "B: 5",
+            "C: 7",
+            "D: 6",
+            "E: 8"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "int[] lows = {-1, -4, -1, 4, 32}; \nlows[3]++; \nSystem.out.print(lows[3]); \n What is output by the code to the right?",
+        "answers": [
+            "A: 5",
+            "B: 0",
+            "C: 1",
+            "D: 3",
+            "E: 33"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "int w = 3; \nint z = 2; \nSystem.out.print( z + w / z % (w * z) ); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3",
+            "B: 2",
+            "C: 6.5",
+            "D: 6",
+            "E: 8"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "boolean p = false; \nboolean q = true; \nboolean r = p || q; \nSystem.out.print((p && q) + \" \"); \nSystem.out.print(q && !r); \n What is output by the code to the right?",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true false",
+            "D: true true",
+            "E: false true true false"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "int x = 4; \nint y = 8; \nif( x > y || x == y) \n  System.out.print(1); \nelse \n  System.out.print(2); \nif( x * y > x + y ) \n  System.out.print(3); \nelse \n  System.out.print(4); \n What is output by the code to the right?",
+        "answers": [
+            "A: 13",
+            "B: 14",
+            "C: 23",
+            "D: 24",
+            "E: 1234"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "public class Ticket{ \n  private int price; \n \n  public Ticket(int p){ \n    price = p; \n  } \n \n  public String toString(){ \n    return price + \"\"; \n  } \n} \n \npublic class StudentTicket extends Ticket{ \n  private double discount; \n   \n  public StudentTicket(int p, double d){ \n    super(p); \n    discount = d; \n  } \n \n  public String toString(){ \n    return super.toString() + \",\" + \n      (discount * 100) + \"% off\"; \n  }    \n} \n \n////////////////////////////////////////// \n// client code \nStudentTicket t; \nt = new StudentTicket(20, 0.2); \nSystem.out.print(t); \n How many constructors does the StudentTicket class \nhave?",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 2",
+            "D: 3",
+            "E: 4"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: 20,20.0off",
+            "B: 20,0.2off",
+            "C: 20,20.0% off",
+            "D: 20 off",
+            "E: ,20.0% off"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "int ax = 31; \nint bx = 63; \nint cx = ax ^ bx; \nSystem.out.print(cx); \n What is output by the code to the right?",
+        "answers": [
+            "A: 32",
+            "B: 63",
+            "C: 64",
+            "D: 94",
+            "E: 91"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "double st = 12.99; \nSystem.out.print( Math.round(st) ); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12",
+            "B: 13",
+            "C: 13.0",
+            "D: 12.0",
+            "E: 20"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "String team = \"(Cards)\"; \nSystem.out.print(\"\\\"\" + team + \"\\\"\"); \n What is output by the code to the right?",
+        "answers": [
+            "A: Cards",
+            "B: (Cards)",
+            "C: \"(Cards)\"",
+            "D: \\Cards\\",
+            "E: \"\"(Cards)\"\""
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "double value = 0.3500; \nSystem.out.printf(\"%7.3f\", value); \n What is output by the code to the right? \nIn the answers below ␢ indicates a space.",
+        "answers": [
+            "A: .35",
+            "B: 0.35",
+            "C: ␢␢0.350",
+            "D: 7.3",
+            "E: 0.3500000"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "public double manip(int x, double a){ \n  x *= -1; \n  a = x - a; \n  a++; \n  return a; \n} \n What is returned by the method call manip(-2, 2.5)?",
+        "answers": [
+            "A: -5.5",
+            "B: -3.5",
+            "C: 0.0",
+            "D: 0.5",
+            "E: 1.0"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "int x2 = 20; \nint y2 = 2; \nx2 = x2 / (4 / 2); \nint x3 = 20 / 4 / y2; \nSystem.out.print(x2 + \" \" + x3); \n What is output by the code to the right?",
+        "answers": [
+            "A: 2 2",
+            "B: 10 0",
+            "C: 10 2",
+            "D: 20 2",
+            "E: 0 0"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "String eq = \"3a+2*6-4x\"; \nint tally = 0; \nfor(int i = 0; i < <*1>; i++){ \n  char ch = eq.charAt(i); \n  if( Character.isLetterOrDigit(ch) ) \n    tally++; \n} \nSystem.out.print(tally); \n What replaces <*1> in the code to the right to get the \nnumber of characters in the String eq? \n \n \n \nAssume <*1> has been filled in correctly.",
+        "answers": [
+            "A: eq.index()",
+            "B: new String()",
+            "C: eq.sub()",
+            "D: eq.numChars()",
+            "E: eq.length()"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right?",
+        "answers": [
+            "A: 2",
+            "B: 6",
+            "C: 0",
+            "D: 3",
+            "E: 10"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "for(int i = 0; i < 2; i++){ \n  for(int j = 0; j < 5; j++) { \n    System.out.print('*'); \n  } \n  for(int j = 0; j < 10; j++) { \n    System.out.print('*'); \n  } \n} \n How many '*''s are output by the code to the right?",
+        "answers": [
+            "A: 15",
+            "B: 30",
+            "C: 40",
+            "D: 45",
+            "E: 60"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "Which of the following is a valid Java identifier?",
+        "answers": [
+            "A: HomeStats",
+            "B: 3stars",
+            "C: 3_PI",
+            "D: 4*5",
+            "E: .<T,K>"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "ArrayList<Integer> exer; \nexer = new ArrayList<Integer>(); \nexer.add(3); \nexer.add(5); \nexer.add(1, 3); \nexer.add(0, 2); \nSystem.out.print(exer); \n What is output by the code to the right?",
+        "answers": [
+            "A: [2, 3, 3, 5]",
+            "B: [3, 3, 0, 5]",
+            "C: [3, 5, 0, 1]",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "String d1 = \"AA8AA 9 10 A\nScanner sc = new Scanner(d1); \nint temp = 0; \nint tokens = 0; \nwhile(sc.hasNext() ){ \n  tokens++; \n  if(sc.hasNextInt()) \n    temp += sc.nextInt(); \n  else \n    sc.next(); \n} \nSystem.out.print( temp + \" \" + tokens ); \n What is output by the code to the right?",
+        "answers": [
+            "A: A.12 AA 10\";",
+            "B: 37.12 5",
+            "C: 29 6",
+            "D: 19 5",
+            "E: 10 1",
+            "F: 49 5"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "p      q      result    \n   false  false  true \n   false  true   false \n   true   false  false \n   true   true   false \n Which of the following Boolean expressions has the truth \ntable to the right?",
+        "answers": [
+            "A: !p && !q",
+            "B: p || !q",
+            "C: !q || p",
+            "D: !(p && q)",
+            "E: p && q"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "public int kappa(int x, int y){ \n  y *= 2; \n  int result = 0; \n  for(int i = 0; i < y; i++) \n   result += x; \n  return result; \n} \n \npublic int lambda(double a, double b){ \n  int x = (int)( a / 0.5 ); \n  int y =(int)( b / 2 ) + (int)a % 2; \n  return kappa(y, x); \n} \n \npublic void mu(){ \n  double c = 3.25; \n  double d = 4.75; \n  System.out.print( lambda(c, d) ); \n} \n What is returned by the method call kappa(3, 5)?",
+        "answers": [
+            "A: 0",
+            "B: 5",
+            "C: 15",
+            "D: 30",
+            "E: 60"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method mu is \ncalled?",
+        "answers": [
+            "A: 36",
+            "B: 42",
+            "C: 48",
+            "D: 6",
+            "E: 70"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "final int days = 365; \ndouble WEEKS = days; \ndays--; \n++WEEKS; \n The code to the right contains a syntax error. Which of the \nfollowing best describes the reason for the syntax error? \n \nconstant. \n \n \n \nint values.",
+        "answers": [
+            "A: The statement days--; attempts to alter a",
+            "B: Constant names must be all capital letters.",
+            "C: Variable names may not be all capital letters.",
+            "D: Variables of type double may not be assigned",
+            "E: ++WEEKS must be rewritten as WEEKS++."
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "List<String> names = <*1>; \n Which of the following can replace <*1> in the code to \nthe right so that the code segment compiles without error? \nI. \nII. \nIII. \nnew Object() \nnew ArrayList<String>() \nnew Queue<String>()",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: II and III"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "ArrayList<Integer> scores; \nscores = new ArrayList<Integer>(); \nSystem.out.print( scores.size() ); \n What is output by the code to the right? \n \n \n \nnext.",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 10",
+            "D: 20",
+            "E: The output will vary from one run of the code to the"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "Method mysterySort(int[] data) has the following the following timing data for the arrays shown. Based on this \ndata which sorting algorithm is most likely used by method mysterySort? \ndata.length Time to sort array with all  \ndistinct elements in random order. \nTime to sort array with all \nelements equal to the same value. \n \n \n1,000,000 4 seconds 4 seconds \n \n2,000,000 8.4 seconds 8.4 seconds \n4,000,000 17.6 seconds 17.6 seconds",
+        "answers": [
+            "A: binary sort",
+            "B: insertion sort",
+            "C: selection sort",
+            "D: quicksort",
+            "E: merge sort"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "// pre: data != null, elements in data \n// are in ascending order, no value \n// in data appears more than once \npublic int find(int[] data, int tgt) { \n  int result = -1; \n  int s = 0; \n  int b = data.length - 1; \n  while( result == -1 && s <= b ){ \n    int m = (s + b) / 2; \n    int val = data[m]; \n    if( val == tgt ) \n      result = m; \n    else if( val < tgt ) \n      s = m + 1; \n    else \n      b = m - 1; \n  } \n  if(result == -1) \n    result = s; \n  return result; \n} \n What is returned by method find if tgt is 9 and \ndata is the array shown below? \n{-5, -1, 3, 5, 12, 13, 20, 100, 101}",
+        "answers": [
+            "A: -1",
+            "B: 4",
+            "C: 5",
+            "D: 9",
+            "E: 10"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "Which of the following best describes what method find \nreturns if the precondition is met? \n \n \npresent, otherwise it returns -1. \n \ngreater than tgt. \n \nless than tgt. \n \nequal to tgt.",
+        "answers": [
+            "A: Returns the size of data.",
+            "B: Returns the index in data where tgt occurs if",
+            "C: Returns the number of elements in data that are",
+            "D: Returns the number of elements in data that are",
+            "E: Returns the number of elements in data that are"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "Which searching algorithm does method find use?",
+        "answers": [
+            "A: Insertion Search",
+            "B: Sequential Search",
+            "C: Selection Search",
+            "D: Binary Search",
+            "E: None of A, B, C, or D are correct."
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "public void proc(ArrayList<Integer> data){ \n  ListIterator<Integer> it; \n  it  = data.listIterator(); \n  while(it.hasNext()){ \n    if(it.next() < 10) \n      it.set(5); \n  } \n  System.out.print(data);  \n} \n What is output by method proc if data initially \ncontains the elements shown below? \n[7, 12, -5, 12, 10]",
+        "answers": [
+            "A: [7, 5, -5, 5, 5]",
+            "B: [5, 12, 5, 12, 10]",
+            "C: [7, 5, -5, 5, 10]",
+            "D: [7, 12, -5, 12, 10]",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "Assume method sample(int[] data) is O(N3) where N = data.length.  When method sample is passed an \narray with length = 1,000 it takes 1 second for method sample to complete. If method sample is then passed an array \nwith length = 4,000 what is the expected time it will take method sample to complete?",
+        "answers": [
+            "A: 2 seconds",
+            "B: 4 seconds",
+            "C: 8 seconds",
+            "D: 16 seconds",
+            "E: 64 seconds"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "public void demo(TreeSet<Integer> set1, \n                 TreeSet<Integer> set2) { \n \n  System.out.print(set1.addAll(set2)); \n  System.out.print( \" \" + set1.size() ); \n  System.out.print( \" \" + set2.size() ); \n} \n What is output by the code to the right when method demo \nis called if set1 contains the following values \n{-5, 0, 3, 5, 10} \nand set2 contains the following values? \n{0, 1, 2, 3, 4, 5}",
+        "answers": [
+            "A: false 8 0",
+            "B: true 11 6",
+            "C: 8 6",
+            "D: true 8 6",
+            "E: 11 6"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "Object s1 = \"1234\"; \nboolean b1 = s1 instanceof Object; \nboolean b2 = s1 instanceof String; \nboolean b3 = s1 instanceof Integer; \nSystem.out.print(b1 + \" \" + b2 + \" \" + b3);\n What is output by the code to the right?",
+        "answers": [
+            "A: true true true",
+            "B: true true false",
+            "C: true false true",
+            "D: false true false",
+            "E: There is no output due to a syntax error."
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "public int aCount(String filename) { \n  int count = 0; \n  File f = new File(filename);  \n  Scanner sc = new Scanner(f); // error \n  while( sc.hasNext() ) \n    if( sc.next().equals(\"a\") ) \n      count++; \n  sc.close(); \n  return count; \n} \n Method aCount to the right will not compile because the \nline marked //error has the possibility of generating a \nFileNotFoundException which is a type of checked \nexception. Which of the following changes will allow \nmethod aCount to compile? \nI. \nII. \nIII. \nUse a for loop instead of a while loop. \nUse a try and catch block. \nAdd a clause to the method header declaring the \nmethod throws a \nFileNotFoundException.",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: II and III"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "public class Structure<E> { \n  private Hold<E> start; \n \n  public void add(E obj) { \n    start = addHelp(obj, start); \n  } \n \n  private Hold<E> addHelp(E obj,  \n                            Hold<E> n) { \n    if(n == null) { \n      n = new Hold<E>(); \n      n.data = obj; \n    } else { \n      Comparable c1 = (Comparable)obj; \n      Comparable c2 = (Comparable)n.data; \n      int val = c1.compareTo(c2); \n      if(val < 0) \n        n.s1 = addHelp(obj, n.s1); \n      else if(val > 0) \n        n.s2 = addHelp(obj, n.s2); \n    } \n    return n; \n  } \n \n  public E access(){ \n    Hold<E> temp = start; \n    while( temp.s1 != null ) \n      temp = temp.s1; \n    return temp.data; \n  } \n \n  public boolean isEmpty(){ \n    return start == null; \n  } \n \n  public void remove() { \n    start = removeHelp(start); \n  } \n \n  private Hold<E> removeHelp(Hold<E> n){ \n    return n.s1 == null ? n.s2 : \n      removeHelp(n.s1); \n  } \n} \n \npublic class Hold<E> { \n  public E data; \n  public Hold<E> s1; \n  public Hold<E> s2; \n} \n Given the Structure and Hold classes shown to the \nright, what is output by the following client code? \n \nStructure<Integer> s; \ns = new Structure<Integer>(); \nint[] vals = {12, -5, 20, 13, 7}; \nfor(int v : vals) \n  s.add(v); \nSystem.out.print( s.access() + \" \"); \ns.remove(); \nSystem.out.print( s.access() );",
+        "answers": [
+            "A: 7 13",
+            "B: 12 -5",
+            "C: 20 20",
+            "D: 20 13",
+            "E: -5 7"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What type of data structure does the Structure class \nuse as its internal storage container?",
+        "answers": [
+            "A: a stack",
+            "B: a min heap",
+            "C: a binary tree",
+            "D: a max heap",
+            "E: an array"
+        ],
+        "testSource": "Districts Version 2, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 39
+    }
+]

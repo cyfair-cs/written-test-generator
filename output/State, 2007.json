@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What does 111001012 minus BF16 equal?",
+        "answers": [
+            "A: 408",
+            "B: D616",
+            "C: 3068",
+            "D: 468",
+            "E: 10011102"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint x = 3; \nint y = x; \ny++; \nx *= y + 2; \nSystem.out.print( x + \"-\" + y );",
+        "answers": [
+            "A: 18-4",
+            "B: 24-4",
+            "C: 24-24",
+            "D: 14-4",
+            "E: 14-14"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint total = 0; \nfor(int i = 0; i < 4; i++){ \n    total++; \n    for(int j = 0; j < 5; j++){ \n      total++; \n      for(int k = 0; k < 6; k++) \n        total++; \n    } \n} \nSystem.out.print( total );",
+        "answers": [
+            "A: 120",
+            "B: 124",
+            "C: 129",
+            "D: 144",
+            "E: 15"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString s1 = \"robertboyer\"; \nint p1 = s1.indexOf(\"er\"); \nint p2 = s1.indexOf(\"er\", p1 + 1); \ns1 = s1.substring(p1, p2); \nSystem.out.println( s1 );",
+        "answers": [
+            "A: tboy",
+            "B: ertboy",
+            "C: rtboyer",
+            "D: ertboye",
+            "E: Nothing is printed out."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint[] list = {7, 2, 20, 14, 6, 21, 15}; \nint m1 = 0; \nint m2 = 0; \n \nfor(int i = 1; i < list.length - 1; i++){ \n  if( list[i] < list[i + 1] ){ \n    if( list[i] < list[m1] ) \n      m1 = i; \n    if( list[i+1] > list[m2] ) \n      m2 = i; \n  } else { \n    if( list[i + 1] < list[m1] ) \n      m1 = i + 1; \n    if( list[i] > list[m2] ) \n      m2 = i; \n  } \n} \n \nSystem.out.print( m1 + \"-\" + m2 );",
+        "answers": [
+            "A: 2-21",
+            "B: 7-15",
+            "C: 1-5",
+            "D: 0-7",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint[][] mat = new int[4][4]; \nfor(int i = 0; i < 4; i++) \n  for(int j = 0; j < 4; j++) \n    mat[j][i] = (i + j) * (i + j); \n \nfor(int k = 0; k < 4; k++) \n    System.out.print( mat[k][2] );",
+        "answers": [
+            "A: 0149",
+            "B: 481632",
+            "C: 491625",
+            "D: 251694",
+            "E: There is no output due to a syntax error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which of the following replaces <*1> in the code to the \nright to set the variable b to true? \n \n \n \n \n \nboolean b; \nString r = \"abc\"; \nString s = \"ABC5\"; \nString t = \"5\"; \nb = <*1>;",
+        "answers": [
+            "A: r.toLowerCase().equals(s)",
+            "B: (r + t).equals(s)",
+            "C: Integer.parseInt(t) > s.length()",
+            "D: s.compareTo(r) == 0",
+            "E: More than one of these."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 7.5; \ndouble b = a / 2; \nif( a > b * 2 ) \n    System.out.print(1); \nif( b / a > 3 || a * b > 3 ) \n    System.out.print(2); \nelse \n    System.out.print(3);",
+        "answers": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 12",
+            "E: 13"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "The code  to the right results in the following output:  \nfalse \nWhich of these best explains why? \n \nthe objects themselves. \n \ncapitalization. \n \nbeen called on an object. \n \nsame characters in the same order. \n \nString n1 = \"Computer\"; \nString n2 = n1.substring(1,4); \nString n3 = \"OMP\"; \nString n4 = n3.toLowerCase(); \nSystem.out.println( n2 == n4 );",
+        "answers": [
+            "A: The == operator compares references to objects, not",
+            "B: The Strings n2 and n4 have differences in",
+            "C: The == operator compares which methods have",
+            "D: The Strings n2 and n4 are not made up of the",
+            "E: The == operator compares variable names."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString q1 =  \n\"real_week_neon_at_the_seaside.\";\n \nString[] chop = q1.split(\"e[aiou].\"); \nSystem.out.print( chop[1] );",
+        "answers": [
+            "A: _week_n",
+            "B: l_week_n",
+            "C: l_w",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "Which of these data types replaces <*1> in the code to \nthe right so the parameter other is of the correct type to \nimplement the compareTo method from the \nComparable interface. \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: T",
+            "B: Score",
+            "C: Object",
+            "D: Comparable<T>",
+            "E: Comparable"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "Which of these replaces <*2> in the code to the right to \ncorrectly implement the compareTo method from the \nComparable interface? A Score object is greater than \nanother Score object if the value stored in its pts field \nis greater than the value stored in the other Score object's\npts field. \n \n \n \n \n \n Assume <*1> and <*2> are filled in correctly.",
+        "answers": [
+            "A: return pts - other.pts",
+            "B: return getPts() - other.getPts()",
+            "C: return other.pts - pts",
+            "D: return other.getPts() - getPts()",
+            "E: More than one of these."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is the output by the code to the right when method \nmavs is called?",
+        "answers": [
+            "A: 3",
+            "B: 4",
+            "C: 5",
+            "D: 6",
+            "E: 8"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is the output by the code to the right when method \nspurs is called? \n \n \n \n \n \n \n \npublic class Score  \nimplements Comparable<Score>{\n   \n  private int pts; \n \n  public Score(int p){ \n    pts = p; \n  } \n \n  public void freeThrow(){ \n    pts++; \n  } \n \n  public void basket(){ \n    pts += 2; \n  } \n \n  public void trey(){ \n    pts += 3; \n  } \n \n  public int getPts(){ \n    return pts; \n  } \n \n  public int compareTo(<*1> other){ \n    <*2>; \n  } \n} \n \n------------------------------------------- \n \n// methods in a client of Score \npublic void mavs(){ \n  Score s1 = new Score(0); \n  Score s2 = new Score(0); \n  s1.basket(); \n  s2.trey(); \n  s1 = s2; \n  s1.basket(); \n  s2.freeThrow(); \n  System.out.print( s1.getPts() ); \n} \n \npublic void spurs(){ \n  Set<Score> coll = new HashSet<Score>(); \n  for(int i = 1; i < 5; i++) \n    coll.add( new Score(i) ); \n  for( Score s : coll ) \n    System.out.print( s.getPts() ); \n}",
+        "answers": [
+            "A: 1234",
+            "B: 4321",
+            "C: The output cannot be predicted.",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the following method call? \nways(new int[]{5, 3, 6, 3}, 15, 0 ) \n \n \n \npublic static int ways(int[] ds,  \nint g, int c){\n  int result = 0; \n  if( c == ds.length ){ \n    if( g == 0 ) \n      result = 1; \n  } else { \n    for(int i = 1; i <= ds[c]; i++) \n      result += ways(ds, g - i, c + 1); \n  } \n  return result; \n}",
+        "answers": [
+            "A: 270",
+            "B: 17",
+            "C: 4",
+            "D: 10",
+            "E: 18"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is the running time of method manip?  Choose the \nmost restrictive correct answer. \n \n \n \npublic int manip(int n){ \n  int total = 0; \n  for(int i = n; i > 0; i /= 2) \n    for(int j = 0; j < i; j++) \n      total += (j * i) % n; \n  return total; \n}",
+        "answers": [
+            "A: O(1)",
+            "B: O(n)",
+            "C: O(nlogn)",
+            "D: O(n2)",
+            "E: O(n2logn)"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint x3 = 3; \ndouble a3 = 2.2; \nx3 += a3 * 2; \nSystem.out.print( x3 + \"-\" + a3 );",
+        "answers": [
+            "A: 7-4.4",
+            "B: 7-2.2",
+            "C: 8-2.2",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \ndouble planck = 4.1356; \nint days = 365; \nString format = \"%1$04d,%2$+4.3f\"; \nSystem.out.printf(format, days, planck);",
+        "answers": [
+            "A: %1$04d,%2$+5.3f,365,4.1356",
+            "B: 5554.136",
+            "C: 0365,4.135",
+            "D: 0365+4.1",
+            "E: 0365,+4.136"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nbyte val1 = 2; \nbyte val2 = (byte)~val1; \nSystem.out.print( val2 );",
+        "answers": [
+            "A: 253",
+            "B: -2",
+            "C: 3",
+            "D: -3",
+            "E: -125"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to set mid \nto the middle element of the portion of the array vals \nfrom st to fin? \n \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: mid = st + fin / 2",
+            "B: mid = st / 2 + fin",
+            "C: mid = 1.0 * (st + fin) / 2",
+            "D: mid = (st + fin) / 2",
+            "E: More than one of these."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is returned by the method call demo1() ?",
+        "answers": [
+            "A: 8",
+            "B: 0",
+            "C: 9",
+            "D: 10",
+            "E: There is no return value due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is returned by the method call demo2() ?",
+        "answers": [
+            "A: 0",
+            "B: -1",
+            "C: 4",
+            "D: 5",
+            "E: There is no return value due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "If vals has a length of N and every element of vals \nequals the same value x, what is the running time of \nmethod find(vals, x)?  Choose the most restrictive \ncorrect answer. \n \n \n \n \n \n \n// pre: elements in vals are sorted in \n// ascending order \npublic static int find(int[] vals, int tgt){ \n  int st = 0; \n  int fin = vals.length - 1; \n  int mid; \n  int result = -1; \n   \n  while( result == -1 && st <= fin ){ \n    <*1>; \n    if( vals[mid] == tgt ) \n      result = mid; \n    else if( vals[mid] < tgt ) \n      st = mid + 1; \n    else \n      fin = mid - 1; \n  } \n \n  while( result > 0  \n&& vals[ result - 1 ] == tgt ){\n    result--; \n  } \n \n  return result; \n} \n \npublic static int demo1(){ \n  int[] list = new int[20]; \n  int pos = 0; \n  for(int i = -2; i <= 2; i++){ \n    for(int j = 0; j < 4; j++){ \n      list[pos] = i; \n      pos++; \n    } \n  } \n   \n  return find( list, 0 ); \n} \n \npublic static int demo2(){ \n  int[] list = new int[10]; \n  for(int i = 0; i < 100; i += 10) \n    list[ i / 10 ] = i; \n    \n  return find( list, 45 ); \n}",
+        "answers": [
+            "A: O(x)",
+            "B: O(logN)",
+            "C: O(N)",
+            "D: O(N2)",
+            "E: O(xN)"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nthree is called?",
+        "answers": [
+            "A: 4",
+            "B: 0",
+            "C: 3",
+            "D: 7",
+            "E: 5"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method four \nis called? \n \n \n \n \n \n \npublic class IntCell{ \n   \n  public int val; \n  public IntCell next; \n \n  public IntCell(int v){ \n    val = v; \n  } \n \n} \n------------------------------------------- \n \n// methods in a client of IntCell \npublic boolean one(IntCell x, IntCell y){ \n  x.val++; \n  y.val += 2; \n  return x.val < y.val; \n} \n \npublic boolean two(IntCell x, IntCell y){ \n  x.val++; \n  y.val--; \n  return y.val <= x.val; \n} \n \npublic void three(){ \n  IntCell a = new IntCell(6); \n  IntCell b = new IntCell(3); \n  if( one(a,b) && two(a,b) ) \n    System.out.print( a.val ); \n  else \n    System.out.print( b.val ); \n} \n \npublic void four(){ \n  IntCell a = new IntCell(1); \n  IntCell b = new IntCell(2); \n  a.next = b; \n  b.next = a.next; \n  System.out.print( a.next.next.val ); \n}",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 2",
+            "D: null",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint x = 3; \nint y = 4; \nint z = y * x--; \nSystem.out.print( z + \"_\" + x );",
+        "answers": [
+            "A: 12_3",
+            "B: 8_3",
+            "C: 8_2",
+            "D: 12_2",
+            "E: There is no output due to a syntax error."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What is output by the following client code? \n \nStructure s1 = new Structure(); \nSystem.out.print( s1.findP(13) );",
+        "answers": [
+            "A: 1",
+            "B: 1000",
+            "C: 1011",
+            "D: 101",
+            "E: 1101"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What is output by the following client code? \n \nStructure s2 = new Structure(); \nint[] ents = {12, 5, 13, 17, -5}; \nfor( int i : ents ) \n  s2.add( i ); \nSystem.out.print( s2.peek() );",
+        "answers": [
+            "A: 12",
+            "B: 5",
+            "C: 13",
+            "D: 17",
+            "E: -5"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What is output by the following client code? \n \nStructure s3 = new Structure(); \nint[] els = {12, 5, 13, 17, -5}; \nfor(int i : els ) \n  s3.add( i ); \ns3.show();",
+        "answers": [
+            "A: -55121317",
+            "B: 17135-512",
+            "C: 5-5131217",
+            "D: 1713125-5",
+            "E: 513-51712"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What type of data structure does the Structure  \nclass implement? \n \n \n \n \n \n \npublic class Node{ \n  public Node pt, rt, lt; \n  public int dt; \n  public Node(Node p, int d){ pt = p; dt = d; } \n} \n \npublic class Structure{ \n  private int size; \n  private Node start; \n   \n  public void add(int d){ \n    String path = findP(++size).substring(1); \n    if( size == 1 ) \n      start = new Node(null, d); \n    else \n      addHelp(path, d); \n  } \n   \n  private void addHelp(String p, int d){ \n    Node tp = start; \n    while( p.length() > 1 ){ \n      tp = p.charAt(0) == '0' ? tp.lt : tp.rt; \n      p = p.substring(1);       \n    } \n    if( p.equals(\"0\")){ \n      tp.lt = new Node(tp, d); tp = tp.lt; \n    } else { \n      tp.rt = new Node(tp, d); tp = tp.rt; \n    } \n    adjust(tp); \n  } \n   \n  private void adjust(Node tp){ \n    int temp; \n    while(tp.pt != null && tp.dt > tp.pt.dt){ \n      temp = tp.dt; \n      tp.dt = tp.pt.dt; \n      tp.pt.dt = temp; \n      tp = tp.pt; \n    } \n  } \n   \n  public String findP(int t){ \n    if(t == 0 || t == 1) \n      return t + \"\"; \n    else \n      return findP( t / 2 ) + (t % 2); \n  } \n   \n  private void show(Node n){ \n    if(n != null){ \n      System.out.print(n.dt); \n      show(n.lt); \n      show(n.rt); \n    } \n  } \n  public void show(){  show(start); } \n  public int peek(){ return start.dt; } \n}",
+        "answers": [
+            "A: A stack.",
+            "B: A list.",
+            "C: A max heap.",
+            "D: A hash table.",
+            "E: A binary search tree."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "Which of the following replaces <*1> in the code to the \nright to end method sort if the Boolean expression is \ntrue? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: break",
+            "B: continue",
+            "C: exit",
+            "D: end",
+            "E: return"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nsample is called?",
+        "answers": [
+            "A: 403-1786",
+            "B: -1034678",
+            "C: -1034786",
+            "D: 467830-1",
+            "E: 6034-187"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What sorting algorithm is implemented by  method sort?",
+        "answers": [
+            "A: Mergesort",
+            "B: Heapsort",
+            "C: Quicksort",
+            "D: Selection sort",
+            "E: Insertion sort"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "C",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "Given an array of N unique integers in random order, what \nis the running time of method sort? Assume the print \nmethod is O(1). Choose the most restrictive correct answer. \n \n \n \n \n \npublic static void swap( int[] a,  \nint i, int j) { \n  int tmp = a[i]; \n  a[i] = a[j]; \n  a[j] = tmp; \n} \n \n \npublic static void sort( int[] list,  \nint start, int stop ){\n  if(start >= stop) \n    <*1>; \n \n  int p = (start + stop) / 2; \n \n  swap(list, p, start); \n  int pVal = list[start]; \n \n  int i, j = start; \n \n  for(i = start + 1; i <= stop; i++ ){ \n    if( list[i] <= pVal){    \n      j++; \n      swap(list, i, j); \n    } \n  } \n \n  if(start == 0 && stop == list.length - 1) \n    for(int v : list) \n      System.out.print(v); \n \n  swap(list, start, j); \n  sort( list, start, j - 1 );     \n  sort( list, j + 1, stop );    \n} \n \n \npublic static void sample(){ \n  int[] data = {6, 0, 3, 4, 7, 8, -1}; \n  sort(data, 0, 6); \n}",
+        "answers": [
+            "A: O(N)",
+            "B: O(NlogN)",
+            "C: O(N3/2)",
+            "D: O(N2)",
+            "E: O(N!)"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "Which of the following best describes what method \neval returns? \n \n \n \nequal each other.",
+        "answers": [
+            "A: The minimum of the three parameters.",
+            "B: The maximum of the three parameters.",
+            "C: How many of the three parameters",
+            "D: The range of the three parameters.",
+            "E: The sum of the three parameters."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "Which of the following replaces <*1> in the code to \nthe right to create a two dimensional array of ints \nwith one more row than the number of characters in the \nString s and one more column than then number of \ncharacters in the String t? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: int[s.length()][t.length()]",
+            "B: new int[t.size()+1][s.size()+1]",
+            "C: new int[i + 1][j + 1]",
+            "D: new int[n + 1][m + 1]",
+            "E: More than one of these."
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "D",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is returned by the method call  \ncomp(\"uilcs\", \"uilcs\") ?",
+        "answers": [
+            "A: 6",
+            "B: 5",
+            "C: 3",
+            "D: 2",
+            "E: 0"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "E",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What is returned by the method call  \ncomp(\"state\", \"stilte\") ? \n \n \n \n \n \nprivate static int eval (int a, int b, int c){\n  int m; \n  m = a; \n  if (b < m) \n    m = b; \n  if (c < m) \n    m = c; \n  return m; \n} \n \npublic static int comp (String s, String t){ \n  int d[][]; \n  int n, m, i, j;  \n  char s_i, t_j, cost;  \n \n  n = s.length (); \n  m = t.length (); \n  if (n == 0) \n    return m; \n  if (m == 0) \n    return n; \n \n  d = <*1>; \n  for (i = 0; i <= n; i++) \n    d[i][0] = i; \n \n  for (j = 0; j <= m; j++) \n    d[0][j] = j; \n \n  for (i = 1; i <= n; i++) { \n    s_i = s.charAt (i - 1); \n    for (j = 1; j <= m; j++) { \n      t_j = t.charAt (j - 1); \n \n      if (s_i == t_j) \n        cost = 0; \n      else \n        cost = 1; \n         \n      d[i][j] = eval(d[i-1][j]+1,  \nd[i][j-1]+1, d[i-1][j-1] + cost);\n    } \n  } \n  return d[n][m]; \n}",
+        "answers": [
+            "A: 2",
+            "B: 3",
+            "C: 4",
+            "D: 5",
+            "E: 6"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "A",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "When implementing a hash table what are the two most common collision resolution schemes?",
+        "answers": [
+            "A: heapify and post order",
+            "B: open addressing and chaining",
+            "C: serialization and cloning",
+            "D: constructors and interfaces",
+            "E: keying and perfect hashing"
+        ],
+        "testSource": "State, 2007",
+        "correctAnswer": "B",
+        "questionNumber": 39
+    }
+]

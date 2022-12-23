@@ -1,0 +1,501 @@
+[
+    {
+        "questionDescription": "What is the sum of 1118 and 7778?",
+        "answers": [
+            "A: 100008",
+            "B: 800010",
+            "C: 88810",
+            "D: 101008",
+            "E: 11108"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 2; \nint y = x * 2 + 3 * x; \nSystem.out.print( y );",
+        "answers": [
+            "A: 10",
+            "B: 20",
+            "C: 14",
+            "D: 16",
+            "E: 0"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint counter = 0; \nfor(int i = 0; i < 20; i++) \n  counter++; \nSystem.out.print( counter );",
+        "answers": [
+            "A: 21",
+            "B: 0",
+            "C: 20",
+            "D: 10",
+            "E: 40"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString subj = \"mathematics\"; \nSystem.out.print( subj.indexOf( 'm', 3 ) );",
+        "answers": [
+            "A: 5",
+            "B: 0",
+            "C: 6",
+            "D: 1",
+            "E: -1"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \ndouble[] vals = {1.5, -1.0, 2.0}; \nvals[1] *= 4.0; \nSystem.out.print( vals[1] );",
+        "answers": [
+            "A: 0.0",
+            "B: 8.0",
+            "C: 6.0",
+            "D: -4.0",
+            "E: There is no output due to a syntax error."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint r = 3; \n--r; \nr *= r; \nSystem.out.println( r );",
+        "answers": [
+            "A: 9",
+            "B: 6",
+            "C: -9",
+            "D: 4",
+            "E: 1"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nboolean p = true; \nboolean q = false; \nSystem.out.print( p && q ); \nSystem.out.print( \" \" ); \nSystem.out.print( p || q );",
+        "answers": [
+            "A: true true",
+            "B: true false",
+            "C: false true",
+            "D: false false",
+            "E: true false true false"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint j = 10; \nif( j < 10){ \n  if( 12 > j ) \n    System.out.print(\"y\"); \n  else \n    System.out.print(\"n\"); \n} \nelse \n  System.out.print(\"o\");",
+        "answers": [
+            "A: yno",
+            "B: yn",
+            "C: y",
+            "D: yo",
+            "E: o"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that the \nmethod longSong  is accessible to code in all classes? \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: private",
+            "B: String",
+            "C: void",
+            "D: public",
+            "E: java.lang"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What replaces <*2> in the code to the right so the method \nlongSong returns true only if the instance variable \nlengthInSeconds is greater than 180? \n \n  return true; \nelse \n  return false; \n \n  return true; \nelse \n  return false; \n \n \n \n \npublic class Song{ \n \n  private String name; \n  private int lengthInSeconds; \n \n  public Song(String nm, int len){ \n    name = nm; \n    lengthInSeconds = len; \n  } \n \n  <*1> boolean longSong(){ \n    <*2> \n  } \n}",
+        "answers": [
+            "A: if( lengthInSeconds > 180 )",
+            "B: if( lengthInSeconds != 180 )",
+            "C: return lengthInSeconds > 180;",
+            "D: 180.equals( lengthInSeconds );",
+            "E: More than one of these."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 13; \nint y = 16; \nSystem.out.print( x | y );",
+        "answers": [
+            "A: true",
+            "B: false",
+            "C: 0",
+            "D: 16",
+            "E: 29"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.print( Math.round(1.99) );",
+        "answers": [
+            "A: 1",
+            "B: 2",
+            "C: 0",
+            "D: -2",
+            "E: 19"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \nThree \n \n \nTwo \nThree \n \nTwoThree \n \nThree \nSystem.out.println(\"One\"); \nSystem.out.print(\"Two\"); \nSystem.out.println(\"Three\");",
+        "answers": [
+            "A: OneTwo",
+            "B: OneTwoThree",
+            "C: One",
+            "D: One",
+            "E: Two"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"$%2.2f\", 1.5);",
+        "answers": [
+            "A: 1.5",
+            "B: 1.50",
+            "C: $2.00",
+            "D: $.50",
+            "E: $1.50"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call toy(3)? \n \n \npublic static int toy(int value){ \n  value++; \n  value += 1; \n  return value; \n}",
+        "answers": [
+            "A: 3",
+            "B: 5",
+            "C: 4",
+            "D: 7",
+            "E: 9"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "Which of the following replaces <*1> in the code to the \nright to convert str to an int? \n \n \n \n \n \nString str = \"-123\"; \nint num = <*1>;",
+        "answers": [
+            "A: Integer.intValue()",
+            "B: num.toString(str)",
+            "C: Integer.parseInt(str)",
+            "D: Integer.compareTo(str)",
+            "E: More than one of these."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] data = {5, 1, 5, 4}; \nArrays.sort( data ); \nfor( int i : data ) \n  System.out.print(i);",
+        "answers": [
+            "A: 1455",
+            "B: 145",
+            "C: 5541",
+            "D: 541",
+            "E: 5154"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble negValue = -12.7; \nSystem.out.print( (int)negValue );",
+        "answers": [
+            "A: -13",
+            "B: 0",
+            "C: 13",
+            "D: -12",
+            "E: -12.7"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "Which of the following method calls would return true? \nI.   Character.isLetter( '8' ) \nII.  Character.isDigit( '8' ) \nIII.    Character.isLetterOrDigit( '8' )",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II only",
+            "E: II and III only"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint val = 12; \nString stat = (val % 2 == 0) ? \"EV\" : \"OD\";\nSystem.out.print( stat );",
+        "answers": [
+            "A: 12",
+            "B: EV",
+            "C: OD",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method test \nis called?",
+        "answers": [
+            "A: 0",
+            "B: -1",
+            "C: 1",
+            "D: 5",
+            "E: 3"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "Which searching algorithm does method find \nimplement? \n \n \n \n \n \n \npublic static int find(int[] data, \n                       int   tgt){ \n  int loc = -1; \n  int i = 0; \n  while( loc == -1 && i < data.length ){ \n    if( data[i] == tgt ) \n      loc = i; \n    i++; \n  } \n  return loc; \n} \n \npublic static void test(){ \n  int[] data = {3, 1, 5}; \n  System.out.print( find(data, 7) ); \n}",
+        "answers": [
+            "A: Binary search",
+            "B: Stack search",
+            "C: Interpolation search",
+            "D: Gnome search",
+            "E: Sequential search"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to generate an \nException if data is null? \n \n \n \n \n \npublic static boolean evenLen(int[] data){ \n  if( data == null ) \n    <*1>; \n  return data.length % 2 == 0; \n}",
+        "answers": [
+            "A: catch new IllegalArgumentException()",
+            "B: throw new IllegalArgumentException()",
+            "C: try new Error",
+            "D: try new IllegalArgumentException()",
+            "E: throws IllegalArgumentException()"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method one \nis called? \n \n \n \n \n \nNullPointerException.",
+        "answers": [
+            "A: null:-1",
+            "B: null:0",
+            "C: :0",
+            "D: none:-1",
+            "E: There is no output due to a"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method two \nis called?",
+        "answers": [
+            "A: Next:",
+            "B: Next:-1",
+            "C: Next:0",
+            "D: Next:null",
+            "E: Next:numSongs"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nthree is called? \n \n \n \n \nmethod three. \n \n \npublic class Album{ \n  private String title; \n  private int numSongs; \n \n  public Album(){ \n    this(\"none\", -1); \n  } \n \n  public Album(String t){ \n    title = t; \n  } \n \n  public Album(String t, int num){ \n    title = t; \n    numSongs = num; \n  } \n \n public String toString(){ \n    return title + \":\" + numSongs; \n  } \n} \n \n///////// client code ///////// \npublic static void one(){ \n  Album a = new Album(); \n  System.out.print( a ); \n} \n \npublic static void two(){ \n  Album a = new Album(\"Next\"); \n  System.out.print( a ); \n} \n \npublic static void three(){ \n  Album a1 = new Album(); \n  Album a2 = new Album(); \n  System.out.print( a1.equals(a2) ); \n}",
+        "answers": [
+            "A: false",
+            "B: true",
+            "C: null",
+            "D: There is no output due to a syntax error in",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What can replace the lines of code marked line 1 and \nline 2 in the code to the right without altering the \noutput? \n \n \n \nline 1 \n \nline 2 \n \n \n \n \n \nLinkedList<Integer> li; \nli = new LinkedList<Integer>(); \nli.add(1); // line 1 \nli.add(0, 2); // line 2 \nSystem.out.print( li );",
+        "answers": [
+            "A: li.addFirst(1); li.add(2);",
+            "B: li.add(0,1); li.addLast(2);",
+            "C: li.addLast(1); li.addLast(2);",
+            "D: li.addLast(1); li.addFirst(2);",
+            "E: li.addFirst(1); li.set(0, 2);"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to obtain the \ncharacter at position i in the String s? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: s[i]",
+            "B: charAt(s, i)",
+            "C: s.substring(i)",
+            "D: Character(s, i)",
+            "E: s.charAt(i)"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What is returned by the method call myst(\"hot\")?",
+        "answers": [
+            "A: hot",
+            "B: hoottt",
+            "C: ott",
+            "D: hhhooottt",
+            "E: hhhoot"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What will be the length of the String returned by \nmethod myst if the parameter s has a length of 20? \n \n \npublic static String myst(String s){ \n  String result = \"\"; \n  char ch; \n  for(int i = 0; i < s.length(); i++){ \n    ch = <*1>; \n    for(int j = 0; j <= i; j++) \n      result = result + ch; \n  } \n  return result; \n}",
+        "answers": [
+            "A: 20",
+            "B: 400",
+            "C: 210",
+            "D: 55",
+            "E: 20! (factorial of 20)"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nTreeSet<Character> set; \nset = new TreeSet<Character>(); \n \nset.add('s'); \nset.add('a'); \nset.add('d'); \n \nIterator<Character> it = set.iterator(); \nwhile( it.hasNext() ) \n  System.out.print( it.next() );",
+        "answers": [
+            "A: ads",
+            "B: sad",
+            "C: das",
+            "D: sda",
+            "E: The output cannot be determined until run time."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "Which sorting algorithm involves splitting the unsorted data into smaller and smaller parts and then recombining the parts into \nlarger and larger sorted lists?",
+        "answers": [
+            "A: Quick sort",
+            "B: Selection sort",
+            "C: Insertion Sort",
+            "D: Shell Sort",
+            "E: Merge sort"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nStack<Integer> s = new Stack<Integer>(); \ns.push(24); \ns.push(213); \ns.push(37); \nSystem.out.print( s.peek() );",
+        "answers": [
+            "A: 2",
+            "B: 4",
+            "C: 24",
+            "D: 213",
+            "E: 37"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "In the code to the right assume the Collection col \ncontains N elements. What kind of Collection must \ncol be so that each operation in method demo has an \nexpected running time of  O(1)? \n \n \n \n// precondition: col does not contain 1000 \npublic void demo(Collection<Integer> col){ \n  col.add( 1000 ); \n  boolean here = col.contains( 1000 ); \n  col.remove(1000); \n}",
+        "answers": [
+            "A: ArrayList",
+            "B: TreeSet",
+            "C: HashSet",
+            "D: LinkedList",
+            "E: ArrayMap"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nPriorityQueue<Integer> pq; \npq = new PriorityQueue<Integer>(); \n \npq.add(9); \npq.add(4); \npq.add(9); \npq.add(1); \n \nwhile( !pq.isEmpty() ) \n  System.out.print( pq.remove() );",
+        "answers": [
+            "A: 9491",
+            "B: 1949",
+            "C: 1499",
+            "D: 149",
+            "E: 941"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nrecOne is called?",
+        "answers": [
+            "A: 22",
+            "B: 1",
+            "C: 4",
+            "D: 15",
+            "E: 3"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nrecTwo is called? \n \n \n \npublic class RecDemo{ \n \n  public int count; \n \n  public int rec(int n){ \n    count++; \n    if( n == 0 ) \n      return 1; \n    else \n      return 2 + rec(n - 1) + rec(n - 1); \n  } \n} \n \n///////// client code ///////// \npublic static void recOne(){ \n  RecDemo r = new RecDemo(); \n  System.out.print( r.rec(3) ); \n} \n \npublic static void recTwo(){ \n  RecDemo r = new RecDemo(); \n  r.count = 0; \n  r.rec(5); \n  System.out.print( r.count ); \n}",
+        "answers": [
+            "A: 63",
+            "B: 0",
+            "C: 5",
+            "D: 127",
+            "E: 1"
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \nstructOne is called? \n \n \n \n \nstructOne. \n \nUESTION  39   \n What is output by the code to the right when method \nstructTwo is called? \n \n \n \n \nstructTwo.",
+        "answers": [
+            "A: 0",
+            "B: null",
+            "C: -1",
+            "D: There is no output due to a syntax error in method",
+            "E: There is no output due to a runtime error.",
+            "F: 317",
+            "G: 3713",
+            "H: 3173",
+            "I: There is no output due to a syntax error in method",
+            "J: There is no output due to a runtime error."
+        ],
+        "testSource": "Invitational Version B, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 38
+    }
+]

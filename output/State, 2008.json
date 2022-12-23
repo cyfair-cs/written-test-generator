@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of 7458 and 11011012?",
+        "answers": [
+            "A: 90016",
+            "B: 111111112",
+            "C: 25216",
+            "D: 90010",
+            "E: B2216"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint s = 3; \nint t = s + 2 * s; \nSystem.out.println( s + t );",
+        "answers": [
+            "A: 30",
+            "B: 15",
+            "C: 12",
+            "D: 312",
+            "E: 18"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint accum = 0; \nfor(int i = 1; i <= 10; i++){ \n  accum++; \n  accum++; \n} \nSystem.out.println( accum );",
+        "answers": [
+            "A: 10",
+            "B: 9",
+            "C: 22",
+            "D: 18",
+            "E: 20"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString first = \"Doug\"; \nString second = \"Burger\"; \nfirst += second; \nSystem.out.println( first.length() );",
+        "answers": [
+            "A: 4",
+            "B: 10",
+            "C: 9",
+            "D: 3",
+            "E: 5"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] ps = {2, 3, 5, 7, 11}; \nps[1] += ps[0] + 3 + ps.length; \nSystem.out.println( ps[1] );",
+        "answers": [
+            "A: 13",
+            "B: 15",
+            "C: 17",
+            "D: 16",
+            "E: 10"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 14; \nint y = 2; \nx /= 3 * y; \nSystem.out.println( x );",
+        "answers": [
+            "A: 14",
+            "B: 6",
+            "C: 2",
+            "D: 6.0",
+            "E: 2.33333333"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "How many combinations of values for the boolean \nvariables a, b, and c will result in d being set to \nfalse? \n \n \nboolean a, b, c; \n// code to initialize a, b, and c \n \nboolean d = ( b || !c || !a );",
+        "answers": [
+            "A: 7",
+            "B: 8",
+            "C: 2",
+            "D: 4",
+            "E: 1"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString ans = \"ABBAACDC\"; \nif( ans.equals( \"ABBA\" ) ) \n  System.out.println( 1 ); \nif( ans.length() > 4 ) \n  System.out.println( 2 ); \nelse \n  System.out.println( 3 );",
+        "answers": [
+            "A: 12",
+            "B: 13",
+            "C: 1",
+            "D: 2",
+            "E: 3"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "Which class is Rectangle's super class?",
+        "answers": [
+            "A: Shape",
+            "B: Object",
+            "C: Square",
+            "D: String",
+            "E: Rectangle does not have a super class."
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \nuntil the program is run. \npublic class Rectangle{ \n \n  private int width; \n  private int height; \n \n  public Rectangle(int w, int h){ \n    width = w; \n    height = h; \n  } \n \n  public int area(){ \n    return width * height; \n  } \n \n  public String toString(){ \n    return \"\" + this.area(); \n  } \n} \n \n// client code \nRectangle r1 = new Rectangle( 2, 3 ); \nSystem.out.println( r1 );",
+        "answers": [
+            "A: r1",
+            "B: this",
+            "C: 6",
+            "D: 0",
+            "E: The output cannot be determined"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint m = 63; \nint n = 42; \nint o = n ^ m; \nSystem.out.print( o );",
+        "answers": [
+            "A: 13",
+            "B: 63",
+            "C: 21",
+            "D: -31",
+            "E: 26"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble p = 1.1; \nSystem.out.print( Math.ceil( p * 4 ) );",
+        "answers": [
+            "A: 4.0",
+            "B: 1",
+            "C: 4.4",
+            "D: 5.0",
+            "E: 5"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \nline \n \nlineline \n\n \nline \nline \nSystem.out.print( \"line\\n\" ); \nSystem.out.println( \"line\" ); \nSystem.out.print( \"line\" );",
+        "answers": [
+            "A: linelineline",
+            "B: lineline",
+            "C: line",
+            "D: line/nlineline",
+            "E: line"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString format = \"%0(5d\"; \nint val = 12; \nSystem.out.printf( format, val );",
+        "answers": [
+            "A: (012)",
+            "B: 00010",
+            "C: 00012",
+            "D: (((12",
+            "E: (00012)"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call \nchange( change(8) ) ? \n \n \npublic static int change(int x){ \n  int y = x; \n  y = y - 2; \n  x /= 2; \n  return x + y; \n}",
+        "answers": [
+            "A: 10",
+            "B: 6",
+            "C: 13",
+            "D: 4",
+            "E: 8"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString name = \"jim_gray\"; \nString st; \nst = name.substring(1, 5).substring(2); \nSystem.out.print( st );",
+        "answers": [
+            "A: _gr",
+            "B: _gray",
+            "C: m_",
+            "D: _gra",
+            "E: _g"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString messy; \nmessy = \"6...56fg@71*&^14:\"; \nString[] res = messy.split( \"\\\\D+\" ); \nSystem.out.print( res[3] );",
+        "answers": [
+            "A: :",
+            "B: 71",
+            "C: 7",
+            "D: 14",
+            "E: *&^"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString data = \"MAURICEWILKES\"; \nint count = 0; \nfor(int i = 0; i < data.length(); i++){ \n  if( data.charAt( i ) < 'J' ) \n    continue; \n  count++; \n  i++; \n} \nSystem.out.print( count );",
+        "answers": [
+            "A: 7",
+            "B: 13",
+            "C: 6",
+            "D: 5",
+            "E: 9"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by method over if input initially \ncontains the following Strings? \n[\"Perl\", \"Cobol\", \"Fortran\", \"Ruby\"] \n \n \n \nmethod over. \n \nNoSuchElementException. \n \nlogic error in method over. \npublic static void over \n(ArrayList<String> input){\n   \n  Iterator<String> it = input.iterator(); \n  boolean found = false; \n  while( it.hasNext() ){ \n    found = found  \n        || it.next().length() > 4; \n  } \n  System.out.println( it.next() ); \n}",
+        "answers": [
+            "A: Cobol",
+            "B: Fortran",
+            "C: There is no output due to a syntax error in",
+            "D: There is no output due to a",
+            "E: There is no output due to an infinite loop caused by a"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to indicate \nnumRight is not defined in the TestScore class and \nthat subclasses are responsible for defining it? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: static",
+            "B: interface",
+            "C: abstract",
+            "D: abstract extends",
+            "E: extends"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nACTScore sc = new ACTScore( 50, 100 ); \nSystem.out.print( sc.score() );",
+        "answers": [
+            "A: 0.5",
+            "B: 100",
+            "C: 50",
+            "D: 1.0",
+            "E: 0.0"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nACTScore as = new ACTScore( 145, 200 ); \nTestScore ts = as; \nas.adjustScore( 5 ); \nSystem.out.print( ts.score() );  \n \n \n \n \n \nthe client code. \npublic abstract class TestScore{ \n \n  public <*1> int numRight(); \n \n  public int numQuestions(){ \n    return 100; \n  } \n \n  public int score(){ \n    double raw = numRight(); \n    raw = raw / numQuestions() * 100; \n    return (int)raw; \n  } \n} \n \npublic class ACTScore extends TestScore{ \n  private int correct; \n  private int questions; \n \n  public ACTScore(int c, int q){ \n    correct = c; \n    questions = q; \n  } \n \n  public int numRight(){ \n    return correct; \n  } \n \n  public int numQuestions(){ \n    return questions; \n  } \n \n  public void adjustScore(int adj){ \n    correct += adj; \n  } \n   \n}",
+        "answers": [
+            "A: 75",
+            "B: 150",
+            "C: 145",
+            "D: 72",
+            "E: There is no output due to a syntax error in"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint j = 5; \nint k = (j++ > 5) ? 4 : ((j > 4) ? 3 : 2); \nSystem.out.println( k );",
+        "answers": [
+            "A: 2",
+            "B: 6",
+            "C: 4",
+            "D: 5",
+            "E: 3"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayList<String> letters = new  \nArrayList<String>();\nletters.add( \"A\" ); \nletters.add( \"A\" ); \nletters.add( 1, \"B\" ); \nletters.set( 0, \"AA\" ); \nSystem.out.println( letters );",
+        "answers": [
+            "A: [AAA, AB]",
+            "B: [AA, A, B, A]",
+            "C: [AA, A, B]",
+            "D: [AA, B]",
+            "E: [AA, B, A]"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "What is output by the statement marked line 1 when \nmethod demo is called?",
+        "answers": [
+            "A: 0",
+            "B: 5",
+            "C: 3",
+            "D: 1",
+            "E: 12208"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the statement marked line 2 when \nmethod demo is called? \n \n \n \npublic static int sum(int[][] mat,  \nint row, int col){\n  if( row == -1 || col == mat[0].length ) \n    return 0; \n \n  int tot1 = sum(mat, row - 1, col); \n  int tot2 = sum(mat, row - 1, col + 1); \n  return tot1 + tot2 + mat[row][col]; \n} \n \npublic static void demo(){ \n  int[][] t = { {1, 2, 2, 0, 8}, \n                {5, 1, 0, 1, 2}, \n                {4, 2, 3, 2, 1}}; \n  \n  System.out.println( t.length ); // line 1\n \n  int x = sum( t, 2, 1 ); \n   \n  System.out.println( x ); // line 2 \n}",
+        "answers": [
+            "A: 24",
+            "B: 9",
+            "C: 5",
+            "D: 7",
+            "E: 15"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "Which searching algorithm does method search \nimplement?",
+        "answers": [
+            "A: Greedy",
+            "B: Sequential",
+            "C: Heap",
+            "D: Binary",
+            "E: Interpolation"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "Which of the following best describes method search's \npost condition ? \n \nin nums. \n \nnums or -1 if tgt is not present. \n \n \nless than tgt. \n \nnums or -1 if tgt is not present. \n// pre: nums != null \n// post: see question 28 \npublic static int search(int[] nums,  \nint tgt){\n  int result = -1; \n  for(int i = 0; i < nums.length; i++){ \n    if( nums[i] == tgt ){ \n      result = i; \n    } \n  } \n  return result; \n}",
+        "answers": [
+            "A: Returns the index of the first occurrence of tgt",
+            "B: Returns the index of the first occurrence of tgt in",
+            "C: Returns the number of times tgt appears in nums.",
+            "D: Returns the number of elements in nums that are",
+            "E: Returns the index of the last occurrence of tgt in"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n/* explanation of method replaceFirst: \n   String replaceFirst(String regex, \n                        String replacement)\n   Creates and returns a new String by   \n   replacing the first substring that  \n   matches regex with replacement. \n*/ \n \nString nm = \"alan_emer\"; \nString regex = \"a..\"; \nString rs = nm.replaceFirst( regex, \"b\" ); \nSystem.out.print( rs );",
+        "answers": [
+            "A: aan_emer",
+            "B: lb_emer",
+            "C: n_emer",
+            "D: bn_emer",
+            "E: alan_emer"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "Consider method build to the right. When the parameter \nn equals 500,000 the method takes 1.5 seconds to \ncomplete. What is the expected time for method build to \ncomplete when n equals 1,000,000? \n \n \npublic TreeSet<Integer> build(int n){ \n  TreeSet<Integer> tree  \n= new TreeSet<Integer>();\n  for(int i = 0; i < n; i++) \n    tree.add( i ); \n  return tree; \n}",
+        "answers": [
+            "A: 6.0 sec.",
+            "B: 2.25 sec.",
+            "C: 3.15 sec.",
+            "D: 1.5 sec.",
+            "E: 3.0 sec."
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is output by the code to the right when method \ninitiate is called? \n \n \n \n \nalter. \n \nArrayIndexOutOfBoundsException. \npublic static int alter(int[] data){ \n  int i = 0; \n  try{ \n    while( i < data.length ) \n      data[i++] *= 2; \n    if( i > 2 ) \n      return i; \n    return 0; \n  } \n  finally{ \n    data[1] += 3; \n  } \n} \n \npublic static void initiate(){ \n  int[] data = {5, 3, 5, 2, 1, 7, 8}; \n  alter( data ); \n  System.out.println( data[1] ); \n}",
+        "answers": [
+            "A: 6",
+            "B: 9",
+            "C: 3",
+            "D: There is no output due to a syntax error in method",
+            "E: There is not output due to an"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "If N equals values.length what is the Big O of \nmethod fill when res is an ArrayList and when \nres is a LinkedList? Pick the most restrictive correct \nset of answers. \n \n ArrayList LinkedList \n \n \n \n \n \n// pre: res.size() == 0 \npublic static void fill(List<Integer> res, \nint[] values){\n     \n    for(int element : values) \n      res.add( 0, element ); \n}",
+        "answers": [
+            "A: O(N) O(N)",
+            "B: O(N3) O(N2)",
+            "C: O(N2) O(N2)",
+            "D: O(N2) O(N)",
+            "E: O(N) O(N2)"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What is returned by the method call beta(20)? \n \n \npublic static int alpha(int x){ \n  return (x < 0) ? x * 2 : beta( x + 10 ); \n} \n \npublic static int beta(int y){ \n  return alpha( y - 15 ) + 1; \n}",
+        "answers": [
+            "A: -4",
+            "B: -10",
+            "C: 0",
+            "D: -9",
+            "E: -7"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that the \nbody of the if statement executes when the element at \nposition i in the array d is less that or equal to the \nvariable guide according to the natural ordering of the \nelements of d? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: d[i].compareTo( guide ) >= 0",
+            "B: guide.compareTo( d[i] ) <= 0",
+            "C: !guide.equals( d[i] )",
+            "D: d[i] <= guide",
+            "E: d[i].compareTo( guide ) <= 0"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "Which sorting algorithm do methods sort and swap \nimplement? \n \n \n \n \n \npublic static void sort(Comparable[] d){ \n  int start, end; \n  Stack<Integer> sp = new Stack<Integer>();\n  sp.push( 0 ); \n  sp.push( d.length - 1 ); \n  while( !sp.isEmpty() ){ \n    end = sp.pop(); \n    start = sp.pop(); \n    if(start < end){ \n      int p = ( start + end ) / 2; \n      swap( d, p, start ); \n      Comparable guide = d[start]; \n      int i, j = start; \n      for(i = start + 1; i <= end; i++ ){ \n        if( <*1> ){ \n          j++; \n          swap( d, i, j ); \n        } \n      }  \n      swap( d, start, j ); \n      sp.push( start ); \n      sp.push( j - 1 ); \n      sp.push( j + 1 ); \n      sp.push( end ); \n    } \n  } \n} \n \npublic static void swap(Comparable[] d, \nint i, int j){\n  Comparable t = d[i]; \n  d[i] = d[j]; \n  d[j] = t; \n}",
+        "answers": [
+            "A: Merge sort",
+            "B: Insertion sort",
+            "C: Quicksort",
+            "D: Selection sort",
+            "E: Stack sort"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "The depth of a node in a tree is defined as the number of links from the root node of the tree to that node.  \nThe depth of the root node is 0.  \nThe following values are inserted one at a time in the order shown, from left to right, into a binary search tree using the \ntraditional insertion algorithm.  \n25  1  13  -5  100  12  50  10  -7  200  8 \nWhat is the depth of the node that contains 12 in the resulting tree?",
+        "answers": [
+            "A: 0",
+            "B: 11",
+            "C: 3",
+            "D: 5",
+            "E: 2"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint num = -1; \nSystem.out.println( num >>> 24 );",
+        "answers": [
+            "A: -1",
+            "B: 255",
+            "C: 0",
+            "D: 128",
+            "E: -16777216"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nint result = Structure.value( \"cab\" );\nSystem.out.print( result );",
+        "answers": [
+            "A: 2",
+            "B: 3",
+            "C: 6",
+            "D: 0",
+            "E: 294"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nStructure ds = new Structure(); \nds.add( \"cab\" );  \nds.add( \"aaa\" ); \nds.add( \"dead_e\" ); \nds.add( \"bac\" ); \nds.add( \"ACM\" ); \n \nds.showAll();",
+        "answers": [
+            "A: aaa_cab_bac_dead_e_ACM_",
+            "B: ACM_aaa_bac_cab_dead_e_",
+            "C: ACM_aaa_bac_cab_deade_",
+            "D: ACM_aaa_cab_bac_dead_e_",
+            "E: cab_aaa_ACM_bac_dead_e_"
+        ],
+        "testSource": "State, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 39
+    }
+]

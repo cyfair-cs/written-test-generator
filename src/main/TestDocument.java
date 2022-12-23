@@ -22,44 +22,11 @@ class Question {
         this.testSource = testSource;
     }
 
-    private static String simplifyContestName(String input) {
-        return switch (input) {
-            case "district", "districts" -> "Districts";
-            case "regional", "regionals" -> "Regionals";
-            case "invitational", "invitationals" -> "Invitational";
-            case "utcs-invitational" -> "University of Texas CS Invitational";
-            case "practice" -> "Practice";
-            case "state" -> "State";
-            case "cs08d" -> "CS08d";
-            default -> input;
-        };
-    }
-
-    public static Question parseQuestion(String input, String testSourceRaw) {
-
+    public static Question parseQuestion(String input, String testSource) {
         // Initialize variables
         int questionNumber = -1;
         String questionDescription = "";
         List<String> answers = new ArrayList<>();
-
-        String[] testSourceTokens = testSourceRaw.split("_");
-        String contestName, testVersion, testYear;
-
-        String testSourceName = "";
-
-        // no test version
-        if (testSourceTokens.length == 2) {
-            contestName = simplifyContestName(testSourceTokens[0]);
-            testYear = testSourceTokens[1];
-            testSourceName = contestName + ", " + testYear;
-        }
-        // has test version
-        else if (testSourceTokens.length == 3) {
-            contestName = simplifyContestName(testSourceTokens[0]);
-            testVersion = testSourceTokens[1];
-            testYear = testSourceTokens[2];
-            testSourceName = contestName + " Version " + testVersion + ", " + testYear;
-        }
 
         // Use regular expressions to extract information from input
         // ^(\d+)\s*(.*?)(?:\n(int.*\n)*)?(?:\n([ABCDE]\..*))
@@ -88,7 +55,7 @@ class Question {
         }
 
         // Return a new Question object with the extracted information
-        return new Question(questionNumber, questionDescription, testSourceName, answers);
+        return new Question(questionNumber, questionDescription, testSource, answers);
     }
 
     @Override
@@ -130,8 +97,8 @@ class Question {
 class TestDocument {
     private ArrayList<Question> questions;
     private final String name;
-    public TestDocument(File document, String name) {
-        this.name = name;
+    public TestDocument(File document, String raw_name) {
+        this.name = getVerboseContestName(raw_name);
         try {
             PDDocument pdf = PDDocument.load(document);
             String raw = new PDFTextStripper().getText(pdf);
@@ -143,51 +110,87 @@ class TestDocument {
             questions = new ArrayList<>();
 
             for (int i = 1; i < tokens.length-1; i++)
-                questions.add(Question.parseQuestion(tokens[i], name));
+                questions.add(Question.parseQuestion(tokens[i], this.name));
 
-            String answerText = tokens[tokens.length-1];
-
-            if (answerText.contains("Computer Science Answer Key")) {
-
-                answerText = answerText.substring(answerText.indexOf("Computer Science Answer Key")).trim();
-
-                if (answerText.contains("Notes:"))
-                    answerText = answerText.substring(0, answerText.indexOf("Notes:")).trim();
-                if (answerText.contains("Note to Graders: "))
-                    answerText = answerText.substring(0, answerText.indexOf("Note to Graders:")).trim();
-
-                Pattern correctAnswerPattern = Pattern.compile("(?:([0-9][0-9]?[\\.\\)].*))");
-                Matcher correctAnswerMatcher = correctAnswerPattern.matcher(answerText);
-
-                System.out.println(answerText);
-
-                HashMap<Integer, String> correctAnswers = new HashMap<>();
-
-                while (correctAnswerMatcher.find()) {
-                    String lineMatch = correctAnswerMatcher.group(0);
-                    Pattern answerTokenPattern = Pattern.compile("\\d\\d?[\\.\\)]\\s+[A-E]");
-                    Matcher answerTokenMatcher = answerTokenPattern.matcher(lineMatch);
-                    while (answerTokenMatcher.find()) {
-                        String[] matchTokens = answerTokenMatcher.group(0).split("\\s+");
-                        int questionNumber = Integer.parseInt(matchTokens[0].replaceAll("[:\\.\\)]",""));
-                        String questionAnswer = matchTokens[1];
-
-                        if (!correctAnswers.containsKey(questionNumber))
-                            correctAnswers.put(questionNumber, questionAnswer);
-                    }
-                }
-
-                for (int questionNumber: correctAnswers.keySet()) {
-                    Optional<Question> questionFound =  questions.stream().filter(q -> q.getQuestionNumber() == questionNumber).findFirst();
-                    if (questionFound.isPresent())
-                        questionFound.get().setCorrectAnswer(correctAnswers.get(questionNumber));
-                }
-
-                System.out.println("===========================");
-            }
-
+            loadKeysFromText(tokens[tokens.length-1]);
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    public static String getVerboseContestName(String input) {
+        String contestName, testVersion, testYear, testSourceName = input;
+        String[] testSourceTokens = input.split("_");
+
+        // no test version
+        if (testSourceTokens.length == 2) {
+            contestName = simplifyContestName(testSourceTokens[0]);
+            testYear = testSourceTokens[1];
+            testSourceName = contestName + ", " + testYear;
+        }
+        // has test version
+        else if (testSourceTokens.length == 3) {
+            contestName = simplifyContestName(testSourceTokens[0]);
+            testVersion = testSourceTokens[1];
+            testYear = testSourceTokens[2];
+            testSourceName = contestName + " Version " + testVersion + ", " + testYear;
+        }
+
+        return testSourceName;
+    }
+
+    private static String simplifyContestName(String input) {
+        return switch (input) {
+            case "district", "districts" -> "Districts";
+            case "regional", "regionals" -> "Regionals";
+            case "invitational", "invitationals" -> "Invitational";
+            case "utcs-invitational" -> "University of Texas CS Invitational";
+            case "practice" -> "Practice";
+            case "state" -> "State";
+            case "cs08d" -> "CS08d";
+            case "seven-lakes" -> "Seven Lakes";
+            case "tompkins" -> "Tompkins";
+            default -> input;
+        };
+    }
+
+    public void loadKeysFromText(String answerText) {
+        // Computer Science Contest #1415-01 Key -> slhs 20
+        if (answerText.contains("Computer Science Answer Key") || answerText.contains("Computer Science Contest #1415-01 Key")) {
+
+            answerText = answerText.substring(Math.max(answerText.indexOf("Computer Science Answer Key"), answerText.indexOf("October 11, 2014"))).trim();
+
+            if (answerText.contains("Notes:"))
+                answerText = answerText.substring(0, answerText.indexOf("Notes:")).trim();
+            if (answerText.contains("Note to Graders: "))
+                answerText = answerText.substring(0, answerText.indexOf("Note to Graders:")).trim();
+
+            Pattern correctAnswerPattern = Pattern.compile("(?:([0-9][0-9]?[\\.\\)].*))");
+            Matcher correctAnswerMatcher = correctAnswerPattern.matcher(answerText);
+
+            HashMap<Integer, String> correctAnswers = new HashMap<>();
+
+            while (correctAnswerMatcher.find()) {
+                String lineMatch = correctAnswerMatcher.group(0);
+                Pattern answerTokenPattern = Pattern.compile("\\d\\d?[\\.\\)]\\s+[A-E]");
+                Matcher answerTokenMatcher = answerTokenPattern.matcher(lineMatch);
+                while (answerTokenMatcher.find()) {
+                    String[] matchTokens = answerTokenMatcher.group(0).split("\\s+");
+                    int questionNumber = Integer.parseInt(matchTokens[0].replaceAll("[:\\.\\)]",""));
+                    String questionAnswer = matchTokens[1];
+
+                    if (!correctAnswers.containsKey(questionNumber))
+                        correctAnswers.put(questionNumber, questionAnswer);
+                }
+            }
+
+            for (int questionNumber: correctAnswers.keySet()) {
+                Optional<Question> questionFound =  questions.stream().filter(q -> q.getQuestionNumber() == questionNumber).findFirst();
+                if (questionFound.isPresent())
+                    questionFound.get().setCorrectAnswer(correctAnswers.get(questionNumber));
+            }
+
+//            System.out.println("===========================");
         }
     }
 

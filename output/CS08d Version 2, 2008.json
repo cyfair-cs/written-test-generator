@@ -1,0 +1,509 @@
+[
+    {
+        "questionDescription": "What is the sum of 7578 and 3638?",
+        "answers": [
+            "A: 13428",
+            "B: 11208",
+            "C: 17778",
+            "D: 11118",
+            "E: 11308"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 3.0; \ndouble b = 2.0; \nSystem.out.print( a / b );",
+        "answers": [
+            "A: 1.0",
+            "B: 1.5",
+            "C: 1",
+            "D: 0",
+            "E: 0.0"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint counter = 0; \nfor(int i = 0; i < 12; i++) \n  counter++; \nSystem.out.print( counter );",
+        "answers": [
+            "A: 13",
+            "B: 0",
+            "C: 12",
+            "D: 14",
+            "E: 28"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nString sci = \"stephen_cook\"; \nString some = sci.substring(5, 9); \nSystem.out.print( some );",
+        "answers": [
+            "A: en_co",
+            "B: hen_",
+            "C: hen",
+            "D: enco",
+            "E: en_c"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint[] values = {3, 5, 2, 12, 7}; \nvalues[2]++;\nSystem.out.print( values[2] );",
+        "answers": [
+            "A: 2",
+            "B: 0",
+            "C: 1",
+            "D: 3",
+            "E: 13"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint x = 5; \nint y = 2; \ny = x * (y + 2) - y; \nSystem.out.print( y );",
+        "answers": [
+            "A: 10",
+            "B: 16",
+            "C: 18",
+            "D: 8",
+            "E: 9"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nboolean p = true; \nboolean q = false; \nSystem.out.print( !p || q ); \nSystem.out.print( \" \" ); \nSystem.out.print( !(p || q) );",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true false",
+            "D: true true",
+            "E: false true false"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \ndouble c = 2.5; \nif( c > 1.5 ){ \n  if( c > 3 ) \n    c = c * 2; \n  else \n    c = c + 1; \n}\nSystem.out.print( c );",
+        "answers": [
+            "A: 5.0",
+            "B: 3.5",
+            "C: 6.0",
+            "D: 4.0",
+            "E: 2.5"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right so that\nDEFAULT_SIDES is a class constant that is accessible in \nall other classes? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: public final",
+            "B: static final",
+            "C: public static",
+            "D: public static final",
+            "E: public static final void"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \npublic class NumberDie{ \n<*1> int DEFAULT_SIDES = 6; \n  private int sides; \n  public NumberDie(){ \n    sides = DEFAULT_SIDES; \n  } \n  public NumberDie(int s){ \n    sides = s; \n  } \n  public int getSides(){ \n    return sides; \n  } \n}\n//////////////////////////////////////////\n// client code \nNumberDie d = new NumberDie(); \nSystem.out.print( d.getSides() );",
+        "answers": [
+            "A: 0",
+            "B: d",
+            "C: s",
+            "D: 5",
+            "E: 6"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint f = 7; \nint g = 15; \nSystem.out.print( g & f );",
+        "answers": [
+            "A: 15",
+            "B: 7",
+            "C: 22",
+            "D: 0",
+            "E: 1"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nint top = Math.max(7, 14); \nSystem.out.print( top );",
+        "answers": [
+            "A: 0",
+            "B: 2",
+            "C: 7",
+            "D: 14",
+            "E: 21"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.print(\"\\\\Easy\");",
+        "answers": [
+            "A: \\Easy",
+            "B: \"easy\"",
+            "C: Easy",
+            "D: \"Easy",
+            "E: \\\\Easy"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"%4.2f\", 1.3679);",
+        "answers": [
+            "A: .3679",
+            "B: 3679",
+            "C: 1.3600",
+            "D: 1.37",
+            "E: +1.3"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "What is returned by the method call sample(3)?\n \n \npublic static int sample(int y){ \n  y--; \n  return y * y; \n}",
+        "answers": [
+            "A: 3",
+            "B: 1",
+            "C: 4",
+            "D: 16",
+            "E: 6"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nString trash = \"ham+can--putt*=cut\"; \nString[] sp = trash.split(\"\\\\W+\"); \nSystem.out.print( sp[2] );",
+        "answers": [
+            "A: *=",
+            "B: can",
+            "C: putt",
+            "D: -",
+            "E: There is no output."
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nClassCastException.\nObject obj = new Object(); \nString st = obj; \nSystem.out.print( st.length() );",
+        "answers": [
+            "A: 0",
+            "B: 1",
+            "C: 3",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nint x = 3; \nint y = 3; \nchar[] letters = new char[ x * y ]; \nSystem.out.print( letters.length );",
+        "answers": [
+            "A: 9",
+            "B: 0",
+            "C: 3",
+            "D: 6",
+            "E: There is no output due to a syntax error."
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nDouble d1 = new Double( -1.23 ); \nDouble d2 = new Double( 1.5 ); \nint comp = d2.compareTo( d1 ); \nif( comp < 0 ) \n  System.out.print( 1 ); \nelse if ( comp == 0 ) \n  System.out.print( 2 ); \nelse\n  System.out.print( 3 );",
+        "answers": [
+            "A: 3",
+            "B: 2",
+            "C: 1",
+            "D: 0",
+            "E: -1"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to set the new\nPizza object's cost instance variable equal to 10?\n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: super(10)",
+            "B: Pizza(10)",
+            "C: this.Pizza(10)",
+            "D: this(10)",
+            "E: c = 10"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \nSquarePizza class.\npublic class Pizza{ \n  private int cost; \n  public Pizza(){ \n<*1>;\n  } \n  public Pizza(int c){ \n    cost = c; \n  } \n  public int getCost(){ \n    return cost; \n  } \n}\npublic class SquarePizza extends Pizza{ \n  private int sideLength; \n  public SquarePizza(int sz){ \n    sideLength = sz; \n  } \n  public int pizzaPerDollar(){ \n    int area = sideLength * sideLength; \n    return area / getCost(); \n  } \n}\n//////////////////////////////////////////\n// client code \nSquarePizza pz = new SquarePizza(20); \nSystem.out.print( pz.pizzaPerDollar() );",
+        "answers": [
+            "A: 0",
+            "B: 40",
+            "C: 10",
+            "D: 20",
+            "E: There is no output due to a syntax error in the"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "What is output by the code to the right when given this \ninput? \n1.2 0.9 .3 -.4 ZZ \n \n \nScanner sc = new Scanner( System.in ); \nint count = 0; \nwhile( sc.hasNextDouble() ){ \n  count++; \n  sc.nextDouble(); \n}\nSystem.out.print( count );",
+        "answers": [
+            "A: 2",
+            "B: 2.1",
+            "C: 4",
+            "D: 3",
+            "E: 2.0"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString thing = \"cat\"; \nSystem.out.print( thing.matches( \"ca\" ) ); \nSystem.out.print( \" \" ); \nSystem.out.print( thing.matches( \"c.*\" ) );",
+        "answers": [
+            "A: false",
+            "B: false false",
+            "C: false true",
+            "D: true false",
+            "E: true true"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \nArrayList<Integer> ar; \nar = new ArrayList<Integer>(); \nar.add(3);\nar.add(0, 1); \nar.add(1, 0); \nSystem.out.print( ar.toString() );",
+        "answers": [
+            "A: [1, 0, 3]",
+            "B: [0, 1, 3]",
+            "C: [3, 1, 0]",
+            "D: [0, 3, 1]",
+            "E: [1, 3, 0]"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "Which of the following are Java keywords? \nI. method\nII. throws\nIII. foreach",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: II and III",
+            "E: none of these"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nStringIndexOutOfBoundsException.\nString vals = \"ab12CC3\"; \nint pos = 0; \nint cnt = 0; \nboolean ts; \ndo{\n  ts = Character.isLetter(vals.charAt(pos)); \n  if( ts ){ \n    cnt++; \n    pos += 2; \n  } \n  else{ \n    cnt += 2; \n    pos++; \n  } \n}while( pos < vals.length() );\nSystem.out.print( cnt );",
+        "answers": [
+            "A: 7",
+            "B: 11",
+            "C: 8",
+            "D: 6",
+            "E: There is no output due to a"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "What is returned by the method call again(1)?\n \n \n \npublic static int again(int x){ \n  int result = 0; \n  if( x <= 0 ) \n    result = 2; \n  else \n    result = 2 + again( x - 1 ); \n  return result; \n}",
+        "answers": [
+            "A: 4",
+            "B: -1",
+            "C: 2",
+            "D: 0",
+            "E: 1"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "What is the running time of method process? Assume \nN equals data.length. Choose the most restrictive \ncorrect answer. \n \n \npublic static void process(int[] data, \n                          int min, \n                          int max){ \n  int result = 0; \n  for( int val : data ) \n    if( val >= min && val <= max ) \n      result++; \n    else \n      result--; \n  for(int i = 0; i < data.length; i++) \n    data[i] += result; \n}",
+        "answers": [
+            "A: O(N2)",
+            "B: O(NlogN)",
+            "C: O(N3)",
+            "D: O(N2logN)",
+            "E: O(N)"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "Which searching algorithm does method\nsearch implement?",
+        "answers": [
+            "A: sequential search",
+            "B: insertion search",
+            "C: binary search",
+            "D: merge search",
+            "E: fibonacci search"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "What must the pre-condition for method search be so \nthat it always fulfills its post-condition? \n \n \n \nbe any duplicated values. \n \n \n/* pre: see question 30 \n   post: return an index in data\n         that contains tgt.\n         If tgt is not present return -1. \n*/\npublic static int search(int tgt, \n                         int[] data){ \n  int high = data.length - 1; \n  int low = 0; \n  int mid = (low + high) / 2; \n  while( data[mid] != tgt && low <= high){ \n    if( data[mid] > tgt ) \n      low = mid + 1; \n    else \n      high = mid - 1; \n    mid = (low + high) / 2; \n  } \n  if( data[mid] == tgt ) \n    return mid; \n  else \n    return -1; \n}",
+        "answers": [
+            "A: The elements of data must be in ascending order.",
+            "B: The elements of data must be in descending order.",
+            "C: The elements of data must be distinct. There can't",
+            "D: The length of data must be even.",
+            "E: More than one of these."
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "B",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "What is returned by the method call one(2)?",
+        "answers": [
+            "A: 0",
+            "B: 2",
+            "C: 4",
+            "D: 3",
+            "E: -1"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "What is returned by the method call three(1)?\n \n \npublic static int one(int a){ \n  return a * 2; \n}\npublic static int two(int b){ \n  b = one(b + 1); \n  return b; \n}\npublic static int three(int c){ \n   c = two(c); \n   c += 2; \n   return c; \n}",
+        "answers": [
+            "A: 3",
+            "B: 2",
+            "C: 5",
+            "D: 6",
+            "E: 4"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "D",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What are the elements in the Set named beta after the \ncode to the right executes? \n \n \n \n \n \nSet<Integer> alpha; \nalpha = new TreeSet<Integer>(); \nSet<Integer> beta = new TreeSet<Integer>();\nfor(int i = 2; i > -3; i--) \n  alpha.add(i); \nfor(int i = 0; i < 4; i++) \n  beta.add( i ); \nbeta.addAll(alpha);",
+        "answers": [
+            "A: [-2, -1, 0, 1, 2]",
+            "B: [-2, -1, 0, 0, 1, 1, 2, 2, 3]",
+            "C: [0, 1, 2]",
+            "D: [3]",
+            "E: [-2, -1, 0, 1, 2, 3]"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What replaces <*1> in the code to the right to set the \nvariable pos equal to the number of elements in the\nArrayList named con?\n \n \n \n \n \nAssume <*1> is filled in correctly.",
+        "answers": [
+            "A: con.size()",
+            "B: con.length()",
+            "C: con.size",
+            "D: super.size()",
+            "E: this.size()"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "What is output by the client code to the right?",
+        "answers": [
+            "A: [Z, Z, B, A]",
+            "B: [A, B, Z]",
+            "C: [A, B, Z, Z]",
+            "D: [Z, B, A]",
+            "E: [Z, A, Z, B]"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "What type of data structure does the\nStructure class implement? \n \n \n \n \n \npublic class Structure \n<E extends Comparable<E>>{\n  private ArrayList<E> con; \n  public Structure(){ \n    con = new ArrayList<E>(); \n  } \n  public boolean isEmpty(){ \n    return con.size() == 0; \n  } \n  public E get(){ \n    return con.get(0); \n  } \n  public E remove(){ \n    return con.remove(0); \n  } \n  public void add(E obj){ \n    int pos = <*1>;\n    boolean done = false; \n    E temp; \n    while( pos > 0 && !done ){ \n      temp = con.get( pos - 1 ); \n      done = obj.compareTo( temp ) >= 0; \n      if( !done ) \n        pos--; \n    } \n    con.add(pos, obj); \n  } \n  public String toString(){ \n    return con.toString(); \n  } \n}\n//////////////////////////////////////////\n// client code \nStructure<String> s; \ns = new Structure<String>(); \ns.add(\"Z\");\ns.add(\"A\");\ns.add(\"Z\");\ns.add(\"B\");\nSystem.out.println(s);",
+        "answers": [
+            "A: A stack",
+            "B: A list",
+            "C: A priority queue",
+            "D: A set",
+            "E: A regular queue"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "C",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "In the code to the right, what kind of Collection must \ncol be so that no int appears more than once? \n \n \npublic void show(Collection<Integer> col){ \n  for(int i : col) \n    System.out.print( i ); \n}",
+        "answers": [
+            "A: ArrayList",
+            "B: Stack",
+            "C: Queue",
+            "D: LinkedList",
+            "E: HashSet"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nClassCastException.\nLinkedList<Integer> first; \nfirst = new LinkedList<Integer>(); \nfirst.add( 12 ); \nfirst.add( 16 ); \nArrayList<Integer> second; \nsecond = new ArrayList<Integer>(); \nsecond.add( 12 ); \nsecond.add( 16 ); \nSystem.out.print( first.equals(second) );",
+        "answers": [
+            "A: true",
+            "B: false",
+            "C: The output cannot be determined until runtime.",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "A",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "Which of the following is most likely to occur when the \nprogram RunLong is compiled and run on a real \ncomputer? \n \n \n \nincreasing values. \n \ndecreasing values. \n \nmemory. \npublic class RunLong{ \n  public static void main(String[] args){ \n    go(1); \n  } \n  public static void go(int x){ \n    go( x + 1 ); \n    System.out.println( x ); \n  } \n}",
+        "answers": [
+            "A: The program will not compile due to a syntax error.",
+            "B: The program will run forever with no output.",
+            "C: The program will run forever printing out always",
+            "D: The program will run forever printing out always",
+            "E: The program will eventually crash when it runs out of"
+        ],
+        "testSource": "CS08d Version 2, 2008",
+        "correctAnswer": "E",
+        "questionNumber": 39
+    }
+]

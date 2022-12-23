@@ -1,0 +1,508 @@
+[
+    {
+        "questionDescription": "What is the sum of 648 and 558?",
+        "answers": [
+            "A: 1112",
+            "B: 110012",
+            "C: 11000012",
+            "D: 1110012",
+            "E: 11001112"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 1
+    },
+    {
+        "questionDescription": "int x = 10; \ndouble a = 2.5; \na = a / x + a * 2; \nSystem.out.print(a); \n What is output by the code to the right?",
+        "answers": [
+            "A: 5.0",
+            "B: 5.25",
+            "C: 5.5",
+            "D: 0.75",
+            "E: 9.0"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 2
+    },
+    {
+        "questionDescription": "int j = 0; \nint limit = 5; \nfor(j = 1; j < limit; j++){ \n  limit++; \n  j *= 2; \n} \nSystem.out.print(j + \" \" + limit); \n What is output by the code to the right?",
+        "answers": [
+            "A: 7 5",
+            "B: 5 8",
+            "C: 8 5",
+            "D: 7 7",
+            "E: 5 5"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 3
+    },
+    {
+        "questionDescription": "String lang = \"Naur\"; \nString big = lang + lang; \nbig = big + big + lang; \nSystem.out.print(lang.length()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 4",
+            "B: 8",
+            "C: 16",
+            "D: 20",
+            "E: 24"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 4
+    },
+    {
+        "questionDescription": "int[] small = {1, 2, 1, 0, 3}; \nsmall[small[small[0]]] += 3; \nfor(int i : small) \n  System.out.print(i); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12403",
+            "B: 12106",
+            "C: 42103",
+            "D: 45403",
+            "E: 15103"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 5
+    },
+    {
+        "questionDescription": "int w = 4; \nint z = 2; \nz = 2 + 2 * ++w; \nSystem.out.print(z); \n What is output by the code to the right?",
+        "answers": [
+            "A: 12",
+            "B: 10",
+            "C: 8",
+            "D: 6",
+            "E: 4"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 6
+    },
+    {
+        "questionDescription": "Which answer is logically equivalent to the following boolean expression, where p, q, and r are boolean variables?\n \n !(!p || q) || (r && !r) \n \n \n D (p || q)",
+        "answers": [
+            "A: (p || !q) || (r && !r)",
+            "B: r",
+            "C: !r",
+            "D: p && !q"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 7
+    },
+    {
+        "questionDescription": "int x = 10; \nint y = 20; \nif( x % y > y % x ) \n  System.out.print(1); \nif( x / y > y / x ) \n  System.out.print(2); \nelse if( y > x ) \n  System.out.print(3); \n What is output by the code to the right?",
+        "answers": [
+            "A: 13",
+            "B: 12",
+            "C: 2",
+            "D: 3",
+            "E: 1"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 8
+    },
+    {
+        "questionDescription": "public class HomeRun{ \n \n  private int distance; \n \n  public HomeRun(int d){ \n    distance = d; \n  } \n \n  public boolean isLonger(HomeRun other){ \n    return distance > other.distance; \n  } \n \n  public boolean same(HomeRun other){ \n    return !isLonger(other) && \n      !other.isLonger(<*1>); \n  } \n} \n What replaces <*1> in the code to the right to pass the \ncalling object as an argument? \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: distance",
+            "B: HomeRun",
+            "C: super",
+            "D: other",
+            "E: this"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 9
+    },
+    {
+        "questionDescription": "What is output by the following client code? \nHomeRun h1 = new HomeRun(500); \nHomeRun h2 = new HomeRun(50 * 10); \nSystem.out.print( h1.same(h2) );",
+        "answers": [
+            "A: false",
+            "B: true",
+            "C: 0",
+            "D: 1",
+            "E: equals"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 10
+    },
+    {
+        "questionDescription": "int ax = 30; \nint bx = ax << 3; \nSystem.out.print(ax + \" \" + bx); \n What is output by the code to the right?",
+        "answers": [
+            "A: 30 3",
+            "B: 30 240",
+            "C: 3 3",
+            "D: 240 240",
+            "E: 3 30"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 11
+    },
+    {
+        "questionDescription": "int st = Math.min(-5, 5); \nint res = Math.max(Math.min(12, 10), st); \nSystem.out.print(st + \" \" + res); \n What is output by the code to the right?",
+        "answers": [
+            "A: 5 12",
+            "B: -5 12",
+            "C: 5 10",
+            "D: -5 5",
+            "E: -5 10"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 12
+    },
+    {
+        "questionDescription": "System.out.print(\"Red\\t\"); \nSystem.out.print(\"Blue\\t\"); \nSystem.out.println(); \nSystem.out.print(\"Green\"); \n What is output by the code to the right? \n \nGreen \n\n \nBlue \nGreen \n\nBlue    Green",
+        "answers": [
+            "A: Red    Blue",
+            "B: Red   Blue   Green",
+            "C: Red",
+            "D: Red",
+            "E: RedBlueGreen"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 13
+    },
+    {
+        "questionDescription": "double val = 3.14159; \nString format = \"%1$3.1f %2$3.3f\"; \nSystem.out.printf(format, val, val); \n What is output by the code to the right?",
+        "answers": [
+            "A: 3.1 3.142",
+            "B: 3.13.1",
+            "C: 3.1 3.1",
+            "D: 3.13.14",
+            "E: 3.1416 3.14"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 14
+    },
+    {
+        "questionDescription": "public int hat(int x, int y){ \n  x--; \n  y--; \n  return x + y; \n} \n What is returned by the method call \nhat(hat(2, 3), hat(1, 1))?",
+        "answers": [
+            "A: -2",
+            "B: 1",
+            "C: 2",
+            "D: 3",
+            "E: 4"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 15
+    },
+    {
+        "questionDescription": "boolean p; \nboolean q; \nString nm1 = \"Shannon\"; \nString nm2 = \"Shortliffe\"; \nString nm3 = \"Rivest\"; \np = nm1.compareTo(nm2) < 0; \nq = nm2.compareTo(nm3) > 0; \nSystem.out.print( p + \" \" + q); \n What is output by the code to the right?",
+        "answers": [
+            "A: false false",
+            "B: false true",
+            "C: true true",
+            "D: 1 1",
+            "E: true false"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 16
+    },
+    {
+        "questionDescription": "String result = \"\"; \nfor(int i = 0; i < 20; i++) \n  for(int j = i; j < 20; j++) \n    result = result + \"*\"; \nSystem.out.print( result.length() );  \n What is output by the code to the right?",
+        "answers": [
+            "A: 400",
+            "B: 210",
+            "C: 120",
+            "D: 40",
+            "E: 20"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 17
+    },
+    {
+        "questionDescription": "ArrayList<String> data; // line 1 \ndata = new ArrayList<String>(); // line 2 \ndata.add(0, \"12\"); // line 3 \ndata.add(12); //line 4 \ndata.add(12 + \"\"); // line 5 \n The code to the right contains a syntax error. Which line of \ncode causes the syntax error?",
+        "answers": [
+            "A: line 1",
+            "B: line 2",
+            "C: line 3",
+            "D: line 4",
+            "E: line 5"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 18
+    },
+    {
+        "questionDescription": "List<Integer> list1; \nlist1 = new ArrayList<Integer>(); \nlist1.add(5); \nlist1.add(3); \nList<Integer> list2 = list1; \nlist2.add(1, 0);  \nSystem.out.print(list1); \n What is output by the code to the right?",
+        "answers": [
+            "A: [5, 3]",
+            "B: [5, 0, 3]",
+            "C: [0, 5, 3]",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 19
+    },
+    {
+        "questionDescription": "int val = 1; \nfor(int i = 0; i < 6; i++) \n  val *= 2; \nSystem.out.print(val); \n What is output by the code to the right?",
+        "answers": [
+            "A: 0",
+            "B: 6",
+            "C: 12",
+            "D: 36",
+            "E: 64"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 20
+    },
+    {
+        "questionDescription": "System.out.print(Math.pow(5, 3)); \n What is output by the code to the right?",
+        "answers": [
+            "A: 15.0",
+            "B: 125.0",
+            "C: 243.0",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 21
+    },
+    {
+        "questionDescription": "int x = 3; \nint y = 7 / 2; \nint z = (x > y) ? (x < y) ? 1 : 2 : 3; \nSystem.out.print(y + \" \" + z); \n What is output by the code to the right?",
+        "answers": [
+            "A: 7 2",
+            "B: 3 1",
+            "C: 3 3",
+            "D: 3 2",
+            "E: 0 1"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 22
+    },
+    {
+        "questionDescription": "public interface Readable{ \n  public int numWords(); \n  public String genre(); \n} \n \npublic class EBook implements Readable{ \n  private static final String g = \"EBook\"; \n  private int words; \n \n  public EBook(int w){ \n    words = w; \n  } \n \n  public String genre(){ return g; } \n \n  public int numWords(){ return words; } \n \n  public boolean equals(EBook obj){ \n    return this.words == obj.words; \n  } \n \n  public String toString(){ \n    return words + \" \" + g; \n  } \n} \n \n// client code Question 25 \nObject obj1 = new EBook(1000); \nObject obj2 = new EBook(1000); \nSystem.out.print( obj1 == obj2 ); \nSystem.out.print( \" \" + obj1.equals(obj2));\n Given the Readable interface and the EBook class, \nwhat is output by the following client code? \nEBook e1 = new EBook(2000); \nSystem.out.print( e1 );",
+        "answers": [
+            "A: 2000",
+            "B: word g",
+            "C: 2000 null",
+            "D: 2000 EBook",
+            "E: 2000 genre"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 23
+    },
+    {
+        "questionDescription": "Given the Readable interface and the EBook class, \nwhat is output by the following client code? \nReadable r1 = new EBook(5000); \nSystem.out.print(r1.hashCode()); \n \n \ncode. \n \nthe next.",
+        "answers": [
+            "A: -1",
+            "B: 0",
+            "C: 1",
+            "D: There is no output due to a syntax error in the client",
+            "E: The output will vary from one run of the program to"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 24
+    },
+    {
+        "questionDescription": "Given the Readable interface and the EBook class, \nwhat is output by the client code to the right?",
+        "answers": [
+            "A: true null",
+            "B: true true",
+            "C: true false",
+            "D: false true",
+            "E: false false"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 25
+    },
+    {
+        "questionDescription": "public abstract class Mammal { \n  // implementation details of class \n  // not shown. \n} \n Which of the following statements regarding abstract \nclasses, such as Mammal to the right, is false? \n \nMammal m;  \ndo not cause syntax errors. \n \n \n \n \ndeclared abstract.",
+        "answers": [
+            "A: Declarations such as",
+            "B: The class may have constructors.",
+            "C: The class may have instance variables.",
+            "D: The class may have private methods.",
+            "E: The class must have at least one method that is"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 26
+    },
+    {
+        "questionDescription": "public void sort(int[] data){ \n  sort(data, 0); \n} \n \npublic void sort(int[] data, int i){ \n  if(i < data.length - 1){ \n    int j = getMinIndex(data, i); \n    int temp = data[j]; \n    data[j] = data[i]; \n    data[i] = temp; \n    <*1>; \n  } \n} \n \npublic int getMinIndex(int[] data, int i){ \n  if(i == data.length - 1) \n    return i; \n  int j = getMinIndex(data, i + 1); \n  if( data[i] < data[j] ) \n   return i; \n  return j; \n} \n Which of the following can replace <*1> in the code to \nthe right so that method sort(int[], int) correctly \nsorts the elements of data into ascending order? \nI. \nII. \nIII. \nsort(data, i + 1) \nsort(data, i ^ 2) \nsort(data, i >> 1) \n \n \n Assume <*1> is filled in correctly",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: I, II, and III"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 27
+    },
+    {
+        "questionDescription": "Which sorting algorithm do the methods sort(int[]), \nsort(int[], int), and  \ngetMinIndex(int[], int), implement?",
+        "answers": [
+            "A: insertion sort",
+            "B: selection sort",
+            "C: heap sort",
+            "D: quicksort",
+            "E: merge sort"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 28
+    },
+    {
+        "questionDescription": "int[] vals = {3, 2, 5, 12}; \nfor(int v : vals) \n  System.out.print(v); \n What is output by the code to the right?",
+        "answers": [
+            "A: 1234",
+            "B: 32512",
+            "C: 0123",
+            "D: 12345",
+            "E: vvvv"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 29
+    },
+    {
+        "questionDescription": "ArrayList<List<String>> names; \nnames = new ArrayList<List<String>>(); \nnames.add(new ArrayList<String>()); \nnames.add(new LinkedList<String>()); \nfor(List<String> ns : names) \n  System.out.print(ns.size()); \n What is output by the code to the right?",
+        "answers": [
+            "A: 00",
+            "B: 010",
+            "C: 100",
+            "D: There is no output due to a syntax error.",
+            "E: There is no output due to a runtime error."
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 30
+    },
+    {
+        "questionDescription": "public String makeBigNum(int n){ \n  String result = \"1\"; \n  for(int i = 0; i < n; i++) \n    result += \"0\"; \n  return result; \n} \n Consider method makeBigNum to the right. When n is \nequal to 10000 it takes 2 seconds to complete. What is \nthe expected time for the method to complete when n is \nequal to 20000?",
+        "answers": [
+            "A: 0.5 seconds",
+            "B: 8 seconds",
+            "C: 6 seconds",
+            "D: 2 seconds",
+            "E: 4 seconds"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 31
+    },
+    {
+        "questionDescription": "public int what(ArrayList<Integer> a, \nArrayList<Integer> b) {\n  int r = 0; \n  if(a.size() == 0 || b.size() == 0) \n    r = Math.abs(a.size() - b.size()); \n  else { \n    int t1 = a.remove(a.size() - 1); \n    int p = b.indexOf(t1); \n    int t2 = 0; \n    if( p >= 0 ) \n      t2 = b.remove(p); \n    else \n      r = 1; \n    r += what(a, b); \n    a.add(t1); \n    if(p >= 0) \n      <*1>; \n  } \n  return r; \n}       \n \n// client code \nint[] list1 = {3, 5, 1, 3, 5, 6}; \nint[] list2 = {5, 3, 9, 5, 1, 4, 1, 3}; \nArrayList<Integer> a, b; \na = new ArrayList<Integer>(); \nb = new ArrayList<Integer>(); \n \nfor(int i : list1) \n  a.add(i); \nfor(int i : list2) \n  b.add(i); \n \nSystem.out.print( what(a, b) ); // line 1 \n \nSystem.out.print( a.size() ); // line 2 \n What replaces <*1> in the code to the right to add the \nvalue stored in t2 to the ArrayList b, at position p? \n \n \n \n Assume <*1> is filled in correctly.",
+        "answers": [
+            "A: b.add(p, t2)",
+            "B: add(b, p, t2)",
+            "C: b.add(t2)",
+            "D: b.what(p, t2)",
+            "E: Collection.add(b, p, t2)"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "A",
+        "questionNumber": 32
+    },
+    {
+        "questionDescription": "What is output by the line marked // line 1 in the \nclient code to the right?",
+        "answers": [
+            "A: 1",
+            "B: 3",
+            "C: 4",
+            "D: 6",
+            "E: 7"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "C",
+        "questionNumber": 33
+    },
+    {
+        "questionDescription": "What is output by the line marked // line 2 in the \nclient code to the right?",
+        "answers": [
+            "A: 8",
+            "B: 6",
+            "C: 3",
+            "D: 1",
+            "E: 0"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 34
+    },
+    {
+        "questionDescription": "public LinkedList<String> process( \nString[] data) {\n  LinkedList<String> result; \n  result = new LinkedList<String>(); \n   \n  for(int i = 0; i < data.length; i++) \n    result.addFirst( data[i] ); \n   \n  return result; \n} \n What is the Big O of method process to the right? \nAssume N equals data.length. Pick the most \nrestrictive correct answer.",
+        "answers": [
+            "A: O(logN)",
+            "B: O(N)",
+            "C: O(NlogN)",
+            "D: O(N2)",
+            "E: O(N2logN)"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "B",
+        "questionNumber": 35
+    },
+    {
+        "questionDescription": "The following values are added one at a time in the order shown to a binary search tree using the traditional algorithm. What is \nthe height of the resulting tree? The height of a tree is the number of links from the root node to the deepest leaf in the tree. A \ntree with a single node, the root node, has a height of 0. \n9, 3, 9, 0, 5, 14, -5, -7, 12, 5, 0",
+        "answers": [
+            "A: 8",
+            "B: 7",
+            "C: 6",
+            "D: 5",
+            "E: 4"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 36
+    },
+    {
+        "questionDescription": "public int count(String[] data){ \n  int result = 0; \n  try{ \n    for(String s : data) \n      result += s.length(); \n  } \n  catch(Exception e){ \n    result *= -1; \n  } \n  return result; \n} \n What is returned by the method call count(list) if \nlist contains the values shown below? \n{\"AA\", \"B\", null, \"CA\", null, \"CCC\"}",
+        "answers": [
+            "A: 0",
+            "B: -1",
+            "C: 3",
+            "D: -3",
+            "E: 8"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "D",
+        "questionNumber": 37
+    },
+    {
+        "questionDescription": "public class Structure<E>{ \n \n  private ArrayList<ArrayList<E>> con; \n  private int size; \n \n  public Structure(){ \n    <*1>; \n  } \n \n  private Structure(int cap){ \n    con = new ArrayList<ArrayList<E>>(); \n    for(int i = 0; i < cap; i++) \n      con.add(new ArrayList<E>()); \n  }     \n \n  public void add(E obj){ \n    int pos = getVal(obj); \n    pos = Math.abs(pos % con.size()); \n    if(!con.get(pos).contains(obj)){ \n      con.get(pos).add(obj); \n      size++; \n      if( size > 0.75 * con.size()) \n        resize(); \n    } \n  } \n \n  public boolean present(E obj){ \n    int pos = getVal(obj); \n    return con.get(pos).contains(obj); \n  } \n \n  public void remove(E obj){ \n    int pos = getVal(obj); \n    con.get(pos).remove(obj); \n  } \n \n  private int getVal(E obj){ \n    String s = <*2>; \n    int result = 0; \n    for(int i = 0; i < s.length(); i++) \n      result += s.charAt(i); \n    return result; \n  } \n   \n  private void resize(){ \n    Structure<E> temp; \n    temp = new Structure<E>(con.size() * 2); \n    for(ArrayList<E> a : con) \n      for(E obj : a) \n        temp.add(obj); \n    con = temp.con; \n  } \n}  \n What replaces <*1> in the code to the right to \nredirect to the private constructor with an argument \nequal to 10?",
+        "answers": [
+            "A: this.Structure(10)",
+            "B: Structure(10)",
+            "C: super(10)",
+            "D: this = Structure(10);",
+            "E: this(10)"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 38
+    },
+    {
+        "questionDescription": "Which of the following can replace <*2> in the code \nto the right to obtain a String representation of \nobj? \nI. \nII. \nIII. \nobj \nobj.toString() \nobj + \"\" \n \n \n \n \n \n Assume <*1> and <*2> are filled in correctly.",
+        "answers": [
+            "A: I only",
+            "B: II only",
+            "C: III only",
+            "D: I and II",
+            "E: II and III"
+        ],
+        "testSource": "State, 2010",
+        "correctAnswer": "E",
+        "questionNumber": 39
+    }
+]
