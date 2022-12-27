@@ -1,3 +1,5 @@
+package main;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.json.JSONArray;
@@ -9,94 +11,16 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class Question {
-    private final int questionNumber;
-    private final String questionDescription, testSource;
-    private final List<String> answers;
-    private String correctAnswer;
-
-    public Question(int questionNumber, String questionDescription, String testSource, List<String> answers) {
-        this.questionNumber = questionNumber;
-        this.questionDescription = questionDescription;
-        this.answers = answers;
-        this.testSource = testSource;
-    }
-
-    public static Question parseQuestion(String input, String testSource) {
-        // Initialize variables
-        int questionNumber = -1;
-        String questionDescription = "";
-        List<String> answers = new ArrayList<>();
-
-        // Use regular expressions to extract information from input
-        // ^(\d+)\s*(.*?)(?:\n(int.*\n)*)?(?:\n([ABCDE]\..*))
-        Pattern pattern = Pattern.compile("^(\\d+)\\s*(.*)", Pattern.DOTALL);
-        Matcher matcher = pattern.matcher(input);
-        if (matcher.find()) {
-            // Extract question number
-            questionNumber = Integer.parseInt(matcher.group(1));
-
-            // Extract question description
-            questionDescription = matcher.group(2).trim();
-
-            // Extract Answers from Question Description
-            Pattern answerPattern = Pattern.compile("(([ABCDE]\\..*))");
-            Matcher answerMatcher = answerPattern.matcher(questionDescription);
-//            System.out.println(questionDescription);
-            while (answerMatcher.find()) {
-                String rawAnswer = answerMatcher.group(0).trim();
-//                System.out.println(rawAnswer);
-                for (String answerChoice: rawAnswer.split("[ABCDE]\\. ")) {
-                    if (!answerChoice.isBlank())
-                        answers.add(answerChoice.trim());
-                }
-            }
-            questionDescription = questionDescription.replaceAll("(([ABCDE]\\..*))", "").trim();
-        }
-
-        // Return a new Question object with the extracted information
-        return new Question(questionNumber, questionDescription, testSource, answers);
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder out = new StringBuilder();
-        out.append("Question ").append(questionNumber).append(":\n\n");
-        out.append(questionDescription).append("\n");
-        char letter = 'A';
-        for (String answerChoice: answers)
-            out.append(letter++).append(": ").append(answerChoice).append("\n");
-        return out.toString();
-    }
-
-    public List<String> getAnswers() {
-        return answers;
-    }
-
-    public String getQuestionDescription() {
-        return questionDescription;
-    }
-
-    public int getQuestionNumber() {
-        return questionNumber;
-    }
-
-    public String getCorrectAnswer() {
-        return correctAnswer;
-    }
-
-    public void setCorrectAnswer(String correctAnswer) {
-        this.correctAnswer = correctAnswer;
-    }
-
-    public String getTestSource() {
-        return testSource;
-    }
-}
-
 class TestDocument {
+    public static TestDocument QUESTION_POOL = new TestDocument("Global Question Pool");
     private ArrayList<Question> questions;
     private final String name;
+
+    public TestDocument(String name) {
+       this.name = name;
+       questions = new ArrayList<>();
+    }
+
     public TestDocument(File document, String raw_name) {
         this.name = getVerboseContestName(raw_name);
         try {
@@ -109,8 +33,11 @@ class TestDocument {
 
             questions = new ArrayList<>();
 
-            for (int i = 1; i < tokens.length-1; i++)
-                questions.add(Question.parseQuestion(tokens[i], this.name));
+            for (int i = 1; i < tokens.length-1; i++) {
+                Question question = Question.parseQuestion(tokens[i], this.name);
+                questions.add(question);
+                QUESTION_POOL.addQuestion(question);
+            }
 
             loadKeysFromText(tokens[tokens.length-1]);
         } catch (IOException e) {
@@ -195,25 +122,14 @@ class TestDocument {
     }
 
     public JSONArray toJSON() {
-        JSONArray jsonQuestions = new JSONArray();
-        for (Question question: questions) {
-            JSONObject jsonQuestion = new JSONObject();
+        JSONArray json = new JSONArray();
+        for (Question question: questions)
+            json.put(question.toJSON());
+        return json;
+    }
 
-            JSONArray jsonAnswers = new JSONArray();
-            char letter = 'A';
-            for (String answer : question.getAnswers()) {
-                jsonAnswers.put(letter++ + ": " + answer);
-            }
-
-            jsonQuestion.put("answers", jsonAnswers);
-            jsonQuestion.put("questionNumber", question.getQuestionNumber());
-            jsonQuestion.put("questionDescription", question.getQuestionDescription());
-            jsonQuestion.put("correctAnswer", question.getCorrectAnswer() == null ? "No correct answer found." : question.getCorrectAnswer());
-            jsonQuestion.put("testSource", question.getTestSource());
-
-            jsonQuestions.put(jsonQuestion);
-        }
-        return jsonQuestions;
+    public void addQuestion(Question question) {
+        questions.add(question);
     }
 
     public String getName() {

@@ -1,3 +1,5 @@
+package main;
+
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 
@@ -8,9 +10,9 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 public class Main {
-
     public static void main(String[] args) {
         ArrayList<TestDocument> writtenTests = new ArrayList<>();
+        writtenTests.add(TestDocument.QUESTION_POOL);
         final File dataset = new File("dataset"), output = new File("output"), keys = new File("keys");
 
         System.out.println("Loading documents...\n");
