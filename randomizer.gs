@@ -1,7 +1,6 @@
 // Configuration
-const FORM_OUTPUT_ID = '1o7agNlPBrsiFjWaxz1SpUR8-jDwtlXXK'
-const JSON_INPUT_ID = '1H3Oo9ZqIuUQuj9uk-UlWLQlmnyVhpO7B'
-
+const FORM_OUTPUT_ID = '1o7agNlPBrsiFjWaxz1SpUR8-jDwtlXXK' // folder
+const JSON_INPUT_ID = '1H3Oo9ZqIuUQuj9uk-UlWLQlmnyVhpO7B' // file - should be the global question pool
 const NUM_FORMS_CREATED = 1
 const FORM_SIZE = 20
 const ORDER_BY_NUMBER = true
