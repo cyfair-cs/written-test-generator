@@ -10,7 +10,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint x = 3; \nint y = x; \ny++; \nx *= y + 2; \nSystem.out.print( x + \"-\" + y );",
@@ -23,7 +24,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint total = 0; \nfor(int i = 0; i < 4; i++){ \n    total++; \n    for(int j = 0; j < 5; j++){ \n      total++; \n      for(int k = 0; k < 6; k++) \n        total++; \n    } \n} \nSystem.out.print( total );",
@@ -36,7 +38,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nString s1 = \"robertboyer\"; \nint p1 = s1.indexOf(\"er\"); \nint p2 = s1.indexOf(\"er\", p1 + 1); \ns1 = s1.substring(p1, p2); \nSystem.out.println( s1 );",
@@ -49,7 +52,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint[] list = {7, 2, 20, 14, 6, 21, 15}; \nint m1 = 0; \nint m2 = 0; \n \nfor(int i = 1; i < list.length - 1; i++){ \n  if( list[i] < list[i + 1] ){ \n    if( list[i] < list[m1] ) \n      m1 = i; \n    if( list[i+1] > list[m2] ) \n      m2 = i; \n  } else { \n    if( list[i + 1] < list[m1] ) \n      m1 = i + 1; \n    if( list[i] > list[m2] ) \n      m2 = i; \n  } \n} \n \nSystem.out.print( m1 + \"-\" + m2 );",
@@ -62,7 +66,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint[][] mat = new int[4][4]; \nfor(int i = 0; i < 4; i++) \n  for(int j = 0; j < 4; j++) \n    mat[j][i] = (i + j) * (i + j); \n \nfor(int k = 0; k < 4; k++) \n    System.out.print( mat[k][2] );",
@@ -75,7 +80,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following replaces <*1> in the code to the \nright to set the variable b to true? \n \n \n \n \n \nboolean b; \nString r = \"abc\"; \nString s = \"ABC5\"; \nString t = \"5\"; \nb = <*1>;",
@@ -88,7 +94,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 7.5; \ndouble b = a / 2; \nif( a > b * 2 ) \n    System.out.print(1); \nif( b / a > 3 || a * b > 3 ) \n    System.out.print(2); \nelse \n    System.out.print(3);",
@@ -101,7 +108,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "The code  to the right results in the following output:  \nfalse \nWhich of these best explains why? \n \nthe objects themselves. \n \ncapitalization. \n \nbeen called on an object. \n \nsame characters in the same order. \n \nString n1 = \"Computer\"; \nString n2 = n1.substring(1,4); \nString n3 = \"OMP\"; \nString n4 = n3.toLowerCase(); \nSystem.out.println( n2 == n4 );",
@@ -114,7 +122,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString q1 =  \n\"real_week_neon_at_the_seaside.\";\n \nString[] chop = q1.split(\"e[aiou].\"); \nSystem.out.print( chop[1] );",
@@ -127,7 +136,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "Which of these data types replaces <*1> in the code to \nthe right so the parameter other is of the correct type to \nimplement the compareTo method from the \nComparable interface. \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -140,7 +150,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "Which of these replaces <*2> in the code to the right to \ncorrectly implement the compareTo method from the \nComparable interface? A Score object is greater than \nanother Score object if the value stored in its pts field \nis greater than the value stored in the other Score object's\npts field. \n \n \n \n \n \n Assume <*1> and <*2> are filled in correctly.",
@@ -153,7 +164,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "What is the output by the code to the right when method \nmavs is called?",
@@ -166,7 +178,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "What is the output by the code to the right when method \nspurs is called? \n \n \n \n \n \n \n \npublic class Score  \nimplements Comparable<Score>{\n   \n  private int pts; \n \n  public Score(int p){ \n    pts = p; \n  } \n \n  public void freeThrow(){ \n    pts++; \n  } \n \n  public void basket(){ \n    pts += 2; \n  } \n \n  public void trey(){ \n    pts += 3; \n  } \n \n  public int getPts(){ \n    return pts; \n  } \n \n  public int compareTo(<*1> other){ \n    <*2>; \n  } \n} \n \n------------------------------------------- \n \n// methods in a client of Score \npublic void mavs(){ \n  Score s1 = new Score(0); \n  Score s2 = new Score(0); \n  s1.basket(); \n  s2.trey(); \n  s1 = s2; \n  s1.basket(); \n  s2.freeThrow(); \n  System.out.print( s1.getPts() ); \n} \n \npublic void spurs(){ \n  Set<Score> coll = new HashSet<Score>(); \n  for(int i = 1; i < 5; i++) \n    coll.add( new Score(i) ); \n  for( Score s : coll ) \n    System.out.print( s.getPts() ); \n}",
@@ -179,7 +192,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the following method call? \nways(new int[]{5, 3, 6, 3}, 15, 0 ) \n \n \n \npublic static int ways(int[] ds,  \nint g, int c){\n  int result = 0; \n  if( c == ds.length ){ \n    if( g == 0 ) \n      result = 1; \n  } else { \n    for(int i = 1; i <= ds[c]; i++) \n      result += ways(ds, g - i, c + 1); \n  } \n  return result; \n}",
@@ -192,7 +206,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "What is the running time of method manip?  Choose the \nmost restrictive correct answer. \n \n \n \npublic int manip(int n){ \n  int total = 0; \n  for(int i = n; i > 0; i /= 2) \n    for(int j = 0; j < i; j++) \n      total += (j * i) % n; \n  return total; \n}",
@@ -205,7 +220,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint x3 = 3; \ndouble a3 = 2.2; \nx3 += a3 * 2; \nSystem.out.print( x3 + \"-\" + a3 );",
@@ -218,7 +234,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \ndouble planck = 4.1356; \nint days = 365; \nString format = \"%1$04d,%2$+4.3f\"; \nSystem.out.printf(format, days, planck);",
@@ -231,7 +248,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nbyte val1 = 2; \nbyte val2 = (byte)~val1; \nSystem.out.print( val2 );",
@@ -244,7 +262,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to set mid \nto the middle element of the portion of the array vals \nfrom st to fin? \n \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -257,7 +276,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call demo1() ?",
@@ -270,7 +290,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call demo2() ?",
@@ -283,7 +304,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "If vals has a length of N and every element of vals \nequals the same value x, what is the running time of \nmethod find(vals, x)?  Choose the most restrictive \ncorrect answer. \n \n \n \n \n \n \n// pre: elements in vals are sorted in \n// ascending order \npublic static int find(int[] vals, int tgt){ \n  int st = 0; \n  int fin = vals.length - 1; \n  int mid; \n  int result = -1; \n   \n  while( result == -1 && st <= fin ){ \n    <*1>; \n    if( vals[mid] == tgt ) \n      result = mid; \n    else if( vals[mid] < tgt ) \n      st = mid + 1; \n    else \n      fin = mid - 1; \n  } \n \n  while( result > 0  \n&& vals[ result - 1 ] == tgt ){\n    result--; \n  } \n \n  return result; \n} \n \npublic static int demo1(){ \n  int[] list = new int[20]; \n  int pos = 0; \n  for(int i = -2; i <= 2; i++){ \n    for(int j = 0; j < 4; j++){ \n      list[pos] = i; \n      pos++; \n    } \n  } \n   \n  return find( list, 0 ); \n} \n \npublic static int demo2(){ \n  int[] list = new int[10]; \n  for(int i = 0; i < 100; i += 10) \n    list[ i / 10 ] = i; \n    \n  return find( list, 45 ); \n}",
@@ -296,7 +318,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nthree is called?",
@@ -309,7 +332,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method four \nis called? \n \n \n \n \n \n \npublic class IntCell{ \n   \n  public int val; \n  public IntCell next; \n \n  public IntCell(int v){ \n    val = v; \n  } \n \n} \n------------------------------------------- \n \n// methods in a client of IntCell \npublic boolean one(IntCell x, IntCell y){ \n  x.val++; \n  y.val += 2; \n  return x.val < y.val; \n} \n \npublic boolean two(IntCell x, IntCell y){ \n  x.val++; \n  y.val--; \n  return y.val <= x.val; \n} \n \npublic void three(){ \n  IntCell a = new IntCell(6); \n  IntCell b = new IntCell(3); \n  if( one(a,b) && two(a,b) ) \n    System.out.print( a.val ); \n  else \n    System.out.print( b.val ); \n} \n \npublic void four(){ \n  IntCell a = new IntCell(1); \n  IntCell b = new IntCell(2); \n  a.next = b; \n  b.next = a.next; \n  System.out.print( a.next.next.val ); \n}",
@@ -322,7 +346,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint x = 3; \nint y = 4; \nint z = y * x--; \nSystem.out.print( z + \"_\" + x );",
@@ -335,7 +360,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following client code? \n \nStructure s1 = new Structure(); \nSystem.out.print( s1.findP(13) );",
@@ -348,7 +374,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following client code? \n \nStructure s2 = new Structure(); \nint[] ents = {12, 5, 13, 17, -5}; \nfor( int i : ents ) \n  s2.add( i ); \nSystem.out.print( s2.peek() );",
@@ -361,7 +388,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following client code? \n \nStructure s3 = new Structure(); \nint[] els = {12, 5, 13, 17, -5}; \nfor(int i : els ) \n  s3.add( i ); \ns3.show();",
@@ -374,7 +402,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What type of data structure does the Structure  \nclass implement? \n \n \n \n \n \n \npublic class Node{ \n  public Node pt, rt, lt; \n  public int dt; \n  public Node(Node p, int d){ pt = p; dt = d; } \n} \n \npublic class Structure{ \n  private int size; \n  private Node start; \n   \n  public void add(int d){ \n    String path = findP(++size).substring(1); \n    if( size == 1 ) \n      start = new Node(null, d); \n    else \n      addHelp(path, d); \n  } \n   \n  private void addHelp(String p, int d){ \n    Node tp = start; \n    while( p.length() > 1 ){ \n      tp = p.charAt(0) == '0' ? tp.lt : tp.rt; \n      p = p.substring(1);       \n    } \n    if( p.equals(\"0\")){ \n      tp.lt = new Node(tp, d); tp = tp.lt; \n    } else { \n      tp.rt = new Node(tp, d); tp = tp.rt; \n    } \n    adjust(tp); \n  } \n   \n  private void adjust(Node tp){ \n    int temp; \n    while(tp.pt != null && tp.dt > tp.pt.dt){ \n      temp = tp.dt; \n      tp.dt = tp.pt.dt; \n      tp.pt.dt = temp; \n      tp = tp.pt; \n    } \n  } \n   \n  public String findP(int t){ \n    if(t == 0 || t == 1) \n      return t + \"\"; \n    else \n      return findP( t / 2 ) + (t % 2); \n  } \n   \n  private void show(Node n){ \n    if(n != null){ \n      System.out.print(n.dt); \n      show(n.lt); \n      show(n.rt); \n    } \n  } \n  public void show(){  show(start); } \n  public int peek(){ return start.dt; } \n}",
@@ -387,7 +416,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following replaces <*1> in the code to the \nright to end method sort if the Boolean expression is \ntrue? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -400,7 +430,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nsample is called?",
@@ -413,7 +444,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What sorting algorithm is implemented by  method sort?",
@@ -426,7 +458,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "C",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "Given an array of N unique integers in random order, what \nis the running time of method sort? Assume the print \nmethod is O(1). Choose the most restrictive correct answer. \n \n \n \n \n \npublic static void swap( int[] a,  \nint i, int j) { \n  int tmp = a[i]; \n  a[i] = a[j]; \n  a[j] = tmp; \n} \n \n \npublic static void sort( int[] list,  \nint start, int stop ){\n  if(start >= stop) \n    <*1>; \n \n  int p = (start + stop) / 2; \n \n  swap(list, p, start); \n  int pVal = list[start]; \n \n  int i, j = start; \n \n  for(i = start + 1; i <= stop; i++ ){ \n    if( list[i] <= pVal){    \n      j++; \n      swap(list, i, j); \n    } \n  } \n \n  if(start == 0 && stop == list.length - 1) \n    for(int v : list) \n      System.out.print(v); \n \n  swap(list, start, j); \n  sort( list, start, j - 1 );     \n  sort( list, j + 1, stop );    \n} \n \n \npublic static void sample(){ \n  int[] data = {6, 0, 3, 4, 7, 8, -1}; \n  sort(data, 0, 6); \n}",
@@ -439,7 +472,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes what method \neval returns? \n \n \n \nequal each other.",
@@ -452,7 +486,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following replaces <*1> in the code to \nthe right to create a two dimensional array of ints \nwith one more row than the number of characters in the \nString s and one more column than then number of \ncharacters in the String t? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -465,7 +500,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "D",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call  \ncomp(\"uilcs\", \"uilcs\") ?",
@@ -478,7 +514,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "E",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call  \ncomp(\"state\", \"stilte\") ? \n \n \n \n \n \nprivate static int eval (int a, int b, int c){\n  int m; \n  m = a; \n  if (b < m) \n    m = b; \n  if (c < m) \n    m = c; \n  return m; \n} \n \npublic static int comp (String s, String t){ \n  int d[][]; \n  int n, m, i, j;  \n  char s_i, t_j, cost;  \n \n  n = s.length (); \n  m = t.length (); \n  if (n == 0) \n    return m; \n  if (m == 0) \n    return n; \n \n  d = <*1>; \n  for (i = 0; i <= n; i++) \n    d[i][0] = i; \n \n  for (j = 0; j <= m; j++) \n    d[0][j] = j; \n \n  for (i = 1; i <= n; i++) { \n    s_i = s.charAt (i - 1); \n    for (j = 1; j <= m; j++) { \n      t_j = t.charAt (j - 1); \n \n      if (s_i == t_j) \n        cost = 0; \n      else \n        cost = 1; \n         \n      d[i][j] = eval(d[i-1][j]+1,  \nd[i][j-1]+1, d[i-1][j-1] + cost);\n    } \n  } \n  return d[n][m]; \n}",
@@ -491,7 +528,8 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "A",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "When implementing a hash table what are the two most common collision resolution schemes?",
@@ -504,6 +542,7 @@
         ],
         "testSource": "State, 2007",
         "correctAnswer": "B",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

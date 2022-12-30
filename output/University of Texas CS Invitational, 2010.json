@@ -10,7 +10,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "B",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "double a = 2.5; \ndouble b = a; \na++; \na = a + b + a; \nSystem.out.print(a); \n What is output by the code to the right?",
@@ -23,7 +24,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "int total = 0; \nfor(int i = 1; i <= 11; i += 2) \n  total += 2; \nSystem.out.print(total); \n What is output by the code to the right?",
@@ -36,7 +38,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "String sci = \"Floyd\"; \nString fi = \"fly\"; \nString last = sci + fi + sci; \nlast = last.substring(3,6); \nSystem.out.print(last); \n What is output by the code to the right?",
@@ -49,7 +52,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "int x = 3; \nint[] init = {x, x, 2, x + 2, x * 2}; \nSystem.out.print(init.length); \n What is output by the code to the right?",
@@ -62,7 +66,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "int w = 3; \nint z = 2; \nint v = w * -2 - 3 * z; \nSystem.out.print(v + \" \" + z); \n What is output by the code to the right?",
@@ -75,7 +80,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "boolean p = true; \nboolean q = false; \nboolean r = true; \nSystem.out.print( !(p && q && !r) + \" \"); \nSystem.out.print( !(r && (p ||q) && !r)); \n What is output by the code to the right?",
@@ -88,7 +94,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "boolean p = true; \nint x = 10; \nif( p != false ){ \n  if( x != 5 ){ \n    System.out.print(1); \n    x = 5; \n  } \n  else \n    System.out.print(2); \n  if( x == 5 ) \n    System.out.print(3); \n}else \n  System.out.print(4); \n What is output by the code to the right?",
@@ -101,7 +108,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "public class Book{ \n \n  private final int numPages; \n  private boolean haveRead; \n   \n  public Book(int pages){ \n    numPages = pages; \n  } \n \n  public String toString(){ \n    return numPages + \" \" + haveRead; \n  } \n} \n \n////////////////////////////////////////// \n// client code \nBook b1 = new Book(100); \nSystem.out.print(b1); // line 1 \n \nBook b2 = new Book(100); \nSystem.out.print(b1.equals(b2)); // line 2 \n What is output by the line marked line 1 in the client \ncode to the right?",
@@ -114,7 +122,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the line marked line 2 in the client \ncode to the right?",
@@ -127,7 +136,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "B",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "int ax = 40; \nint bx = 64; \nint cx = ax | bx | bx; \nSystem.out.print(cx +  \" \" + bx); \n What is output by the code to the right?",
@@ -140,7 +150,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "double st = -3.4; \nSystem.out.print( Math.ceil(st) ); \n What is output by the code to the right?",
@@ -153,7 +164,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(\"Red\"); \nSystem.out.println(\"Green\\tBlue\"); \nSystem.out.print(\"Teal\"); \n What is output by the code to the right? \n \n \n \n \nGreen    Blue \nTeal \n \nTeal",
@@ -166,7 +178,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "double value = 19.591; \nSystem.out.printf(\"%5.2f\", value); \n What is output by the code to the right?",
@@ -179,7 +192,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "public int longhorn(int y, int x){ \n  x++; \n  x = y + x + y; \n  int z = y; \n  z--; \n  y++; \n  return x + y + z; \n} \n What is returned by the method call longhorn(2, 5)?",
@@ -192,7 +206,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "Which answer is logically equivalent to the following boolean expression, where w, x, y, z are int variables? \n !(x == y) && !(w > z) \n \n D (x != w) && (y != z)",
@@ -204,7 +219,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "final int LIMIT = 10; \nfor(int i = 0; i <= LIMIT; i++) \n  for(int j = 0; j < LIMIT * 2; j++) \n    System.out.print('*'); \n How many '*'s are output by the code to the right?",
@@ -217,7 +233,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "String tw = \"EdgarCodd\"; \nString res = tw.substring(3); \nSystem.out.println( res ); \n What is output by the code to the right?",
@@ -230,7 +247,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "int val = 3; \nboolean p = val * val * val  * val > 100; \nboolean q = !p; \nif(!!p) \n  System.out.print(1); \nelse \n  System.out.print(2); \n \nif(q || !q) \n  System.out.print(1); \nelse \n  System.out.print(2); \n What is output by the code to the right?",
@@ -243,7 +261,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "boolean a, b, c, d; \n// code to initialize a, b, c, and d \n \nboolean e = a && b || c && d; \n In the code to the right, how many of the 16 possible \ncombinations of values for the variables a, b, c, and d \nwill result in e being set to true?",
@@ -256,7 +275,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "public void toy(int[] ls) { \n  int val = 1; \n  for(int i = ls.length - 1; i >= 0; i--) {\n    ls[i] = val * val; \n    val++; \n  } \n} \n \n// client code  \nint[] data = new int[4]; \ntoy(data); \nSystem.out.print(Arrays.toString(data)); \n What is output by the client code to the right?",
@@ -269,7 +289,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following is not a valid Java indentifier?",
@@ -282,7 +303,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "double seed = Math.random(); \nint result = ((int)(seed * 4) - 2) * 3; \nSystem.out.print(result); \n What are the possible values the code to the right will \noutput?",
@@ -295,7 +317,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "int[] simple = {-2, 3, 1, -2}; \nfor(int i : simple) \n  System.out.print(i); \n What is output by the code to the right?",
@@ -308,7 +331,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "int[] od = new int[6]; \nint count = 0; \nwhile( <*1> ) { \n  count++; \n  int index = 0; \n  od[index]++; \n  int cry = 0; \n  do{ \n    od[index] += cry; \n    cry = od[index] / 2; \n    od[index] %= 2; \n    index++; \n  } while(cry > 0); \n} \nSystem.out.print(count); \n What replaces <*1> in the code to the right to execute the \nbody of the while loop if the element at index 5 in od \nis equal to 0? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -321,7 +345,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right?",
@@ -334,7 +359,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "public void play(int[] vals){ \n  vals = new int[] {2, 4, 6, 8}; \n  for(int i = 0; i < vals.length; i++)  \n    vals[i] += 3; \n} \n \n// client code \nint[] ar = {-2, 3, -1, 1}; \nplay(ar); \nSystem.out.print(Arrays.toString(ar)); \n What is output by the client code to the right?",
@@ -347,7 +373,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "public int tally(String evts) { \n  String code = \"-HFT\"; \n  int total = 0; \n  for(int i = 0; i < evts.length(); i++) { \n    int pos = code.indexOf(evts.charAt(i));\n    switch(pos) { \n      case 1: total++; <*1>; \n      case 2: total += 2; <*1>; \n      case 3: total += 3; \n    } \n  } \n  return total; \n} \n What replaces <*1> in the method tally so that \nsubsequent case statements in the switch block are \nnot executed for a particular character in evts? \n \n \nAssume <*1> is filled in correctly.",
@@ -360,7 +387,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call tally(\"HHTFF\")?",
@@ -373,7 +401,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "int hold = 3; \nint val = ++hold * 3; \nSystem.out.print(val + \" \" + hold); \n What is output by the code to the right?",
@@ -386,7 +415,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "public void sample(String s){ \n  if(s.length() == 0) \n    System.out.print(\"end\"); \n  else { \n    System.out.print(s.charAt(0)); \n    int len = s.length() - 1; \n    sample( s.substring(0, len) ); \n    System.out.print(s.charAt(len)); \n  } \n} \n What is output by the method call sample(\"UTA\")?",
@@ -399,7 +429,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "public int myst(ArrayList<String> data) { \n  Iterator<String> it = data.iterator(); \n  int total = 0; \n  while( <*1> ) { \n    if( it.next().length() < 10 ) \n      total += it.next().length(); \n  } \n  return total; \n} \n \n// client code \nArrayList<String> sm; \nsm = new ArrayList<String>(); \nsm.add(\"Moore\"); \nSystem.out.print( myst(sm) ); \n What replaces <*1> in the method myst to execute the \nbody of the while loop if there are any more elements in \nthe current iteration of data? \n \n \n \nAssume <*1> is filled in correctly.",
@@ -412,7 +443,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "D",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the client code to the right?",
@@ -425,7 +457,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "Assume method sample(int[] data) is O(N2) where N = data.length.  When method sample is passed an \narray with length = 1,000 it takes 1 second for method sample to complete. If method sample is then passed an array \nwith length = 6,000 what is the expected time it will take method sample to complete?",
@@ -438,7 +471,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "B",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "double a = 2.5; \nfor(int i = 0; i < 5; i++) \n  a++; \nSystem.out.print(a); \n What is output by the code to the right?",
@@ -451,7 +485,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "byte b1 = 3; \nbyte b2 = 10; \nbyte b3 = b1 + b2; \n The code to the right contains a syntax error. Which of the \nfollowing best explains the reason for the syntax error? \n \n \n \nto variables of type byte. \n \n \nint and cannot be assigned to a byte variable.",
@@ -464,7 +499,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "What is the result of a post order traversal of the binary tree \nshown to the right?",
@@ -477,7 +513,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "C",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "public class Structure<<*1>> { \n \n  private ArrayList<<*1>> con; \n \n  public Structure(){ \n    con = new ArrayList<<*1>>(); \n  } \n \n  public void add(<*1> val){ \n    con.add(0, val); \n  } \n \n  public <*1> access(){ \n    return con.get(0); \n  } \n \n  public <*1> remove(){ \n    return con.remove(0); \n  } \n \n  public boolean isEmpty(){ \n    return con.size() == 0; \n  } \n} \n Which of the following can replace <*1> in the code to \nthe right as the type variable for the Structure class to \nindicate that the Structure class is generic? \nI. \nII. \nIII. \nAnyType \nE \nmyThings \n \n \nonly \n\nAssume <*1> is filled in correctly.",
@@ -490,7 +527,8 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "E",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "If a Structure object contains N elements what is the \nBig O of the remove method in the Structure class? \nPick the most restrictive correct answer.",
@@ -503,6 +541,7 @@
         ],
         "testSource": "University of Texas CS Invitational, 2010",
         "correctAnswer": "A",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

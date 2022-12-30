@@ -10,7 +10,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 10; \nint y = 3; \nint z = x % 13 + x / y; \nSystem.out.print( z );",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint n = 20; \nint total = 0; \nfor(int i = 1; i <= n; i++) \n    for(int j = 1; j <= i; j++) \n        for(int k = 0; k < 3; k++) \n            total++; \nSystem.out.print( total );",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \nint x = 3; \nint y = 13; \nString s1 = \"isa\"; \nString s2 = y - x + s1 + x + x; \nSystem.out.println( s2 );",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint size = 6; \nint[] st1 = {9, 16, 0, 1, 25, 4}; \nint[] st2 = new int[size]; \nfor(int i = 0; i < size; i++) \n    st2[i] = (int)Math.sqrt( st1[i] ); \nint[] st3 = new int[size]; \nfor(int i = 0; i < size; i++){ \n    st3[ st2[i] ]++; \n    st3[ st1[i] % size ]++; \n    st3[ st1[i] / size ]++; \n} \nfor(int i : st3 ) \n    System.out.print(i);",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint lim = 4; \nchar[][] tab = new char[lim][lim]; \nString[] nms = {\"lars\", \"kime\", \"jake\", \n\"ashe\"};\nfor(int i = lim - 1; i >= 0; i--) \n  for(int j = 0; j < lim; j++) \n    tab[i][j] = nms[j].charAt(lim - i - 1); \n \nfor(char[] row : tab) \n  for( char c : row ) \n    System.out.print(c);",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nint[] vs = {-3,-2,4,5,7,-2,-1,3,-5,-4,2}; \nint tot = 0; \nint i = 0; \nwhile( i < vs.length ){ \n  if( (vs[i] < -1) || (vs[i] * vs[i]++ < 20)) \n    tot += Math.abs( vs[i] ); \n  else \n    tot += 2; \n  i++; \n} \nSystem.out.print( tot );",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "Assume x, y, and z are int variables. Which answer is logically equivalent to this Boolean expression? \n!( x + y < z && x * y >= z )",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint x2 = 100; \nint y2 = 77; \nint z2 = y2 / x2; \nSystem.out.print( z2 + \"_\" + x2 );",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the method call ht(17, 31) ? \n \n \n \nvariables. \npublic static void ht(int x, int y){ \n  x = x ^ y; \n  y = y ^ x; \n  x = y ^ x; \n  System.out.print( x + \"_\" + y ); \n}",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following statements will not cause  \na syntax error? \nI.  Vehicle v = new Vehicle(); \nII.    Bike b1 = new Vehicle(); \nIII.   Bike b2 = new MountainBike(14);",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nMountainBike m1 = new MountainBike(10); \nint w = m1.wheels(); \nSystem.out.print( m1.grs() + \"_\" + w );",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nMountainBike m2 = new MountainBike(10); \nm2.show();",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nVehicle v1 = new MountainBike(10); \nSystem.out.print( v1 ); \nint val = ((MountainBike)v1).grs(); \nSystem.out.print( val ); \n \n \n \n \n \n \npublic interface Bike{ \n  public int wheels(); \n  public String toString(); \n} \n \n------------------------------------------ \n \npublic abstract class Vehicle{ \n   \n  public abstract boolean humanPower(); \n \n  public void show(){ \n    System.out.print( type() ); \n  } \n \n  private String type(){ \n    return \"vehicle\"; \n  } \n \n  public String toString(){ \n    return \"engine:\" + !humanPower();  \n  } \n} \n \n------------------------------------------ \n \npublic class MountainBike extends Vehicle \nimplements Bike{\n \n  private int myGears; \n \n  public MountainBike(int gears){ \n    myGears = gears; \n  } \n   \n  public boolean humanPower(){ \n    return true; \n  } \n \n  public int wheels(){ \n    return 2; \n  } \n \n  public String type(){ \n    return \"mountain\"; \n  } \n \n  public int grs(){ \n    return myGears; \n  } \n}",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint div = 2; \ndouble a = 5 / div + 1.5 + 7 / (div * 2); \nSystem.out.println( a );",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the method call change(11) ?",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes what will occur if the \nprecondition of method change is not met? \n \nthrown.",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes what method \nchange does if the precondition is met? \n \n \ndigits reversed. \n \n \n \n//pre: n >= 0 \npublic static void change(int n){ \n  if( n <= 2 ) \n    System.out.print( n ); \n  else{ \n    change( n / 3 ); \n    System.out.print( n % 3 ); \n  } \n}",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString input = \"1315..6..6.aab.7e3\"; \nString[] res = input.split(\"\\\\D+\"); \nfor(String s : res) \n  System.out.print( s + \",\" );",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "What sorting algorithm is implemented by the static \nmethods to the right?",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "A sort is defined to be stable if equal elements in the \noriginal array maintain their relative positions in the sorted \narray. For example consider the following array of ints. \n{0, 7, 5, 3, 7} \nA stable sort ensures that in the sorted array, the 7 originally \nat index 1 will always be before the 7 originally at index 4. \nWhen is the sort implemented to the right stable? \n \n \n \n \n \nis stable or not.",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "It takes method sort 10 seconds to sort an array of \n1,000,000 unique elements in random order on a given \ncomputer. What is the expected time for method sort to \nsort an array of 2,000,000 unique elements in random order \non the same computer? \n \n \n \npublic static void sort(int[] data) { \n  int[] temp = new int[data.length]; \n  sort(data, temp, 0, data.length - 1); \n} \n \npublic static void sort(int[] data,  \nint[] temp, int i, int j){\n   \n  if( i < j){ \n    int m = (i + j) / 2; \n    sort(data, temp, i, m); \n    sort(data, temp, m + 1, j); \n \n    int le = m; \n    int tp = i; \n    int ne = j - i + 1; \n    while( i <= le && m + 1 <= j){ \n      if( data[i] <= data[m + 1] ){ \n        temp[ tp ] = data[ i ]; \n        i++; \n      } \n      else{ \n        temp[tp] = data[m + 1]; \n        m++; \n      } \n      tp++; \n    } \n  \n    while( i <= le){ \n      temp[ tp ] = data[ i ]; \n      tp++; \n      i++;                       \n    } \n     \n    while( m + 1 <= j){ \n      temp[ tp ] = data[ m + 1 ]; \n      tp++; \n      m++;                        \n    } \n    \n    for(int k = 0; k < ne; k++){ \n      data[ j ] = temp[ j ]; \n      j--; \n    } \n  } \n}",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "What is the running time of method max for a \nLinkedList  containing N items?  Choose the most \nrestrictive correct answer. \n \n \n//pre: data.size() > 0 \npublic int max(LinkedList<Integer> data){ \n  int result = data.getFirst(); \n  for(int i = 1; i < data.size(); i++){ \n    int val = data.get(i); \n    if( val > result ) \n      result = val; \n  } \n  return result; \n}",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "Consider the Node and Structure classes to the \nright. What is output by the following code? \n \nStructure t = new Structure(); \nString data = \"BALLOON\"; \nfor(int i = 0; i < data.length(); i++) \n  t.add( data.substring(i, i+1) ); \nt.show();",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "What type of data structure does the Structure  class \nimplement?",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nStructure s = new Structure(); \nString data2 = \"DELTABIG\"; \nfor(int i = 0; i < data2.length(); i++) \n  s.add( data2.substring(i, i+1) ); \nSystem.out.print( s.ct() );",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes what method ct  in \nclass Structure  returns? \n \n \nthe Structure that are equal to null. \n \nleft and right references are both not null. \n \n \nleft and right references are both null. \n \npublic class Node{ \n  public String val; \n  public Node ft; \n  public Node rt; \n} \n------------------------------------------ \npublic class Structure{ \n \n  private Node n; \n \n  public void add(String s){ \n    n = add(s, n); \n  } \n \n  private Node add(String s, Node n){ \n    if( n == null ){ \n      n = new Node(); \n      n.val = s; \n    } \n    int c = n.val.compareTo( s ); \n    if( c < 0 ) \n      n.rt = add(s, n.rt); \n    else if( c > 0 ) \n      n.ft = add( s, n.ft); \n    return n; \n  } \n \n  public void show(){ \n    show(n); \n  } \n \n  private void show(Node n){ \n    if( n != null ){ \n      show(n.ft); \n      show(n.rt); \n      System.out.print( n.val ); \n    } \n  } \n \n  public int ct(){  \n    return ct(n);  \n  } \n \n  private int ct(Node n){ \n    int res = 0; \n    if( n != null ) { \n      if( n.ft == null && n.rt == null ) \n        res = 1; \n      else  \n        res = ct(n.ft) + ct(n.rt); \n    } \n    return res; \n  } \n \n}",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to set the \nReptile's object name field to the parameter nm? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nAnimal a = new Animal(\"max\"); \nReptile r = new Reptile(\"max\", true); \nSystem.out.print( a.equals(r) ); \nSystem.out.print( r.equals(a) ); \n \n \n \n \n \n \n \npublic class Animal{ \n \n  private String name; \n \n  public Animal(){ \n    name = \"unknown\"; \n  } \n \n  public Animal(String nm){ \n    name = nm; \n  } \n \n  public boolean equals(Object other){ \n    return other instanceof Animal && \nname.equals( ((Animal)other).name );\n  } \n} \n------------------------------------------ \npublic class Reptile extends Animal{ \n \n  private boolean swims; \n \n  public Reptile(String nm, boolean sms){ \n    <*1>; \n    swims = sms; \n  } \n \n}",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nArrayList<Integer> list = new  \nArrayList<Integer>();\nint inc = 2; \nfor(int j = 5; j >= 0; j--){ \n  list.add( j + inc ); \n  inc += 3; \n} \nIterator<Integer> it = list.iterator(); \nwhile( it.hasNext() ){ \n  if( it.next() > 10 ) \n    System.out.print( it.next() ); \n}",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nArrayList<Integer> kd = new  \nArrayList<Integer>();\nint[] data = {1, 4, 1, 7, 20, 2, 33}; \nfor(int el : data){ \n  if( el < kd.size() ) \n    kd.add(el, el); \n  else if( el < 20 ) \n    kd.add(el); \n  else \n    kd.add(0, el); \n} \nfor(int el : kd) \n    System.out.print( el );",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "D",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nint[] dt = {0, 1, 2, 3, 4, 10}; \nSystem.out.print( myst(dt, 1) );",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nint[] dt = {1, 0, 3, 4, 2}; \nSystem.out.print( myst(dt, 3) );",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes the function of \nmethod myst? \n \n \n \n \n \n/* pre: list != null, list.length > 0,  \n   list is sorted in ascending order. \n*/ \npublic static int myst(int[] lt, int tgt){ \n \n  int len = lt.length; \n  if( tgt < lt[0] || tgt > lt[len - 1] ) \n    return -1; \n \n  int pos = tgt - lt[0]; \n  pos *= len - 1; \n  pos /= lt[len - 1] - lt[0]; \n  int inc = lt[pos] < tgt ? 1 : -1; \n \n  while( pos >= 0 && pos < len &&  \nlt[pos] != tgt){ \n      pos += inc; \n  } \n   \n  pos = (pos == len) ? -1 : pos; \n  return pos; \n}",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \nchar c; \nMap<Character, Integer> m =  \nnew TreeMap<Character,Integer>();\n \nString names = \"ROB_BOB_BRAD_DAD_BROOD\"; \n \nfor(int i = 0; i < names.length(); i++){ \n  c = names.charAt(i); \n  if( Character.isLetter(c) ){ \n    if( m.containsKey(c) ) \n      m.put( c, m.get(c) + 1 ); \n    else \n      m.put( c, 1 ); \n  } \n} \n \nSet<Character> st = m.keySet(); \nfor( Character k : st ) \n  System.out.print( m.get(k) );",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right so that \nmyCon only stores ArrayLists of Strings? \n \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "A",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nStructure2 str = new Structure2(5); \nstr.add(\"A\", 3); \nstr.add(\"B\", 1); \nstr.add(\"C\", 1); \nstr.add(\"D\", 2); \nwhile( !str.isEmpty() ) \n  System.out.print( str.remove() );",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "C",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nStructure2 str2 = new Structure2(5); \nstr2.add(\"A\", 10); \nstr2.add(\"B\", 1); \nwhile( !str2.isEmpty() ) \n  System.out.print( str2.remove() );",
@@ -491,7 +528,8 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "E",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "What type of data structure does the Structure2  class \nimplement? \n \n \n \npublic class Structure2{ \n \n  private ArrayList<*1> myCon; \n \n  //pre: h > 0 \n  public Structure2(int h){ \n    myCon = new ArrayList<*1>(); \n    for(int i = 0; i <= h; i++) \n      myCon.add( new ArrayList<String>() );\n  } \n \n  //pre: 0 <= val <= high() \n  public void add(String s, int val){ \n    myCon.get(val).add(s); \n  } \n \n  public boolean isEmpty(){ \n    boolean e = true; \n    int i = 0; \n    while( e && i <= high() ){ \n      e = myCon.get(i).size() == 0; \n      i++; \n    } \n    return e; \n  } \n \n  // pre: !isEmpty() \n  public String remove(){ \n    return helper(0);   \n  } \n \n  // pre: !isEmpty() \n  public String get(){ \n    return helper(1); \n  } \n \n  private String helper(int op){ \n    int i = 0; \n    boolean done = false; \n    String result = \"\"; \n    while( !done && i <= high() ){ \n      if( myCon.get(i).size() != 0 ){ \n        done = true; \n        if( op == 0 ) \n          result = myCon.get(i).remove(0); \n        else \n          result = myCon.get(i).get(0); \n      } \n      else \n        i++; \n     } \n     return result; \n  } \n \n  public int high(){ \n    return myCon.size() - 1; \n  } \n}",
@@ -504,6 +542,7 @@
         ],
         "testSource": "Regionals, 2007",
         "correctAnswer": "B",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

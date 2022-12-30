@@ -1,5 +1,6 @@
 package main;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 
@@ -7,23 +8,39 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 public class Main {
+    public static final Dotenv ENV = Dotenv.load();
+    public static final List<TestDocument> writtenTests = new ArrayList<>();
+    public static final File dataset = new File("dataset"),
+            output = new File("output"),
+            keys = new File("keys");
+
     public static void main(String[] args) {
-        ArrayList<TestDocument> writtenTests = new ArrayList<>();
+        loadDocuments();
+        loadJSONFromDocuments();
+
+        System.out.println("\nArchiving documents...\n");
+        DatabaseAPI.reset();
+        for (TestDocument test: writtenTests)
+            DatabaseAPI.archiveTestDocument(test);
+    }
+
+    private static void loadDocuments() {
         writtenTests.add(TestDocument.QUESTION_POOL);
-        final File dataset = new File("dataset"), output = new File("output"), keys = new File("keys");
 
         System.out.println("Loading documents...\n");
-        for (File document: dataset.listFiles()) {
+        for (File document: Objects.requireNonNull(dataset.listFiles())) {
             System.out.println("[LOAD TEST] " + document.getName());
             writtenTests.add(new TestDocument(document, document.getName().replaceAll(".pdf", "")));
         }
 
         // Load keys from key pdf files
         System.out.println("\nLoading external keyfiles...\n");
-        for (File keyFile: keys.listFiles()) {
+        for (File keyFile: Objects.requireNonNull(keys.listFiles())) {
             System.out.println("[LOAD KEY] " + keyFile.getName());
             String documentSource = keyFile.getName().replaceAll("_KEY\\.pdf","");
             try {
@@ -44,9 +61,11 @@ public class Main {
                 e.printStackTrace();
             }
         }
+    }
 
-        System.out.println("\nLoading previous JSON builds...\n");
-        for (File previousJSON: output.listFiles()) {
+    private static void loadJSONFromDocuments() {
+        System.out.println("\nDeleting previous JSON builds...\n");
+        for (File previousJSON: Objects.requireNonNull(output.listFiles())) {
             System.out.println("[DELETE JSON] " + previousJSON.getName());
             previousJSON.delete();
         }

@@ -10,7 +10,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x1 = 3; \nint y1 = 2; \nx1 = y1 * 3; \ny1 = x1 * 2; \nSystem.out.print( y1 );",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "How many *'s are output by the code to the right? \n \n \n \n \n \nfor(int j = 10; j >= 0; j--) \n  System.out.print(\"*\");",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nString s1 = \"cs*\"; \nString s2 = s1.toUpperCase() + s1; \nSystem.out.print( s2 );",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nproduced cannot be determined. \nint[] list1 = new int[5]; \nfor(int i = 0; i < list1.length; i++) \n  System.out.print( list1[i] );",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint[][] mat1 = {{3,4,1,2}, \n                {4,1,6,7}, \n                {2,2,13,10}}; \nfor(int i = 0; i < 3; i++) \n  System.out.print( mat1[i][1] );",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint x2 = 3; \ndouble a2 = 2.5; \nboolean b2 = x2 < a2 || x2 * a2 < 100; \nSystem.out.print( b2 );",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString s3 = \"CS_if( s3.length() > 7 ) \n  System.out.print( s3.charAt(7) ); \nif( s3.length() > 5 ) \n  System.out.print( s3.charAt(5) ); \nif( s3.length() > 2 ) \n  System.out.print( s3.charAt(2) );",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "What replaces  <*1> in the code to the right so that the field \nsize can only be accessed by code in the Square class.",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "Assume <*1> is filled in correctly. What is the output of the \nfollowing client code. (The code appears in a class other than \nSquare.) \nSquare s = new Square(3); \nSystem.out.print( s.size() ); \n \n \n \n \n \n \npublic class Square{ \n  <*1> int size; \n \n  public Square(int s){ \n    size = s; \n  } \n \n  public int areas(){ \n    return size * size; \n  } \n}",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "Assume the method sample(int[] data) is O(N) where N = data.length.  When the method sample is passed an \narray with length = 100,000 it takes 2 seconds for method sample to complete. If method sample is then passed an array \nwith length = 200,000 what is the expected time it will take method sample to complete?",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "A",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nint val = 37; \nval = val >> 2; \nSystem.out.print( val );",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n\n \nString sent = \"what_where_when_who\" + \n              \"_why\"; \nString[] result = sent.split(\"wh+\"); \nSystem.out.print( result[3] );",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \ndouble ave = 2.51; \nSystem.out.printf(\"%07.4f\", ave);",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \n \npublic void process(Collection<Integer> c1, \n                 Collection<Integer> c2){ \n  c1.removeAll(c2); \n} \n \n//client code \nArrayList<Integer> a1 = new \nArrayList<Integer>(); \nArrayList<Integer> a2 = new \nArrayList<Integer>(); \nint[] b1 = {1, 3, 1, 5, 4, 3, 4}; \nint[] b2 = {2, 3, 4, 5, 2, 7, 9}; \nfor(int i = 0; i < b1.length; i++){ \n  a1.add( b1[i] ); \n  a2.add( b2[i] ); \n} \nprocess(a1, a2); \nfor(int i : a1) \n  System.out.print( i );",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to immediately \nexit the loop? \n \n \n\n \nAssume <*1> is filled in correctly.",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by search(null, 0) ?",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "What searching algorithm is implemented by method \nsearch?",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "What is the maximum value the variable checks will have \nin method search? \n \n \n \n \n \npublic int search(int[] data, int tgt){ \n  int checks = 0; \n  int result = -1; \n  for(int i = 0; i < data.length; i++){ \n    if( data[i] == tgt ) { \n      result = i; \n      checks++; \n      <*1>; \n    } \n    checks++; \n  } \n  return result; \n}",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "What is the output by the following client code? \nint[][] d = {{13, 9, 17, 21}, \n             {1, 3, 0, 2}}; \nSystem.out.print( manip(d) ); \n \n \n\n \n \n \npublic int manip(int[][] data){ \n  int tgt = 0; \n  while( data[0][tgt] > 0 ){ \n    data[0][tgt] -= data[1][tgt]; \n    tgt = data[1][tgt]; \n  } \n  for(int i : data[0] ) \n    tgt += i; \n  return tgt; \n}",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \n \n \n// Assume Queue<E>  \n// is implemented correctly. \nQueue<String> q1 = new Queue<String>(); \nQueue<String> q2 = new Queue<String>(); \nQueue<String> q3 = new Queue<String>(); \nString st = \"BLUE\"; \nfor(int i = 0; i < st.length(); i++){ \n  int pos = st.length() - i - 1; \n  q1.enqueue( st.substring(i, i+1 ) ); \n  q2.enqueue( st.substring(pos, pos+1) ); \n} \nwhile( !q1.isEmpty() ) \n  q3.enqueue( q2.dequeue() +  \n    q1.dequeue() ); \n \nwhile( !q3.isEmpty() ) \n  System.out.print( q3.dequeue() );",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "A",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nObject[] mixedBag = {\"hello\",  \n  new HashSet<Integer>(), 12, \n  new ArrayList<String>()}; \nfor(int i = 0; i < mixedBag.length; i++) \n  if( mixedBag[i] instanceof Collection ) \n    System.out.print( \"c\");",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nString st3 = \"MNO\"; \nString st4 = \"ABC\"; \nchar c = (st3.charAt(1) > st4.charAt(2)) \n  ? st3.charAt(0) : st4.charAt(0); \nSystem.out.print( c );",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by cn(9, 1) ? \n \n \n \n \n \npublic int cn(int x, int y){ \n  if( x < 0 ) \n    return x; \n  return cn( x \u2013 2 * y, y * 2 ); \n}",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to create an \nArrayList of the proper type?",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*2> in the code to the right to test if the \nobject at position i in vals has the same state as the \nobject at position ic in t? \n \n \n \n \n \nAssume <*1> and <*2> are filled in correctly.",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "What is output when method mistExample is called?",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes  \nwhat method mist does? \n \n \n \n \n \npublic <E> void mist(ArrayList<E> vals){ \n  int nu = 0; \n  ArrayList<E> t = <*1>; \n  for(int i = 0; i < vals.size(); i++){    \n    boolean f = false; \n    int ic = 0; \n    while( !f && ic < nu){ \n      f = <*2>; \n      ic++; \n    } \n    if( !f ){ \n      t.add( vals.get(i) ); \n      nu++; \n    } \n  } \n  vals.clear(); \n  for( E v : t ) \n    vals.add( v ); \n} \n \n \n \n// method mistExample is in the same \n// class as method mist \npublic void mistExample(){ \n  String sd = \"ACAEBGAE\"; \n  ArrayList<String> sk = new  \n                       ArrayList<String>();\n \n  for(int i = 0; i < sd.length(); i++) \n    sk.add(sd.substring(i, i+1)); \n \n  mist( sk ); \n  for( String sc : sk ) \n    System.out.print( sc ); \n}",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.print( 4 % 8 );",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "After the code on the right executes what possible values \ncould the variable xa be holding? \n \n \n \n \n \nRandom r = new Random(); \nint xa = r.nextInt( 10 ) + 5;",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right so that code \nin any class can access method val? \n \n \npublic class X{ \n  <*1> int val(int y){ \n    // implementation not shown \n  } \n}",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "What boolean expression replaces <*1> in the code to the right \nso that the expression evaluates to true if c is a vowel? Let vowels \nbe the characters 'a', 'e', 'i', 'o', and 'u'.",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "Assume <*1> is filled in correctly. What is returned by \nmake(\"Moore\") ? \n \n \n \n \n \npublic String make(String init){ \n   \n  StringBuffer s = new StringBuffer(); \n  s.append( init.toLowerCase() ); \n  char c; \n  int j = 1; \n  int limit = init.length(); \n \n  for(int i = 0; i < limit; i++){ \n    c = s.charAt( i ); \n    if( <*1> ){ \n      s.insert(j, c); \n      j += 2; \n    } \n    else \n      s.append(c); \n  } \n  return s.toString(); \n}",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by use(3) ? \n \n \n \n \n \npublic int use(int y){ \n  int x; \n  return y * x; \n}",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "What Boolean expression replaces <*1> in the code to \nthe right to check if the element at position j in data is \nless than the element at position (j + 1) in data \naccording to the natural ordering of its class?",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "E",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "Assume <*1> has been filled in correctly.  \nWhat replaces <*2> in the code to the right to swap the \nelements at positions j and j+1 ? \n \ndata[j] = data[j+1]; \ndata[j+1] = temp; \n \n \ndata[j+1] = data[j]; \n \n \ndata[j] = data[j+1]; \ndata[j+1] = temp; \n \n \ndata[j] = data[j+1]; \ndata[j+1] = temp; \n \n \ndata[j+1] = data[j+1] ^ data[j];",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "D",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "Assume <*1> and <*2> have been filled in correctly. \nWhich of the following best describes what method move \ndoes to the elements of data ? \n \n \n \n \n \npublic void move(Comparable[] data){ \n  int lim1 = data.length - 1; \n  for(int i = 0; i < lim1; i++){ \n    int lim2 = data.length - i - 1; \n    for(int j = 0; j < lim2; j++) \n      if( <*1> ){ \n        <*2> \n    } \n  } \n}",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "B",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n          new LinkedList<Character>(); \nString n = \"for(int i = 0; i < n.length(); i++){ \n  list3.addFirst( n.charAt(i) ); \n  list3.addLast( n.charAt(i) ); \n} \nfor( char ch : list3 ) \n  System.out.print( ch );",
@@ -490,7 +527,8 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nArrayList<Integer> data1 =  \n                new ArrayList<Integer>(); \nArrayList<Integer> data2 = null; \nSystem.out.println( data1 == data2 );",
@@ -503,6 +541,7 @@
         ],
         "testSource": "Invitational Version A, 2007",
         "correctAnswer": "C",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

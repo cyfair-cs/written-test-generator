@@ -10,7 +10,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "double a = 2.5; \ndouble b = a * 5 / 2; \nSystem.out.print(b); \n What is output by the code to the right?",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "int result = 0; \nfor(int i = -5; i <= 5; i++){ \n  result += 2; \n} \nSystem.out.print(result); \n What is output by the code to the right?",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "String per = \"Wilkes\"; \nString st = per.substring(3).substring(2); \nSystem.out.print( st + \" \" + per ); \n What is output by the code to the right?",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "int[] his = {47, 42, 37, 40, 42}; \nhis[0] = his[4]; \nhis[4]--; \nSystem.out.print(his[0] + \" \" + his[4]); \n What is output by the code to the right?",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "int w = 7; \nint z = 3 % w; \nw = z; \nz = w; \nSystem.out.print( w + \" \" + z ); \n What is output by the code to the right?",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "Which answer is logically equivalent to the following boolean expression, where w, x, y, z are int variables? \n !((x >= y) && (w < z)) \n \n D !(x == y) || !(w == z)",
@@ -87,7 +93,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "boolean p = true; \nboolean q = false; \nboolean r = p ^ q; \nif( !p && r ) \n  System.out.print(1); \nelse \n  System.out.print(2); \nif( p && !q && r ) \n  System.out.print(3); \n What is output by the code to the right?",
@@ -100,7 +107,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "public class Score{ \n  <*1> int MAX_SCORE = 100; \n  private int score; \n \n  public Score(int sc){ \n    score = sc; \n  } \n \n  public int getScore(){ \n    return score; \n  } \n \n  public String toString(){ \n    return getScore() + \" points\"; \n  } \n} \n \npublic class CurvedScore extends Score{ \n  private int added;   \n \n  public CurvedScore(int sc, int ad){ \n    super(sc); \n    added = ad; \n  } \n \n  public int getScore(){ \n    return super.getScore() + added; \n  } \n} \n What replaces <*1> in the code to the right to indicate \nthat MAX_SCORE is a class constant that is accessible in \nall other classes? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -113,7 +121,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following client code? \nCurvedScore cs = new CurvedScore(75, 5);\nSystem.out.println(cs);",
@@ -126,7 +135,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "int dx = 30 | 21 & 10; \nSystem.out.print(dx); \n What is output by the code to the right?",
@@ -139,7 +149,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "double limit = Math.random() * 5; \nfor(int i = 0; i <= limit; i++) \n  System.out.print('*'); \n What is the maximum possible number of '*'s the code to \nthe right will print when run?",
@@ -152,7 +163,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "C",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "String mas = \"Owls\\\"Blaze\"; \nSystem.out.print(mas); \nSystem.out.print(\"Miners\"); \n What is output by the code to the right? \n \n \nMiners \n \n \nMiners",
@@ -165,7 +177,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "C",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "double value = -2.5 * 2; \nSystem.out.printf(\"%(5.2f\", value); \n \nWhat is output by the code to the right? ␢indicates a blank \nspace.",
@@ -178,7 +191,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "public int tough(int x){ \n  if(x < 0) \n    return 2; \n  else  \n    return x + tough(x - 1) + tough(x - 1);\n} \n What is returned by the method call tough(3)?",
@@ -191,7 +205,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "int result = 0; \nint i = 20; \nwhile( i > 0 ){ \n  result++; \n  i /= 2; \n} \nSystem.out.print(result); \n What is output by the code to the right?",
@@ -204,7 +219,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "int limit = 5; \nfor(int i = 0; i < limit; i++) \n  for(int j = 0; j < limit; j++) \n    for(int k = 0; k < limit * 2; k++) \n      System.out.print('*'); \n How many '*'s are output by the code to the right?",
@@ -217,7 +233,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(\"CPU\"); \nSystem.out.println(\"\\tRAM\"); \nSystem.out.print(\"NEC\"); \n What is output by the code to the right? \n \n   RAMNEC \n\nNEC \n \n    RAM \nNEC \n\nRAM    NEC",
@@ -230,7 +247,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "int[] list1 = {2, 4, 6}; \nint[] list2 = {2, 4, 5}; \nlist2[2] = list1[2]; \nSystem.out.print(list1 == list2); \n What is output by the code to the right?",
@@ -243,7 +261,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "int limit = 10; \nint total = 0; \nfor(int i = 1; i <= limit; i++) \n  total += i; \nSystem.out.print(total); \n What is output by the code to the right?",
@@ -256,7 +275,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "public int one(int x){ \n  System.out.print(x); \n  x *= 2; \n  return x; \n} \n \npublic void two(){ \n  System.out.print( one(2) + 3 + one(4) ); \n} \n What is output by the code to the right when method two \nis called ?",
@@ -269,7 +289,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "C",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "public int toy(int y){ \n  ++y; \n  y++; \n  return y++; \n} \n What is returned by the method call toy(3)?",
@@ -282,7 +303,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "String junk; \njunk = \"DELL_640_IBM_360_HP_2020_DEC\"; \nString[] parts = junk.split(\"\\\\d+\"); \nSystem.out.print(parts.length); \n What is output by the code to the right?",
@@ -295,7 +317,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "String name = \"william_KAHAN\"; \nint count = 0; \nfor(int i = 0; i < name.length(); i++) { \n  char ch = name.charAt(i); \n  if( ch == 'a' && ch == 'i' ) \n    count++; \n} \nSystem.out.print(count);  \n What is output by the code to the right?",
@@ -308,7 +331,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "public class Coord { \n  private final int x; \n  private final int y; \n \n  public Coord(int x, int y) { \n    this.x = x; \n    this.y = y; \n  } \n \n  public static void print(){ \n    System.out.print(this.toString()); \n  } \n} \n The Coord class to the right will not compile due to a \nsyntax error. Which of the following best describes the \nsyntax error that is present? \n \ndeclared final. \n \nvalue in the line of code where they are declared. \n \nsame identifier as instance variables. \n \nmethod. \n \nmethods.",
@@ -321,7 +345,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "public void sort(int[] list, int a, int b){ \n  if(a < b) { \n    int p = (a + b) / 2; \n    swap(list, p, a); \n    p = list[a]; \n    int i, j = a; \n    for(i = a + 1; i <= b; i++ ){ \n      if(list[i] > p) { \n        j++; \n        swap(list, i, j); \n      } \n    }  \n    swap (list, a, j); \n    sort( list, a, j - 1 );      \n    sort( list, j + 1, b ); \n  } \n} \n \npublic void swap(int[] list, int a, int b){\n  int t = list[a]; \n  list[a] = list[b]; \n  list[b] = t; \n} \n Given methods sort and swap to the right, what is \noutput by the following client code? \nint[] data = {2, -5, 10, -5, 3}; \nsort(data, 0, 4); \nSystem.out.print(Arrays.toString(data));",
@@ -334,7 +359,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "Which sorting algorithm do the methods sort and swap\nimplement?",
@@ -347,7 +373,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(521 ^ 520); \n What is output by the code to the right? \n \n \nthe int data type.",
@@ -360,7 +387,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "public int myst(ArrayList<Integer> col) { \n  int total = 0; \n  Iterator<Integer> it = <*1>; \n  while(it.hasNext()) \n    total += it.next(); \n  return total; \n} \n \npublic void demo(){ \n  ArrayList<Integer> list; \n  list = new ArrayList<Integer>(); \n  list.add(10); \n  list.add(0, 5); \n  System.out.print(myst(list)); \n} \n Which of the following can replace <*1> in the code to \nthe right so that the code compiles without error? \nI. \nII. \nIII. \nnew Iterator<Integer>(col) \ncol.iterator() \ncol.listIterator() \n \n \nAssume <*1> is filled in correctly.",
@@ -373,7 +401,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method demo \nis called?",
@@ -386,7 +415,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "Map<Integer,String> map; \nmap = new TreeMap<Integer,String>(); \n \nmap.put(<*1>, \"CBS\"); \nmap.put(<*1>, \"FOX\"); \n \nSystem.out.print(map.size()); \nboolean b = map.keySet().remove(<*1>); \nSystem.out.print(b); \n Which of the following can replace <*1> in the code to \nthe right so that the code segment compiles without error? \nI. \nII. \nIII. \n4 \nnew Integer(4) \n4.0 \n \n \nAssume <*1> is filled in correctly.",
@@ -399,7 +429,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right?",
@@ -412,7 +443,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "B",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "Assume method sample(int[] data) is O(N) where N = data.length.  When method sample is passed an array \nwith length = 2,000 it takes 1 second for method sample to complete. If method sample is then passed an array with \nlength = 18,000 what is the expected time it will take method sample to complete?",
@@ -425,7 +457,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "C",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following is not a Java keyword?",
@@ -438,7 +471,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "public Set<Double> make(double[] vals) { \n  Set<Double> result = new <*1><Double>(); \n  for(double d : vals) \n    result.add(d); \n  return result; \n} \n If <*1> in method make is replaced with the following \nwhat is the Big O of method make? vals contains N \ndistinct values. Pick the most restrictive correct set of \nanswers. \n TreeSet HashSet",
@@ -451,7 +485,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "E",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "public class Point { \n  private int x, y; \n \n  public Point() { x = -5; y = 5; } \n \n  public Point(int xx, int yy) {  \n    x = xx;  \n    y = yy;             \n  } \n \n  public void move() {  x = y; } \n \n  public void inc() {  \n    x++;  \n    y++;  \n  } \n \n  public String toString(){ \n    return x + \":\" + y;    \n  } \n } \n \npublic class Point3D extends Point { \n  private int z; \n \n  public Point3D() { this(3); } \n \n  public Point3D(int zz) { z = zz; } \n \n  public Point3D(int x, int y, int zz) { \n    super(x, y);  \n    z = zz;                \n  } \n \n  public void inc() { z++; }; \n \n  public String toString() { \n    return super.toString() + \":\" + z;   \n  } \n} \n Given the Point and Point3D classes to the right \nwhat is output by the following client code? \nPoint3D p1 = new Point3D(); \nSystem.out.print(p1); \n \n \n \n \n \ncode. \n \nthe next.",
@@ -464,7 +499,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "A",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "Given the Point and Point3D classes to the right, \nwhat is output by the following client code? \nPoint p2 = new Point3D(1, 2, 3); \np2.inc(); \nSystem.out.print(p2.toString());",
@@ -477,7 +513,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "public class Struct <E extends Comparable>{\n  private ArrayList<E> con; \n \n  public Struct(){ \n    con = new ArrayList<E>(); \n  } \n \n  public void add(E item) { \n    con.add(item); \n    int i = con.size() - 1; \n    while ( (i != 0) && \n(con.get(p(i)).compareTo(item) < 0)) {\n       \n      con.set(i, con.get(p(i))); \n      con.set(p(i), item); \n      i = p(i); \n    } \n  } \n \n  public E remove() { \n    E it = con.get(0); \n    con.set(0, con.remove(con.size()-1)); \n    int i = 0; \n    while( l(i) < con.size() ) { \n      int le = l(i), ri = r(i); \n      int si; \n      if( ri >= con.size() )  \n        si = le; \n      else if ( ch(le, ri) > 0) \n        si = le; \n      else  \n        si = ri; \n      if ( ch(i, si) < 0) { \n        E temp = con.get(i); \n        con.set(i, con.get(si)); \n        con.set(si, temp); \n        i = si; \n      } \n      else  \n        i = con.size(); \n    } \n    return it; \n  } \n    \n  private int ch(int x, int y) { \n    E fi = con.get(x); \n    return fi.compareTo(con.get(y)); \n  }     \n        \n  private int l(int i) { return 2 * i + 1;}\n  private int r(int i) { return 2 * i + 2;}\n  private int p(int i) { return (i-1) / 2;}\n \n  public E checkMid(){ \n    return con.get( con.size() / 2 ); \n  } \n} \n Given the Struct class to the right, what is output by the \nfollowing client code? \nStruct<String> str1; \nstr1 = new Struct<String>(); \nstr1.add(\"a\"); \nstr1.add(\"m\"); \nstr1.add(\"s\"); \nstr1.add(\"c\"); \nSystem.out.println( str1.checkMid() );",
@@ -490,7 +527,8 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "D",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "Given the Struct class to the right, what is output by the \nfollowing client code? \nStruct<String> str2; \nstr2 = new Struct<String>(); \nstr2.add(\"S\"); \nstr2.add(\"C\"); \nstr2.add(\"T\"); \nstr2.add(\"U\"); \nSystem.out.println( str2.remove() );",
@@ -503,6 +541,7 @@
         ],
         "testSource": "Regionals, 2010",
         "correctAnswer": "C",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

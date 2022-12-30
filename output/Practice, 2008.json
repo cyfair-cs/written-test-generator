@@ -10,7 +10,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 14; \nint y = 5; \nSystem.out.print( x % y );",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint amt = 0; \nfor(int i = 0; i <= 10; i++) \n  amt++; \nSystem.out.print( amt );",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nString s = \"RajReddy\"; \nSystem.out.print( s1.substring(1,5) );",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint[] vals = new int[5]; \nSystem.out.print( vals[2] );",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint x = 1; \ndouble a = 2.5 - x; \nSystem.out.print( a );",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "How many combinations of values for the boolean \nvariables a, b, and c will result in d being set to true?  \n \n \nboolean a, b, c; \n//code to initialize a, b, and c \n \nboolean d = ( a && b || c );",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 5; \nif( x < 5 ) \n  System.out.print( \"yes\" ); \nelse \n  System.out.print( \"no\" );",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "What  replaces <*1> in the code to the right so that the \ninstance variable side can only be accessed by the \nSquare class? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the client code to the right? \n \n \n \n \n \npublic class Square{ \n  <*1> int side; \n \n  public Square(int s){ \n    side = s; \n  } \n \n  public void grow(){ \n    side++; \n  } \n \n  public int getArea(){ \n    return side * side; \n  } \n \n} \n \n///////////////////////////////////////// \n//client code \nSquare sq = new Square(2); \nsq.grow(); \nSystem.out.print( sq.getArea() );",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 13; \nint y = 20; \nSystem.out.println( y ^ x );",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.println( Math.pow( 2.0, 0.0 ) );",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.print(\"\\\\word\");",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"%4.2f\", 2.559);",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call sample(-5)? \n \n \npublic static int sample(int x){ \n  return x - x; \n}",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "What is output when method use is called?",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "E",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "Method myst attempts to implement the selection sort \nalgorithm, but has a logic error. Which of the following \nchanges will correct the logic error? \n \n \n \n \ntemp = data[0]. \n \npublic static void myst(int[] data){ \n  int min, temp; \n  for(int i = 0; i < data.length; i++){ \n    min = 0;  \n    for(int j = i + 1; j < data.length; j++){ \n      if( data[j] < data[min] ) \n        min = j;  \n    } \n    temp = data[min]; \n    data[min] = data[i]; \n    data[i] = temp; \n  } \n} \n \npublic static void use(){ \n  int[] data = {10, -1, 4, 2}; \n  myst(data); \n  for(int i : data) \n    System.out.print( i ); \n}",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nArrayList<Integer> nums =  \nnew ArrayList<Integer>();\nnums.add(2); \nnums.add(4); \nSystem.out.println(nums);",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call two(7)? \n \n \npublic static int two(int x){ \n  if( x <= 2 ) \n    return 1; \n  else  \n    return 1 + two( x - 2 ); \n}",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "E",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \ndouble a = 1.7776; \nSystem.out.print( (int)( a * 10 ) );",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nString sample = \"the_thirty_three\"; \nString[] parts = sample.split(\"h\"); \nSystem.out.print( parts.length );",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nString w1 = \"a\"; \nString w2 = \"ba\"; \nSystem.out.println( w1 + w2 + w1 );",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "E",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nArrayOutOfBoundsException. \nint[] list = {2, 5, 2, 1}; \nfor( int val : list ) \n  System.out.print( val + 1 );",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following is closest to the value method \ncount will most likely return? \n \n \n \npublic static int count(int n){ \n  int ct = 0; \n  for(int i = 0; i < n; i++) \n    if( Math.random() < 0.5 ) \n      ct++; \n  return ct; \n}",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \nint count = 2; \nint[][] mat = new int[3][4]; \n \nfor(int r = 0; r < mat.length; r++){ \n  for(int c = 0; c < mat[0].length; c++){ \n    mat[r][c] = count; \n    count++; \n  } \n} \n \nSystem.out.print( mat[2][2] );",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 4; \nint y = 3; \nx *= y + 1; \nSystem.out.print( x );",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when given this \ninput? \nvalue1 is 10 \nvalue2 is 12 \n \n \n \nvalue2 is 12 \n \n \nScanner sc = new Scanner(System.in); \nSystem.out.print( sc.next() ); \nSystem.out.print( sc.next() );",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint limit = 10; \nint testVar = 1; \nwhile( testVar < limit ){ \n  testVar++; \n  limit--; \n} \nSystem.out.print( limit );",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the line marked //1 in the client code to \nthe right?",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "E",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the line marked //2 in the client code to \nthe right? \n \n \n \npublic class IntCell{ \n \n  private int val; \n \n  public IntCell(int x){ \n    val = x; \n  } \n \n  public void inc(){ \n    val++; \n  } \n \n  public String toString(){ \n    return \"val: \" + val; \n  } \n} \n \n///////////////////////////////////////// \n//client code  \nIntCell obj = new IntCell(5); \nSystem.out.println( obj ); //1 \nIntCell otherObj = obj; \notherObj.inc(); \notherObj = new IntCell(0); \nSystem.out.println( obj.toString() ); //2",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following best describes what method \neval returns? \n \n \n \nequal each other.",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following replaces <*1> in the code to \nthe right to create a two dimensional array of ints \nwith one more row than the number of characters in the \nString s and one more column than then number of \ncharacters in the String t? \n \n \n \n \n \n Assume <*1> is filled in correctly.",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call  \ncomp(\"uilcs\", \"uilcs\") ?",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "E",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call  \ncomp(\"state\", \"stilte\") ? \n \n \n \n \n \nprivate static int eval (int a, int b, int c){\n  int m; \n  m = a; \n  if (b < m) \n    m = b; \n  if (c < m) \n    m = c; \n  return m; \n} \n \npublic static int comp (String s, String t){ \n  int d[][]; \n  int n, m, i, j;  \n  char si, tj, cost;  \n \n  n = s.length (); \n  m = t.length (); \n  if (n == 0) \n    return m; \n  if (m == 0) \n    return n; \n \n  d = <*1>; \n  for (i = 0; i <= n; i++) \n    d[i][0] = i; \n \n  for (j = 0; j <= m; j++) \n    d[0][j] = j; \n \n  for (i = 1; i <= n; i++) { \n    si = s.charAt (i - 1); \n    for (j = 1; j <= m; j++) { \n      tj = t.charAt (j - 1); \n \n      if (si == tj) \n        cost = 0; \n      else \n        cost = 1; \n         \n      d[i][j] = eval(d[i-1][j]+1,  \nd[i][j-1]+1, d[i-1][j-1] + cost);\n    } \n  } \n  return d[n][m]; \n}",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "Consider the Node and Structure classes to the \nright. What is output by the following code? \nStructure s1 = new Structure(); \nSystem.out.println( s1.find() );",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "D",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nint[] values = {2, 1, -1, 2, 5}; \nStructure s2 = new Structure(); \nfor(int i : values ) \n  s2.add( i ); \ns2.show();",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following code? \nint[] values3 = {2, 1, -1, 2, 5}; \nStructure s3 = new Structure(); \nfor(int i : values3 ) \n  s3.add( i ); \nSystem.out.print( s3.find() );",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "B",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "What type of data structure does the Structure  class \nimplement? \n \n \n \n \n \n \npublic class Node{ \n  public int val; \n  public Node lc; \n  public Node rc; \n} \n------------------------------------------ \npublic class Structure{ \n  private Node myCon; \n \n  public void add(int v){ \n    myCon = add(v, myCon); \n  } \n \n  private Node add(int v, Node n){ \n    if( n == null ){ \n      n = new Node(); \n      n.val = v; \n    } \n    if( v < n.val ) \n      n.lc = add(v, n.lc); \n    else if( v > n.val ) \n      n.rc = add( v, n.rc); \n    return n; \n  } \n \n  public void show(){ \n    show(myCon); \n  } \n \n  private void show(Node n){ \n    if( n != null ){ \n      System.out.print(n.val); \n      show(n.rc); \n      show(n.lc); \n    } \n  }  \n \n  public int find(){ \n    return find(myCon); \n  } \n \n  private int find(Node n){ \n    if( n == null ) \n      return -1; \n    return 1  \n+ Math.max( find(n.lc), find(n.rc) );\n  } \n}",
@@ -491,7 +528,8 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "A",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when the method call \nbuild(5) is made?",
@@ -504,6 +542,7 @@
         ],
         "testSource": "Practice, 2008",
         "correctAnswer": "C",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

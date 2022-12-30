@@ -3,7 +3,6 @@ package main;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +20,7 @@ class TestDocument {
        questions = new ArrayList<>();
     }
 
+    @SuppressWarnings("All")
     public TestDocument(File document, String raw_name) {
         this.name = getVerboseContestName(raw_name);
         try {
@@ -36,7 +36,7 @@ class TestDocument {
             for (int i = 1; i < tokens.length-1; i++) {
                 Question question = Question.parseQuestion(tokens[i], this.name);
                 questions.add(question);
-                QUESTION_POOL.addQuestion(question);
+                QUESTION_POOL.getQuestions().add(question);
             }
 
             loadKeysFromText(tokens[tokens.length-1]);
@@ -92,18 +92,18 @@ class TestDocument {
             if (answerText.contains("Note to Graders: "))
                 answerText = answerText.substring(0, answerText.indexOf("Note to Graders:")).trim();
 
-            Pattern correctAnswerPattern = Pattern.compile("(?:([0-9][0-9]?[\\.\\)].*))");
+            Pattern correctAnswerPattern = Pattern.compile("([0-9][0-9]?[.)].*)");
             Matcher correctAnswerMatcher = correctAnswerPattern.matcher(answerText);
 
             HashMap<Integer, String> correctAnswers = new HashMap<>();
 
             while (correctAnswerMatcher.find()) {
                 String lineMatch = correctAnswerMatcher.group(0);
-                Pattern answerTokenPattern = Pattern.compile("\\d\\d?[\\.\\)]\\s+[A-E]");
+                Pattern answerTokenPattern = Pattern.compile("\\d\\d?[.)]\\s+[A-E]");
                 Matcher answerTokenMatcher = answerTokenPattern.matcher(lineMatch);
                 while (answerTokenMatcher.find()) {
                     String[] matchTokens = answerTokenMatcher.group(0).split("\\s+");
-                    int questionNumber = Integer.parseInt(matchTokens[0].replaceAll("[:\\.\\)]",""));
+                    int questionNumber = Integer.parseInt(matchTokens[0].replaceAll("[:.)]",""));
                     String questionAnswer = matchTokens[1];
 
                     if (!correctAnswers.containsKey(questionNumber))
@@ -113,8 +113,7 @@ class TestDocument {
 
             for (int questionNumber: correctAnswers.keySet()) {
                 Optional<Question> questionFound =  questions.stream().filter(q -> q.getQuestionNumber() == questionNumber).findFirst();
-                if (questionFound.isPresent())
-                    questionFound.get().setCorrectAnswer(correctAnswers.get(questionNumber));
+                questionFound.ifPresent(question -> question.setCorrectAnswer(correctAnswers.get(questionNumber)));
             }
 
 //            System.out.println("===========================");
@@ -128,8 +127,8 @@ class TestDocument {
         return json;
     }
 
-    public void addQuestion(Question question) {
-        questions.add(question);
+    public List<Question> getQuestions() {
+        return questions;
     }
 
     public String getName() {

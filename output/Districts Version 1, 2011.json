@@ -10,7 +10,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "int x = 744; \nint y = x / 10 / 7 / 2; \nSystem.out.print(y); \n What is output by the code to the right?",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "int total = 1; \nfor(int i = 0; i < 10; i++){ \n  total *= 2; \n  i++; \n} \nSystem.out.print(total); \n What is output by the code to the right?",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "String nm = \"Thacker\"; \nString pt = nm.substring(2, 5); \nSystem.out.print(pt + \"_\" + nm); \n What is output by the code to the right?",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "int x2 = 3; \ndouble[] points = new double[x2 * 2 + x2]; \nSystem.out.print(points.length + \" \" + x2);\n What is output by the code to the right?",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "int x3 = 50; \nint y3 = 10; \nint z3 = x3 * y3 / 5 + 101; \nSystem.out.print(z3); \n What is output by the code to the right?",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "boolean p, q, r; \n//code to initialize p, q, and r \n \nboolean s = (p && q) || !(p && r); \n How many combinations of values for the variables p, q, \nand r will result in s being set to true?",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "int x4 = 10; \nint y4 = 5; \nif(x4 > y4 * 2){ \n  System.out.print(1); \n  if(x4 % y4 != 0) \n    System.out.print(2); \n  else \n    System.out.print(3); \n} \nelse  \n  System.out.print(4); \n What is output by the code to the right?",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "public class Critter{ \n  public static final int NORTH = 0; \n  public static final int EAST = 1; \n  public static final int SOUTH = 2; \n  public static final int WEST = 3; \n \n  private int dir; \n   \n  public Critter(){  dir = EAST;  } \n \n  public int move(){ \n    dir = dir + 3; \n    if(dir > WEST) \n      dir -= 4; \n    return dir; \n  } \n} \n \npublic class Snail extends Critter{ \n  public int move(){ return <*1>; } \n} \n \n// client code \nCritter c1 = new Critter(); \nc1.move(); \nc1.move(); \nSystem.out.println(c1.move()); \n Which of the following can replace <*1> in the code to \nthe right so that the move method in the Snail class \nreturns the value stored in the constant named SOUTH \nfrom the Critter class? \nI. \nII. \nIII. \nCritter.SOUTH \nSOUTH \nSnail.SOUTH \n \n \nAssume <*1> is filled in correctly.",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "E",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the client code to the right?  \n \n \n \n \n \ncode.",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "int m = 130; \nint n = 64; \nSystem.out.print(n | m); \n What is output by the code to the right?",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "E",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(Math.pow(2, 5)); \n What is output by the code to the right?",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "E",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(\"10\\\\5\\\\2\"); \n What is output by the code to the right?",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "System.out.printf(\"%+4.2f\", 8.314); \n What is output by the code to the right?",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "public int eval(int x, int y){ \n  x *= -2; \n  y++; \n  x--; \n  return x + y; \n} \n What is returned by the method call eval(-5, 2)?",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "String res = \"\"; \nfor(int i = 0; i < 5; i++) \n  res += \"*\"; \nfor(int i = 0; i < 2; i++) \n  res = res + res; \nSystem.out.print(res.length()); \n What is output by the code to the right?",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "String str = \"12\"; \nInteger num = new Integer(12); \nDouble val = new Double(12.0); \nSystem.out.print(str.equals(num)); \nSystem.out.print(\" \" + num.equals(val)); \n What is output by the code to the right?",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "public class Demo { \n  private int x; \n \n  public String toString() {  \n    return x + \"\";  \n  } \n \n  /* \n  public static String q19() {  \n    return toString(); \n  } \n  */ \n \n} \n \n// client code \nDemo d = new Demo(); \nSystem.out.print(d.toString()); \n What is output by client code to the right?",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "B",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "If the method named q19 is uncommented, the Demo \nclass will no longer compile. Which of the following best \nexplains why uncommenting method q19 results in a \nsyntax error? \n \nshown.",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "public class <*1> { \n  public int value; \n  public String name; \n} \n Which of the following can replace <*1> in the code to \nthe right so that the class compiles without error?",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "int accum = 0; \nfor(int i = 0; i < 10; i++) { \n  for(int j = 0; j < 10; j++) { \n    accum++; \n    if(accum >= 10) \n      break; \n  } \n} \nSystem.out.println(accum); \n What is output by the code to the right?",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "B",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "String file_name = \"DATA\"; \nFile f = new File(file_name); \nScanner sc = new Scanner(f); \n Which of the following best explains the syntax error in the \ncode segment to the right? \n \nconstructor is System.in. \n \nextension such as .txt. \n \n \nexception that must be handled.",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "ArrayList<String> non; \nnon = new ArrayList<String>(); \nnon.add(\"A\"); \nnon.add(\"B\"); \nnon.add(1, \"BA\"); \nnon.set(2, \"C\"); \nSystem.out.println(non); \n What is output by the code to the right?",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "public void some(Scanner sc) { \n  System.out.print(sc.next()); \n  sc.nextDouble(); \n  sc.nextInt(); \n  sc.nextLine(); \n  System.out.print(sc.next()); \n} \n What is output by method some to the right if sc is \nconnected to a file that contains the following data and uses \nthe default delimiters?  \n821  56.67  37  15 \n71   36 \naaa  bbb",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "int x5 = 80; \n<*1>; \nSystem.out.print(x5); \n Which of the following can replace <*1> in the code to \nthe right so that the output is 8? \n I. \nII. \nIII. \nx5 %= 97 \nx5 = x5 >> 4 \nx5 /= 9",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "double[] ds = {.01, 0.01, .2, .201, .20}; \nArrays.sort(ds); \nSystem.out.print(Arrays.toString(ds)); \n What is output by the code to the right? \n \n \n \n \n \nthe next.",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "public ArrayList<Integer> srch(char[] cs, \nchar tgt) {\n  ArrayList<Integer> res; \n  res = new ArrayList<Integer>(); \n  for(int i = 0; i < cs.length; i++) \n    if(cs[i] == tgt) \n      res.add(i); \n  return res; \n} \n \n// client code \nString u = \"engelbart\"; \nchar t = 'e'; \nSystem.out.print(srch(u.toCharArray(), t)); \n What is output by the client code to the right?",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "Which search algorithm does method srch use?",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "char let = 'b'; \nSystem.out.print((char) (let + 7)); \n What is output by the code to the right?",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "String winner = \"frances e. allen\"; \nboolean b1 = winner.matches(\"f.*n\"); \nboolean b2 = winner.matches(\"f.n\"); \nSystem.out.print(b1 + \" \" + b2); \n What is output by the code to the right?",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "ArrayList<Object> aList; \naList = new ArrayList<Object>(); \naList.add(\"cat\"); \naList.add(aList); \naList.add(12); \n \nint size = 0; \nIterator<Object> it = aList.iterator(); \nwhile(it.hasNext()) { \n  it.next(); \n  size++; \n} \nSystem.out.print(size); \n What is output by the code to the right? \n \n \n \n \n \nwhen the code is run.",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "B",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "TreeSet<Integer> ts1; \nts1 = new TreeSet<Integer>(); \nTreeSet<Integer> ts2; \nts2 = new TreeSet<Integer>(); \nts1.add(5); \nts1.add(35); \nts1.add(5); \nts1.add(5); \nts2.add(5); \nts2.add(5); \nSystem.out.print(ts1.removeAll(ts2)); \nSystem.out.print(ts1); \n What is output by the code to the right?",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "E",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "public int total(LinkedList<String> dt) { \n  int result = 0; \n  Iterator<String> it = dt.iterator(); \n  while(it.hasNext()) { \n    String temp = it.next(); \n    if(temp != null ) \n      result += temp.length(); \n  } \n  return result; \n} \n If the LinkedList dt contains N elements, what is the \nworst case Big O of method total? Pick the most \nrestrictive correct answer.",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "public int sig(int[] vs, int p, int t) { \n  if(p == vs.length && t == 0) \n    return 1; \n  else if(p == vs.length) \n    return 0; \n  else \n    return sig(vs, p + 1, t) +  \n           sig(vs, p + 1, t - vs[p]); \n}    \n What is returned by the method call  \nsig(new int[] {15, 15}, 0, 15)?",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "E",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call  \nsig(new int[] {5,10,5,5,5,10}, 0, 15)?",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "List<Integer> m1 = new \nArrayList<Integer>(); \nboolean p1 = m1 instanceof List<Integer>; \nboolean p2; \np2 = m1 instanceof ArrayList<Integer>; \nSystem.out.print(p1 + \" \" + p2); \n What is output by the code to the right?",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "D",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "Method sort uses the traditional merge sort algorithm to sort an array of ints. It takes method sort 2 seconds to sort an \narray with 1,000,000 elements all equal to a single value. What is the expected time for method sort to sort an array with \n2,000,000 elements all equal to a single value?",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "A",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "public class Structure<E> { \n \n  private ArrayList<E> con; \n \n  public Structure() { \n    con = new ArrayList<E>(); \n  } \n \n  public boolean isEmpty() { \n    return con.isEmpty(); \n  } \n \n  public void add(E obj) { \n    con.add(obj); \n  } \n \n  public E peek() { \n    return con.get(0); \n  } \n \n  public E remove() { \n    return con.remove(0); \n  } \n} \n \n// client code \nStructure<Character> stEx; \nstEx = new Structure<Character>(); \nString someData = \"ABACBAAB\"; \nint start = someData.length() - 1; \nfor(int i = start; i >= 0; i--) \n  stEx.add(someData.charAt(i)); \nString out = \"\"; \nout += stEx.remove(); \nout += stEx.remove(); \nout += stEx.remove(); \nSystem.out.print(out); \n What is output by the client code to the right?",
@@ -491,7 +528,8 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "If a Structure contains N elements, what is the Big O \nof the remove method in the Structure class? Pick \nthe most restrictive correct answer.",
@@ -504,6 +542,7 @@
         ],
         "testSource": "Districts Version 1, 2011",
         "correctAnswer": "C",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

@@ -1,12 +1,8 @@
 package main;
 
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.text.PDFTextStripper;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -42,7 +38,7 @@ class Question {
             questionDescription = matcher.group(2).trim();
 
             // Extract Answers from Question Description
-            Pattern answerPattern = Pattern.compile("(([ABCDE]\\..*))");
+            Pattern answerPattern = Pattern.compile("([ABCDE]\\..*)");
             Matcher answerMatcher = answerPattern.matcher(questionDescription);
 //            System.out.println(questionDescription);
             while (answerMatcher.find()) {
@@ -53,7 +49,7 @@ class Question {
                         answers.add(answerChoice.trim());
                 }
             }
-            questionDescription = questionDescription.replaceAll("(([ABCDE]\\..*))", "").trim();
+            questionDescription = questionDescription.replaceAll("([ABCDE]\\..*)", "").trim();
         }
 
         // Return a new Question object with the extracted information
@@ -69,6 +65,10 @@ class Question {
         for (String answerChoice: answers)
             out.append(letter++).append(": ").append(answerChoice).append("\n");
         return out.toString();
+    }
+
+    public String questionName() {
+        return testSource + " - " + "Question " + questionNumber;
     }
 
     public List<String> getAnswers() {
@@ -109,6 +109,9 @@ class Question {
         json.put("questionDescription", questionDescription);
         json.put("correctAnswer", correctAnswer == null ? "No correct answer found." : correctAnswer);
         json.put("testSource", testSource);
+
+        // Additional fields for potential data base management
+        json.put("tags", new JSONArray());
 
         return json;
     }

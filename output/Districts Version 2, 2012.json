@@ -10,7 +10,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "int x = 4; \nint y = x + 3 * (4 + x); \nSystem.out.print(y); \n \nWhat is output by the code to the right?",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "int val = 0; \nfor(int i = 10; i > 1; i--) \n  val += 3; \nSystem.out.print(val); \n \nWhat is output by the code to the right?",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "String c1 = \"AABABBAAABBBAAABB\"; \nint res = c1.indexOf(\"AAA\", 8); \nSystem.out.print(res); \n \nWhat is output by the code to the right?",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "String[] st = {\"AB\", \"A\", \"DAD\", \"12\"}; \nSystem.out.print(st[3].length()); \nSystem.out.print(\" \" + st[1].length()); \n \n \nWhat is output by the code to the right?",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "int x1 = 13; \nint y1 = 19; \nint z1 = 2 * x1 - y1 + 2 * y1 - x1; \nSystem.out.print(z1); \n \nWhat is output by the code to the right?",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "boolean p, q, r; \n//code to initialize p, q, and r \n \nboolean s = (p || q) && (!r && !q); \n \nHow many combinations of values for the boolean \nvariables p, q, and r will result in s being set to \ntrue?",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "double a3 = 7.7; \nif(a3 / 2 > 3) \n  System.out.print(1); \nelse \n  System.out.print(4); \nSystem.out.print(a3); \n \nWhat is output by the code to the right?",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "public class Student { \n  private int credits; \n \n  public Student(int c) {credits = c;} \n \n  public void goodYear() {credits += 6;} \n \n  public String toString() { \n    return \"credits: \" + credits; \n  } \n \n  public void setCredits(int c) { \n    credits = c; \n  }  \n} \n \npublic class Block extends Student { \n  private int ccs; \n   \n  public Block (int c, int ex) { \n    super(c); \n    ccs = ex; \n  } \n \n  public void goodYear() { \n    setCredits(ccs + 8); \n  } \n}  \n \nGiven the Student and Block classes to the right, \nwhat is output by the following client code? \nStudent st1 = new Student(10); \nst1.goodYear(); \nSystem.out.print(st1);",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "C",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "Given the Student and Block classes to the right, \nwhat is output by the following client code? \nStudent st2 = new Block(10, 4); \nst2.goodYear(); \nSystem.out.print(st2); \n \n \n \n \ncode.",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "int m = 127; \nint n = 62; \nSystem.out.print(m & n); \n \nWhat is output by the code to the right?",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "C",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "double m2 = 3.15; \ndouble n2 = m2 / 2; \ndouble o2 = Math.floor(n2) + Math.ceil(m2); \nSystem.out.print(o2); \n \nWhat is output by the code to the right?",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(\"big\"); \nSystem.out.println(); \nSystem.out.print(\"tall\\nthin\"); \n \nWhat is output by the code to the right? \n \n \ntall\\nthin \n\ntallnthin \n \ntall \nthin",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "double t5 = 671.45; \nSystem.out.printf(\"%+6.1f\", t5); \n \nWhat is output by the code to the right?",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "public double calc(int x, double a) { \n  x--; \n  a -= 2 * x; \n  return a * x; \n} \n \nWhat is returned by the method call calc(-2, -1.5)?",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "String stars = \"\"; \nfor(int i = 0; i < 5; i++) \n    stars += \"*\"; \nstars += \"*\"; \nfor(int i = 0; i < 10; i++) \n    stars += \"*\"; \nSystem.out.print(stars.length()); \n \nWhat is output by the code to the right?",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "double[] as = {0.5, -1.78, 2.21, 4.5000}; \nSystem.out.print( (int) as[3] ); \n \nWhat is output by the code to the right?",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "int r = 0; \nr += Math.pow(2, 5); \nSystem.out.print(r); \n \nWhat is output by the code to the right?",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following Java statements is equivalent to the formula to the \nright? BMI, ma, and in are variables of type double.",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "double mys = 0.0; \ndouble t = 0; \ndo { \n  t = Math.random(); \n  mys++; \n} while(t < 0.2); \nSystem.out.print(mys); \n \nWhat is the minimum value the code to the right will print \nout? \n \n \ncorrect.",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "Object obj1 = new ArrayList<String>(); \nObject obj2 = obj1.toString(); \nSystem.out.print(obj1 == obj2); \nSystem.out.print(\" \" + obj1.equals(obj2)); \n \nWhat is output by the code to the right?",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "C",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "public void sort(String[] w) { \n  for(int i = 0; i < w.length - 1; i++) { \n    int m = i; \n    for(int j = i + 1; j < w.length; j++) \n      if( <*1> ) \n        m = j; \n    if(m != i) { \n      String t = w[i]; \n      w[i] = w[m]; \n      w[m] = t; \n    } \n    if(i == 4) \n      System.out.print(Arrays.toString(w)); \n  } \n} \n \n// client code \nString[] ds = {\"Z\", \"a\", \"MY\", \"Z\", \"b\",  \n\"p\", \"BE\"}; \nsort(ds); \n \nWhich of the following boolean expressions replaces \n<*1> in method sort so that the body of the if \nstatement is executed if the String at index m is \ngreater than the String at index j? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "What is output when the client code to the right is executed?",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "C",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "Which sorting algorithm does method sort implement? \n \nsort \n\nsort",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following is a valid Java identifier?",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "public ArrayList<Integer> search( \nString[] m, String t) { \n  ArrayList<Integer> r; \n  r = new ArrayList<Integer>(); \n  for(int i = 0; i < m.length; i++)  \n    if(<*1>)  \n      r.add(i);   \n  return r; \n} \n \n// client code \nString[] n = {\"A\", \"N\", \"A\", \"J\", \"A\",  \n\"M\", \"AA\", \"AAA\", \"A\"}; \nString sch = n[6].substring(1); \nSystem.out.print(search(n, sch)); \n \nWhat replaces <*1> in the method search to the right \nso that the output of the client code to the right is  \n[0, 2, 4, 8]? \n \n \n \nAssume <*1> is filled in correctly.",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "Which searching algorithm does method search \nimplement?",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "<*1> list = new LinkedList<Integer>(); \nSystem.out.print(list.toString()); \nSystem.out.print(list.size()); \n \nWhich of the following can replace <*1> in the code to \nthe right so that the code segment compiles without error? \nI. \nII. \nIII. \nCollection<Integer> \nList<Integer> \nObject \n \n \nonly",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "public int mystery(int x) { \n  int num = 0; \n  for(int i = 1; i <= x; i++)  \n    if( x <*1> i == 0 ) \n      num++; \n  return num; \n} \n \n// client code \nSystem.out.print(mystery(13)); \nSystem.out.print(\" \" + mystery(72)); \n \nWhat replaces <*1> in method mystery to the right to \nobtain the remainder of the integer division of x by i? \n \n \nAssume <*1> is filled in correctly.",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the client code to the right?",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "A",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "byte b1 = 12; \nbyte b2 = (byte) ~b1; \nString bits = Integer.toBinaryString(b2); \nbits = bits.substring(bits.length() - 8); \nSystem.out.print(bits); \n \nWhat is output by the code to the right?",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "public int find(Map<String, Integer> m,  \nString[] can) { \n  int res = 0; \n  for(String k : can) \n    if(m.containsKey(k)) \n      res++; \n  return res; \n} \n \nWhat is the average case order (Big O) of method find \nshown to the right, given the following kinds of Maps? \nm.size() = N and  can.length = M. Pick the most \nrestrictive correct set of answers. \n TreeMap       HashMap \n \n \n \n2\n) O(N) \n \nN\n) O(M)",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "String gar = \"56+=78-412**32^\"; \nString[] rs = gar.split(\"\\\\D\"); \nSystem.out.print(rs.length + \" \" + rs[0]); \n \nWhat is output by the code to the right?",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "E",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "The following values are inserted in the order shown into a binary search tree using the traditional, naive insertion algorithm. \nWhat is the result of post order traversal of the resulting tree? \n11, 3, 7, 8, 3, 6, 9, 11, 12",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "What kind of graph does the picture to the right represent?",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "String[] gds = {\"A\", \"\", null, \"C\", \"D\"}; \nSystem.out.print(gds instanceof Object); \nSystem.out.print(gds[2] instanceof Object); \nSystem.out.print(gds[1] instanceof String); \n \nWhat is output by the code to the right? \n \n \n \n \n \n \nUT AM \nTS \nBU \n15 \n22 \n17 \n37 \n2",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "public int[] process(int max) { \n  int[] cs = {1, 3, 5}; \n  int[] ms = new int[max]; \n  Arrays.fill(ms, max * 10); \n  ms[0] = 0; \n  for(int i = 1; i < ms.length; i++) \n    for(int j = 0; j < cs.length; j++) \n      if(cs[j] <= i) { \n        int t = ms[i - cs[j]] + 1; \n        if(t < ms[i]) \n          ms[i] = t; \n      } \n  return ms; \n} \n \nGiven method process to the right, what is output by \nthe following client code? \nint[] p1 = process(9); \nSystem.out.print(p1[4]);",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "D",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "Given method process to the right, what is output by \nthe following client code? \nint[] p2 = process(15); \nint tot = 0; \nfor(int i : p2) \n  tot += i; \nSystem.out.print(tot);",
@@ -491,7 +528,8 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "C",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "public class Structure<E> { \n  private ArrayList<E> con; \n \n  public Structure() { \n    con = new ArrayList<E>(10); \n  } \n \n  public void add(E v) { con.add(v); } \n \n  public E remove() {  \n    return con.remove(0); \n  } \n \n  public E peek() { return con.get(0); } \n \n  public boolean isEmpty() { \n    return con.size() == 0; \n  } \n} \n \n// client code \nStructure<Integer> str; \nstr = new Structure<Integer>(); \nfor(int i = 3; i < 20; i += i) \n  str.add(i); \nwhile(!str.isEmpty())  \n  System.out.print(str.remove()); \n \nWhat is output by the client code to the right?",
@@ -504,6 +542,7 @@
         ],
         "testSource": "Districts Version 2, 2012",
         "correctAnswer": "B",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

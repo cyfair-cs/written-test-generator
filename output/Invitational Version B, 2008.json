@@ -10,7 +10,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 2; \nint y = x * 2 + 3 * x; \nSystem.out.print( y );",
@@ -23,7 +24,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint counter = 0; \nfor(int i = 0; i < 20; i++) \n  counter++; \nSystem.out.print( counter );",
@@ -36,7 +38,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nString subj = \"mathematics\"; \nSystem.out.print( subj.indexOf( 'm', 3 ) );",
@@ -49,7 +52,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \ndouble[] vals = {1.5, -1.0, 2.0}; \nvals[1] *= 4.0; \nSystem.out.print( vals[1] );",
@@ -62,7 +66,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint r = 3; \n--r; \nr *= r; \nSystem.out.println( r );",
@@ -75,7 +80,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nboolean p = true; \nboolean q = false; \nSystem.out.print( p && q ); \nSystem.out.print( \" \" ); \nSystem.out.print( p || q );",
@@ -88,7 +94,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint j = 10; \nif( j < 10){ \n  if( 12 > j ) \n    System.out.print(\"y\"); \n  else \n    System.out.print(\"n\"); \n} \nelse \n  System.out.print(\"o\");",
@@ -101,7 +108,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right so that the \nmethod longSong  is accessible to code in all classes? \n \n \nAssume <*1> is filled in correctly.",
@@ -114,7 +122,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*2> in the code to the right so the method \nlongSong returns true only if the instance variable \nlengthInSeconds is greater than 180? \n \n  return true; \nelse \n  return false; \n \n  return true; \nelse \n  return false; \n \n \n \n \npublic class Song{ \n \n  private String name; \n  private int lengthInSeconds; \n \n  public Song(String nm, int len){ \n    name = nm; \n    lengthInSeconds = len; \n  } \n \n  <*1> boolean longSong(){ \n    <*2> \n  } \n}",
@@ -127,7 +136,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint x = 13; \nint y = 16; \nSystem.out.print( x | y );",
@@ -140,7 +150,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.print( Math.round(1.99) );",
@@ -153,7 +164,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \nThree \n \n \nTwo \nThree \n \nTwoThree \n \nThree \nSystem.out.println(\"One\"); \nSystem.out.print(\"Two\"); \nSystem.out.println(\"Three\");",
@@ -166,7 +178,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nSystem.out.printf(\"$%2.2f\", 1.5);",
@@ -179,7 +192,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call toy(3)? \n \n \npublic static int toy(int value){ \n  value++; \n  value += 1; \n  return value; \n}",
@@ -192,7 +206,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following replaces <*1> in the code to the \nright to convert str to an int? \n \n \n \n \n \nString str = \"-123\"; \nint num = <*1>;",
@@ -205,7 +220,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nint[] data = {5, 1, 5, 4}; \nArrays.sort( data ); \nfor( int i : data ) \n  System.out.print(i);",
@@ -218,7 +234,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \ndouble negValue = -12.7; \nSystem.out.print( (int)negValue );",
@@ -231,7 +248,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following method calls would return true? \nI.   Character.isLetter( '8' ) \nII.  Character.isDigit( '8' ) \nIII.    Character.isLetterOrDigit( '8' )",
@@ -244,7 +262,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nint val = 12; \nString stat = (val % 2 == 0) ? \"EV\" : \"OD\";\nSystem.out.print( stat );",
@@ -257,7 +276,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method test \nis called?",
@@ -270,7 +290,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "Which searching algorithm does method find \nimplement? \n \n \n \n \n \n \npublic static int find(int[] data, \n                       int   tgt){ \n  int loc = -1; \n  int i = 0; \n  while( loc == -1 && i < data.length ){ \n    if( data[i] == tgt ) \n      loc = i; \n    i++; \n  } \n  return loc; \n} \n \npublic static void test(){ \n  int[] data = {3, 1, 5}; \n  System.out.print( find(data, 7) ); \n}",
@@ -283,7 +304,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to generate an \nException if data is null? \n \n \n \n \n \npublic static boolean evenLen(int[] data){ \n  if( data == null ) \n    <*1>; \n  return data.length % 2 == 0; \n}",
@@ -296,7 +318,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method one \nis called? \n \n \n \n \n \nNullPointerException.",
@@ -309,7 +332,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method two \nis called?",
@@ -322,7 +346,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nthree is called? \n \n \n \n \nmethod three. \n \n \npublic class Album{ \n  private String title; \n  private int numSongs; \n \n  public Album(){ \n    this(\"none\", -1); \n  } \n \n  public Album(String t){ \n    title = t; \n  } \n \n  public Album(String t, int num){ \n    title = t; \n    numSongs = num; \n  } \n \n public String toString(){ \n    return title + \":\" + numSongs; \n  } \n} \n \n///////// client code ///////// \npublic static void one(){ \n  Album a = new Album(); \n  System.out.print( a ); \n} \n \npublic static void two(){ \n  Album a = new Album(\"Next\"); \n  System.out.print( a ); \n} \n \npublic static void three(){ \n  Album a1 = new Album(); \n  Album a2 = new Album(); \n  System.out.print( a1.equals(a2) ); \n}",
@@ -335,7 +360,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "What can replace the lines of code marked line 1 and \nline 2 in the code to the right without altering the \noutput? \n \n \n \nline 1 \n \nline 2 \n \n \n \n \n \nLinkedList<Integer> li; \nli = new LinkedList<Integer>(); \nli.add(1); // line 1 \nli.add(0, 2); // line 2 \nSystem.out.print( li );",
@@ -348,7 +374,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "D",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "What replaces <*1> in the code to the right to obtain the \ncharacter at position i in the String s? \n \n \n \n \n \nAssume <*1> is filled in correctly.",
@@ -361,7 +388,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "What is returned by the method call myst(\"hot\")?",
@@ -374,7 +402,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "B",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "What will be the length of the String returned by \nmethod myst if the parameter s has a length of 20? \n \n \npublic static String myst(String s){ \n  String result = \"\"; \n  char ch; \n  for(int i = 0; i < s.length(); i++){ \n    ch = <*1>; \n    for(int j = 0; j <= i; j++) \n      result = result + ch; \n  } \n  return result; \n}",
@@ -387,7 +416,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \n \n \nTreeSet<Character> set; \nset = new TreeSet<Character>(); \n \nset.add('s'); \nset.add('a'); \nset.add('d'); \n \nIterator<Character> it = set.iterator(); \nwhile( it.hasNext() ) \n  System.out.print( it.next() );",
@@ -400,7 +430,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "Which sorting algorithm involves splitting the unsorted data into smaller and smaller parts and then recombining the parts into \nlarger and larger sorted lists?",
@@ -413,7 +444,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \nStack<Integer> s = new Stack<Integer>(); \ns.push(24); \ns.push(213); \ns.push(37); \nSystem.out.print( s.peek() );",
@@ -426,7 +458,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "In the code to the right assume the Collection col \ncontains N elements. What kind of Collection must \ncol be so that each operation in method demo has an \nexpected running time of  O(1)? \n \n \n \n// precondition: col does not contain 1000 \npublic void demo(Collection<Integer> col){ \n  col.add( 1000 ); \n  boolean here = col.contains( 1000 ); \n  col.remove(1000); \n}",
@@ -439,7 +472,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right? \n \n \n \nPriorityQueue<Integer> pq; \npq = new PriorityQueue<Integer>(); \n \npq.add(9); \npq.add(4); \npq.add(9); \npq.add(1); \n \nwhile( !pq.isEmpty() ) \n  System.out.print( pq.remove() );",
@@ -452,7 +486,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "C",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nrecOne is called?",
@@ -465,7 +500,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nrecTwo is called? \n \n \n \npublic class RecDemo{ \n \n  public int count; \n \n  public int rec(int n){ \n    count++; \n    if( n == 0 ) \n      return 1; \n    else \n      return 2 + rec(n - 1) + rec(n - 1); \n  } \n} \n \n///////// client code ///////// \npublic static void recOne(){ \n  RecDemo r = new RecDemo(); \n  System.out.print( r.rec(3) ); \n} \n \npublic static void recTwo(){ \n  RecDemo r = new RecDemo(); \n  r.count = 0; \n  r.rec(5); \n  System.out.print( r.count ); \n}",
@@ -478,7 +514,8 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "A",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the code to the right when method \nstructOne is called? \n \n \n \n \nstructOne. \n \nUESTION  39   \n What is output by the code to the right when method \nstructTwo is called? \n \n \n \n \nstructTwo.",
@@ -496,6 +533,7 @@
         ],
         "testSource": "Invitational Version B, 2008",
         "correctAnswer": "E",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     }
 ]

@@ -10,7 +10,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nlong b = 19; \nint c = 13; \nb+=c; \nout.println(b+\" \"+c);",
@@ -23,7 +24,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nInteger [] list = {1,2,3,4.0}; \nout.println(list[3]);",
@@ -36,7 +38,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint j = 5; \ndo \n{ \n out.print(--j + \" \"); \n} \nwhile (j>1);",
@@ -49,7 +52,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\nString s = \"BreakingBad\"; \nout.println(s.charAt(4));",
@@ -62,7 +66,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "E",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nchar [] list1 = {'a','b','c','d'}; \nchar [] list2 = list1; \nlist2[2] = 'e'; \nlist1[3] = list2[1]; \nfor(char a:list1) \n  out.print(a);",
@@ -75,7 +80,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nboolean p = true; \nboolean q = true; \np = p^q; \nout.println(p + \" \" + q);",
@@ -88,7 +94,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nString s1 = \"sweet\"; \nswitch(s1) \n{ \n case \"sweet\":out.print(\"yum\"); \n case \"sour\" :out.print(\"yom\"); \n        break; \n case \"spicy\":out.print(\"chomp\"); \n default     :out.print(\"burp\"); \n} \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 3",
@@ -101,7 +108,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \n \nout.println(Math.max(5.2,3.1));",
@@ -114,7 +122,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint[][]grid={{1,2,3},{4,5,6,7}, \n             {8,9}}; \nout.println(grid[0].length + \"\" +  \n     grid[1].length + \"\" +  \n     grid[2].length);",
@@ -127,7 +136,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement1> in the Guitar \nclass definition on the right ? \n\n\n\n\n\n \nclass Guitar \n{ \n private String type; \n private int numStrings; \n public Guitar() \n { \n  type = \"acoustic\"; \n  numStrings = 6; \n } \n public Guitar(int n) \n { \n  this(); \n  numStrings = n; \n } \n public Guitar(int n, String s) \n { \n  this(n); \n  type = s; \n } \n public String toString() \n { \n    return type + \": \" + \n        numStrings + \" string\"; \n } \n<statement1>getNumStrings<statement2> \n { \n    <statement3> \n } \n} \n \n///////////////////////////////// \n////client code \nGuitar g = new Guitar(5,\"bass\"); \nout.println(g);",
@@ -140,7 +150,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement2> in the Guitar \nclass definition on the right ?",
@@ -153,7 +164,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement3> in the Guitar \nclass definition on the right ?",
@@ -166,7 +178,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint d = 25; \nd = d | 15 & 7; \nout.println(d); \n   \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 4",
@@ -179,7 +192,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "E",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint e = 0, f = 1; \nwhile(f<100){ \n e++; \n f*=2; \n} \nout.println(e);",
@@ -192,7 +206,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich term best describes the variable type for a in the client code \nshown? \n \n \n \n \n \n \nstatic void stuff(int x) \n{ \n if(x%2==0) \n  out.print(x*5+\" \"); \n else \n if(x%3==0) \n  out.print(x/5+\" \"); \n else \n  out.print(x+\" \"); \n} \n//client code \nint a = 6; \nstuff(a); \na+=3; \nstuff(a); \na-=2; \nstuff(a);",
@@ -205,7 +220,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the client code to the right?",
@@ -218,7 +234,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these statements will return the substring \u201cProbe\u201d? \nI. s.substring(7,12); \nII. s.substring(8); \nIII. s.substring(8,13); \nIV. s.substring(7,13); \nV. s.substring(7); \n \n\n\n\n\n\nString s = \"Cassini_Probe\";",
@@ -231,7 +248,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n \nlong k = 12; \nint m = 5; \ndouble p = 2.5; \nout.println(p+k/m);",
@@ -244,7 +262,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nfor(int p = 0; p <= 1; p++) \n for(int q = 0; q <= 1; q++) \n out.print(\"\"+p+q+(p|q&p)+\" \"); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 5",
@@ -257,7 +276,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "E",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nBased on the value of x in the code on the right, which of the \nfollowing statements will output only the value 6 ? \nI.  out.println(x%1000/100); \nII.  out.println(x/100%10);  \nIII. out.println(x/1000%10); \n \n\n\n\n\n\nint x = 49627;",
@@ -270,7 +290,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\ndouble d = Math.toDegrees(Math.PI*2); \nout.printf(\"%.1f\\n\",d);",
@@ -283,7 +304,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nint x = 15 << 32; \nString s = Integer.toBinaryString(x); \nout.println(s);",
@@ -296,7 +318,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "E",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nArrayList <Double> list; \nlist = new ArrayList<Double>(); \nout.print(list.isEmpty()); \nlist.add(2.3); \nlist.set(0,4.2); \nlist.add(3.1); \nlist.remove(0); \nout.print(list.get(0));",
@@ -309,7 +332,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFind f(12,6) according to the recursive function definition shown on \nthe right.   You may use the space below to do your work. \n  f(12,6) = \n \n \n \n \n \n \n \n \n\n\n \n \n \n          f(x-y,y-1)+2    when x>y \nf(x,y)=     \n          x+y             otherwise \n \n \n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 6",
@@ -322,7 +346,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString s = \"FreeFallinTomPetty\"; \nString [] ar = s.split(\"[elt]+\"); \nout.println(ar[0]+ar[ar.length-1]  \n    +ar[1]);",
@@ -335,7 +360,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString bb = (100%3==0)?\"breaking\"  \n               :\"bad\"; \nout.println(bb);",
@@ -348,7 +374,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString s = \"KarelJRobot\"; \nString t = \"Kilamanjaro\"; \nout.println(s.compareTo(t));",
@@ -361,7 +388,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n \n\n\n\n \n \nMap<Integer,String> m =  \n new HashMap<Integer,String>(); \nm.put(10,\"ten\"); \nm.put(14,\"fourteen\"); \nm.put(9,\"nine\"); \nm.put(10,\"sepuluh\"); \nout.println(m.get(10));",
@@ -374,7 +402,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right ?",
@@ -387,7 +416,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOn the right is a boolean expression using generic notation.  Which of \nthe expressions below represents the simplest form of this \nexpression ? (Note : * means AND, + means OR) \n      _                              _     _                _  _   _              _   _ \n\n \n             _ _____ \n             A(A + B) \n \n(this translates to \u201cnot A and not (A or B)\u201d)",
@@ -400,7 +430,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn a typical binary search process, in how many steps will the value 5 \nbe found in the array shown on the right? \n\n\n\n \n \n0 1 2 3 4 5 6 7 8 9 10 11 12 13 \nA \nB \nC \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 7",
@@ -413,7 +444,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich statement below best describes the minimum required \n<implementation> of class B for the class structure shown on the \nright? \n\n\n\noverride method two(). \n\n\n \nabstract class A \n{ \n int x = 2; \n abstract int one(); \n int two() \n { \n  return 5; \n } \n} \nclass B extends A \n{ \n //<implementation> \n} \n \n///////////client code/////////////// \nB bop = new B(); \nout.println(bop.one()*bop.two() \n              *bop.x);",
@@ -426,7 +458,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nSuppose all is correctly defined with this class structure so that \nmethod one()returns the value 4. What is the output for the client code \nshown on the right?",
@@ -439,7 +472,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "D",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following is an INVALID class B definition? \nI. \nclass B extends A{ \n int one(){ \n     return 4; \n }} \nII. \nclass B extends A{ \n x=1; \n int one(){ \n    return 4; \n }} \nIII. \nclass B extends A{ \n int one(){ \n    return 4; \n } \n int two(){ \n    return 6; \n }} \nIV. \nclass B extends A{ \n int x = 4; \n int one(){ \n    return 4; \n } \n int two(){ \n    return 6; \n }} \n \n\n\n\n\n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational A - 2014  Page 8",
@@ -452,7 +486,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nSuppose a linked list has been implemented as shown in the diagram \non the right, with public fields data and next.  What is the output \nof the statement below? \n  out.print(p.next.data);",
@@ -465,7 +500,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "A",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nSet<Integer> sa = new \n TreeSet<Integer>(); \nsa.add(4); \nsa.add(5); \nsa.add(4); \nsa.add(6); \nsa.add(7); \nsa.remove(6); \nout.print(sa.size()); \nout.println(sa.contains(6));",
@@ -478,7 +514,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "B",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the output of this code if the value of <keyboard \ninteger input> is 3.14? \n\n\n\n\n\n \nint tx; \ntry{ \n tx = <keyboard integer input>;  \n} \ncatch(Exception ee){ \n out.print(\"Bad data. \"); \n} \nfinally{ \n out.print(\"All is good. \"); \n}",
@@ -491,7 +528,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOn the right is a binary tree implementing a min heap, with the 1 in \nposition 0, the 7 in position 1, and the 5 in position 2.  The last \nelement added was a 2.  In what position does the value 2settle when \nthe min heap is reestablished in the sifting up process?",
@@ -504,21 +542,24 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "C",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOPEN ENDED",
         "answers": [],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 40
+        "questionNumber": 40,
+        "tags": []
     },
     {
         "questionDescription": "",
         "answers": [],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": -1
+        "questionNumber": -1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Which of these is NOT equivalent to   1102 + 1000102 ?",
@@ -531,7 +572,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint h = 24; \nh/=5; \nout.println(h);",
@@ -544,7 +586,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nDouble [] list = {1.0,2.0,3.0,4}; \nout.println(list[3]);",
@@ -557,7 +600,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint k = 3; \ndo \n{ \n k+=3; \n out.print(k); \n} \nwhile (k!=12);",
@@ -570,7 +614,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\nString s = \"beachbum\"; \nout.println(s.indexOf(98,1));",
@@ -583,7 +628,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \ndouble [] list = {0.1,2.3,4.5,6.7}; \nlist[3]=list[2]; \nlist[1]=list[3]; \nlist[0]=list[1]; \nfor(double d:list) \n out.printf(\"%.1f\",d);",
@@ -596,7 +642,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which initial values of p and q will this expression output true? \nI. p=false;q=false  \nII. p=false;q=true  \nIII. p=true;q=false; \nIV. p=true;q=true          ; \n\n\n\n\n\n  \nboolean p = ?; \nboolean q = ?; \nout.println(p^q); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 3",
@@ -609,7 +656,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which of these inputs will the final value of sum be greater than \nzero? \n\n\n\nString s = <string value>; \nint sum = 0; \nswitch(s) \n{ \n case \"a\"    : sum += s.length(); \n case \"bb\"   : sum -= s.length(); \n case \"cccc\" : sum *= -s.length(); \n case \"\"     : sum--; \n} \nout.println(sum);",
@@ -622,7 +670,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \n \nout.println(Math.min(-5.2,3.1));",
@@ -635,7 +684,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich statement will correctly output the value 6 from the array \nshown to the right? \n\n\n\nint[][]a={{1,2,3},{4,5,6,7},{8,9}};",
@@ -648,7 +698,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement1> in the Guitar \nclass definition on the right ? \n\n\n\n\n\n \n \nclass Guitar \n{ \n private String type; \n private int numStrings; \n public Guitar() \n { \n  type = \"acoustic\"; \n  numStrings = 6; \n } \n public Guitar(int n) \n { \n  this(); \n  numStrings = n; \n } \n public Guitar(int n, String s) \n { \n  this(n); \n  type = s; \n } \n public String toString() \n { \n    return type + \": \" + \n        numStrings + \" string\"; \n } \n<statement1>setNumStrings<statement2> \n { \n    <statement3> \n } \n}",
@@ -661,7 +712,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement2> in the Guitar \nclass definition on the right ?",
@@ -674,7 +726,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <statement3> in the Guitar \nclass definition on the right ? \n\n\n\n\n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 4",
@@ -687,7 +740,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint d = 30; \nd = d ^ 15 << 1; \nout.println(d);",
@@ -700,7 +754,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n  \n\n \nint j = 0; \ndo{ \n j+=2*j; \n j++; \n} \nwhile(j<50); \nout.println(j);",
@@ -713,7 +768,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich term best describes the method type in the code shown to the \nright? \nI.   static method \nII.  void method \nIII. return method \nIV. mutator method \n \n\n\n\n\n\n \nstatic int stuff(int x) \n{ \n if(x%9>5) \n  return (x%9-5); \n if(x%9<5) \n  return (x%9+5); \n return (x%9); \n} \n \n//client code \nout.print(stuff(9)); \nout.print(stuff(8)); \nout.print(stuff(14));",
@@ -726,7 +782,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the client code to the right?",
@@ -739,7 +796,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these statements will return the substring \u201cR\u201d? \n\n\n\n\n\n  \nString s = \"FenderRumble\";",
@@ -752,7 +810,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n \nint d = 9; \nint f = 60; \nint g = 31; \nout.println(g-f%d); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 5",
@@ -765,7 +824,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nfor(int p = 0; p <= 1; p++) \n for(int q = 0; q <= 1; q++) \n out.print(\"\"+p+q+(p&q|q)+\" \");",
@@ -778,7 +838,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\ndouble g = 28.5; \nout.println(g%9);",
@@ -791,7 +852,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\nd = Math.toRadians(180.0); \nout.printf(\"%.2f\\n\",d);",
@@ -804,7 +866,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nint x = 12 << 32; \nString s = Integer.toBinaryString(x); \nout.println(s);",
@@ -817,7 +880,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nArrayList lost = new ArrayList(5); \nlost.add(null); \nlost.add(new Integer(6)); \nlost.add(\"ball\"); \nlost.add(4.7); \nout.println(lost.size()+\" \n\"+lost.get(1));",
@@ -830,7 +894,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFind f(10,5) according to the recursive function definition shown on \nthe right.   You may use the space below to do your work. \n  f(10,5) = \n \n \n \n \n \n \n \n \n\n\n \n \n \n          f(x-y,y-1)+2    when x>y \nf(x,y)=     \n          x+y             otherwise \n \n \n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 6",
@@ -843,7 +908,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\nString s = \"ilovetopaint\"; \nString [] ar = s.split(\"[pote]\"); \nout.println(ar[1]+ar[5]);",
@@ -856,7 +922,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString b = (100%5==0)?\"walking\"  \n                     :\"dead\"; \nout.println(b);",
@@ -869,7 +936,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\ns = \"SperryRand\"; \nt = \"SpecialK\"; \nout.println(s.compareTo(t));",
@@ -882,7 +950,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n \n\n\n\n \n \nMap<Integer,String> m =  \n new HashMap<Integer,String>(); \nm.put(10,\"ten\"); \nm.put(14,\"fourteen\"); \nm.put(9,\"nine\"); \nm.put(10,\"sepuluh\"); \nout.println(m.get(0));",
@@ -895,7 +964,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right ?",
@@ -908,7 +978,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOn the right is a boolean expression using generic notation.  Which of \nthe expressions below represents the simplest form of this \nexpression ? (Note : * means AND, + means OR, ⊕ means XOR) \n      _       _                                                                              _     _ \n\n\n             (A ⊕ B)( A + B) \n \n(this translates to \u201cA xor B and A or B)\u201d)",
@@ -921,7 +992,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn a typical binary search process, in how many steps will the value 8 \nbe found in the array shown on the right? \n\n\n\n \n0 1 2 3 4 5 6 7 8 9 10 11 12 13 \nA \nB \nC \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 7",
@@ -934,7 +1006,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich statement below best describes the minimum required \n<implementation> of class B for the class structure shown on the \nright? \n\n\n\noverride method one(). \n\n\n \nabstract class A \n{ \n int x = 2; \n int one() \n { \n  return 5; \n } \n  abstract int two(); \n  \n} \nclass B extends A \n{ \n //<implementation> \n} \n \n///////////client code/////////////// \nB bop = new B(); \nout.println(bop.one()*bop.two() \n              *bop.x);",
@@ -947,7 +1020,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nSuppose all is correctly defined with this class structure so that \nmethod two() returns the value 2. What is the output for the client \ncode shown on the right?",
@@ -960,7 +1034,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following is an INVALID class B definition? \nI. \nclass B extends A{ \n int two(){ \n     return 2; \n }} \nII. \nclass B implements A{ \n x=1; \n int two(){ \n    return 2; \n }} \nIII. \nclass B extends A{ \n int one(){ \n    return 5; \n } \n int two(){ \n    return 2; \n }} \nIV. \nclass B extends A{ \n int x = 4; \n int one(){ \n    return 5; \n } \n int two(){ \n    return 2; \n }} \n \n\n\n\n\n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Invitational B - 2014  Page 8",
@@ -973,7 +1048,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nSuppose a linked list has been implemented as shown in the diagram \non the right, with public fields data and next.  What is the output \nof the statement below? \n  out.print(p.next.next.data);",
@@ -986,7 +1062,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nSet<Integer> sa = new \n TreeSet<Integer>(); \nsa.add(4); \nsa.add(5); \nsa.add(4); \nsa.add(6); \nsa.add(7); \nsa.remove(4); \nout.print(sa.size()); \nout.println(sa.contains(6));",
@@ -999,7 +1076,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the output of this code if the value of <keyboard input> \nis 3.14? \n\n\n\n\n\n \ndouble tx; \ntry{ \n tx = <keyboard input>;  \n} \ncatch(Exception ee){ \n out.print(\"Bad data. \"); \n} \nfinally{ \n out.print(\"All is good. \"); \n}",
@@ -1012,7 +1090,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOn the right is a binary tree implementing a max heap, with the 9 in \nposition 0, the 7 in position 1, and the 5 in position 2.  The last \nelement added was a 12.  In what position does the value 12 settle \nwhen the min heap is reestablished in the sifting up process?",
@@ -1025,21 +1104,24 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOPEN ENDED",
         "answers": [],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 40
+        "questionNumber": 40,
+        "tags": []
     },
     {
         "questionDescription": "",
         "answers": [],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": -1
+        "questionNumber": -1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Which of these is NOT equivalent to   101012 + 100002 ?",
@@ -1052,7 +1134,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which initial values of p and q will the code on the right output \ntrue? \n\n\n\nboolean p=<value1>, q=<value2>; \nout.println(p&&q);",
@@ -1065,7 +1148,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\ndouble a = 4.1573; \nout.println(Math.ceil(a));",
@@ -1078,7 +1162,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \n \ndouble x = 13.7; \nx = 2 * x; \nout.println(x);",
@@ -1091,7 +1176,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nString s = \"biminitop\"; \nString t = s.replace('m','k'); \nout.println(s+\" \"+t);",
@@ -1104,7 +1190,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nout.printf(\"%.1f\\n\",9/2-6.5*2);",
@@ -1117,7 +1204,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nInteger x = null; \nint y = 5; \nout.println(x + y); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 3",
@@ -1130,7 +1218,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint x = ~50; \nint y = x/7<<3; \nint z = ~y; \nout.println(x+\" \"+y+\" \"+z);",
@@ -1143,7 +1232,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nchar a = 'e'; \nswitch(a) \n{ \n case 'a':out.println(\"Yo\");break; \n case 'e':out.println(\"Dude\");break; \n case 'i':out.println(\"Sup\");break; \n case 'o':out.println(\"Word\");break; \n default :out.println(\"Chill\"); \n}",
@@ -1156,7 +1246,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint x=0; \nString [] a = {\"red\",\"white\",\"blue\"}; \nchar[][]list=new char[a.length][]; \nfor(String s:a) \n list[x]=a[x++].toCharArray(); \nint k=0; \nfor(char[]j:list) \n for(char m:j) \n  k+=\"yellow\".indexOf(m)>=0?0:1; \n out.println(k);",
@@ -1169,7 +1260,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nThe toString method is partially implemented in the code to the \nright.  Which statement below would best replace <statement1> so \nthat the output in the client code shows \"6 string acoustic\"? \n\n\n\n\n\n \nclass Guitar \n{ \n private String type; \n private int numStrings; \n public Guitar() \n { \n  type = \"acoustic\"; \n  numStrings = 6; \n } \n public Guitar(int n) \n { \n  this(); \n  numStrings = n; \n } \n public Guitar(int n, String s) \n { \n  this(n); \n  type = s; \n } \n public String toString() \n { \n    <statement1>; \n } \n///////////////////////////////// \n////client code \nGuitar g = new Guitar(); \nout.println(g);",
@@ -1182,7 +1274,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn what Java class is the toString method originally defined ?",
@@ -1195,7 +1288,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat term refers to redefining the toString method as shown in \nthe code to the right ? \n\n\n\n\n\nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 4",
@@ -1208,7 +1302,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nstatic int stuf(int [] list){ \n int k=0,m=0; \n for(int x:list){ \n  int c=0; \n  String s = Integer.toString(x); \n  char []ss=s.toCharArray(); \n  for(char a:ss) \n   c+=a-48; \n  if(c>k){ \n   k=c;m=x; \n  } \n } \n return m; \n} \n//client code \nint [] list = {523,637,951,790,1003}; \nout.println(stuf(list));",
@@ -1221,7 +1316,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nfor(int x=9; x==0;x-=3) \n out.print(x);",
@@ -1234,7 +1330,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint [] list = {1,2,3,4,5,6}; \nlist[list[1]]=list[list[4]]; \nlist[1]=list[list[3]]; \nfor(int x:list) \n out.print(x);",
@@ -1247,7 +1344,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the client code to the right? \n\n\npublic static double myst(double A, \ndouble B) \n{ \n double AA = Math.pow(A,2); \n double BB = Math.pow(B,2); \n double C = Math.sqrt(AA+BB); \n return C; \n} \n//client code \ndouble a = 6.0; \ndouble b = 8.0; \nout.println(myst(a,b));",
@@ -1260,7 +1358,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat term best describes the function of the myst method defined \non the right?",
@@ -1273,7 +1372,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n \nString a = \"Auburn\"; \nString b = \"Alabama\"; \nout.println(a.compareTo(b));",
@@ -1286,7 +1386,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nString s = \"B4\"; \nint i = Integer.parseInt(s,16); \nString t = Integer.toBinaryString(i); \nout.println(s+\" \"+i+\" \"+t); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 5",
@@ -1298,7 +1399,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nstatic int t(int x) \n{ \n return x%7>3?x-3:x+3; \n} \n//client code \nout.println(t(24));",
@@ -1311,7 +1413,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nString s; \ns = Integer.toBinaryString(100>>32); \nout.println(s);",
@@ -1324,7 +1427,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\ndouble d = Math.log(Math.E); \nout.printf(\"%.2f\\n\",d);",
@@ -1337,7 +1441,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nint x = Integer.MIN_VALUE; \nString s = Integer.toBinaryString(x); \nout.println(s);",
@@ -1350,7 +1455,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFind f(-4) according to the recursive function definition shown on the \nright.   You may use the space below to do your work. \n  f(-4) = \n \n \n \n \n \n \n \n\n\n \n \n \n          2(f(x+2))-f(x+1)+1 when x<0 \nf(x,y)=   1                  when x=0 \n0                  when x>0",
@@ -1363,7 +1469,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint [] list = {3,4,2,5,1,6,7,0}; \nArrayList<Integer> List1 = new  \n  ArrayList<Integer>(); \nArrayList<Integer> List2 = new  \n  ArrayList<Integer>(); \nfor(int x:list){ \n  if(x%2==0) \n   List1.add(x); \n  List2.add(x); \n } \nList2.removeAll(List1); \nout.println(List1); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 6",
@@ -1376,7 +1483,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString s = \"char[]list = s.toCharArray(); \nint x=1; \nPriorityQueue<Character> pq; \npq = new PriorityQueue<Character>(); \nfor(char a:list){ \n  pq.offer(a); \n  if(x%3==0){ \n   pq.poll();pq.poll(); \n  } \n  x++; \n } \nout.println(pq.peek());",
@@ -1389,7 +1497,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint j = 100; \ndouble k = 20; \nj/=k; \nk/=j; \nout.println(j+\" \"+k);",
@@ -1402,7 +1511,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nfor(int p = 0; p <= 1; p++) \n for(int q = 0;q <= 1; q++) \n  out.print(\"\"+p+q+(p|q^p)+\" \");",
@@ -1414,7 +1524,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right ?",
@@ -1426,7 +1537,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nThere is possibly something wrong with the code on the right that \nwould cause a compile error, or it could be just fine.  Which answer \nchoice best describes the situation ? \n      \n\n\n\n\n\ninterface A \n{ \n void A1();  \n int A2(); \n} \nclass B implements A \n{ \n void A1(){} \n int A2(){return 0;} \n} \n//client code \nA b = new B(); \nb.A1(); \nout.print(b.A2());",
@@ -1439,7 +1551,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nAssuming the code is correct as is, or that the proper fix has been \napplied so that method A1 outputs the phrase \u201cHello World\u201d and \nmethod A2 returns the value 0, what is the output of the client code \nlisted? \n\n\n\n\n \nA \nB \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 7",
@@ -1452,7 +1565,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \n \n \nMap<Character,Integer> m = new  \n  TreeMap<Character,Integer>(); \nm.put('c',4);  \nm.put('e',3); \nm.put('b',7); \nm.put('a',5);  \nm.put('c',3); \nm.put('f',7); \nm.remove('c'); \nout.println(m);",
@@ -1465,7 +1579,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these is the most efficient O(N) rating?",
@@ -1478,7 +1593,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn the code to the right, what value is the last one popped ? \n\n\n\n\n\n \nStack<Integer> s = new \n   Stack<Integer>(); \ns.push(3);  \ns.push(5);  \ns.push(9);  \ns.pop();   \ns.push(6);  \ns.pop(); \ns.pop();    \ns.push(2);  \ns.push(7);",
@@ -1491,7 +1607,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIf A and B are Boolean values, which is the most simplified expression for A*0 + B + 1, where * means AND, + means OR, 0 \nmeans false, and 1 means true?",
@@ -1504,7 +1621,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the length of the longest diagonal of 1s printed by this code? \n \n\n\n\n\n\n \n \n \n \n \nfor(int x=0;x<8;x++) { \n for(int y=0;y<8;y++) \n    out.print(((x+y)%4==0)?1:0); \n    out.println(); \n }",
@@ -1517,7 +1635,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint a = 45; \nint b = 34; \nout.println(a%10+b/10+b%10); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 1 - 2014  Page 8",
@@ -1530,7 +1649,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn graph 1 on the right, the adjacency matrix would look like this, \nwhere 1 means a one way connection and 0 would mean no \nconnection:  \n \nA\t\r   B\t\r   C\t\r  \nA\t\r   0\t\r   1\t\r   1\t\r  \nB\t\r   1\t\r   1\t\r   0\t\r  \nC\t\r   0\t\r   0\t\r   0\t\r  \nWhich choice below represents the adjacency matrix for Graph 2 on \nthe right? \n\n \nA\t\r   B\t\r   C\t\r   D\t\r  \nA\t\r   0\t\r   1\t\r   1\t\r   0\t\r  \nB\t\r   1\t\r   0\t\r   0\t\r   1\t\r  \nC\t\r   0\t\r   0\t\r   1\t\r   0\t\r  \nD\t\r   0\t\r   1\t\r   0\t\r   0\t\r  \n \n  \n\n \n \nA\t\r   B\t\r   C\t\r   D\t\r  \nA\t\r   0\t\r   1\t\r   1\t\r   1\t\r  \nB\t\r   0\t\r   0\t\r   0\t\r   1\t\r  \nC\t\r   0\t\r   0\t\r   1\t\r   0\t\r  \nD\t\r   0\t\r   1\t\r   0\t\r   0\t\r  \n \n \n \nA\t\r   B\t\r   C\t\r   D\t\r  \nA\t\r   0\t\r   1\t\r   1\t\r   1\t\r  \nB\t\r   0\t\r   0\t\r   0\t\r   1\t\r  \nC\t\r   0\t\r   0\t\r   0\t\r   0\t\r  \nD\t\r   0\t\r   1\t\r   0\t\r   0\t\r  \n \nA\t\r   B\t\r   C\t\r   D\t\r  \nA\t\r   0\t\r   0\t\r   0\t\r   0\t\r  \nB\t\r   1\t\r   0\t\r   0\t\r   1\t\r  \nC\t\r   1\t\r   0\t\r   1\t\r   0\t\r  \nD\t\r   1\t\r   1\t\r   0\t\r   0\t\r  ",
@@ -1540,7 +1660,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \ndouble a = 5,b=20; \ndo{ \n if (a<b) \n  a=a+(int)(b/a)+1; \n b=b-1; \n } \nwhile(a<=b); \nout.println(a+\" \"+b); \n \n \n \n  \n \nUniversity Interscholastic League \nComputer Science Competition \n \nNumber 146 (District 2 - 2014) \n \nGeneral Directions: \n1) DO NOT OPEN EXAM UNTIL TOLD TO DO SO. \n2) NO CALCULATOR OF ANY KIND MAY BE USE\n3) There are 40 questions on this contest exam. You have 45 minutes to complete this contest.  If you \nare in the process of actually writing an answer when the signal to stop is given, you may finish \nwriting that answer. \n4) Papers may not be turned in until 45 minutes have elapsed.  If you finish the test before the end of the \nallotted time, remain at your seat and retain your paper until told to do otherwise.  Use this time to \ncheck your answers. \n5) All answers must be written on the answer sheet/Scantron card provided. Indicate your answers in the \nappropriate blanks provided on the answer sheet or on the Scantron card. Clean erasures are \nnecessary for accurate Scantron grading. \n6) You may place as many notations as you desire anywhere on the test paper, but not on the answer \nsheet or Scantron card, which are reserved for answers only. \n7) You may use additional scratch paper provided by the contest director. \n8) All questions have ONE and only ONE correct (BEST) answer.  There is a penalty for all incorrect \nanswers. \n9) A reference to commonly used Java classes is provided at the end of the test, and you may use this \nreference sheet during the contest. You may detach the reference sheets from the test booklet, but \nDO NOT DO SO UNTIL THE CONTEST BEGINS. \n \nScoring: \n \n1) All questions will receive 6 points if answered correctly; no points will be given or subtracted if \nunanswered; 2 points will be deducted for an incorrect answer. \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 2 \n \n \nNote: Correct responses are based on Java, J2sdk v 1.7.25, from Sun Microsystems, Inc. All provided code segments are intended to be \nsyntactically correct, unless otherwise stated (i. e. error is an answer choice) and any necessary Java 2 Standard Packages have been \nimported. Ignore any typographical errors and assume any undefined variables are defined as used. For all output statements, assume \nthat the System class has been statically imported\u2026    import static java.lang.System.*;",
@@ -1554,7 +1675,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 40
+        "questionNumber": 40,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Which of these is NOT equivalent to   1000102 + 1000002 ?",
@@ -1567,7 +1689,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint w = 5; \ndouble z = 19; \ndouble q = z/w; \nout.println(w+\" \"+z+\" \"+q);",
@@ -1580,7 +1703,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nInteger x = 5; \nInteger y = x; \nout.print(x==y); \ny = 5; \nout.print(x==y); \ny = new Integer(5); \nout.println(x==y);",
@@ -1593,7 +1717,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint x = 5; \nwhile (x<=7) \n out.print(x+++\" \");",
@@ -1606,7 +1731,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nString s = \"bassGuitar\"; \nout.println(s.lastIndexOf(\"a\"));",
@@ -1619,7 +1745,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint list[] = {1,3,5,2,4}; \nout.println(list[1]+list[3]);",
@@ -1632,7 +1759,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which initial values of p and q will this expression output \nfalse? \n\n\nboolean p = <value1>,q = <value2>; \nout.println(p||q);",
@@ -1644,7 +1772,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nint z = 42; \nif(z%7==0) \n out.print(z/7); \n out.println(z%7); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 3",
@@ -1657,7 +1786,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint b = 127; \nint c = 127; \nout.println((b>>=2)+\" \"+(c<<=2));",
@@ -1670,7 +1800,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\ndouble f = -5.9423; \nout.println(Math.floor(f));",
@@ -1683,7 +1814,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich statements would correctly replace <statement1> in the client \ncode on the right to correctly modify the current Guitar object g into a \n5 string bass guitar? \nI. g.getNumStrings(5); \nII. g.setNumStrings(5); \nIII. g = new Guitar(5) ; \nIV. g = new Guitar(5,\"bass\") ; \n\n\n\n\n\n \nstatic class Guitar \n{ \n private String type; \n private int numStrings; \n public Guitar(){ \n  type = \"acoustic\"; \n  numStrings = 6; \n } \n public Guitar(int n){ \n  this(); \n  numStrings = n; \n } \n public Guitar(int n, String s){ \n  this(n); \n  type = s; \n } \n public void setType(String s){ \n  type = s; \n } \n public String getType(){ \n  return type; \n } \n public void setNumStrings(int n){ \n  numStrings = n; \n } \n public int getNumStrings(){ \n  return numStrings; \n } \n public String toString() \n { \n  return type+\": \"+numStrings+ \n     \" string\"; \n } \n///////////////////////////////// \n////client code \nGuitar g = new Guitar(4,\u201dbass\u201d); \n<statement1> \n<statement2>  \nout.println(g);",
@@ -1696,7 +1828,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich statement would correctly replace <statement2>  \nin the client code shown to output the type for the Guitar object g?",
@@ -1709,7 +1842,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nAssuming the statements above have been correctly defined as \ndescribed what is the output of the client code?",
@@ -1722,7 +1856,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nout.printf(\"%.1f\\n\",3*4.2-7); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 4",
@@ -1735,7 +1870,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nstatic void showGrid(char[][]g){ \n for(int r=g.length-1;r>=0;r--){ \n  for(int c=g[0].length-1;c>=0;c--) \n   out.print(g[r][c]); \n } \n} \n//client code \nchar[][]g={{'a','b','c'}, \n          {'d','e','f'}}; \nshowGrid(g);",
@@ -1748,7 +1884,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which of these input values will the output be 9? \n\n\n double d = <input>; \n int x=0; \n do { \n  d/=2; \n  x++; \n }while(d>=1.0); \n out.println(x);",
@@ -1761,7 +1898,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat value is in position 4 after the client code to the right executes? \n\n\npublic static void Myst(int[]list){ \n for(int j = 3;j<=5;j++) \n  list[j]=list[j-2]-list[j-1]; \n} \n//client code \nint [] list = new int[6]; \nlist[1]=5; \nlist[2]=2; \nMyst(list);",
@@ -1774,7 +1912,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the greatest value in the list after the method call?",
@@ -1787,7 +1926,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these choices could replace <statement1> to output the \nvalue 5? \nI. substring(15) \nII. substring(16) \nIII. substring(5,10) \nIV. substring(7,12) \nV. substring(10,16) \n\n\n\nString a = \"01234567890123456789\"; \nout.println(a.<statement1>.length());",
@@ -1800,7 +1940,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nfor(int p = 0; p <= 1; p++) \n for(int q = 0;q <= 1; q++) \n  out.print(\"\"+p+q+(p^q&p)+\" \");",
@@ -1812,7 +1953,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\ndouble y = 42; \ny %= 13; \ny = ++y; \nout.println(y);",
@@ -1825,7 +1967,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nString s=Integer.toBinaryString(10); \nout.println(s); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 5",
@@ -1838,7 +1981,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nout.println(Short.SIZE);",
@@ -1851,7 +1995,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\ndouble d = Math.log(Math.E); \nout.printf(\"%.2f\",d);",
@@ -1864,7 +2009,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFind f(6,5) according to the recursive function definition shown on the \nright.   You may use the space below to do your work. \n  f(6,5) = \n \n \n \n \n \n \n \n\n\n \n \n          2+f(x-3,y-1) when x>y and                                 \n                            x>0 \nf(x,y)=   1+f(y,x)     when y>=x and              \n                            x>0 \n0            when x<=0",
@@ -1877,7 +2023,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint x = -1>>>32; \nString s = Integer.toBinaryString(x); \nout.println(s.length());",
@@ -1890,7 +2037,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nString s = \"ILoveAParade\"; \nString []a = s.split(\"[j-rM-Q]\"); \nList<String> b = Arrays.asList(a); \nout.println(b.size()+b.get(3));",
@@ -1903,7 +2051,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nInteger i = 34; \nString s = i.toString(); \nint x = i; \nString t = Integer.toString (x,5); \nout.println(s+\" \"+t);",
@@ -1916,7 +2065,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nString w = \"winterwind\"; \nw.replaceAll(\"win\",\"sun\"); \nString s = w.replace('n','m'); \nout.println(w+\" \"+s); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 6",
@@ -1929,7 +2079,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right ?",
@@ -1941,7 +2092,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nThere is possibly something wrong with the code on the right that \nwould cause a compile error, or it could be just fine.  Which answer \nchoice best describes the situation ? \n      \n\n\n\n\n\nabstract class A{ \n abstract void A1();  \n abstract int A2(); \n} \n \nclass B extends A{ \n void A1(){} \n int A2(){return 0;} \n}  \n//client code \nA b = new B(); \nb.A1(); \nout.print(b.A2());",
@@ -1954,7 +2106,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nAssuming the code is updated so that method A1 outputs the phrase \n\u201cI made a \u201d and method A2 returns the value 240, what is the \noutput of the client code listed?",
@@ -1967,7 +2120,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \n \nQueue<Integer> q = new  \n        LinkedList<Integer>(); \nq.add(3);q.add(5);q.add(9); \nq.poll();q.add(6);q.poll(); \nq.poll();q.add(2);q.add(7); \nout.println(q.peek());",
@@ -1980,7 +2134,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these is the least efficient O(N) rating?",
@@ -1993,7 +2148,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nString ss=\"Now is the time for all\"+ \n  \" good men to come to the aid of\"+   \n  \" their country\"; \nString [] a = ss.split(\" \"); \nSet<String> s = new  \n   HashSet<String>(Arrays.asList(a)); \nout.println(s.size());",
@@ -2006,7 +2162,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIf A and B are Boolean values, which is the most simplified expression for A*B*A+0, where * means AND, + means OR, 0 \nmeans false, and 1 means true? \n\nA \nB \nC \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 7",
@@ -2019,7 +2176,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat bottom-left-corner to top-right-corner diagonal series of \ncharacters is produced by this code?? \n\n\n\nfor(int x=0;x<5;x++){ \n for(int y=0;y<5;y++) \n out.print(((x+y)%5==4) \n        ?(char)(y+100):'-'); \n out.println(); \n}",
@@ -2032,7 +2190,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nLinkedList<Integer>a = new \nLinkedList<Integer>(); \na.push(4); a.add(5); \na.offer(6); a.add(3,5); \na.offerLast(7);a.pollFirst(); \nIterator<Integer> i =  \n    a.descendingIterator(); \nwhile(i.hasNext()) \n  out.print(i.next());",
@@ -2045,7 +2204,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn graph 1 on the right, the adjacency matrix would look like this, \nwhere 1 means a one way connection and 0 would mean no \nconnection:  \n \nA\t\r   B\t\r   C\t\r  \nA\t\r   0\t\r   1\t\r   1\t\r  \nB\t\r   1\t\r   1\t\r   0\t\r  \nC\t\r   0\t\r   0\t\r   0\t\r  \nHow many zeroes would be in the adjacency matrix for Graph 2?",
@@ -2058,7 +2218,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nstatic void p(int []a,int []b){ \n a[0]=a[0]+b[0]; \n b[0]=a[0]-b[0]; \n a=b; \n} \n//client code \nint [] x={10}; \nint [] y={5}; \np(x,y); \np(y,x); \nout.println(x[0]+\" \"+y[0]); \n \n \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 District Week 2 - 2014  Page 8 \n \n \nNo Test Material On This Page \n  \n \nUniversity Interscholastic League \nComputer Science Competition \n \nNumber 147 (Region - 2014) \n \nGeneral Directions: \n1) DO NOT OPEN EXAM UNTIL TOLD TO DO SO. \n2) NO CALCULATOR OF ANY KIND MAY BE USE\n3) There are 40 questions on this contest exam. You have 45 minutes to complete this contest.  If you \nare in the process of actually writing an answer when the signal to stop is given, you may finish \nwriting that answer. \n4) Papers may not be turned in until 45 minutes have elapsed.  If you finish the test before the end of the \nallotted time, remain at your seat and retain your paper until told to do otherwise.  Use this time to \ncheck your answers. \n5) All answers must be written on the answer sheet/Scantron card provided. Indicate your answers in the \nappropriate blanks provided on the answer sheet or on the Scantron card. Clean erasures are \nnecessary for accurate Scantron grading. \n6) You may place as many notations as you desire anywhere on the test paper, but not on the answer \nsheet or Scantron card, which are reserved for answers only. \n7) You may use additional scratch paper provided by the contest director. \n8) All questions have ONE and only ONE correct (BEST) answer.  There is a penalty for all incorrect \nanswers. \n9) A reference to commonly used Java classes is provided at the end of the test, and you may use this \nreference sheet during the contest. You may detach the reference sheets from the test booklet, but \nDO NOT DO SO UNTIL THE CONTEST BEGINS. \n \nScoring: \n \n1) All questions will receive 6 points if answered correctly; no points will be given or subtracted if \nunanswered; 2 points will be deducted for an incorrect answer. \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 2 \n \n \nNote: Correct responses are based on Java, J2sdk v 1.7.25, from Sun Microsystems, Inc. All provided code segments are intended to be \nsyntactically correct, unless otherwise stated (i. e. error is an answer choice) and any necessary Java 2 Standard Packages have been \nimported. Ignore any typographical errors and assume any undefined variables are defined as used. For all output statements, assume \nthat the System class has been statically imported\u2026    import static java.lang.System.*;",
@@ -2072,7 +2233,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 40
+        "questionNumber": 40,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Which of these is NOT equivalent to   1110111102 - F216 ?",
@@ -2085,7 +2247,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nout.println(16 % 9 \u2013 4 * 0.2);",
@@ -2098,7 +2261,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n Goodbye \n 4_ \n true \n\n 4_true \n\n\n\nout.print(\"Hello\"); \nout.println(\"Goodbye\"); \nout.printf(\"%s_%s\\n\",4,true);",
@@ -2111,7 +2275,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nString s = \"BalloonBomb\"; \ns.toLowerCase(); \nout.println(s);",
@@ -2124,7 +2289,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nFor which initial values of p and q will the code on the right output \nfalse? \n\n\n\nboolean p=<value1>, q=<value2>; \nout.println(p|!p&q);",
@@ -2137,7 +2303,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following would most accurately replace <datatype> \nin the following expression? \n\n\n<datatype> num = Math.round(3.4);",
@@ -2150,7 +2317,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint a = 70; \ndouble b = 5.2; \nb += a /= 3; \nout.println(b); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 3",
@@ -2163,7 +2331,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n \nchar a = 'B'; \nchar b = 'b'; \nif(a==b) \n out.println(a+\"==\"+b); \nelse \n out.println(a+\"!=\"+b);",
@@ -2176,7 +2345,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIf c stands for column in the code to the right, what column would \ncontain water when first detected? \n\n\n\nint c = 0; \nboolean isWaterAhead = false; \nwhile(!isWaterAhead) \n{ \n if((c+1)%5==0&&(c+1)%3==0) \n  isWaterAhead=true; \n c++; \n}",
@@ -2189,7 +2359,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nchar[]list = new char[4]; \nlist[1]=65; \nlist[3]=50; \nint sum=list[1]+list[2]+list[3]; \nout.println(sum);",
@@ -2202,7 +2373,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these Java classes can be used in the input process, either from keyboard or from file? \n \n I.   File   II.  FileWriter   III. Scanner  IV.  PrintWriter \n --------------------------------------------------------------------------------------------------------------------",
@@ -2215,7 +2387,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint a = 0; \ndouble b = 2.4; \nwhile (a+b<25){ \n  b*=2;a+=b; \n } \nout.println(a+\" \"+b);",
@@ -2228,7 +2401,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint f = 5; \nint g = f<<2+1; \nout.println(g);",
@@ -2241,7 +2415,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nout.println(Float.SIZE);",
@@ -2254,7 +2429,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nArrayList<Integer> list = new   \n    ArrayList<Integer>(); \nlist.add(4); \nlist.add(1); \nlist.add(3); \nlist.add(2); \nlist.remove(2); \nout.println(list); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 4",
@@ -2267,7 +2443,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following logical statements is represented by the digital \nelectronics diagram on the right ?",
@@ -2279,7 +2456,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nHow many times will the word red be output by the code to the \nright? \n\n\nfor(int a=45;a<=80;a++) \nout.print((a>50? a<75? \"red\":    \n           \"green\": \"blue\"));",
@@ -2292,7 +2470,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nString s = \"boolean p,q; \np = s.matches(\".[^WIN]+.*\"); \nq = s.matches(\".............\"); \nout.println(\"\"+p+q);",
@@ -2305,7 +2484,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 1 in the code to the right? \n\n\n\n\n\n \nclass Animal \n{ \n public String type = \"mammal\"; \n public void show() \n { \n  out.println(\"The animal is a: \" \n                 + type); \n } \n} \nclass Dog extends Animal \n{ \n public String type;   \n public Dog(String type) \n { \n  this.type = type; \n } \n public void show()  \n { \n  out.println(\"The dog is a: \"  \n                  + type); \n } \n}  \n//client code \nAnimal doggie = new Dog(\"dachshund\"); \n//statement 1 \ndoggie.show();  \n//statement 2 \nout.println(\"The type is: \"  \n             + doggie.type);",
@@ -2318,7 +2498,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 2 in the code to the right?",
@@ -2331,7 +2512,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the statements below is most accurate? \n\n(static) binding occurs at run time, while late (dynamic ) binding \noccurs at compile time. \n\nthe one that belongs to the Animal class. \n\nused is the one that belongs to the Animal class. \n\n\n \nA \n \nB \nC \n \nD \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 5",
@@ -2344,7 +2526,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nclass SomeSort { \n  static int[] numbers; \n  static int[] helper;  \npublic static void sort(int[] values) \n{ \n    numbers = values; \n    int number = values.length; \n    helper = new int[number]; \n    somesort(0, number - 1); \n} \n \npublic static void somesort(int low,  \n                           int high) \n{ \n    if (low < high) { \n      int middle=low+(high-low)/2;      \n   out.print (middle); \n      somesort(low, middle); \n      somesort(middle + 1, high); \n      combine(low, middle, high); \n    } \n  } \npublic static void combine(int low,  \n               int middle, int high) \n{ \n  for (int i = low; i <= high; i++) { \n      helper[i] = numbers[i]; \n    } \n  int i = low; \n  int j = middle + 1; \n  int k = low; \n  while (i <= middle && j <= high) { \n      if (helper[i] <= helper[j]) { \n        numbers[k] = helper[i]; \n        i++; \n      } else { \n        numbers[k] = helper[j]; \n        j++; \n      } \n      k++; \n    } \n    while (i <= middle) { \n      numbers[k] = helper[i]; \n      k++; \n      i++; \n    } \n  } \n} \n \n//client code \nint [] list = {7,2,4,3,8,1}; \n for(int x:list) \n  out.print(x+\" \"); \n out.print(\"-\"); \n SomeSort.sort(list);  \n out.print(\"- \"); \n for(int x:list) \n  out.print(x+\" \");",
@@ -2357,7 +2540,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich algorithm process listed below best describes the code to the \nright?",
@@ -2370,7 +2554,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the most restrictive bound on the runtime of this process, \nwhere N represents the number of items in list? \n\n\n\n\n\n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 6",
@@ -2383,7 +2568,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \n int [][] g = new int [5][]; \n \n for(int x=0;x<g.length;x++) \n  g[x]=new int[(x+1)*2]; \n int d=0; \n \n for(int r=0;r<g.length;r++) \n  for(int c=0;c<g[r].length;c++) \n   d++; \n \n out.println(d);",
@@ -2396,7 +2582,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nout.println(Integer.toString(75,7));",
@@ -2409,7 +2596,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nString s = \"Region char[]list = s.toCharArray(); \nPriorityQueue<Character> pq =  \n    new PriorityQueue<Character>(); \n \nfor(int x = 0;x<list.length;x++) \n{ \n pq.add(list[x]); \n if(x%2==0) \n  pq.remove(); \n} \nfor(char a:pq) \n out.print(a);",
@@ -2422,7 +2610,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint a=13,b=4,c=7,d=6; \nout.println(a^b&c|d);",
@@ -2435,7 +2624,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \n \nfor(int p = 0; p <= 1; p++) \n for(int q = 0;q <= 1; q++) \n { \n  boolean P = p==1; \n  boolean Q = q==1; \n  boolean R = !(P|Q)|(P&!Q); \n  int r = R?1:0; \n  out.print(\"\"+p+q+r+\" \"); \n }",
@@ -2448,7 +2638,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n \n\n\n \n \nint a = (int)Math.pow(14,2); \nint b = a>>4; \nint c = b%5; \nout.println(a-b*c); \n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 7",
@@ -2461,7 +2652,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Consider the following recursive algorithm for painting a square: \n 1. Given a square with side length 16 feet \n 2. If the length of a side is equal to 1, stop the process for that \nsquare, otherwise continue. \n 3. Divide the square into 4 equal size squares. \n 4. Paint one of the these 4 smaller squares. \n 5. Return step 2 for each of the remaining 3 squares. \n  \n How many square feet of this square will be painted? \n      \n\n\n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  \n\t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r   \t\r  \t\r  ",
@@ -2474,7 +2666,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following is the preorder traversal of the tree shown to \nthe right? \n\n\n\n \nR \n/    \\ \nE       G \n/ \\     / \\ \nI   O   N   A \n           / \\ \n          L   S",
@@ -2487,7 +2680,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \n \n \nLinkedList<Integer>a = new  \n     LinkedList<Integer>(); \na.offerFirst(4); \na.addLast(5); \na.element(); \nint [] list = {5,3,6,7,1}; \nSet<Integer> set = new  \n     TreeSet<Integer>(); \nfor(int x:list)   \n     set.add(x); \na.addAll(set); \na.removeLastOccurrence(5); \nout.println(a);",
@@ -2500,7 +2694,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn the methods of the Queue interface, three pairs of methods are similar, with add() and offer() both inserting an element \ninto the queue, peek() and element() both returning the head value of the queue without removing it, and poll() and \nremove() both returning and removing the head value.  So what, if any, is the difference between each pair of methods? Select \nthe statement below that accurately describes this situation. \n \n\n \n\n \n\n \n\n\nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 8",
@@ -2513,7 +2708,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nOn the right is the definition of a Boat class.  How many constructors \nare there in this definition ? \n\n\n\n\n\n \nstatic class Boat \n{ \n private String type; \n private int numHulls; \n private double draft; \n \n public Boat(){ \n  type = \"skiff\"; numHulls = 1; \n  draft = 1.5; \n } \n public Boat(int n){ \n  type = \"skiff\";numHulls = n; \n  draft = 1.5; \n } \n public Boat(double n) { \n  type = \"skiff\";numHulls = 1; \n  draft = n; \n } \n public Boat(String n){ \n  type = n; numHulls = 1; \n  draft = 1.5; \n } \n public void setType(String s){ \n  type = s; \n } \n public String getType(){ \n  return type; \n } \n public void setDraft(double d){ \n  draft = d; \n } \n \n public double getDraft(){ \n  return draft; \n } \n \n public void setNumHulls(int n){ \n  numHulls = n; \n } \n \n public int getNumHulls(){ \n  return numHulls; \n } \n \n public String toString(){ \n  return numHulls+\"-hull \"+type \n         +\": minimum \"+draft \n         +\" feet of water\"; \n } \n} \n \n//client code \nBoat b1 = new Boat(); \n \n//statement 1 \nout.println(b1); \n \n//code segment 2",
@@ -2526,7 +2722,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is the output of the statement 1 in the client code below?",
@@ -2539,7 +2736,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following would most directly replace code segment \n2 to produce the output : \n 2-hull skiff: minimum 2.0 feet of water \nI. \n Boat b2 = new Boat(2); \n b2.setDraft(2); \n out.println(b2); \n \nII. \n Boat b2 = new Boat(2.0); \n b2.setNumHulls(2); \n out.println(b2); \n \nIII. \n Boat b2 = new Boat(\"catamaran\"); \n b2.setDraft(2); \n b2.setNumHulls(2.0); \n b2.setType(\"skiff\"); \n out.println(b2); \n \n\n\n\n\n\n \n \n \n \n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 9",
@@ -2552,7 +2750,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 1 in the code to the right? \n\n\n\npublic static int myst(char[]list) \n{ \n int s = 0; \n for(char a:list) \n  s+=a%2==0?a:-a; \n return s; \n} \n//client code \n//statement 1 \nout.print(myst(\"bed\".toCharArray()));  \n \n \n \n \n//statement 2 \nout.print(myst(\"MET\".toCharArray()));",
@@ -2565,7 +2764,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 2 in the code to the right?",
@@ -2578,7 +2778,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nAfter the following elements {7, 2, 4, 9, 5, 6, 1} are correctly inserted into a min heap, which element is the right child of the \nroot?   \n\n\n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 Region - 2014  Page 10 \n \n \n \n \n \nNo Test Material On This Page \n  \n \nUniversity Interscholastic League \nComputer Science Competition \n \nNumber 148 (State - 2014) \n \nGeneral Directions: \n1) DO NOT OPEN EXAM UNTIL TOLD TO DO SO. \n2) NO CALCULATOR OF ANY KIND MAY BE USE\n3) There are 40 questions on this contest exam. You have 45 minutes to complete this contest.  If you \nare in the process of actually writing an answer when the signal to stop is given, you may finish \nwriting that answer. \n4) Papers may not be turned in until 45 minutes have elapsed.  If you finish the test before the end of the \nallotted time, remain at your seat and retain your paper until told to do otherwise.  Use this time to \ncheck your answers. \n5) All answers must be written on the answer sheet/Scantron card provided. Indicate your answers in the \nappropriate blanks provided on the answer sheet or on the Scantron card. Clean erasures are \nnecessary for accurate Scantron grading. \n6) You may place as many notations as you desire anywhere on the test paper, but not on the answer \nsheet or Scantron card, which are reserved for answers only. \n7) You may use additional scratch paper provided by the contest director. \n8) All questions have ONE and only ONE correct (BEST) answer.  There is a penalty for all incorrect \nanswers. \n9) A reference to commonly used Java classes is provided at the end of the test, and you may use this \nreference sheet during the contest. You may detach the reference sheets from the test booklet, but \nDO NOT DO SO UNTIL THE CONTEST BEGINS. \n \nScoring: \n \n1) All questions will receive 6 points if answered correctly; no points will be given or subtracted if \nunanswered; 2 points will be deducted for an incorrect answer. \n \n \n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 2 \n \n \nNote: Correct responses are based on Java, J2sdk v 1.7.25, from Sun Microsystems, Inc. All provided code segments are intended to be \nsyntactically correct, unless otherwise stated (i. e. error is an answer choice) and any necessary Java 2 Standard Packages have been \nimported. Ignore any typographical errors and assume any undefined variables are defined as used. For all output statements, assume \nthat the System class has been statically imported\u2026    import static java.lang.System.*;",
@@ -2592,7 +2793,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 40
+        "questionNumber": 40,
+        "tags": []
     },
     {
         "questionDescription": "xx  \n Which of these is NOT equivalent to   5278 + 91010 ?",
@@ -2605,7 +2807,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nout.println(23 / 4 + 9.4 % 3);",
@@ -2618,7 +2821,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nout.printf(\"%s%s\",false,'A',\"true\");",
@@ -2631,7 +2835,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nString s = \"Tortuga\"; \nout.print(s.contains(\"tor\")); \nout.println(s.contains(\"tug\"));",
@@ -2644,7 +2849,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \n boolean p = false; \n boolean q = false; \n out.println(!(p^q));",
@@ -2656,7 +2862,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nout.printf(\"%.1f\",Math.sqrt(225));",
@@ -2669,7 +2876,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nint x = 15; \nint y = 'X'; \ndouble z = 3.14; \ny -= x %= z; \nout.println(x+\" \"+y+\" \"+z); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 3",
@@ -2682,7 +2890,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right if the values for <input1> \nand <input2> were \u201cxoxoxo\u201d and 2? \n\n\nString s = <input1>; \nint k = <input2>; \nint sum = 0; \nswitch(s.substring(k)) \n{ \n case \"xoxo\"  : sum+=4;break; \n case \"oxoxo\" : sum+=3; \n case \"xo\"    : sum+=2;break; \n case \"x\"     : sum+=1; \n case \"o\"     : sum *= 10; \n} \nout.println(sum);",
@@ -2695,7 +2904,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn the code to the right, what values for <input1> and <input2> \nwould result in an output of 10?",
@@ -2708,7 +2918,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint j = 10000000,c=0; \ndo{ \n  j/=10; c++; \n  }while(j>1); \nout.println(c);",
@@ -2721,7 +2932,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \n double [] list = {1.1,2.2,3.3}; \n list[1]=list[2]*2; \n list[2]=list[1]*3; \n out.printf(\"%.1f\\n\",list[2]);",
@@ -2734,7 +2946,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nConsider the data file below and code segment to the right. Assume \nthe Scanner f object has been correctly linked to the file shown \nbelow. What is the last output of the code to the right? \n \n \n \n \n \n\n\n\nScanner f = <link to data file>; \nout.println(f.nextInt()); \nout.println(f.nextLine()); \nout.println(f.nextLine()); \nout.println(f.next());",
@@ -2747,7 +2960,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\ndouble x = 0.0; int y = 0; \ndouble z = Math.toRadians(360); \ndo{ \n  x+=Math.PI; \n  y++; \n}while(x<=z); \nout.println(y);",
@@ -2760,7 +2974,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n \nboolean b = true && false | true; \nout.println(b); \n3 \nThe Cosmos is all that is \nor ever was, or \never will be. \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 4",
@@ -2772,7 +2987,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nout.println(Double.SIZE);",
@@ -2785,7 +3001,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nArrayList<String> list = new \n ArrayList<String>(); \nlist.add(\"Tom\");  \nlist.add(\"Dick\");  \nlist.add(\"Harry\");  \nlist.add(\"Larry\");  \nlist.add(\"Moe\");  \nlist.add(\"Curly\"); \nout.print(list.get(1)); \nCollections.sort(list); \nout.print(list.get(2)); \nCollections.reverse(list); \nout.println(list.get(3));",
@@ -2798,14 +3015,16 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "xx",
         "answers": [],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following is NOT an output of the code segment to the \nright? \n\n\nfor(int p = 0;p <= 1; p++) \n for(int q = 0;q <= 1; q++) \n  for(int r = 0;r <= 1; r++) \n  { \n   boolean P = p==1; \n   boolean Q = q==1; \n   boolean R = r==1; \n   boolean S = (P|Q)&(P&!R); \n   int s = S?1:0; \n   out.print(\"\"+p+q+r+s+\" \"); \n  }",
@@ -2818,7 +3037,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\nint x = <the year of this int y = <# of pounds in one ton>; \nint z = <square ft in a square yd>; \nout.println(x%y*z);",
@@ -2831,7 +3051,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \nint y = 2014; \nout.println(y<<3>>>2<<4/10); \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 5",
@@ -2844,7 +3065,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the client code to the right? \n\n\n \nstatic double myst(double a,double b) \n{ \n double c = 0; \n if(a>48.0) \n  {c+=(a-48)*2*b; a=48;} \n if(a>40.0) \n  {c+=(a-40)*3/2*b; a=40;} \n c+=a*b; \n return c; \n} \n//client code \nout.printf(\"%.2f\\n\",myst(50,10));",
@@ -2857,7 +3079,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\nString s = \"I want to win state!\"; \nString [] ss = s.split(\" \"); \nString w = \"\"; \nfor(String b:ss) \n{ \n char [] list = b.toCharArray(); \n w+=\"\"+list[0]+list[list.length-1]; \n} \nout.println(w);",
@@ -2870,7 +3093,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\nString s = \"1a2b3c4d5e\"; \nboolean p = s.matches(\".*\\\\d\\\\w.+\"); \nboolean q = s.matches(\".\\\\D\\\\S.*\"); \nboolean r = s.matches(\"[abc]+\"); \n out.println(\"\"+p+q+r);",
@@ -2883,7 +3107,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 1 in the client code to the right? \n\n\n\n\n\n \n \n \nstatic int A(int m, int n) \n{ \n if(m==0) \n  return n+1; \n if(m!=0&&n==0) \n  return A(m-1,1); \n if(m!=0&&n!=0) \n  return A(m-1,A(m,n-1)); \n return 0; \n} \n//statement 1 \nout.println(A(1,3)); \n//statement 2 \nout.println(A(2,3));",
@@ -2896,7 +3121,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by statement 2 in the client code to the right? \n\n\n\n\n\n \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 6",
@@ -2909,7 +3135,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following concepts is NOT represented by the code to \nthe right? \n\n\n\n \npublic class Ork implements  \n  Comparable<Ork>{ \n int snark,shazbat,nanu; \npublic Ork(){} \npublic Ork(int n, int s, int u){ \n snark=n;shazbat=s;nanu=u; \n} \npublic String toString(){ \n return \"Ork \"+(snark+shazbat-nanu); \n } \npublic int compareTo(<statement 1>){ \n int x = snark+shazbat-nanu; \n int y = o.snark+o.shazbat-o.nanu; \n return x>y?1:x<y?-1:0; \n} \n} \nclass Mork extends Ork \n{ \n int nanu; \npublic Mork(){} \npublic Mork(int n, int s,  \n    int u, int a) \n{ \n snark=n;shazbat=s;nanu=u; \n this.nanu=a; \n} \npublic String toString() \n{ \n return \"Mork \"+(snark+shazbat-\nnanu); \n} \n} \n//client code \n Ork one = new Ork(1,2,3); \n Mork two = new Mork(1,2,3,4); \n Ork trey = new Mork(1,2,3,4); \n//segment one \n out.print(one+\" \"+one.nanu+\" \"); \n out.print(two+\" \"+two.nanu+\" \"); \n out.println(trey+\" \"+trey.nanu); \n//segment two \n out.print(one.compareTo(two)+\" \"); \n out.print(trey.compareTo(two)+\" \"); \n out.println(two.compareTo(one));",
@@ -2922,7 +3149,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of these best replaces <statement 1> in the code to the right?",
@@ -2934,7 +3162,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by segment one in the client code to the right?",
@@ -2947,7 +3176,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by segment two in the client code to the right?",
@@ -2960,7 +3190,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \n \nshort s = Short.MAX_VALUE; \nString t = Integer.toBinaryString(s); \nout.println(t); \n \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 7",
@@ -2973,7 +3204,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following correctly replaces <value> in the code to \nthe right in order to output the value 1? \n      \n\n\n \n int x = <value>; \n out.println(1000>>>x);",
@@ -2986,7 +3218,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhich of the following represents the missing lines <?> in the \noutput shown in the code to the right? \n\n0x1.cp1 \n0x1.0p2 \n0x1.4p2 \n\n0x1.0p2 \n0x1.4p2 \n0x1.8p2 \n\n0x1.fp1 \n0x1.5p2 \n0x1.9p2 \n\n0x1.0p2 \n0x1.2p2 \n0x1.4p2 \n\n0x1.10p2 \n0x1.12p2 \n0x1.14p2 \n \n \ndouble d = 1.0; \nwhile(d<11.0) \nout.println(Double.toHexString(d++)); \n \n//partial output \n0x1.0p0 \n0x1.0p1 \n0x1.8p1 \n<?> \n<?> \n<?> \n0x1.cp2 \n0x1.0p3 \n0x1.2p3 \n0x1.4p3",
@@ -2999,7 +3232,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n \n \n \n \n \nint [] list = new int[10]; \nArrays.fill(list,1,10,1); \nArrays.fill(list,2,9,2); \nArrays.fill(list,3,8,3); \nint sum=0; \nfor(int x:list)  \n sum+=x; \nout.println(sum);",
@@ -3012,7 +3246,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nWhat is output by the code to the right? \n\n\n\n\n\n \nString s = \"This test is so easy.\"; \nString t = s.replaceAll(\"s\\\\w\",\"ss\"); \nout.println(t); \n  \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 8",
@@ -3025,7 +3260,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nIn the chart to the right, representing the most restrictive bound on the \nruntime of each process in each scenario, where N represents the \nnumber of items in list, how many scenarios have a runtime of O(N)? \n\n\n\n\n\n \nAlgorithm\t\r  \nScenarios/Big\t\r  O\t\r  Time\t\r  \nComplexity\t\r  \n\t\r  \nBest\t\r   Average\t\r   Worst\t\r  \nQuicksort\t\r   ?\t\r   ?\t\r   ?\t\r  \nMergesort\t\r   ?\t\r   ?\t\r   ?\t\r  \nHeapsort\t\r   ?\t\r   ?\t\r   ?\t\r  \nBubble\t\r  Sort\t\r   ?\t\r   ?\t\r   ?\t\r  \nInsertion\t\r  \nSort\t\r   ?\t\r   ?\t\r   ?\t\r  \nSelection\t\r  \nSort\t\r   ?\t\r   ?\t\r   ?\t\r  ",
@@ -3038,7 +3274,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nUsing the same chart, how many scenarios have a runtime of O(N^2)?",
@@ -3051,7 +3288,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nTo the right is a graph made up of two binary search trees for the \nstrings STATE and CONTEST.   \n \nThe internal path length of the STATE tree is 6, which means that the \ntotal number of steps from each non-root node back to the root is 6.  \nThe A and T nodes are each 1 step away, and the E and T nodes are \neach 2 steps away, for a total of 6 steps.   \n \n \nWhat is the internal path length of the CONTEST tree ?",
@@ -3064,7 +3302,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nHow many nodes in this graph (both trees) have only one child?",
@@ -3077,7 +3316,8 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "xx  \nAfter the push and pop sequence shown on the right involving two \nparallel stacks, where the first argument of each command \ncorresponds with the first stack, and the second argument to the \nsecond stack, which value would be the next one popped from the \nsecond stack? \n\n\n\n \n \n \nPush 4 5 \nPush 1 2 \nPush 6 3 \nPop x y \nPush 9 7 \nPop x y \nPush 5 8 \nPop x y \nS \nA T \nE T \nS \nC \nE \nO \nT N \nT \nUniversity Interscholastic League \u2013 Computer Science Written Test \u2013 State - 2014  Page 9",
@@ -3090,6 +3330,7 @@
         ],
         "testSource": "written_test_study_packet_2014",
         "correctAnswer": "No correct answer found.",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]

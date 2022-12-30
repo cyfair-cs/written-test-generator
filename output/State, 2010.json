@@ -10,7 +10,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "C",
-        "questionNumber": 1
+        "questionNumber": 1,
+        "tags": []
     },
     {
         "questionDescription": "int x = 10; \ndouble a = 2.5; \na = a / x + a * 2; \nSystem.out.print(a); \n What is output by the code to the right?",
@@ -23,7 +24,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 2
+        "questionNumber": 2,
+        "tags": []
     },
     {
         "questionDescription": "int j = 0; \nint limit = 5; \nfor(j = 1; j < limit; j++){ \n  limit++; \n  j *= 2; \n} \nSystem.out.print(j + \" \" + limit); \n What is output by the code to the right?",
@@ -36,7 +38,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "D",
-        "questionNumber": 3
+        "questionNumber": 3,
+        "tags": []
     },
     {
         "questionDescription": "String lang = \"Naur\"; \nString big = lang + lang; \nbig = big + big + lang; \nSystem.out.print(lang.length()); \n What is output by the code to the right?",
@@ -49,7 +52,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 4
+        "questionNumber": 4,
+        "tags": []
     },
     {
         "questionDescription": "int[] small = {1, 2, 1, 0, 3}; \nsmall[small[small[0]]] += 3; \nfor(int i : small) \n  System.out.print(i); \n What is output by the code to the right?",
@@ -62,7 +66,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 5
+        "questionNumber": 5,
+        "tags": []
     },
     {
         "questionDescription": "int w = 4; \nint z = 2; \nz = 2 + 2 * ++w; \nSystem.out.print(z); \n What is output by the code to the right?",
@@ -75,7 +80,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 6
+        "questionNumber": 6,
+        "tags": []
     },
     {
         "questionDescription": "Which answer is logically equivalent to the following boolean expression, where p, q, and r are boolean variables?\n \n !(!p || q) || (r && !r) \n \n \n D (p || q)",
@@ -87,7 +93,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 7
+        "questionNumber": 7,
+        "tags": []
     },
     {
         "questionDescription": "int x = 10; \nint y = 20; \nif( x % y > y % x ) \n  System.out.print(1); \nif( x / y > y / x ) \n  System.out.print(2); \nelse if( y > x ) \n  System.out.print(3); \n What is output by the code to the right?",
@@ -100,7 +107,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 8
+        "questionNumber": 8,
+        "tags": []
     },
     {
         "questionDescription": "public class HomeRun{ \n \n  private int distance; \n \n  public HomeRun(int d){ \n    distance = d; \n  } \n \n  public boolean isLonger(HomeRun other){ \n    return distance > other.distance; \n  } \n \n  public boolean same(HomeRun other){ \n    return !isLonger(other) && \n      !other.isLonger(<*1>); \n  } \n} \n What replaces <*1> in the code to the right to pass the \ncalling object as an argument? \n \n \n Assume <*1> is filled in correctly.",
@@ -113,7 +121,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 9
+        "questionNumber": 9,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the following client code? \nHomeRun h1 = new HomeRun(500); \nHomeRun h2 = new HomeRun(50 * 10); \nSystem.out.print( h1.same(h2) );",
@@ -126,7 +135,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 10
+        "questionNumber": 10,
+        "tags": []
     },
     {
         "questionDescription": "int ax = 30; \nint bx = ax << 3; \nSystem.out.print(ax + \" \" + bx); \n What is output by the code to the right?",
@@ -139,7 +149,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 11
+        "questionNumber": 11,
+        "tags": []
     },
     {
         "questionDescription": "int st = Math.min(-5, 5); \nint res = Math.max(Math.min(12, 10), st); \nSystem.out.print(st + \" \" + res); \n What is output by the code to the right?",
@@ -152,7 +163,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 12
+        "questionNumber": 12,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(\"Red\\t\"); \nSystem.out.print(\"Blue\\t\"); \nSystem.out.println(); \nSystem.out.print(\"Green\"); \n What is output by the code to the right? \n \nGreen \n\n \nBlue \nGreen \n\nBlue    Green",
@@ -165,7 +177,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 13
+        "questionNumber": 13,
+        "tags": []
     },
     {
         "questionDescription": "double val = 3.14159; \nString format = \"%1$3.1f %2$3.3f\"; \nSystem.out.printf(format, val, val); \n What is output by the code to the right?",
@@ -178,7 +191,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 14
+        "questionNumber": 14,
+        "tags": []
     },
     {
         "questionDescription": "public int hat(int x, int y){ \n  x--; \n  y--; \n  return x + y; \n} \n What is returned by the method call \nhat(hat(2, 3), hat(1, 1))?",
@@ -191,7 +205,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 15
+        "questionNumber": 15,
+        "tags": []
     },
     {
         "questionDescription": "boolean p; \nboolean q; \nString nm1 = \"Shannon\"; \nString nm2 = \"Shortliffe\"; \nString nm3 = \"Rivest\"; \np = nm1.compareTo(nm2) < 0; \nq = nm2.compareTo(nm3) > 0; \nSystem.out.print( p + \" \" + q); \n What is output by the code to the right?",
@@ -204,7 +219,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "C",
-        "questionNumber": 16
+        "questionNumber": 16,
+        "tags": []
     },
     {
         "questionDescription": "String result = \"\"; \nfor(int i = 0; i < 20; i++) \n  for(int j = i; j < 20; j++) \n    result = result + \"*\"; \nSystem.out.print( result.length() );  \n What is output by the code to the right?",
@@ -217,7 +233,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 17
+        "questionNumber": 17,
+        "tags": []
     },
     {
         "questionDescription": "ArrayList<String> data; // line 1 \ndata = new ArrayList<String>(); // line 2 \ndata.add(0, \"12\"); // line 3 \ndata.add(12); //line 4 \ndata.add(12 + \"\"); // line 5 \n The code to the right contains a syntax error. Which line of \ncode causes the syntax error?",
@@ -230,7 +247,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "D",
-        "questionNumber": 18
+        "questionNumber": 18,
+        "tags": []
     },
     {
         "questionDescription": "List<Integer> list1; \nlist1 = new ArrayList<Integer>(); \nlist1.add(5); \nlist1.add(3); \nList<Integer> list2 = list1; \nlist2.add(1, 0);  \nSystem.out.print(list1); \n What is output by the code to the right?",
@@ -243,7 +261,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 19
+        "questionNumber": 19,
+        "tags": []
     },
     {
         "questionDescription": "int val = 1; \nfor(int i = 0; i < 6; i++) \n  val *= 2; \nSystem.out.print(val); \n What is output by the code to the right?",
@@ -256,7 +275,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 20
+        "questionNumber": 20,
+        "tags": []
     },
     {
         "questionDescription": "System.out.print(Math.pow(5, 3)); \n What is output by the code to the right?",
@@ -269,7 +289,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 21
+        "questionNumber": 21,
+        "tags": []
     },
     {
         "questionDescription": "int x = 3; \nint y = 7 / 2; \nint z = (x > y) ? (x < y) ? 1 : 2 : 3; \nSystem.out.print(y + \" \" + z); \n What is output by the code to the right?",
@@ -282,7 +303,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "C",
-        "questionNumber": 22
+        "questionNumber": 22,
+        "tags": []
     },
     {
         "questionDescription": "public interface Readable{ \n  public int numWords(); \n  public String genre(); \n} \n \npublic class EBook implements Readable{ \n  private static final String g = \"EBook\"; \n  private int words; \n \n  public EBook(int w){ \n    words = w; \n  } \n \n  public String genre(){ return g; } \n \n  public int numWords(){ return words; } \n \n  public boolean equals(EBook obj){ \n    return this.words == obj.words; \n  } \n \n  public String toString(){ \n    return words + \" \" + g; \n  } \n} \n \n// client code Question 25 \nObject obj1 = new EBook(1000); \nObject obj2 = new EBook(1000); \nSystem.out.print( obj1 == obj2 ); \nSystem.out.print( \" \" + obj1.equals(obj2));\n Given the Readable interface and the EBook class, \nwhat is output by the following client code? \nEBook e1 = new EBook(2000); \nSystem.out.print( e1 );",
@@ -295,7 +317,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "D",
-        "questionNumber": 23
+        "questionNumber": 23,
+        "tags": []
     },
     {
         "questionDescription": "Given the Readable interface and the EBook class, \nwhat is output by the following client code? \nReadable r1 = new EBook(5000); \nSystem.out.print(r1.hashCode()); \n \n \ncode. \n \nthe next.",
@@ -308,7 +331,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 24
+        "questionNumber": 24,
+        "tags": []
     },
     {
         "questionDescription": "Given the Readable interface and the EBook class, \nwhat is output by the client code to the right?",
@@ -321,7 +345,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 25
+        "questionNumber": 25,
+        "tags": []
     },
     {
         "questionDescription": "public abstract class Mammal { \n  // implementation details of class \n  // not shown. \n} \n Which of the following statements regarding abstract \nclasses, such as Mammal to the right, is false? \n \nMammal m;  \ndo not cause syntax errors. \n \n \n \n \ndeclared abstract.",
@@ -334,7 +359,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 26
+        "questionNumber": 26,
+        "tags": []
     },
     {
         "questionDescription": "public void sort(int[] data){ \n  sort(data, 0); \n} \n \npublic void sort(int[] data, int i){ \n  if(i < data.length - 1){ \n    int j = getMinIndex(data, i); \n    int temp = data[j]; \n    data[j] = data[i]; \n    data[i] = temp; \n    <*1>; \n  } \n} \n \npublic int getMinIndex(int[] data, int i){ \n  if(i == data.length - 1) \n    return i; \n  int j = getMinIndex(data, i + 1); \n  if( data[i] < data[j] ) \n   return i; \n  return j; \n} \n Which of the following can replace <*1> in the code to \nthe right so that method sort(int[], int) correctly \nsorts the elements of data into ascending order? \nI. \nII. \nIII. \nsort(data, i + 1) \nsort(data, i ^ 2) \nsort(data, i >> 1) \n \n \n Assume <*1> is filled in correctly",
@@ -347,7 +373,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 27
+        "questionNumber": 27,
+        "tags": []
     },
     {
         "questionDescription": "Which sorting algorithm do the methods sort(int[]), \nsort(int[], int), and  \ngetMinIndex(int[], int), implement?",
@@ -360,7 +387,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 28
+        "questionNumber": 28,
+        "tags": []
     },
     {
         "questionDescription": "int[] vals = {3, 2, 5, 12}; \nfor(int v : vals) \n  System.out.print(v); \n What is output by the code to the right?",
@@ -373,7 +401,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 29
+        "questionNumber": 29,
+        "tags": []
     },
     {
         "questionDescription": "ArrayList<List<String>> names; \nnames = new ArrayList<List<String>>(); \nnames.add(new ArrayList<String>()); \nnames.add(new LinkedList<String>()); \nfor(List<String> ns : names) \n  System.out.print(ns.size()); \n What is output by the code to the right?",
@@ -386,7 +415,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 30
+        "questionNumber": 30,
+        "tags": []
     },
     {
         "questionDescription": "public String makeBigNum(int n){ \n  String result = \"1\"; \n  for(int i = 0; i < n; i++) \n    result += \"0\"; \n  return result; \n} \n Consider method makeBigNum to the right. When n is \nequal to 10000 it takes 2 seconds to complete. What is \nthe expected time for the method to complete when n is \nequal to 20000?",
@@ -399,7 +429,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 31
+        "questionNumber": 31,
+        "tags": []
     },
     {
         "questionDescription": "public int what(ArrayList<Integer> a, \nArrayList<Integer> b) {\n  int r = 0; \n  if(a.size() == 0 || b.size() == 0) \n    r = Math.abs(a.size() - b.size()); \n  else { \n    int t1 = a.remove(a.size() - 1); \n    int p = b.indexOf(t1); \n    int t2 = 0; \n    if( p >= 0 ) \n      t2 = b.remove(p); \n    else \n      r = 1; \n    r += what(a, b); \n    a.add(t1); \n    if(p >= 0) \n      <*1>; \n  } \n  return r; \n}       \n \n// client code \nint[] list1 = {3, 5, 1, 3, 5, 6}; \nint[] list2 = {5, 3, 9, 5, 1, 4, 1, 3}; \nArrayList<Integer> a, b; \na = new ArrayList<Integer>(); \nb = new ArrayList<Integer>(); \n \nfor(int i : list1) \n  a.add(i); \nfor(int i : list2) \n  b.add(i); \n \nSystem.out.print( what(a, b) ); // line 1 \n \nSystem.out.print( a.size() ); // line 2 \n What replaces <*1> in the code to the right to add the \nvalue stored in t2 to the ArrayList b, at position p? \n \n \n \n Assume <*1> is filled in correctly.",
@@ -412,7 +443,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "A",
-        "questionNumber": 32
+        "questionNumber": 32,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the line marked // line 1 in the \nclient code to the right?",
@@ -425,7 +457,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "C",
-        "questionNumber": 33
+        "questionNumber": 33,
+        "tags": []
     },
     {
         "questionDescription": "What is output by the line marked // line 2 in the \nclient code to the right?",
@@ -438,7 +471,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 34
+        "questionNumber": 34,
+        "tags": []
     },
     {
         "questionDescription": "public LinkedList<String> process( \nString[] data) {\n  LinkedList<String> result; \n  result = new LinkedList<String>(); \n   \n  for(int i = 0; i < data.length; i++) \n    result.addFirst( data[i] ); \n   \n  return result; \n} \n What is the Big O of method process to the right? \nAssume N equals data.length. Pick the most \nrestrictive correct answer.",
@@ -451,7 +485,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "B",
-        "questionNumber": 35
+        "questionNumber": 35,
+        "tags": []
     },
     {
         "questionDescription": "The following values are added one at a time in the order shown to a binary search tree using the traditional algorithm. What is \nthe height of the resulting tree? The height of a tree is the number of links from the root node to the deepest leaf in the tree. A \ntree with a single node, the root node, has a height of 0. \n9, 3, 9, 0, 5, 14, -5, -7, 12, 5, 0",
@@ -464,7 +499,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 36
+        "questionNumber": 36,
+        "tags": []
     },
     {
         "questionDescription": "public int count(String[] data){ \n  int result = 0; \n  try{ \n    for(String s : data) \n      result += s.length(); \n  } \n  catch(Exception e){ \n    result *= -1; \n  } \n  return result; \n} \n What is returned by the method call count(list) if \nlist contains the values shown below? \n{\"AA\", \"B\", null, \"CA\", null, \"CCC\"}",
@@ -477,7 +513,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "D",
-        "questionNumber": 37
+        "questionNumber": 37,
+        "tags": []
     },
     {
         "questionDescription": "public class Structure<E>{ \n \n  private ArrayList<ArrayList<E>> con; \n  private int size; \n \n  public Structure(){ \n    <*1>; \n  } \n \n  private Structure(int cap){ \n    con = new ArrayList<ArrayList<E>>(); \n    for(int i = 0; i < cap; i++) \n      con.add(new ArrayList<E>()); \n  }     \n \n  public void add(E obj){ \n    int pos = getVal(obj); \n    pos = Math.abs(pos % con.size()); \n    if(!con.get(pos).contains(obj)){ \n      con.get(pos).add(obj); \n      size++; \n      if( size > 0.75 * con.size()) \n        resize(); \n    } \n  } \n \n  public boolean present(E obj){ \n    int pos = getVal(obj); \n    return con.get(pos).contains(obj); \n  } \n \n  public void remove(E obj){ \n    int pos = getVal(obj); \n    con.get(pos).remove(obj); \n  } \n \n  private int getVal(E obj){ \n    String s = <*2>; \n    int result = 0; \n    for(int i = 0; i < s.length(); i++) \n      result += s.charAt(i); \n    return result; \n  } \n   \n  private void resize(){ \n    Structure<E> temp; \n    temp = new Structure<E>(con.size() * 2); \n    for(ArrayList<E> a : con) \n      for(E obj : a) \n        temp.add(obj); \n    con = temp.con; \n  } \n}  \n What replaces <*1> in the code to the right to \nredirect to the private constructor with an argument \nequal to 10?",
@@ -490,7 +527,8 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 38
+        "questionNumber": 38,
+        "tags": []
     },
     {
         "questionDescription": "Which of the following can replace <*2> in the code \nto the right to obtain a String representation of \nobj? \nI. \nII. \nIII. \nobj \nobj.toString() \nobj + \"\" \n \n \n \n \n \n Assume <*1> and <*2> are filled in correctly.",
@@ -503,6 +541,7 @@
         ],
         "testSource": "State, 2010",
         "correctAnswer": "E",
-        "questionNumber": 39
+        "questionNumber": 39,
+        "tags": []
     }
 ]
