@@ -9,7 +9,7 @@ import org.bson.Document;
 
 public class DatabaseAPI {
     public static final String MONGO_URI = String.format(
-            "mongodb+srv://%s:%s@question-pool.u0e876j.mongodb.net/?retryWrites=true&w=majority",
+            "mongodb+srv://%s:%s@main.cecsmq8.mongodb.net/?retryWrites=true&w=majority",
             Main.ENV.get("MONGO_USERNAME"),
             Main.ENV.get("MONGO_PASSWORD")
     );
