@@ -7,16 +7,27 @@
 // Form Configuration
 const FORM_OUTPUT_ID = '1o7agNlPBrsiFjWaxz1SpUR8-jDwtlXXK'
 const NUM_FORMS_CREATED = 1
-const FORM_SIZE = 20
+const FORM_SIZE = -1 // -1 for entire question bank
 const ORDER_BY_NUMBER = true
-const QUESTION_COLLECTIONS = ['Regionals, 2007'] // leave empty for all
-const TAGS = ['class structure', 'base math']
+const QUESTION_COLLECTIONS = [ 'Regionals, 2007' ] // leave empty for all
+const TAGS = []
 
 // MongoDB Config
-const MONGO_API_KEY = '' // not putting the api key publicly lol
+const MONGO_API_KEY = '7izUH8D4vsrlpiPwcCkpz50Mj3EmYjZULb41SOVcMJc31S6I712wORiboew7clxa'
 const MONGO_API_URL = 'https://data.mongodb-api.com/app/data-lpnqf/endpoint/data/v1/action/find'
 
 // List of collections and tags
+const ALL_COMPLETE_COLLECTIONS = [
+  'Districts Version 2, 2011',
+  'Invitational Version B, 2010',
+  'Regionals, 2007',
+  'Seven Lakes, 2014',
+  'State, 2007',
+  'State, 2008',
+  'State, 2009',
+  'State, 2010'
+]
+
 const ALL_COLLECTIONS = [
   'CS08d Version 1, 2008',
   'CS08d Version 2, 2008',
@@ -38,11 +49,11 @@ const ALL_COLLECTIONS = [
   'Invitational Version A, 2011',
   'Invitational Version B, 200',
   'Invitational Version B, 2008',
-  'Invitational Version B, 2010',
+  'Invitational Version B, 2010', // complete
   'Invitational Version B, 2011',
   'Invitational Version B, 2014',
   'Practice, 2008',
-  'Regionals, 2007', // only complete set thus far
+  'Regionals, 2007', // complete
   'Regionals, 2008',
   'Regionals, 2009',
   'Regionals, 2010',
@@ -84,33 +95,37 @@ const ALL_TAGS = [
 	"sets",
 	"linkedlists",
 	"queues",
-	"stacks"
+	"stacks",
+  "output",
+  "syntax",
+  "binary search trees"
 ]
 
 function main() {
   // Clear previous folder
-  var files = DriveApp.getFolderById(FORM_OUTPUT_ID).getFiles();
-  while (files.hasNext()) {
-    files.next().setTrashed(true);
-  }
+  // var files = DriveApp.getFolderById(FORM_OUTPUT_ID).getFiles();
+  // while (files.hasNext()) {
+  //   files.next().setTrashed(true);
+  // }
 
   // Loop over the files
   const question_bank = load_data(QUESTION_COLLECTIONS, TAGS)
 
-  // Logger.log(JSON.stringify(question_bank[0], null, '\t'))
-
-  // get random 20
-  for (let i = 1; i <= NUM_FORMS_CREATED; i++) {
-    Logger.log('Generating question set #' + i + '.');
-    let question_set = generate_question_set(question_bank);
-    Logger.log('Generating form #' + i + '.');
-    createQuestionsOnForm(question_set, `Randomized Written Test (${question_set.length}) ${i}`);
-  }
+  // Logger.log(JSON.stringify(question_bank, null, '\t'))
+  
+  // for (let i = 1; i <= NUM_FORMS_CREATED; i++) {
+  //   // Logger.log('Generating question set #' + i + '.');
+  //   // let question_set = generate_question_set(question_bank);
+  //   Logger.log('Generating form #' + i + '.');
+  //   // createQuestionsOnForm(question_set, `Randomized Written Test (${question_set.length}) ${i}`);
+  //   createQuestionsOnForm(question_bank, 'Regionals, 2007');
+  // }
+  createQuestionsOnForm(question_bank, QUESTION_COLLECTIONS[0])
 }
 
 function load_data(collections, tags) {
   if (collections.length == 0)
-    collections = ALL_COLLECTIONS
+    collections = ALL_COMPLETE_COLLECTIONS
   var question_bank = []
   collections.forEach(collection => {
     Logger.log('Loading collection: ' + collection)
@@ -119,7 +134,7 @@ function load_data(collections, tags) {
   if (tags.length == 0)
     tags = ALL_TAGS
   question_bank = question_bank.filter(question => {
-    return question.tags.filter(tag => tags.includes(tag)).length > 0
+    return question.tags.filter(tag => tags.includes(tag)).length > 0 && !has_remove_heuristic(question)
   })
   return question_bank
 }
@@ -146,37 +161,38 @@ function get_data_from_mongo(collection) {
   try {
     return JSON.parse(response.getContentText()).documents
   } catch (err) {
-    Logger.error('FAIL - Mongo db request: ' + collection)
-    return undefined
+    throw new Error('Failed MongoDB request: ' + collection)
   }
 }
 
 function generate_question_set(question_bank) {
-  var question_set = [];
+  var question_set = new Set();
 
-  if (FORM_SIZE >= question_bank.length) {
-    question_set = question_bank.filter(question => !has_remove_heuristic(question))
-    Logger.log(FORM_SIZE + ' is too large! Question set is not large enough.')
+  if (FORM_SIZE >= question_bank.length || FORM_SIZE < 0) {
+    question_set = new Set(question_bank)
+    Logger.log(FORM_SIZE + ' out of bounds. Using entire question bank.')
   }
 
   else {
     while (question_set.length < FORM_SIZE) {
       var question = question_bank[ (Math.random() * question_bank.length) | 0 ];
-      if (!question_set.includes(question) || !has_remove_heuristic(question))
-        question_set.push(question);
+      question_set.add(question)
     }
   }
 
+  let out = Array.from(question_set);
+
   if (ORDER_BY_NUMBER) {
     Logger.log("Ordering by number...");
-    question_set.sort((a, b) => a.questionNumber - b.questionNumber);
+    out.sort((a, b) => a.questionNumber - b.questionNumber);
   }
 
-  question_set.forEach(question => {
+  out.forEach(question => {
     Logger.log(question.testSource + ' - ' + question.questionNumber);
   })
 
-  return question_set;
+  // removes any duplicates
+  return out;
 }
 
 // this just filters out any questions in the question bank that are missing some data
@@ -205,14 +221,15 @@ function has_remove_heuristic(question) {
 
 function createQuestionsOnForm(questions, name) {
   // Get the form to add the questions to
-  var form = FormApp.create(name); // each set will have the same test source
+  var form = FormApp.create(name) // each set will have the same test source
+    .setTitle(name)
+    .setIsQuiz(true)
+    // .setRequireLogin(true)
+    .setPublishingSummary(true)
+    .setDescription('This written test practice was automatically generated. If any answers seem incorrect or anything seems out of place, please make a note of the problem number, test source and version, and notify a club officer immediately.\n\nTags: ' + TAGS.toString())
 
   // move to separate folder
   DriveApp.getFileById(form.getId()).moveTo(DriveApp.getFolderById(FORM_OUTPUT_ID));
-
-  form.setTitle(name);
-  form.setDescription('This written test practice was automatically generated. If any answers seem incorrect or anything seems out of place, please make a note of the problem number, test source and version, and notify a club officer immediately.\n\nTags: ' + TAGS.toString())
-  form.setIsQuiz(true);
 
   // Iterate over the array of questions
   for (var i = 0; i < questions.length; i++) {
